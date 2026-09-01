@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "projects": [
+    {
+      "name": "global-group-marriages",
+      "replaceNeighbourNames": [
+        "Future-of-Life-2045",
+        "australian-legal-engine",
+        "Australian-visa-activity-atlas",
+        "australian-sire-story-forge",
+        "right-place-right-time",
+        "strange-but-true-desire-atlas",
+        "strange-but-true-travel-oracle",
+        "auraofintelligence.github.io",
+        "aura-horn-torus",
+        "gajra-earth-claude-build",
+        "GAJRA-earth-infinity",
+        "grey-area-commons",
+        "i-C-infinity-music-universe"
+      ]
+    }
+  ],
+  "notes": "Add only confirmed public projects here. A matching name augments an audited project; a new name adds a project. Keep dates in YYYY-MM-DD Brisbane local date format. Use freshlyCompleted: true for the editorial feature area. replaceNeighbourNames is for a confirmed current project map that deliberately supersedes an older relationship list."
+}

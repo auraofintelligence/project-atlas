@@ -1,0 +1,13 @@
+{
+  "name": "project-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A human-friendly public atlas of Aura of Intelligence projects.",
+  "scripts": {
+    "build:qr": "node scripts/build_qr_codes.mjs",
+    "check": "python scripts/validate_atlas.py"
+  },
+  "devDependencies": {
+    "qrcode": "^1.5.4"
+  }
+}

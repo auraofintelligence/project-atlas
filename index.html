@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A plain-language, public guide to Aura of Intelligence projects, their original build dates and their related work.">
+    <title>Project Atlas | Aura of Intelligence</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to projects</a>
+
+    <header class="masthead">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="wordmark" href="#top" aria-label="Project Atlas home">Project Atlas</a>
+        <div class="nav-links">
+          <a href="#explore">Explore</a>
+          <a href="#lineages">Storylines</a>
+          <a href="#print-directory">Print directory</a>
+          <button class="button button-quiet" type="button" data-print>Print this guide</button>
+        </div>
+      </nav>
+
+      <div class="hero" id="top">
+        <p class="kicker">A public guide to the work</p>
+        <h1>Find the project behind the idea.</h1>
+        <p class="hero-intro">This is a magazine-style way into the public Aura of Intelligence project collection. Start with a live page, follow every evidence-backed connection, or use the original build date to see how the work actually grew.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#explore">Browse all projects</a>
+          <a class="button button-secondary" href="#fresh">See freshly completed work</a>
+        </div>
+        <dl class="hero-stats" aria-label="Atlas summary">
+          <div>
+            <dt id="audited-count">...</dt>
+            <dd>audited public projects</dd>
+          </div>
+          <div>
+            <dt id="public-page-count">...</dt>
+            <dd>verified public pages</dd>
+          </div>
+          <div>
+            <dt id="relationship-count">...</dt>
+            <dd>evidence-backed connections</dd>
+          </div>
+        </dl>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="orientation section-wrap" aria-labelledby="start-heading">
+        <div class="section-heading">
+          <p class="kicker">Start here</p>
+          <h2 id="start-heading">A clearer way to look around</h2>
+          <p>GitHub is useful for code, but it can hide the story. This guide leads with public work, plain descriptions and the history that links projects together.</p>
+        </div>
+        <div class="orientation-grid">
+          <article class="orientation-card">
+            <span class="step-number" aria-hidden="true">01</span>
+            <h3>Visit the work</h3>
+            <p>Where a public page exists, the first button takes you there. The GitHub link is always available too.</p>
+          </article>
+          <article class="orientation-card">
+            <span class="step-number" aria-hidden="true">02</span>
+            <h3>Follow every real connection</h3>
+            <p>Open a project’s related-work list to see all evidence-backed public neighbours, not a token sample.</p>
+          </article>
+          <article class="orientation-card">
+            <span class="step-number" aria-hidden="true">03</span>
+            <h3>Read the history properly</h3>
+            <p>The date on each card is the first substantive build evidence. It is not GitHub’s easily distorted latest-update label.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="fresh-section" id="fresh" aria-labelledby="fresh-heading">
+        <div class="section-wrap">
+          <div class="section-heading section-heading-on-dark">
+            <p class="kicker">Freshly completed</p>
+            <h2 id="fresh-heading">New work, without losing the older roots</h2>
+            <p id="fresh-explainer">Loading the latest original builds...</p>
+          </div>
+          <div class="fresh-grid" id="fresh-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="explore-section section-wrap" id="explore" aria-labelledby="explore-heading">
+        <div class="section-heading section-heading-wide">
+          <p class="kicker">Project shelf</p>
+          <h2 id="explore-heading">Explore the complete public collection</h2>
+          <p>Search by a project name, an idea, a family or a connected project. The filters use the project’s own history, not an accidental platform sort order.</p>
+        </div>
+
+        <form class="filters" id="filters" novalidate>
+          <label class="search-field" for="project-search">
+            <span>Search the collection</span>
+            <input id="project-search" name="query" type="search" placeholder="Try ‘Minjerribah’, ‘Aura’, ‘law’ or a project name" autocomplete="off">
+          </label>
+          <label for="year-filter">
+            <span>Original build year</span>
+            <select id="year-filter" name="year">
+              <option value="">All years</option>
+            </select>
+          </label>
+          <label for="page-filter">
+            <span>Public page</span>
+            <select id="page-filter" name="page">
+              <option value="">All projects</option>
+              <option value="has-page">Has a public page</option>
+              <option value="github-only">GitHub only</option>
+            </select>
+          </label>
+          <label for="connection-filter">
+            <span>Connections</span>
+            <select id="connection-filter" name="connections">
+              <option value="">Any number</option>
+              <option value="connected">Has related public work</option>
+              <option value="standalone">No listed neighbours</option>
+            </select>
+          </label>
+          <label for="sort-filter">
+            <span>Order</span>
+            <select id="sort-filter" name="sort">
+              <option value="newest">Newest original build first</option>
+              <option value="oldest">Oldest original build first</option>
+              <option value="connected">Most connected first</option>
+              <option value="az">A to Z</option>
+            </select>
+          </label>
+          <button class="button button-quiet filter-reset" type="reset">Clear filters</button>
+        </form>
+
+        <p class="results-status" id="results-status" aria-live="polite"></p>
+        <div class="project-grid" id="project-grid"></div>
+      </section>
+
+      <section class="lineage-section" id="lineages" aria-labelledby="lineages-heading">
+        <div class="section-wrap">
+          <div class="section-heading">
+            <p class="kicker">Storylines</p>
+            <h2 id="lineages-heading">Projects that grow in sequence</h2>
+            <p>These are documented progressions, not claims that a later project made every earlier one obsolete. Use them to understand where an idea began and where it went next.</p>
+          </div>
+          <div class="lineage-grid" id="lineage-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="print-section" id="print-directory" aria-labelledby="print-heading">
+        <div class="section-wrap">
+          <div class="print-heading-row">
+            <div class="section-heading">
+              <p class="kicker">Print directory</p>
+              <h2 id="print-heading">A handout-ready guide</h2>
+              <p>Print this page as a small portfolio or event handout. Every entry carries its public address and a locally generated QR code that can be scanned.</p>
+            </div>
+            <button class="button button-primary" type="button" data-print>Print the directory</button>
+          </div>
+          <p class="print-note"><strong>Local and scannable:</strong> every QR code is generated from the entry's own public address inside this repository, not by a third-party QR service. The readable web address remains printed as a fallback.</p>
+          <div class="print-directory-list" id="print-directory-list"></div>
+        </div>
+      </section>
+
+      <section class="method-section section-wrap" id="method" aria-labelledby="method-heading">
+        <div class="method-copy">
+          <p class="kicker">How dates work here</p>
+          <h2 id="method-heading">Original work date, not housekeeping date</h2>
+          <p id="date-method">Loading the audit method...</p>
+        </div>
+        <div class="method-facts">
+          <p><strong>What counts:</strong> the earliest audited commit with substantive project material, recorded in Brisbane local date.</p>
+          <p><strong>What does not count:</strong> a later licence, standard template or small maintenance change that makes GitHub say a project was just updated.</p>
+          <p><strong>When evidence is missing:</strong> the project says so instead of inventing a date.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Project Atlas is a public navigation layer for Aura of Intelligence.</p>
+      <p id="snapshot-note">Loading audit snapshot...</p>
+    </footer>
+
+    <noscript>
+      <p class="noscript">This directory needs JavaScript enabled to load the public project data.</p>
+    </noscript>
+    <script src="app.js" defer></script>
+  </body>
+</html>
