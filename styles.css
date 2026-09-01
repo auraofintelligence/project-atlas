@@ -997,16 +997,16 @@ h3 {
   }
 
   .print-project {
-    grid-template-columns: 15mm minmax(0, 1fr);
+    grid-template-columns: 20mm minmax(0, 1fr);
     gap: 2.5mm;
-    min-height: 22mm;
+    min-height: 27mm;
     padding: 2.5mm;
     break-inside: avoid;
     page-break-inside: avoid;
   }
 
   .qr-slot {
-    width: 15mm;
+    width: 20mm;
     color: #111;
   }
 
