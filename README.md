@@ -13,7 +13,7 @@ The Atlas records the first substantive build date for every included public pro
 
 ## What the first edition includes
 
-- 143 audited public projects from the 29 August 2026 organisation audit, plus confirmed public additions from later refresh files
+- 143 audited public projects from the 29 August 2026 organisation audit, plus five confirmed public additions from later refresh files, including Project Atlas itself
 - Direct links to live public pages where the audit verified one, plus GitHub links for every project
 - All evidence-backed public neighbouring projects, not a small hand-picked sample
 - Search, year, public-page and relationship filters

@@ -85,7 +85,10 @@
     details.append(summary);
 
     if (!count) {
-      details.append(element("p", { class: "relationship-reason", text: "No evidence-backed public relationship was recorded for this project in this audit snapshot." }));
+      const explanation = project.name === "project-atlas"
+        ? "This is the collection navigator, so it leads to the full public directory without claiming a subject-matter relationship to every entry."
+        : "No evidence-backed public relationship was recorded for this project in this audit snapshot.";
+      details.append(element("p", { class: "relationship-reason", text: explanation }));
       return details;
     }
 

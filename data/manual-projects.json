@@ -18,6 +18,15 @@
         "grey-area-commons",
         "i-C-infinity-music-universe"
       ]
+    },
+    {
+      "name": "project-atlas",
+      "description": "A human-friendly magazine atlas of Aura of Intelligence projects, live pages, build history and evidence-backed connections.",
+      "buildConfidence": "confirmed",
+      "buildEvidence": "First substantive public build: 1 September 2026 at 8a65cb1.",
+      "priority": "freshly completed public navigator",
+      "readmeBand": "published after audit snapshot",
+      "freshlyCompleted": true
     }
   ],
   "notes": "Add only confirmed public projects here. A matching name augments an audited project; a new name adds a project. Keep dates in YYYY-MM-DD Brisbane local date format. Use freshlyCompleted: true for the editorial feature area. replaceNeighbourNames is for a confirmed current project map that deliberately supersedes an older relationship list."
