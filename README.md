@@ -4,6 +4,13 @@ Project Atlas is a plain-language, magazine-style front door for the public Aura
 
 It deliberately puts the **original substantive build date** beside every project. That is not GitHub's `Updated` date: a later licence, spelling correction or housekeeping change must not make an older project look newly built.
 
+## Build history
+
+- First substantive public build: 1 September 2026 (`8a65cb1`)
+- Public site: <https://auraofintelligence.github.io/project-atlas/>
+
+The Atlas records the first substantive build date for every included public project. It uses a separate current-release note where a meaningful rebuild has superseded an older public version, such as Global Group Marriages v2.
+
 ## What the first edition includes
 
 - 143 audited public projects from the 29 August 2026 organisation audit, plus confirmed public additions from later refresh files
