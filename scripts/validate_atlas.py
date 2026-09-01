@@ -49,7 +49,7 @@ def qr_stem(value: str) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate static Project Atlas files")
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    parser.add_argument("--expected-audited", type=int, default=143)
+    parser.add_argument("--expected-audited", type=int, default=140)
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -67,6 +67,12 @@ def main() -> int:
         return 1
 
     data = json.loads((root / "data/projects.json").read_text(encoding="utf-8"))
+    manual = json.loads((root / "data/manual-projects.json").read_text(encoding="utf-8"))
+    raw_excluded_names = manual.get("excludedProjectNames", []) if isinstance(manual, dict) else []
+    if not isinstance(raw_excluded_names, list) or any(not isinstance(name, str) or not name for name in raw_excluded_names):
+        fail(errors, "manual-projects.json excludedProjectNames must be a list of names")
+        raw_excluded_names = []
+    excluded_names = {name.casefold() for name in raw_excluded_names}
     projects = data.get("projects")
     if not isinstance(projects, list):
         fail(errors, "data/projects.json needs a projects list")
@@ -103,6 +109,8 @@ def main() -> int:
         if name.casefold() in names:
             fail(errors, f"Duplicate project name: {name}")
         names.add(name.casefold())
+        if name.casefold() in excluded_names:
+            fail(errors, f"Excluded project is still included in public data: {name}")
         if not isinstance(project.get("title"), str) or not project["title"]:
             fail(errors, f"Project {name} has no display title")
         repo_url = project.get("repositoryUrl")
@@ -147,6 +155,8 @@ def main() -> int:
                 fail(errors, f"Project {name} has a malformed neighbour")
                 continue
             neighbour_name = neighbour.get("name")
+            if isinstance(neighbour_name, str) and neighbour_name.casefold() in excluded_names:
+                fail(errors, f"Project {name} still links to excluded project {neighbour_name!r}")
             if not isinstance(neighbour_name, str) or neighbour_name.casefold() not in names and neighbour_name.casefold() not in {item.get('name', '').casefold() for item in projects if isinstance(item, dict)}:
                 fail(errors, f"Project {name} links to a project outside this public data: {neighbour_name!r}")
             if not isinstance(neighbour.get("repositoryUrl"), str) or not neighbour["repositoryUrl"].startswith(REPOSITORY_PREFIX):
@@ -160,10 +170,22 @@ def main() -> int:
     for lineage in data.get("lineages", []):
         for stage in lineage.get("stages", []):
             repository = stage.get("repository")
+            if isinstance(repository, str) and repository.casefold() in excluded_names:
+                fail(errors, f"Lineage {lineage.get('title')!r} still refers to excluded project {repository!r}")
             if not isinstance(repository, str) or repository.casefold() not in names:
                 fail(errors, f"Lineage {lineage.get('title')!r} refers to a missing project {repository!r}")
             if not valid_date(stage.get("firstBuilt")):
                 fail(errors, f"Lineage stage {repository!r} has an invalid original build date")
+
+    expected_qr_files = {
+        f"{qr_stem(project['name'])}.svg"
+        for project in projects
+        if isinstance(project, dict) and isinstance(project.get("name"), str)
+    }
+    actual_qr_files = {path.name for path in qr_dir.glob("*.svg")}
+    stale_qr_files = sorted(actual_qr_files - expected_qr_files)
+    if stale_qr_files:
+        fail(errors, f"Generated QR directory has stale files: {stale_qr_files}")
 
     index = (root / "index.html").read_text(encoding="utf-8")
     css = (root / "styles.css").read_text(encoding="utf-8")

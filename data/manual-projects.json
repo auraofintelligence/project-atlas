@@ -1,5 +1,13 @@
 {
   "schemaVersion": 1,
+  "excludedProjectNames": [
+    "i-C-infinity-one-album-pack",
+    "i-C-infinity-two-album-pack",
+    "i-C-infinity-three-album-pack"
+  ],
+  "lineageDescriptionOverrides": {
+    "ic-infinity-lineage": "The core music workflow grows into the public music universe, then content design, music-video and the later operational-engine branches."
+  },
   "projects": [
     {
       "name": "global-group-marriages",
@@ -29,5 +37,5 @@
       "freshlyCompleted": true
     }
   ],
-  "notes": "Add only confirmed public projects here. A matching name augments an audited project; a new name adds a project. Keep dates in YYYY-MM-DD Brisbane local date format. Use freshlyCompleted: true for the editorial feature area. replaceNeighbourNames is for a confirmed current project map that deliberately supersedes an older relationship list."
+  "notes": "Add only confirmed public projects here. A matching name augments an audited project; a new name adds a project. Keep dates in YYYY-MM-DD Brisbane local date format. Use freshlyCompleted: true for the editorial feature area. replaceNeighbourNames is for a confirmed current project map that deliberately supersedes an older relationship list. excludedProjectNames keeps confirmed archived duplicates out of all active Atlas navigation while preserving the source audit. lineageDescriptionOverrides can replace wording that is no longer appropriate after a deliberate public-navigation exclusion."
 }

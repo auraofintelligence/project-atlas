@@ -3,8 +3,9 @@
 
 The source audit is intentionally richer than the published Atlas data. This
 script keeps only the fields people need to navigate public work. It supports a
-small manual curation file so projects completed after an audit can be added
-without hand-editing the generated output.
+small manual curation file so projects completed after an audit can be added,
+and confirmed archived duplicates can be excluded, without hand-editing the
+generated output.
 """
 
 from __future__ import annotations
@@ -233,6 +234,30 @@ def clean_manual_project(raw: Any, names_by_fold: dict[str, str]) -> tuple[str, 
     return name, cleaned
 
 
+def clean_excluded_project_names(manual: dict[str, Any], names_by_fold: dict[str, str]) -> set[str]:
+    raw_names = manual.get("excludedProjectNames", [])
+    if not isinstance(raw_names, list):
+        raise ValueError("manual-projects.json excludedProjectNames must be a list")
+    excluded_names = {canonical_name(raw_name, names_by_fold) for raw_name in raw_names}
+    if len(excluded_names) != len(raw_names):
+        raise ValueError("manual-projects.json excludedProjectNames must not repeat a project")
+    return excluded_names
+
+
+def clean_lineage_description_overrides(manual: dict[str, Any]) -> dict[str, str]:
+    raw_overrides = manual.get("lineageDescriptionOverrides", {})
+    if not isinstance(raw_overrides, dict):
+        raise ValueError("manual-projects.json lineageDescriptionOverrides must be an object")
+    overrides: dict[str, str] = {}
+    for raw_id, raw_description in raw_overrides.items():
+        lineage_id = clean_text(raw_id)
+        description = clean_text(raw_description)
+        if not lineage_id or not description:
+            raise ValueError("Each lineage description override needs an id and description")
+        overrides[lineage_id] = description
+    return overrides
+
+
 def clean_meaningful_rebuild(value: Any, default_published: str | None = None) -> dict[str, str] | None:
     if value is None:
         return None
@@ -395,6 +420,16 @@ def clean_lineages(
     return lineages
 
 
+def apply_lineage_description_overrides(
+    lineages: list[dict[str, Any]], overrides: dict[str, str]
+) -> list[dict[str, Any]]:
+    for lineage in lineages:
+        override = overrides.get(lineage.get("id", ""))
+        if override:
+            lineage["description"] = override
+    return lineages
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build public-safe Project Atlas data")
     parser.add_argument("--audit-csv", type=Path, required=True)
@@ -435,7 +470,22 @@ def main() -> int:
         delta_metadata = apply_delta(read_json(args.delta), project_by_name)
 
     manual = read_json(args.manual)
-    manual_projects = manual.get("projects", []) if isinstance(manual, dict) else []
+    if not isinstance(manual, dict):
+        raise ValueError("manual-projects.json must contain an object")
+    names_after_delta = {project_name.casefold(): project_name for project_name in project_by_name}
+    excluded_names = clean_excluded_project_names(manual, names_after_delta)
+    lineage_description_overrides = clean_lineage_description_overrides(manual)
+    for excluded_name in excluded_names:
+        project_by_name.pop(excluded_name, None)
+    for project in project_by_name.values():
+        project["neighbours"] = [
+            neighbour
+            for neighbour in project.get("neighbours", [])
+            if neighbour.get("name") not in excluded_names
+        ]
+        project["relationshipCount"] = len(project["neighbours"])
+
+    manual_projects = manual.get("projects", [])
     if not isinstance(manual_projects, list):
         raise ValueError("manual-projects.json must contain a projects list")
     for raw in manual_projects:
@@ -481,26 +531,36 @@ def main() -> int:
     for project in project_by_name.values():
         project["relationshipCount"] = len(project.get("neighbours", []))
     projects = sorted(project_by_name.values(), key=lambda item: item["name"].lower())
+    lineages = apply_lineage_description_overrides(
+        clean_lineages(
+            relationships.get("lineages"),
+            {project_name.casefold(): project_name for project_name in project_by_name},
+            {project_name: project.get("firstBuilt") for project_name, project in project_by_name.items()},
+        ),
+        lineage_description_overrides,
+    )
     output = {
         "schemaVersion": 1,
         "account": ACCOUNT,
         "auditSnapshotDate": clean_text(relationships.get("snapshotDate")),
         "refreshSnapshotDate": delta_metadata.get("refreshedDate"),
         "publicRepositoryCount": int(delta_metadata["publicRepositoryCount"]) if delta_metadata.get("publicRepositoryCount", "").isdigit() else None,
-        "auditedProjectCount": len(audit_rows),
+        "auditedProjectCount": len(audit_rows) - len(excluded_names),
         "includedProjectCount": len(projects),
         "generatedOn": dt.date.today().isoformat(),
         "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
-        "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. No arbitrary maximum has been applied.",
+        "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
         "projects": projects,
-        "lineages": clean_lineages(
-            relationships.get("lineages"),
-            {project_name.casefold(): project_name for project_name in project_by_name},
-            {project_name: project.get("firstBuilt") for project_name, project in project_by_name.items()},
-        ),
+        "lineages": lineages,
     }
     write_json(args.output, output)
-    print(f"Built {args.output} with {len(projects)} projects ({len(audit_rows)} from audit, {len(projects) - len(audit_rows)} curated additions).")
+    audit_derived_count = len(audit_rows) - len(excluded_names)
+    public_addition_count = len(projects) - audit_derived_count
+    print(
+        f"Built {args.output} with {len(projects)} projects "
+        f"({audit_derived_count} audit-derived, {public_addition_count} public additions, "
+        f"{len(excluded_names)} archived duplicates excluded)."
+    )
     return 0
 
 

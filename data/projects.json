@@ -4,11 +4,11 @@
   "auditSnapshotDate": "2026-08-29",
   "refreshSnapshotDate": "2026-09-01",
   "publicRepositoryCount": 148,
-  "auditedProjectCount": 143,
-  "includedProjectCount": 148,
+  "auditedProjectCount": 140,
+  "includedProjectCount": 145,
   "generatedOn": "2026-09-01",
   "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
-  "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. No arbitrary maximum has been applied.",
+  "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
   "projects": [
     {
       "name": "10_entities",
@@ -6615,48 +6615,6 @@
           "confidence": "high"
         },
         {
-          "name": "i-C-infinity-one-album-pack",
-          "title": "i-C Infinity One Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-one-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-one-album-pack/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity-one-album-pack is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-three-album-pack",
-          "title": "i-C Infinity Three Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-three-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-three-album-pack/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity-three-album-pack is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-two-album-pack",
-          "title": "i-C Infinity Two Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-two-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-two-album-pack/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity-two-album-pack is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
           "name": "infinity-content-engine",
           "title": "Infinity Content Engine",
           "repositoryUrl": "https://github.com/auraofintelligence/infinity-content-engine",
@@ -6776,7 +6734,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 18,
+      "relationshipCount": 15,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -9654,48 +9612,6 @@
           "confidence": "high"
         },
         {
-          "name": "i-C-infinity-one-album-pack",
-          "title": "i-C Infinity One Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-one-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-one-album-pack/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; i-C-infinity-one-album-pack is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-three-album-pack",
-          "title": "i-C Infinity Three Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-three-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-three-album-pack/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; i-C-infinity-three-album-pack is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-two-album-pack",
-          "title": "i-C Infinity Two Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-two-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-two-album-pack/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; i-C-infinity-two-album-pack is later"
-          ],
-          "confidence": "high"
-        },
-        {
           "name": "infinity-content-engine",
           "title": "Infinity Content Engine",
           "repositoryUrl": "https://github.com/auraofintelligence/infinity-content-engine",
@@ -9736,7 +9652,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 8,
+      "relationshipCount": 5,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -9821,51 +9737,6 @@
           "confidence": "high"
         },
         {
-          "name": "i-C-infinity-one-album-pack",
-          "title": "i-C Infinity One Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-one-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-one-album-pack/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; i-C-infinity-one-album-pack is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-three-album-pack",
-          "title": "i-C Infinity Three Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-three-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-three-album-pack/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; i-C-infinity-three-album-pack is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-two-album-pack",
-          "title": "i-C Infinity Two Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-two-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-two-album-pack/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; i-C-infinity-two-album-pack is later"
-          ],
-          "confidence": "high"
-        },
-        {
           "name": "infinity-content-engine",
           "title": "Infinity Content Engine",
           "repositoryUrl": "https://github.com/auraofintelligence/infinity-content-engine",
@@ -9929,415 +9800,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
-      "freshlyCompleted": false,
-      "meaningfulRebuild": null,
-      "source": "audit"
-    },
-    {
-      "name": "i-C-infinity-one-album-pack",
-      "title": "i-C Infinity One Album Pack",
-      "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-one-album-pack",
-      "publicPage": "https://auraofintelligence.github.io/i-C-infinity-one-album-pack/",
-      "firstBuilt": "2025-09-21",
-      "buildStatus": "evidenced",
-      "buildConfidence": "strong",
-      "buildEvidence": "Earliest commit containing substantive project/content files: 8f73e2a28827 ('Create index.html'); changed index.html.",
-      "description": "Archived one-album package site from the earlier i C. infinity download catalogue; retained as a historical public snapshot.",
-      "priority": "0 - decision",
-      "readmeBand": "needs repair",
-      "families": [
-        {
-          "id": "ic-infinity-music-content",
-          "title": "i C. infinity music and content system",
-          "role": "member"
-        }
-      ],
-      "neighbours": [
-        {
-          "name": "explorer-music-video-lab",
-          "title": "Explorer Music Video Lab",
-          "repositoryUrl": "https://github.com/auraofintelligence/explorer-music-video-lab",
-          "publicPage": "https://auraofintelligence.github.io/explorer-music-video-lab/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; explorer-music-video-lab is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity",
-          "title": "i-C Infinity",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity",
-          "publicPage": null,
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-music-universe",
-          "title": "i-C Infinity Music Universe",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-music-universe",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-music-universe/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity-music-universe is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-three-album-pack",
-          "title": "i-C Infinity Three Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-three-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-three-album-pack/",
-          "labels": [
-            "parallel builds in an ordered lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "parallel build"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-two-album-pack",
-          "title": "i-C Infinity Two Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-two-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-two-album-pack/",
-          "labels": [
-            "parallel builds in an ordered lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "parallel build"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "infinity-content-engine",
-          "title": "Infinity Content Engine",
-          "repositoryUrl": "https://github.com/auraofintelligence/infinity-content-engine",
-          "publicPage": "https://auraofintelligence.github.io/infinity-content-engine/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; infinity-content-engine is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "infinity-engine",
-          "title": "Infinity Engine",
-          "repositoryUrl": "https://github.com/auraofintelligence/infinity-engine",
-          "publicPage": "https://auraofintelligence.github.io/infinity-engine/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; infinity-engine is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "strange-but-true",
-          "title": "Strange But True",
-          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
-          "publicPage": "https://auraofintelligence.github.io/strange-but-true/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        }
-      ],
-      "relationshipCount": 8,
-      "freshlyCompleted": false,
-      "meaningfulRebuild": null,
-      "source": "audit"
-    },
-    {
-      "name": "i-C-infinity-three-album-pack",
-      "title": "i-C Infinity Three Album Pack",
-      "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-three-album-pack",
-      "publicPage": "https://auraofintelligence.github.io/i-C-infinity-three-album-pack/",
-      "firstBuilt": "2025-09-21",
-      "buildStatus": "evidenced",
-      "buildConfidence": "strong",
-      "buildEvidence": "Earliest commit containing substantive project/content files: 8f73e2a28827 ('Create index.html'); changed index.html.",
-      "description": "Archived three-album package site from the earlier i C. infinity download catalogue; retained as a historical public snapshot.",
-      "priority": "0 - decision",
-      "readmeBand": "needs repair",
-      "families": [
-        {
-          "id": "ic-infinity-music-content",
-          "title": "i C. infinity music and content system",
-          "role": "member"
-        }
-      ],
-      "neighbours": [
-        {
-          "name": "explorer-music-video-lab",
-          "title": "Explorer Music Video Lab",
-          "repositoryUrl": "https://github.com/auraofintelligence/explorer-music-video-lab",
-          "publicPage": "https://auraofintelligence.github.io/explorer-music-video-lab/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; explorer-music-video-lab is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity",
-          "title": "i-C Infinity",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity",
-          "publicPage": null,
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-music-universe",
-          "title": "i-C Infinity Music Universe",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-music-universe",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-music-universe/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity-music-universe is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-one-album-pack",
-          "title": "i-C Infinity One Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-one-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-one-album-pack/",
-          "labels": [
-            "parallel builds in an ordered lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "parallel build"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-two-album-pack",
-          "title": "i-C Infinity Two Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-two-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-two-album-pack/",
-          "labels": [
-            "parallel builds in an ordered lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "parallel build"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "infinity-content-engine",
-          "title": "Infinity Content Engine",
-          "repositoryUrl": "https://github.com/auraofintelligence/infinity-content-engine",
-          "publicPage": "https://auraofintelligence.github.io/infinity-content-engine/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; infinity-content-engine is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "infinity-engine",
-          "title": "Infinity Engine",
-          "repositoryUrl": "https://github.com/auraofintelligence/infinity-engine",
-          "publicPage": "https://auraofintelligence.github.io/infinity-engine/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; infinity-engine is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "strange-but-true",
-          "title": "Strange But True",
-          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
-          "publicPage": "https://auraofintelligence.github.io/strange-but-true/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        }
-      ],
-      "relationshipCount": 8,
-      "freshlyCompleted": false,
-      "meaningfulRebuild": null,
-      "source": "audit"
-    },
-    {
-      "name": "i-C-infinity-two-album-pack",
-      "title": "i-C Infinity Two Album Pack",
-      "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-two-album-pack",
-      "publicPage": "https://auraofintelligence.github.io/i-C-infinity-two-album-pack/",
-      "firstBuilt": "2025-09-21",
-      "buildStatus": "evidenced",
-      "buildConfidence": "strong",
-      "buildEvidence": "Earliest commit containing substantive project/content files: 8f73e2a28827 ('Create index.html'); changed index.html.",
-      "description": "Archived two-album package site from the earlier i C. infinity download catalogue; retained as a historical public snapshot.",
-      "priority": "0 - decision",
-      "readmeBand": "needs repair",
-      "families": [
-        {
-          "id": "ic-infinity-music-content",
-          "title": "i C. infinity music and content system",
-          "role": "member"
-        }
-      ],
-      "neighbours": [
-        {
-          "name": "explorer-music-video-lab",
-          "title": "Explorer Music Video Lab",
-          "repositoryUrl": "https://github.com/auraofintelligence/explorer-music-video-lab",
-          "publicPage": "https://auraofintelligence.github.io/explorer-music-video-lab/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; explorer-music-video-lab is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity",
-          "title": "i-C Infinity",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity",
-          "publicPage": null,
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-music-universe",
-          "title": "i-C Infinity Music Universe",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-music-universe",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-music-universe/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity-music-universe is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-one-album-pack",
-          "title": "i-C Infinity One Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-one-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-one-album-pack/",
-          "labels": [
-            "parallel builds in an ordered lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "parallel build"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-three-album-pack",
-          "title": "i-C Infinity Three Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-three-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-three-album-pack/",
-          "labels": [
-            "parallel builds in an ordered lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "parallel build"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "infinity-content-engine",
-          "title": "Infinity Content Engine",
-          "repositoryUrl": "https://github.com/auraofintelligence/infinity-content-engine",
-          "publicPage": "https://auraofintelligence.github.io/infinity-content-engine/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; infinity-content-engine is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "infinity-engine",
-          "title": "Infinity Engine",
-          "repositoryUrl": "https://github.com/auraofintelligence/infinity-engine",
-          "publicPage": "https://auraofintelligence.github.io/infinity-engine/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; infinity-engine is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "strange-but-true",
-          "title": "Strange But True",
-          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
-          "publicPage": "https://auraofintelligence.github.io/strange-but-true/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        }
-      ],
-      "relationshipCount": 8,
+      "relationshipCount": 9,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -10408,48 +9871,6 @@
           "confidence": "high"
         },
         {
-          "name": "i-C-infinity-one-album-pack",
-          "title": "i-C Infinity One Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-one-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-one-album-pack/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity-one-album-pack is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-three-album-pack",
-          "title": "i-C Infinity Three Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-three-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-three-album-pack/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity-three-album-pack is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-two-album-pack",
-          "title": "i-C Infinity Two Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-two-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-two-album-pack/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity-two-album-pack is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
           "name": "infinity-engine",
           "title": "Infinity Engine",
           "repositoryUrl": "https://github.com/auraofintelligence/infinity-engine",
@@ -10476,7 +9897,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 8,
+      "relationshipCount": 5,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -10546,48 +9967,6 @@
           "confidence": "high"
         },
         {
-          "name": "i-C-infinity-one-album-pack",
-          "title": "i-C Infinity One Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-one-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-one-album-pack/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity-one-album-pack is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-three-album-pack",
-          "title": "i-C Infinity Three Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-three-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-three-album-pack/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity-three-album-pack is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-two-album-pack",
-          "title": "i-C Infinity Two Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-two-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-two-album-pack/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; i-C-infinity-two-album-pack is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
           "name": "infinity-content-engine",
           "title": "Infinity Content Engine",
           "repositoryUrl": "https://github.com/auraofintelligence/infinity-content-engine",
@@ -10614,7 +9993,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 8,
+      "relationshipCount": 5,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -19270,39 +18649,6 @@
           "confidence": "high"
         },
         {
-          "name": "i-C-infinity-one-album-pack",
-          "title": "i-C Infinity One Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-one-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-one-album-pack/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-three-album-pack",
-          "title": "i-C Infinity Three Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-three-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-three-album-pack/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "i-C-infinity-two-album-pack",
-          "title": "i-C Infinity Two Album Pack",
-          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-two-album-pack",
-          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-two-album-pack/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
           "name": "loose-goose-comedy-engine",
           "title": "Loose Goose Comedy Engine",
           "repositoryUrl": "https://github.com/auraofintelligence/loose-goose-comedy-engine",
@@ -19455,7 +18801,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 27,
+      "relationshipCount": 24,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -20805,7 +20151,7 @@
     {
       "id": "ic-infinity-lineage",
       "title": "i C. infinity creative-production lineage",
-      "description": "The core music workflow grows into the public music universe and album packages, then content/distribution/video branches and the later operational engine.",
+      "description": "The core music workflow grows into the public music universe, then content design, music-video and the later operational-engine branches.",
       "confidence": "high",
       "stages": [
         {
@@ -20820,27 +20166,6 @@
           "title": "i-C Infinity Music Universe",
           "order": 2,
           "role": "public music universe",
-          "firstBuilt": "2025-09-21"
-        },
-        {
-          "repository": "i-C-infinity-one-album-pack",
-          "title": "i-C Infinity One Album Pack",
-          "order": 3,
-          "role": "one-album package",
-          "firstBuilt": "2025-09-21"
-        },
-        {
-          "repository": "i-C-infinity-two-album-pack",
-          "title": "i-C Infinity Two Album Pack",
-          "order": 3,
-          "role": "two-album package",
-          "firstBuilt": "2025-09-21"
-        },
-        {
-          "repository": "i-C-infinity-three-album-pack",
-          "title": "i-C Infinity Three Album Pack",
-          "order": 3,
-          "role": "three-album package",
           "firstBuilt": "2025-09-21"
         },
         {

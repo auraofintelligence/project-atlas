@@ -13,9 +13,9 @@ The Atlas records the first substantive build date for every included public pro
 
 ## What the first edition includes
 
-- 143 audited public projects from the 29 August 2026 organisation audit, plus five confirmed public additions from later refresh files, including Project Atlas itself
+- 140 audit-derived public projects from the 29 August 2026 organisation audit, plus five confirmed public additions from later refresh files, including Project Atlas itself
 - Direct links to live public pages where the audit verified one, plus GitHub links for every project
-- All evidence-backed public neighbouring projects, not a small hand-picked sample
+- All evidence-backed public neighbouring projects, not a small hand-picked sample. Three archived duplicate i-C Infinity album-package copies are deliberately excluded from active public navigation.
 - Search, year, public-page and relationship filters
 - A recent-builds area that can later be editorially curated
 - A print-friendly directory with a scannable QR code for every public project. The page does not depend on a third-party QR service.
@@ -33,7 +33,7 @@ python scripts/build_atlas_data.py `
   --output data\projects.json
 ```
 
-`data/manual-projects.json` is intentionally small. It is the place to add genuinely new completed projects once their public page, original build date and relationship evidence are confirmed. It can also mark a project as `freshlyCompleted` so it appears in the feature area. A dated public refresh file is useful when several new pages launch together.
+`data/manual-projects.json` is intentionally small. It is the place to add genuinely new completed projects once their public page, original build date and relationship evidence are confirmed. It can also mark a project as `freshlyCompleted` so it appears in the feature area. Its `excludedProjectNames` list prevents confirmed archived duplicates from returning to cards, search, QR or related-project links, while leaving the source audit intact. A dated public refresh file is useful when several new pages launch together.
 
 The generator rejects non-public repository links and invalid build dates. It does not copy local paths, unpublished source material or private notes into the public dataset.
 

@@ -214,7 +214,7 @@
   function displayCounts(data) {
     const publicPageCount = data.projects.filter((project) => project.publicPage).length;
     const relationshipCount = data.projects.reduce((total, project) => total + (project.relationshipCount || 0), 0);
-    byId("audited-count").textContent = String(data.auditedProjectCount);
+    byId("audited-count").textContent = String(data.includedProjectCount);
     byId("public-page-count").textContent = String(publicPageCount);
     byId("relationship-count").textContent = String(relationshipCount);
     byId("date-method").textContent = data.dateMethod;
