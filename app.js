@@ -228,10 +228,29 @@
     for (const year of years) select.append(element("option", { value: year, text: year }));
   }
 
+  function buildFamilyOptions(projects) {
+    const select = byId("family-filter");
+    const families = new Map();
+    for (const project of projects) {
+      const seen = new Set();
+      for (const family of project.families || []) {
+        if (!family?.id || !family?.title || seen.has(family.id)) continue;
+        seen.add(family.id);
+        const current = families.get(family.id) || { title: family.title, count: 0 };
+        current.count += 1;
+        families.set(family.id, current);
+      }
+    }
+    for (const [id, family] of [...families.entries()].sort((left, right) => left[1].title.localeCompare(right[1].title, "en-AU"))) {
+      select.append(element("option", { value: id, text: `${family.title} (${family.count})` }));
+    }
+  }
+
   function activeFilters() {
     return {
       query: byId("project-search").value.trim().toLocaleLowerCase("en-AU"),
       year: byId("year-filter").value,
+      family: byId("family-filter").value,
       page: byId("page-filter").value,
       connections: byId("connection-filter").value,
       sort: byId("sort-filter").value,
@@ -243,6 +262,7 @@
     const results = state.projects.filter((project) => {
       if (filters.query && !project._searchText.includes(filters.query)) return false;
       if (filters.year && project.firstBuilt?.slice(0, 4) !== filters.year) return false;
+      if (filters.family && !(project.families || []).some((family) => family.id === filters.family)) return false;
       if (filters.page === "has-page" && !project.publicPage) return false;
       if (filters.page === "github-only" && project.publicPage) return false;
       if (filters.connections === "connected" && !(project.relationshipCount > 0)) return false;
@@ -250,12 +270,28 @@
       return true;
     });
 
-    const dateValue = (project) => project.firstBuilt || "0000-00-00";
+    const titleComparison = (left, right) => left.title.localeCompare(right.title, "en-AU");
+    const compareOriginalBuild = (left, right, ascending = false) => {
+      const leftHasDate = Boolean(left.firstBuilt);
+      const rightHasDate = Boolean(right.firstBuilt);
+      if (leftHasDate !== rightHasDate) return leftHasDate ? -1 : 1;
+      if (!leftHasDate) return titleComparison(left, right);
+      const comparison = left.firstBuilt.localeCompare(right.firstBuilt);
+      return (ascending ? comparison : -comparison) || titleComparison(left, right);
+    };
+    const isFreshOrRebuilt = (project) => Boolean(project.freshlyCompleted || project.meaningfulRebuild?.published || project.meaningfulRebuild?.started);
+    const currentMoment = (project) => project.meaningfulRebuild?.published || project.meaningfulRebuild?.started || project.firstBuilt || "";
     results.sort((left, right) => {
-      if (filters.sort === "oldest") return dateValue(left).localeCompare(dateValue(right)) || left.title.localeCompare(right.title, "en-AU");
-      if (filters.sort === "connected") return (right.relationshipCount - left.relationshipCount) || dateValue(right).localeCompare(dateValue(left)) || left.title.localeCompare(right.title, "en-AU");
-      if (filters.sort === "az") return left.title.localeCompare(right.title, "en-AU");
-      return dateValue(right).localeCompare(dateValue(left)) || left.title.localeCompare(right.title, "en-AU");
+      if (filters.sort === "oldest") return compareOriginalBuild(left, right, true);
+      if (filters.sort === "fresh") {
+        const freshness = Number(isFreshOrRebuilt(right)) - Number(isFreshOrRebuilt(left));
+        return freshness || currentMoment(right).localeCompare(currentMoment(left)) || compareOriginalBuild(left, right);
+      }
+      if (filters.sort === "pages") return Number(Boolean(right.publicPage)) - Number(Boolean(left.publicPage)) || compareOriginalBuild(left, right);
+      if (filters.sort === "connected") return (right.relationshipCount - left.relationshipCount) || compareOriginalBuild(left, right);
+      if (filters.sort === "least-connected") return (left.relationshipCount - right.relationshipCount) || compareOriginalBuild(left, right);
+      if (filters.sort === "az") return titleComparison(left, right);
+      return compareOriginalBuild(left, right);
     });
     return results;
   }
@@ -263,9 +299,27 @@
   function renderProjects() {
     const grid = byId("project-grid");
     const projects = filteredProjects();
+    const filters = activeFilters();
     grid.replaceChildren();
     const total = state.projects.length;
-    byId("results-status").textContent = `Showing ${projects.length} of ${total} public projects.`;
+    const sortLabels = {
+      newest: "Newest original build first",
+      oldest: "Oldest original build first",
+      fresh: "Newly completed and rebuilt first",
+      pages: "Public pages first",
+      connected: "Most connected first",
+      "least-connected": "Least connected first",
+      az: "A to Z",
+    };
+    const active = [];
+    if (filters.year) active.push(`Original build year: ${filters.year}`);
+    if (filters.family) active.push(`Family: ${byId("family-filter").selectedOptions[0]?.textContent}`);
+    if (filters.page === "has-page") active.push("Public page available");
+    if (filters.page === "github-only") active.push("GitHub only");
+    if (filters.connections === "connected") active.push("Has related public work");
+    if (filters.connections === "standalone") active.push("No listed neighbours");
+    const filterText = active.length ? ` Filters: ${active.join("; ")}.` : "";
+    byId("results-status").textContent = `Showing ${projects.length} of ${total} public projects. Order: ${sortLabels[filters.sort] || sortLabels.newest}.${filterText}`;
     if (!projects.length) {
       grid.append(element("p", { class: "empty-state", text: "Nothing matches those filters yet. Try clearing one or more filters." }));
       return;
@@ -339,6 +393,7 @@
       state.projects = data.projects.map((project) => ({ ...project, _searchText: projectSearchText(project) }));
       displayCounts(data);
       buildYearOptions(state.projects);
+      buildFamilyOptions(state.projects);
       renderFresh(data);
       renderProjects();
       renderLineages(data);

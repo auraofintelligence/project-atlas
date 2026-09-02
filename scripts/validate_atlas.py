@@ -57,6 +57,9 @@ def main() -> int:
     for relative in (
         "index.html", "styles.css", "app.js", "package.json", "data/projects.json", "data/manual-projects.json",
         "scripts/build_atlas_data.py", "scripts/build_qr_codes.mjs",
+        "assets/icons/project-atlas-icon-source.png", "assets/icons/project-atlas-favicon-16.png",
+        "assets/icons/project-atlas-favicon-32.png", "assets/icons/project-atlas-favicon-192.png",
+        "assets/icons/project-atlas-apple-touch-icon-180.png",
     ):
         if not (root / relative).is_file():
             fail(errors, f"Missing required file: {relative}")
@@ -65,6 +68,14 @@ def main() -> int:
         print("Project Atlas validation failed:")
         print("\n".join(f"- {error}" for error in errors))
         return 1
+
+    for relative in (
+        "assets/icons/project-atlas-icon-source.png", "assets/icons/project-atlas-favicon-16.png",
+        "assets/icons/project-atlas-favicon-32.png", "assets/icons/project-atlas-favicon-192.png",
+        "assets/icons/project-atlas-apple-touch-icon-180.png",
+    ):
+        if (root / relative).read_bytes()[:8] != b"\x89PNG\r\n\x1a\n":
+            fail(errors, f"Atlas icon is not a PNG: {relative}")
 
     data = json.loads((root / "data/projects.json").read_text(encoding="utf-8"))
     manual = json.loads((root / "data/manual-projects.json").read_text(encoding="utf-8"))
@@ -190,13 +201,17 @@ def main() -> int:
     index = (root / "index.html").read_text(encoding="utf-8")
     css = (root / "styles.css").read_text(encoding="utf-8")
     app = (root / "app.js").read_text(encoding="utf-8")
-    for marker in ("id=\"project-search\"", "id=\"fresh-grid\"", "id=\"print-directory-list\"", "id=\"lineage-grid\"", "data-print"):
+    for marker in (
+        "id=\"project-search\"", "id=\"family-filter\"", "id=\"fresh-grid\"", "id=\"print-directory-list\"",
+        "id=\"lineage-grid\"", "data-print", "project-atlas-favicon-16.png", "project-atlas-favicon-32.png",
+        "project-atlas-favicon-192.png", "project-atlas-apple-touch-icon-180.png",
+    ):
         if marker not in index:
             fail(errors, f"index.html is missing required Atlas interface marker {marker}")
     for marker in ("@media print", ".qr-slot", ".qr-slot img", ".project-grid"):
         if marker not in css:
             fail(errors, f"styles.css is missing required style marker {marker}")
-    for marker in ("data/projects.json", "relationshipDetails", "data-qr-url", "qrFilename", "freshlyCompleted"):
+    for marker in ("data/projects.json", "relationshipDetails", "data-qr-url", "qrFilename", "freshlyCompleted", "family-filter", "least-connected"):
         if marker not in app:
             fail(errors, f"app.js is missing required behaviour marker {marker}")
 

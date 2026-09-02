@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A plain-language, public guide to Aura of Intelligence projects, their original build dates and their related work.">
+    <meta name="theme-color" content="#0c2825">
     <title>Project Atlas | Aura of Intelligence</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/project-atlas-favicon-16.png?v=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/project-atlas-favicon-32.png?v=1">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/project-atlas-favicon-192.png?v=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/project-atlas-apple-touch-icon-180.png?v=1">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -101,6 +106,12 @@
               <option value="">All years</option>
             </select>
           </label>
+          <label for="family-filter">
+            <span>Project family</span>
+            <select id="family-filter" name="family">
+              <option value="">All families</option>
+            </select>
+          </label>
           <label for="page-filter">
             <span>Public page</span>
             <select id="page-filter" name="page">
@@ -122,7 +133,10 @@
             <select id="sort-filter" name="sort">
               <option value="newest">Newest original build first</option>
               <option value="oldest">Oldest original build first</option>
+              <option value="fresh">Newly completed and rebuilt first</option>
+              <option value="pages">Public pages first</option>
               <option value="connected">Most connected first</option>
+              <option value="least-connected">Least connected first</option>
               <option value="az">A to Z</option>
             </select>
           </label>
