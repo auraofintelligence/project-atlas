@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "generatedOn": "2026-09-03",
   "assetSize": 128,
-  "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved for eight projects with no honest public favicon or logo source.",
+  "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved only for projects with no honest public favicon, logo or directly related public-brand artwork.",
   "icons": {
     "10_entities": {
       "asset": "assets/project-icons/10_entities.webp",
@@ -198,8 +198,9 @@
     },
     "australian-law-2012-lukes-relevance": {
       "asset": "assets/project-icons/australian-law-2012-lukes-relevance.webp",
-      "kind": "colour-tile",
-      "fallbackColour": "#2b5f79"
+      "kind": "local-source",
+      "fallbackColour": "#2b5f79",
+      "source": "australian-law-2012-lukes-relevance/assets/favicon.svg (pinned Pages deployment 9bddcfd)"
     },
     "australian-legal-engine": {
       "asset": "assets/project-icons/australian-legal-engine.webp",
@@ -286,8 +287,9 @@
     },
     "extreme-matter-atlas": {
       "asset": "assets/project-icons/extreme-matter-atlas.webp",
-      "kind": "colour-tile",
-      "fallbackColour": "#6d4b93"
+      "kind": "local-source",
+      "fallbackColour": "#6d4b93",
+      "source": "extreme-matter-atlas/index.html inline atom favicon"
     },
     "film-club-documentary-builders": {
       "asset": "assets/project-icons/film-club-documentary-builders.webp",
@@ -392,8 +394,9 @@
     },
     "i-C-infinity": {
       "asset": "assets/project-icons/i-c-infinity.webp",
-      "kind": "colour-tile",
-      "fallbackColour": "#7a416c"
+      "kind": "local-source",
+      "fallbackColour": "#7a416c",
+      "source": "i-C-infinity-music-universe/assets/favicon.jpg (related i C. infinity public-brand artwork)"
     },
     "i-C-infinity-music-universe": {
       "asset": "assets/project-icons/i-c-infinity-music-universe.webp",
@@ -409,8 +412,9 @@
     },
     "infinity-engine": {
       "asset": "assets/project-icons/infinity-engine.webp",
-      "kind": "colour-tile",
-      "fallbackColour": "#176f89"
+      "kind": "local-source",
+      "fallbackColour": "#176f89",
+      "source": "infinity-engine/docs/assets/favicon.svg (pinned Pages deployment dbb85ec)"
     },
     "legal-memory-workbench": {
       "asset": "assets/project-icons/legal-memory-workbench.webp",
@@ -851,8 +855,9 @@
     },
     "virtual-solar-swarm": {
       "asset": "assets/project-icons/virtual-solar-swarm.webp",
-      "kind": "colour-tile",
-      "fallbackColour": "#9a741d"
+      "kind": "local-source",
+      "fallbackColour": "#9a741d",
+      "source": "virtual-solar-swarm/index.html inline satellite favicon"
     },
     "wildlife-rescue-minjerribah": {
       "asset": "assets/project-icons/wildlife-rescue-minjerribah.webp",

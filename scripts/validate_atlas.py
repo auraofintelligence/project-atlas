@@ -181,8 +181,7 @@ def main() -> int:
     icon_manifest = json.loads((root / "data/project-icons.json").read_text(encoding="utf-8"))
     icon_entries = icon_manifest.get("icons") if isinstance(icon_manifest, dict) else None
     expected_colour_tiles = {
-        "australian-law-2012-lukes-relevance", "australian-legal-engine", "extreme-matter-atlas", "fishing-calendar",
-        "i-C-infinity", "infinity-engine", "skills_values_competancies", "virtual-solar-swarm",
+        "australian-legal-engine", "fishing-calendar", "skills_values_competancies",
     }
     icon_directory = root / "assets" / "project-icons"
     if icon_manifest.get("schemaVersion") != 1:
@@ -243,7 +242,7 @@ def main() -> int:
                 fail(errors, f"Project {name} icon asset is not WebP: {asset}")
 
     if actual_colour_tiles != expected_colour_tiles:
-        fail(errors, "Project Atlas must retain exactly the eight honest colour-only fallback tiles")
+        fail(errors, "Project Atlas must retain exactly the three honest colour-only fallback tiles")
     actual_icon_assets = {path.name for path in icon_directory.glob("*") if path.is_file()}
     if actual_icon_assets != expected_icon_assets:
         missing_assets = sorted(expected_icon_assets - actual_icon_assets)
