@@ -4,9 +4,9 @@
   "auditSnapshotDate": "2026-08-29",
   "refreshSnapshotDate": "2026-09-01",
   "publicRepositoryCount": 148,
-  "auditedProjectCount": 140,
+  "auditedProjectCount": 145,
   "includedProjectCount": 145,
-  "generatedOn": "2026-09-01",
+  "generatedOn": "2026-09-03",
   "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
   "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
   "projects": [

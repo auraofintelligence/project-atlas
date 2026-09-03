@@ -13,7 +13,7 @@ The Atlas records the first substantive build date for every included public pro
 
 ## What the first edition includes
 
-- 140 audit-derived public projects from the 29 August 2026 organisation audit, plus five confirmed public additions from later refresh files, including Project Atlas itself
+- 145 public projects in the Atlas: 140 audit-derived public projects from the 29 August 2026 organisation audit, plus five confirmed public additions from later refresh files, including Project Atlas itself
 - Direct links to live public pages where the audit verified one, plus GitHub links for every project
 - All evidence-backed public neighbouring projects, not a small hand-picked sample. Three archived duplicate i-C Infinity album-package copies are deliberately excluded from active public navigation.
 - Search, original-build year, project-family, public-page and relationship filters

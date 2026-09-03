@@ -49,13 +49,13 @@ def qr_stem(value: str) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate static Project Atlas files")
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    parser.add_argument("--expected-audited", type=int, default=140)
+    parser.add_argument("--expected-audited", type=int, default=145)
     args = parser.parse_args()
 
     root = args.root.resolve()
     errors: list[str] = []
     for relative in (
-        "index.html", "styles.css", "app.js", "package.json", "data/projects.json", "data/manual-projects.json",
+        "index.html", "styles.css", "app.js", "package.json", "data/projects.json", "data/project-icons.json", "data/manual-projects.json",
         "scripts/build_atlas_data.py", "scripts/build_qr_codes.mjs",
         "assets/icons/project-atlas-icon-source.png", "assets/icons/project-atlas-favicon-16.png",
         "assets/icons/project-atlas-favicon-32.png", "assets/icons/project-atlas-favicon-192.png",
@@ -178,6 +178,81 @@ def main() -> int:
     if relationship_total < 1:
         fail(errors, "No evidence-backed relationships were generated")
 
+    icon_manifest = json.loads((root / "data/project-icons.json").read_text(encoding="utf-8"))
+    icon_entries = icon_manifest.get("icons") if isinstance(icon_manifest, dict) else None
+    expected_colour_tiles = {
+        "australian-law-2012-lukes-relevance", "australian-legal-engine", "extreme-matter-atlas", "fishing-calendar",
+        "i-C-infinity", "infinity-engine", "skills_values_competancies", "virtual-solar-swarm",
+    }
+    icon_directory = root / "assets" / "project-icons"
+    if icon_manifest.get("schemaVersion") != 1:
+        fail(errors, "project-icons.json must use schemaVersion 1")
+    if icon_manifest.get("assetSize") not in range(96, 129):
+        fail(errors, "project-icons.json assetSize must be between 96 and 128 pixels")
+    if not isinstance(icon_entries, dict):
+        fail(errors, "project-icons.json needs an icons object")
+        icon_entries = {}
+    project_icon_names = {
+        project["name"]
+        for project in projects
+        if isinstance(project, dict) and isinstance(project.get("name"), str)
+    }
+    if set(icon_entries) != project_icon_names:
+        missing_icons = sorted(project_icon_names - set(icon_entries))
+        unexpected_icons = sorted(set(icon_entries) - project_icon_names)
+        if missing_icons:
+            fail(errors, f"Project icon manifest is missing entries: {missing_icons}")
+        if unexpected_icons:
+            fail(errors, f"Project icon manifest has stale entries: {unexpected_icons}")
+
+    expected_icon_assets: set[str] = set()
+    actual_colour_tiles: set[str] = set()
+    for name in project_icon_names:
+        entry = icon_entries.get(name)
+        if not isinstance(entry, dict):
+            fail(errors, f"Project {name} has no valid icon manifest entry")
+            continue
+        extra_icon_keys = set(entry) - {"asset", "kind", "fallbackColour", "source"}
+        if extra_icon_keys:
+            fail(errors, f"Project {name} icon entry has unsupported fields: {sorted(extra_icon_keys)}")
+        asset = entry.get("asset")
+        kind = entry.get("kind")
+        colour = entry.get("fallbackColour")
+        if not isinstance(asset, str) or not re.fullmatch(r"assets/project-icons/[a-z0-9_-]+\.webp", asset):
+            fail(errors, f"Project {name} icon must be a local WebP thumbnail")
+            continue
+        if not isinstance(kind, str) or kind not in {"field-library-raster", "local-source", "colour-tile"}:
+            fail(errors, f"Project {name} icon has an unsupported source kind")
+        if not isinstance(colour, str) or not re.fullmatch(r"#[0-9a-fA-F]{6}", colour):
+            fail(errors, f"Project {name} icon needs a six-digit fallback colour")
+        if kind == "colour-tile":
+            actual_colour_tiles.add(name)
+            if entry.get("source") is not None:
+                fail(errors, f"Project {name} colour-only fallback must not claim a source image")
+        else:
+            source_note = entry.get("source")
+            if not isinstance(source_note, str) or not source_note or "://" in source_note or Path(source_note).is_absolute():
+                fail(errors, f"Project {name} icon source must be a local provenance note")
+        asset_path = root / asset
+        expected_icon_assets.add(asset_path.name)
+        if not asset_path.is_file():
+            fail(errors, f"Project {name} icon asset is missing: {asset}")
+        else:
+            header = asset_path.read_bytes()[:12]
+            if not (header.startswith(b"RIFF") and header[8:12] == b"WEBP"):
+                fail(errors, f"Project {name} icon asset is not WebP: {asset}")
+
+    if actual_colour_tiles != expected_colour_tiles:
+        fail(errors, "Project Atlas must retain exactly the eight honest colour-only fallback tiles")
+    actual_icon_assets = {path.name for path in icon_directory.glob("*") if path.is_file()}
+    if actual_icon_assets != expected_icon_assets:
+        missing_assets = sorted(expected_icon_assets - actual_icon_assets)
+        stale_assets = sorted(actual_icon_assets - expected_icon_assets)
+        if missing_assets:
+            fail(errors, f"Project icon directory is missing assets: {missing_assets}")
+        if stale_assets:
+            fail(errors, f"Project icon directory has stale assets: {stale_assets}")
+
     for lineage in data.get("lineages", []):
         for stage in lineage.get("stages", []):
             repository = stage.get("repository")
@@ -208,10 +283,10 @@ def main() -> int:
     ):
         if marker not in index:
             fail(errors, f"index.html is missing required Atlas interface marker {marker}")
-    for marker in ("@media print", ".qr-slot", ".qr-slot img", ".project-grid"):
+    for marker in ("@media print", ".qr-slot", ".qr-slot img", ".project-grid", ".project-icon", ".card-heading"):
         if marker not in css:
             fail(errors, f"styles.css is missing required style marker {marker}")
-    for marker in ("data/projects.json", "relationshipDetails", "data-qr-url", "qrFilename", "freshlyCompleted", "family-filter", "least-connected"):
+    for marker in ("data/projects.json", "data/project-icons.json", "relationshipDetails", "projectIcon", "card-heading", "data-qr-url", "qrFilename", "freshlyCompleted", "family-filter", "least-connected"):
         if marker not in app:
             fail(errors, f"app.js is missing required behaviour marker {marker}")
 
@@ -223,7 +298,8 @@ def main() -> int:
     print(
         "Project Atlas validation passed: "
         f"{len(projects)} public projects, {public_pages} public pages, "
-        f"{relationship_total} directed public relationships, {len(data.get('lineages', []))} lineages."
+        f"{relationship_total} directed public relationships, {len(data.get('lineages', []))} lineages, "
+        f"{len(icon_entries)} local project icons."
     )
     return 0
 

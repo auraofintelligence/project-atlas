@@ -5,6 +5,7 @@
   const state = {
     data: null,
     projects: [],
+    icons: new Map(),
   };
 
   const byId = (id) => document.getElementById(id);
@@ -65,6 +66,45 @@
     return `assets/qr/${stem}.svg`;
   }
 
+  function projectIcon(project) {
+    const entry = state.icons.get(project.name);
+    const icon = element("span", {
+      class: "project-icon",
+      "aria-hidden": "true",
+    });
+    icon.style.setProperty("--project-icon-fallback", entry?.fallbackColour || "#3f625b");
+
+    const showFallback = () => {
+      icon.replaceChildren();
+      icon.classList.add("is-fallback");
+    };
+
+    if (!entry?.asset) {
+      showFallback();
+      return icon;
+    }
+
+    const image = element("img", {
+      src: entry.asset,
+      alt: "",
+      width: "96",
+      height: "96",
+      loading: "lazy",
+      decoding: "async",
+    });
+    image.addEventListener("error", showFallback, { once: true });
+    icon.append(image);
+    return icon;
+  }
+
+  function projectHeading(project, className = "card-heading") {
+    const heading = element("h3");
+    const link = titleLink(project, "");
+    link.removeAttribute("class");
+    heading.append(link);
+    return element("div", { class: className }, [projectIcon(project), heading]);
+  }
+
   function projectSearchText(project) {
     const chunks = [
       project.name,
@@ -111,11 +151,7 @@
   function projectCard(project) {
     const card = element("article", { class: "project-card", id: `project-${project.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}` });
     card.append(dateStamp(project));
-    const heading = element("h3");
-    const link = titleLink(project, "");
-    link.removeAttribute("class");
-    heading.append(link);
-    card.append(heading);
+    card.append(projectHeading(project));
     card.append(element("p", { class: "project-description", text: truncate(project.description) }));
 
     const meta = element("ul", { class: "card-meta" });
@@ -147,7 +183,7 @@
   function freshCard(project) {
     const card = element("article", { class: "fresh-card" });
     card.append(dateStamp(project));
-    card.append(element("h3", { text: project.title }));
+    card.append(projectHeading(project, "fresh-card-heading"));
     card.append(element("p", { text: truncate(project.description, 150) }));
     if (project.meaningfulRebuild?.published || project.meaningfulRebuild?.started) {
       const rebuild = project.meaningfulRebuild;
@@ -385,11 +421,19 @@
 
   async function initialise() {
     try {
-      const response = await fetch("data/projects.json", { cache: "no-store" });
-      if (!response.ok) throw new Error(`Project data request failed: ${response.status}`);
-      const data = await response.json();
+      const [projectResponse, iconResponse] = await Promise.all([
+        fetch("data/projects.json", { cache: "no-store" }),
+        fetch("data/project-icons.json", { cache: "no-store" }),
+      ]);
+      if (!projectResponse.ok) throw new Error(`Project data request failed: ${projectResponse.status}`);
+      if (!iconResponse.ok) throw new Error(`Project icon manifest request failed: ${iconResponse.status}`);
+      const [data, iconManifest] = await Promise.all([projectResponse.json(), iconResponse.json()]);
       if (!Array.isArray(data.projects) || !data.projects.length) throw new Error("Project data has no projects");
+      if (!iconManifest || typeof iconManifest.icons !== "object" || Array.isArray(iconManifest.icons)) {
+        throw new Error("Project icon manifest has no icon entries");
+      }
       state.data = data;
+      state.icons = new Map(Object.entries(iconManifest.icons));
       state.projects = data.projects.map((project) => ({ ...project, _searchText: projectSearchText(project) }));
       displayCounts(data);
       buildYearOptions(state.projects);

@@ -1,0 +1,870 @@
+{
+  "schemaVersion": 1,
+  "generatedOn": "2026-09-03",
+  "assetSize": 128,
+  "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved for eight projects with no honest public favicon or logo source.",
+  "icons": {
+    "10_entities": {
+      "asset": "assets/project-icons/10_entities.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\10_entities.png"
+    },
+    "20-components": {
+      "asset": "assets/project-icons/20-components.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\20-components.png"
+    },
+    "60-days-set-in-stone": {
+      "asset": "assets/project-icons/60-days-set-in-stone.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\60-days-set-in-stone.png"
+    },
+    "agent-md-form-navigator": {
+      "asset": "assets/project-icons/agent-md-form-navigator.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "agent-md-form-navigator/assets/favicon.svg"
+    },
+    "alpha-infinity": {
+      "asset": "assets/project-icons/alpha-infinity.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\alpha-infinity.png"
+    },
+    "Amity-Cinema-Circle": {
+      "asset": "assets/project-icons/amity-cinema-circle.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "amity-cinema-circle/public/cinema-icon.svg"
+    },
+    "amity-outdoor-fitness-grant": {
+      "asset": "assets/project-icons/amity-outdoor-fitness-grant.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\amity-outdoor-fitness-grant.png"
+    },
+    "amity-point": {
+      "asset": "assets/project-icons/amity-point.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\amity-point.png"
+    },
+    "amity-sauna-circle": {
+      "asset": "assets/project-icons/amity-sauna-circle.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "amity-sauna-circle/public/apple-touch-icon.png"
+    },
+    "amity_stratum": {
+      "asset": "assets/project-icons/amity_stratum.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\amity_stratum.png"
+    },
+    "Archipelago": {
+      "asset": "assets/project-icons/archipelago.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\Archipelago.png"
+    },
+    "aukus-space-gambit": {
+      "asset": "assets/project-icons/aukus-space-gambit.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aukus-space-gambit.png"
+    },
+    "aura-affinity": {
+      "asset": "assets/project-icons/aura-affinity.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-affinity.png"
+    },
+    "aura-and-luke": {
+      "asset": "assets/project-icons/aura-and-luke.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-and-luke.png"
+    },
+    "aura-components": {
+      "asset": "assets/project-icons/aura-components.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-components.png"
+    },
+    "aura-data-mapping": {
+      "asset": "assets/project-icons/aura-data-mapping.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-data-mapping.png"
+    },
+    "aura-dementia": {
+      "asset": "assets/project-icons/aura-dementia.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-dementia.png"
+    },
+    "aura-direct-hardware": {
+      "asset": "assets/project-icons/aura-direct-hardware.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "aura-direct-hardware/assets/aura-navicon-192.png"
+    },
+    "aura-ecosystem": {
+      "asset": "assets/project-icons/aura-ecosystem.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-ecosystem.png"
+    },
+    "aura-genesis": {
+      "asset": "assets/project-icons/aura-genesis.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-genesis.png"
+    },
+    "aura-geode": {
+      "asset": "assets/project-icons/aura-geode.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-geode.png"
+    },
+    "aura-horn-torus": {
+      "asset": "assets/project-icons/aura-horn-torus.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-horn-torus.png"
+    },
+    "aura-of-intelligence-pathways": {
+      "asset": "assets/project-icons/aura-of-intelligence-pathways.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-of-intelligence-pathways.png"
+    },
+    "aura-of-intelligence-web-app": {
+      "asset": "assets/project-icons/aura-of-intelligence-web-app.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "aura-of-intelligence-web-app/public/favicon.svg"
+    },
+    "aura-scan-pipeline": {
+      "asset": "assets/project-icons/aura-scan-pipeline.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-scan-pipeline.png"
+    },
+    "aura-sentience-codex": {
+      "asset": "assets/project-icons/aura-sentience-codex.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-sentience-codex.png"
+    },
+    "aura-spatial-perception": {
+      "asset": "assets/project-icons/aura-spatial-perception.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-spatial-perception.png"
+    },
+    "aura-studios": {
+      "asset": "assets/project-icons/aura-studios.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-studios.png"
+    },
+    "aura-systems-image-atlas": {
+      "asset": "assets/project-icons/aura-systems-image-atlas.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "aura-systems-image-atlas/assets/favicon-256.png"
+    },
+    "aura-toy": {
+      "asset": "assets/project-icons/aura-toy.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-toy.png"
+    },
+    "auraofintelligence.github.io": {
+      "asset": "assets/project-icons/auraofintelligence-github-io.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "auraofintelligence.github.io/assets/favicon.svg"
+    },
+    "aus-gov-2025": {
+      "asset": "assets/project-icons/aus-gov-2025.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aus-gov-2025.png"
+    },
+    "australian-law-2012-lukes-relevance": {
+      "asset": "assets/project-icons/australian-law-2012-lukes-relevance.webp",
+      "kind": "colour-tile",
+      "fallbackColour": "#2b5f79"
+    },
+    "australian-legal-engine": {
+      "asset": "assets/project-icons/australian-legal-engine.webp",
+      "kind": "colour-tile",
+      "fallbackColour": "#435b98"
+    },
+    "australian-sire-story-forge": {
+      "asset": "assets/project-icons/australian-sire-story-forge.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "australian-sire-story-forge/assets/icons/apple-touch-icon.png"
+    },
+    "Australian-visa-activity-atlas": {
+      "asset": "assets/project-icons/australian-visa-activity-atlas.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "Australian-visa-activity-atlas/assets/favicon.png"
+    },
+    "Australian-world-travel": {
+      "asset": "assets/project-icons/australian-world-travel.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\Australian-world-travel.png"
+    },
+    "ballow-road-sand-screen-hub": {
+      "asset": "assets/project-icons/ballow-road-sand-screen-hub.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\ballow-road-sand-screen-hub.png"
+    },
+    "bees-and-allies": {
+      "asset": "assets/project-icons/bees-and-allies.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "bees-and-allies/assets/img/favicon.svg"
+    },
+    "Chinese_Horoscope_2026_Luke_Hayes": {
+      "asset": "assets/project-icons/chinese_horoscope_2026_luke_hayes.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\Chinese_Horoscope_2026_Luke_Hayes.png"
+    },
+    "civilisation-of-sand": {
+      "asset": "assets/project-icons/civilisation-of-sand.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "civilisation-of-sand/assets/img/apple-touch-icon.png"
+    },
+    "community-club-builder-sandy-sports": {
+      "asset": "assets/project-icons/community-club-builder-sandy-sports.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\community-club-builder-sandy-sports.png"
+    },
+    "dunwich-gumpi-ferry-terminal-open-data-lab": {
+      "asset": "assets/project-icons/dunwich-gumpi-ferry-terminal-open-data-lab.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "dunwich-gumpi-ferry-terminal-open-data-lab/assets/favicon.svg"
+    },
+    "eros-pc": {
+      "asset": "assets/project-icons/eros-pc.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\eros-pc.png"
+    },
+    "eros-story": {
+      "asset": "assets/project-icons/eros-story.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\eros-story.png"
+    },
+    "event-search-QLD": {
+      "asset": "assets/project-icons/event-search-qld.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\event-search-QLD.png"
+    },
+    "explorer-music-video-lab": {
+      "asset": "assets/project-icons/explorer-music-video-lab.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "explorer-music-video-lab/assets/favicon.svg"
+    },
+    "extreme-matter-atlas": {
+      "asset": "assets/project-icons/extreme-matter-atlas.webp",
+      "kind": "colour-tile",
+      "fallbackColour": "#6d4b93"
+    },
+    "film-club-documentary-builders": {
+      "asset": "assets/project-icons/film-club-documentary-builders.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\film-club-documentary-builders.png"
+    },
+    "fishing-calendar": {
+      "asset": "assets/project-icons/fishing-calendar.webp",
+      "kind": "colour-tile",
+      "fallbackColour": "#19796f"
+    },
+    "fractal-aura": {
+      "asset": "assets/project-icons/fractal-aura.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\fractal-aura.png"
+    },
+    "Future-of-Life-2045": {
+      "asset": "assets/project-icons/future-of-life-2045.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "Future-of-Life-2045/assets/favicon-192.png"
+    },
+    "GAJRA-earth": {
+      "asset": "assets/project-icons/gajra-earth.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\GAJRA-earth.png"
+    },
+    "gajra-earth-claude-build": {
+      "asset": "assets/project-icons/gajra-earth-claude-build.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "gajra-earth-claude-build/assets/aura-heart-192.png"
+    },
+    "GAJRA-earth-infinity": {
+      "asset": "assets/project-icons/gajra-earth-infinity.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "GAJRA-earth-infinity/assets/aura-heart-192.png"
+    },
+    "gajra-earth-public-hub": {
+      "asset": "assets/project-icons/gajra-earth-public-hub.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\gajra-earth-public-hub.png"
+    },
+    "GAJRA_Earth-Space-AI_Summit": {
+      "asset": "assets/project-icons/gajra_earth-space-ai_summit.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\GAJRA_Earth-Space-AI_Summit.png"
+    },
+    "geode-vibe": {
+      "asset": "assets/project-icons/geode-vibe.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\geode-vibe.png"
+    },
+    "global-founder-atlas": {
+      "asset": "assets/project-icons/global-founder-atlas.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "global-founder-atlas/assets/favicon.svg"
+    },
+    "global-group-marriages": {
+      "asset": "assets/project-icons/global-group-marriages.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "global-group-marriages/assets/favicon-192.png"
+    },
+    "gods-eye-view": {
+      "asset": "assets/project-icons/gods-eye-view.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "gods-eye-view/public/logo.svg"
+    },
+    "grain-by-grain": {
+      "asset": "assets/project-icons/grain-by-grain.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "grain-by-grain/assets/favicon.svg"
+    },
+    "grain-by-grain-documentary": {
+      "asset": "assets/project-icons/grain-by-grain-documentary.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "grain-by-grain-documentary/assets/img/favicon-192.png"
+    },
+    "grey-area-commons": {
+      "asset": "assets/project-icons/grey-area-commons.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\grey-area-commons.png"
+    },
+    "how-to-use-md-with-ai": {
+      "asset": "assets/project-icons/how-to-use-md-with-ai.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "how-to-use-md-with-ai/assets/favicon.svg"
+    },
+    "i-C-infinity": {
+      "asset": "assets/project-icons/i-c-infinity.webp",
+      "kind": "colour-tile",
+      "fallbackColour": "#7a416c"
+    },
+    "i-C-infinity-music-universe": {
+      "asset": "assets/project-icons/i-c-infinity-music-universe.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "i-C-infinity-music-universe/assets/favicon.jpg"
+    },
+    "infinity-content-engine": {
+      "asset": "assets/project-icons/infinity-content-engine.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\infinity-content-engine.png"
+    },
+    "infinity-engine": {
+      "asset": "assets/project-icons/infinity-engine.webp",
+      "kind": "colour-tile",
+      "fallbackColour": "#176f89"
+    },
+    "legal-memory-workbench": {
+      "asset": "assets/project-icons/legal-memory-workbench.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\legal-memory-workbench.png"
+    },
+    "loose-goose-comedy-engine": {
+      "asset": "assets/project-icons/loose-goose-comedy-engine.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "loose-goose-comedy-engine/assets/loose-goose-comedy-favicon.png"
+    },
+    "mate-ecosystem": {
+      "asset": "assets/project-icons/mate-ecosystem.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\mate-ecosystem.png"
+    },
+    "meet-luke": {
+      "asset": "assets/project-icons/meet-luke.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\meet-luke.png"
+    },
+    "micronova-and-excursions": {
+      "asset": "assets/project-icons/micronova-and-excursions.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "micronova-and-excursions/assets/favicon.svg"
+    },
+    "mineral-moonshots": {
+      "asset": "assets/project-icons/mineral-moonshots.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\mineral-moonshots.png"
+    },
+    "minjerribah-living-twin": {
+      "asset": "assets/project-icons/minjerribah-living-twin.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\minjerribah-living-twin.png"
+    },
+    "Minjerribah-Resilience": {
+      "asset": "assets/project-icons/minjerribah-resilience.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\Minjerribah-Resilience.png"
+    },
+    "minjerribah-screen-media-network": {
+      "asset": "assets/project-icons/minjerribah-screen-media-network.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "minjerribah-screen-media-network/public/favicon.svg"
+    },
+    "minjerribah-wildlife-rescue": {
+      "asset": "assets/project-icons/minjerribah-wildlife-rescue.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "minjerribah-wildlife-rescue/assets/icons/icon-192.png"
+    },
+    "moreton-bay-autonomous-mobility": {
+      "asset": "assets/project-icons/moreton-bay-autonomous-mobility.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "moreton-bay-autonomous-mobility/assets/images/brand/apple-touch-icon.png"
+    },
+    "moreton-bay-community-wealth-and-mutuals": {
+      "asset": "assets/project-icons/moreton-bay-community-wealth-and-mutuals.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "moreton-bay-community-wealth-and-mutuals/assets/favicon.svg"
+    },
+    "new-tori": {
+      "asset": "assets/project-icons/new-tori.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\new-tori.png"
+    },
+    "Oceania-healthy-de-slop-co-ops": {
+      "asset": "assets/project-icons/oceania-healthy-de-slop-co-ops.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "Oceania-healthy-de-slop-co-ops/assets/icons/favicon-192.png"
+    },
+    "p4a-native-nations-cinema": {
+      "asset": "assets/project-icons/p4a-native-nations-cinema.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "p4a-native-nations-cinema/assets/favicon.svg"
+    },
+    "p4a-oceania-cinema": {
+      "asset": "assets/project-icons/p4a-oceania-cinema.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "p4a-oceania-cinema/assets/favicon.svg"
+    },
+    "p4a-oceania-expansion-lab": {
+      "asset": "assets/project-icons/p4a-oceania-expansion-lab.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "p4a-oceania-expansion-lab/assets/favicon.svg"
+    },
+    "p4a-xyz-cinema": {
+      "asset": "assets/project-icons/p4a-xyz-cinema.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "p4a-xyz-cinema/assets/favicon.svg"
+    },
+    "p4a_xyz": {
+      "asset": "assets/project-icons/p4a_xyz.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "p4a_xyz/assets/favicon.svg"
+    },
+    "P4Australia": {
+      "asset": "assets/project-icons/p4australia.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\P4Australia.png"
+    },
+    "plfc-ai-agent-md-forms": {
+      "asset": "assets/project-icons/plfc-ai-agent-md-forms.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "plfc-ai-agent-md-forms/assets/favicon.svg"
+    },
+    "plfc-community-platform": {
+      "asset": "assets/project-icons/plfc-community-platform.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\plfc-community-platform.png"
+    },
+    "PLFC_01": {
+      "asset": "assets/project-icons/plfc_01.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\PLFC_01.png"
+    },
+    "PLFC_02": {
+      "asset": "assets/project-icons/plfc_02.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\PLFC_02.png"
+    },
+    "PLFC_2026_Data": {
+      "asset": "assets/project-icons/plfc_2026_data.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\PLFC_2026_Data.png"
+    },
+    "PLFC_Live": {
+      "asset": "assets/project-icons/plfc_live.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\PLFC_Live.png"
+    },
+    "PLFC_web_2026": {
+      "asset": "assets/project-icons/plfc_web_2026.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\PLFC_web_2026.png"
+    },
+    "project-atlas": {
+      "asset": "assets/project-icons/project-atlas.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "project-atlas/assets/icons/project-atlas-icon-source.png"
+    },
+    "purple01": {
+      "asset": "assets/project-icons/purple01.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\purple01.png"
+    },
+    "Purple02": {
+      "asset": "assets/project-icons/purple02.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\Purple02.png"
+    },
+    "quandamooka-country-events-engine": {
+      "asset": "assets/project-icons/quandamooka-country-events-engine.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\quandamooka-country-events-engine.png"
+    },
+    "quandamooka-film-festival": {
+      "asset": "assets/project-icons/quandamooka-film-festival.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "quandamooka-film-festival/assets/img/apple-touch-icon.png"
+    },
+    "Queens_Venture": {
+      "asset": "assets/project-icons/queens_venture.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\Queens_Venture.png"
+    },
+    "ready-set-co-op-hyperlocal-media": {
+      "asset": "assets/project-icons/ready-set-co-op-hyperlocal-media.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "ready-set-co-op-hyperlocal-media/assets/favicon.svg"
+    },
+    "ready-set-co-op-trust-hub": {
+      "asset": "assets/project-icons/ready-set-co-op-trust-hub.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\ready-set-co-op-trust-hub.png"
+    },
+    "Redland_Flow": {
+      "asset": "assets/project-icons/redland_flow.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\Redland_Flow.png"
+    },
+    "Redlands_draft_ES2026-2031": {
+      "asset": "assets/project-icons/redlands_draft_es2026-2031.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\Redlands_draft_ES2026-2031.png"
+    },
+    "right-place-right-time": {
+      "asset": "assets/project-icons/right-place-right-time.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "right-place-right-time/assets/favicon.svg"
+    },
+    "sandworm-subterranean-systems": {
+      "asset": "assets/project-icons/sandworm-subterranean-systems.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "Sandworm-subterranean-systems/assets/img/favicon.svg"
+    },
+    "sbt_aura_builder": {
+      "asset": "assets/project-icons/sbt_aura_builder.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\sbt_aura_builder.png"
+    },
+    "sbt_profile_starter": {
+      "asset": "assets/project-icons/sbt_profile_starter.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\sbt_profile_starter.png"
+    },
+    "second-island": {
+      "asset": "assets/project-icons/second-island.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\second-island.png"
+    },
+    "shared-table-initiative": {
+      "asset": "assets/project-icons/shared-table-initiative.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\shared-table-initiative.png"
+    },
+    "skills_values_competancies": {
+      "asset": "assets/project-icons/skills_values_competancies.webp",
+      "kind": "colour-tile",
+      "fallbackColour": "#a46035"
+    },
+    "songline_interface": {
+      "asset": "assets/project-icons/songline_interface.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\songline_interface.png"
+    },
+    "sovereign-music-australia": {
+      "asset": "assets/project-icons/sovereign-music-australia.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "sovereign-music-australia/assets/favicon.svg"
+    },
+    "space-weather-news": {
+      "asset": "assets/project-icons/space-weather-news.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\space-weather-news.png"
+    },
+    "SSB": {
+      "asset": "assets/project-icons/ssb.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\SSB.png"
+    },
+    "stradbroke-grants-lab": {
+      "asset": "assets/project-icons/stradbroke-grants-lab.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "stradbroke-grants-lab/assets/favicon.svg"
+    },
+    "straddie-capsule-surge-lab": {
+      "asset": "assets/project-icons/straddie-capsule-surge-lab.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\straddie-capsule-surge-lab.png"
+    },
+    "straddie-clean-energy-superpower": {
+      "asset": "assets/project-icons/straddie-clean-energy-superpower.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "straddie-clean-energy-superpower/assets/img/favicon.svg"
+    },
+    "straddie-content-assets-kit": {
+      "asset": "assets/project-icons/straddie-content-assets-kit.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\straddie-content-assets-kit.png"
+    },
+    "straddie-digital-twin-builders": {
+      "asset": "assets/project-icons/straddie-digital-twin-builders.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\straddie-digital-twin-builders.png"
+    },
+    "straddie-digital-twin-explainer": {
+      "asset": "assets/project-icons/straddie-digital-twin-explainer.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "straddie-digital-twin-explainer/assets/favicon.svg"
+    },
+    "straddie-disaster-kiosks": {
+      "asset": "assets/project-icons/straddie-disaster-kiosks.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\straddie-disaster-kiosks.png"
+    },
+    "straddie-headline-open-mic": {
+      "asset": "assets/project-icons/straddie-headline-open-mic.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "straddie-headline-open-mic/assets/img/favicon.svg"
+    },
+    "straddie-makerspace-lab": {
+      "asset": "assets/project-icons/straddie-makerspace-lab.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\straddie-makerspace-lab.png"
+    },
+    "straddie-news": {
+      "asset": "assets/project-icons/straddie-news.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\straddie-news.png"
+    },
+    "straddie-night-market-lab": {
+      "asset": "assets/project-icons/straddie-night-market-lab.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\straddie-night-market-lab.png"
+    },
+    "straddie-noticeboard-network": {
+      "asset": "assets/project-icons/straddie-noticeboard-network.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\straddie-noticeboard-network.png"
+    },
+    "straddie-space-station-simulator": {
+      "asset": "assets/project-icons/straddie-space-station-simulator.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\straddie-space-station-simulator.png"
+    },
+    "straddie-tenders-lab": {
+      "asset": "assets/project-icons/straddie-tenders-lab.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "straddie-tenders-lab/assets/favicon.svg"
+    },
+    "straddie-tip-loop-lab": {
+      "asset": "assets/project-icons/straddie-tip-loop-lab.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "straddie-tip-loop-lab/assets/favicon.svg"
+    },
+    "straddie-vitality-network-builders": {
+      "asset": "assets/project-icons/straddie-vitality-network-builders.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\straddie-vitality-network-builders.png"
+    },
+    "strange-but-true": {
+      "asset": "assets/project-icons/strange-but-true.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true/assets/sbt-icon.png"
+    },
+    "strange-but-true-ai-trust-index": {
+      "asset": "assets/project-icons/strange-but-true-ai-trust-index.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-ai-trust-index/assets/favicon.png"
+    },
+    "strange-but-true-cosmic-nexus": {
+      "asset": "assets/project-icons/strange-but-true-cosmic-nexus.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\strange-but-true-cosmic-nexus.png"
+    },
+    "strange-but-true-desire-atlas": {
+      "asset": "assets/project-icons/strange-but-true-desire-atlas.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-desire-atlas/assets/favicon.svg"
+    },
+    "strange-but-true-travel-oracle": {
+      "asset": "assets/project-icons/strange-but-true-travel-oracle.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-travel-oracle/assets/favicon.svg"
+    },
+    "test": {
+      "asset": "assets/project-icons/test.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\test.png"
+    },
+    "the-great-unveiling": {
+      "asset": "assets/project-icons/the-great-unveiling.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\the-great-unveiling.png"
+    },
+    "two-dogs-podcast-backend": {
+      "asset": "assets/project-icons/two-dogs-podcast-backend.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "two-dogs-podcast-backend/assets/apple-touch-icon.png"
+    },
+    "UN-world-days": {
+      "asset": "assets/project-icons/un-world-days.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\UN-world-days.png"
+    },
+    "virtual-solar-swarm": {
+      "asset": "assets/project-icons/virtual-solar-swarm.webp",
+      "kind": "colour-tile",
+      "fallbackColour": "#9a741d"
+    },
+    "wildlife-rescue-minjerribah": {
+      "asset": "assets/project-icons/wildlife-rescue-minjerribah.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "wildlife-rescue-minjerribah/public/images/wrm-logo.jpg"
+    },
+    "windemere-skate-bowl-tender-workspace": {
+      "asset": "assets/project-icons/windemere-skate-bowl-tender-workspace.webp",
+      "kind": "field-library-raster",
+      "fallbackColour": "#3f625b",
+      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\windemere-skate-bowl-tender-workspace.png"
+    }
+  }
+}

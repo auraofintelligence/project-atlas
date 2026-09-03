@@ -545,7 +545,7 @@ def main() -> int:
         "auditSnapshotDate": clean_text(relationships.get("snapshotDate")),
         "refreshSnapshotDate": delta_metadata.get("refreshedDate"),
         "publicRepositoryCount": int(delta_metadata["publicRepositoryCount"]) if delta_metadata.get("publicRepositoryCount", "").isdigit() else None,
-        "auditedProjectCount": len(audit_rows) - len(excluded_names),
+        "auditedProjectCount": len(projects),
         "includedProjectCount": len(projects),
         "generatedOn": dt.date.today().isoformat(),
         "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
