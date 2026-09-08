@@ -283,6 +283,10 @@ def make_delta_project(raw: Any) -> dict[str, Any]:
     if not first_built:
         raise ValueError(f"New public project {name!r} needs an original build date")
     date_note = clean_text(raw.get("dateNote"))
+    raw_families = raw.get("families", [])
+    if not isinstance(raw_families, list):
+        raise ValueError(f"New public project {name!r} families must be a list")
+    families = [family for family in (clean_family(item) for item in raw_families) if family]
     return {
         "name": name,
         "title": title,
@@ -292,10 +296,10 @@ def make_delta_project(raw: Any) -> dict[str, Any]:
         "buildStatus": "evidenced",
         "buildConfidence": "confirmed in post-audit refresh",
         "buildEvidence": date_note or "Original build date confirmed in the post-audit public refresh.",
-        "description": f"{title} is a newly completed public project added after the August audit snapshot. Open its public page for the current project description.",
-        "priority": "freshly completed",
-        "readmeBand": "published after audit snapshot",
-        "families": [],
+        "description": clean_text(raw.get("description")) or f"{title} is a newly completed public project added after the August audit snapshot. Open its public page for the current project description.",
+        "priority": clean_text(raw.get("priority")) or "freshly completed",
+        "readmeBand": clean_text(raw.get("readmeBand")) or "published after audit snapshot",
+        "families": families,
         "neighbours": [],
         "relationshipCount": 0,
         "freshlyCompleted": True,
@@ -434,7 +438,12 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Build public-safe Project Atlas data")
     parser.add_argument("--audit-csv", type=Path, required=True)
     parser.add_argument("--relations", type=Path, required=True)
-    parser.add_argument("--delta", type=Path, help="Optional public post-audit refresh file")
+    parser.add_argument(
+        "--delta",
+        type=Path,
+        action="append",
+        help="Optional public post-audit refresh file. Repeat for consecutive refreshes.",
+    )
     parser.add_argument("--manual", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
@@ -466,8 +475,8 @@ def main() -> int:
     project_by_name = {project["name"]: project for project in projects}
 
     delta_metadata: dict[str, str] = {}
-    if args.delta:
-        delta_metadata = apply_delta(read_json(args.delta), project_by_name)
+    for delta_path in args.delta or []:
+        delta_metadata = apply_delta(read_json(delta_path), project_by_name)
 
     manual = read_json(args.manual)
     if not isinstance(manual, dict):

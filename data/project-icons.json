@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-09-03",
+  "generatedOn": "2026-09-08",
   "assetSize": 128,
   "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved only for projects with no honest public favicon, logo or directly related public-brand artwork.",
   "icons": {
@@ -428,6 +428,12 @@
       "fallbackColour": "#3f625b",
       "source": "loose-goose-comedy-engine/assets/loose-goose-comedy-favicon.png"
     },
+    "luke-nathan-hayes-man-and-mind": {
+      "asset": "assets/project-icons/luke-nathan-hayes-man-and-mind.webp",
+      "kind": "local-source",
+      "fallbackColour": "#6f43b7",
+      "source": "luke-nathan-hayes-man-and-mind/assets/favicon.jpg"
+    },
     "mate-ecosystem": {
       "asset": "assets/project-icons/mate-ecosystem.webp",
       "kind": "field-library-raster",
@@ -487,6 +493,12 @@
       "kind": "local-source",
       "fallbackColour": "#3f625b",
       "source": "moreton-bay-community-wealth-and-mutuals/assets/favicon.svg"
+    },
+    "multi-site-Minjerribah-network": {
+      "asset": "assets/project-icons/multi-site-minjerribah-network.webp",
+      "kind": "local-source",
+      "fallbackColour": "#2d715b",
+      "source": "multi-site-Minjerribah-network/assets/icon-192.png"
     },
     "new-tori": {
       "asset": "assets/project-icons/new-tori.webp",
@@ -613,6 +625,12 @@
       "kind": "field-library-raster",
       "fallbackColour": "#3f625b",
       "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\Queens_Venture.png"
+    },
+    "ready-set-co-op-cultural-intelligence-node": {
+      "asset": "assets/project-icons/ready-set-co-op-cultural-intelligence-node.webp",
+      "kind": "local-source",
+      "fallbackColour": "#18b7c4",
+      "source": "ready-set-co-op-cultural-intelligence-node/assets/favicon.png"
     },
     "ready-set-co-op-hyperlocal-media": {
       "asset": "assets/project-icons/ready-set-co-op-hyperlocal-media.webp",
@@ -786,6 +804,18 @@
       "kind": "local-source",
       "fallbackColour": "#3f625b",
       "source": "straddie-tenders-lab/assets/favicon.svg"
+    },
+    "straddie-twin-prototype": {
+      "asset": "assets/project-icons/straddie-twin-prototype.webp",
+      "kind": "local-source",
+      "fallbackColour": "#0f4f43",
+      "source": "straddie-twin-prototype/qa/island-desktop.png"
+    },
+    "straddie-twins": {
+      "asset": "assets/project-icons/straddie-twins.webp",
+      "kind": "local-source",
+      "fallbackColour": "#5ee7ff",
+      "source": "straddie-twins/assets/shots/first-island.png"
     },
     "straddie-tip-loop-lab": {
       "asset": "assets/project-icons/straddie-tip-loop-lab.webp",

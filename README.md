@@ -11,9 +11,9 @@ It deliberately puts the **original substantive build date** beside every projec
 
 The Atlas records the first substantive build date for every included public project. It uses a separate current-release note where a meaningful rebuild has superseded an older public version, such as Global Group Marriages v2.
 
-## What the first edition includes
+## What the Atlas includes
 
-- 145 public projects in the Atlas: 140 audit-derived public projects from the 29 August 2026 organisation audit, plus five confirmed public additions from later refresh files, including Project Atlas itself
+- 150 active public projects in the Atlas: 140 audit-derived projects from the 29 August 2026 organisation audit, plus ten confirmed public additions from later refresh files. Three archived duplicate i-C Infinity album-package copies remain excluded from active navigation.
 - Direct links to live public pages where the audit verified one, plus GitHub links for every project
 - All evidence-backed public neighbouring projects, not a small hand-picked sample. Three archived duplicate i-C Infinity album-package copies are deliberately excluded from active public navigation.
 - Search, original-build year, project-family, public-page and relationship filters
@@ -31,6 +31,7 @@ python scripts/build_atlas_data.py `
   --audit-csv ..\strange-but-true-field-library\data\github-organisation-audit-2026-08-29.csv `
   --relations ..\strange-but-true-field-library\data\github-project-relations-2026-08-29.json `
   --delta ..\strange-but-true-field-library\data\github-organisation-delta-2026-09-01.json `
+  --delta data\github-organisation-delta-2026-09-08.json `
   --manual data\manual-projects.json `
   --output data\projects.json
 ```

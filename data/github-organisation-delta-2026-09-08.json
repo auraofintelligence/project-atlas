@@ -1,0 +1,212 @@
+{
+  "baselineAuditDate": "2026-08-29",
+  "refreshedDate": "2026-09-08",
+  "publicRepositoryCount": 153,
+  "newPublicProjects": [
+    {
+      "name": "ready-set-co-op-cultural-intelligence-node",
+      "title": "Ready S.E.T. Co-op Cultural Intelligence Node",
+      "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node",
+      "publicPage": "https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/",
+      "firstBuilt": "2026-09-02",
+      "firstBuildCommit": "3cd8750",
+      "dateNote": "The first substantive public website build was committed on 2 September 2026 at 3cd8750.",
+      "description": "A public exploration of one local cultural compute node in Dunwich, connecting community-held decisions, practical workloads, skills, infrastructure and chosen project links.",
+      "priority": "freshly completed public project",
+      "readmeBand": "published with public site, purpose, limits and project links",
+      "families": [
+        {
+          "id": "ready-set-media-network",
+          "title": "Ready SET and Minjerribah media network",
+          "role": "member"
+        },
+        {
+          "id": "cultural-data-interfaces",
+          "title": "Cultural and community data interfaces",
+          "role": "member"
+        },
+        {
+          "id": "regional-wealth-resilience",
+          "title": "Regional wealth and resilience architecture",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "australian-law-2012-lukes-relevance",
+        "ballow-road-sand-screen-hub",
+        "community-club-builder-sandy-sports",
+        "dunwich-gumpi-ferry-terminal-open-data-lab",
+        "extreme-matter-atlas",
+        "Future-of-Life-2045",
+        "gajra-earth-claude-build",
+        "grain-by-grain-documentary",
+        "i-C-infinity-music-universe",
+        "infinity-engine",
+        "minjerribah-living-twin",
+        "minjerribah-screen-media-network",
+        "minjerribah-wildlife-rescue",
+        "moreton-bay-community-wealth-and-mutuals",
+        "Oceania-healthy-de-slop-co-ops",
+        "p4a-oceania-cinema",
+        "project-atlas",
+        "quandamooka-country-events-engine",
+        "ready-set-co-op-trust-hub",
+        "sandworm-subterranean-systems",
+        "straddie-clean-energy-superpower",
+        "straddie-digital-twin-builders",
+        "straddie-makerspace-lab",
+        "straddie-tip-loop-lab",
+        "strange-but-true"
+      ]
+    },
+    {
+      "name": "straddie-twins",
+      "title": "The Straddie Twins",
+      "repositoryUrl": "https://github.com/auraofintelligence/straddie-twins",
+      "publicPage": "https://auraofintelligence.github.io/straddie-twins/",
+      "firstBuilt": "2026-09-03",
+      "firstBuildCommit": "a575e5b",
+      "dateNote": "The first substantive commit landed at 3:07 am Brisbane time on 3 September 2026 at a575e5b.",
+      "description": "A public companion that explains the two Minjerribah digital twins part by part, separating what is real, modelled, proposed and not known.",
+      "priority": "freshly completed public explainer",
+      "readmeBand": "published with public site, limits and both twin repositories",
+      "families": [
+        {
+          "id": "minjerribah-digital-twin",
+          "title": "Minjerribah digital-twin builds and explainers",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "minjerribah-living-twin",
+        "second-island"
+      ]
+    },
+    {
+      "name": "luke-nathan-hayes-man-and-mind",
+      "title": "The Mind Behind the Man",
+      "repositoryUrl": "https://github.com/auraofintelligence/luke-nathan-hayes-man-and-mind",
+      "publicPage": "https://auraofintelligence.github.io/luke-nathan-hayes-man-and-mind/",
+      "firstBuilt": "2026-09-04",
+      "firstBuildCommit": "b58ab4c",
+      "dateNote": "The first substantive public self-portrait build was committed on 4 September 2026 at b58ab4c.",
+      "description": "A source-connected self-portrait moving from one bloke on Minjerribah through practical work, music, story worlds, relationships, civic experiments, personal Aura and far-horizon questions.",
+      "priority": "freshly completed public self-portrait",
+      "readmeBand": "published with public site, source structure and local checks",
+      "families": [
+        {
+          "id": "personal-portfolio-patronage",
+          "title": "Luke public profile, portfolio and patronage",
+          "role": "member"
+        },
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "aura-direct-hardware",
+        "aura-horn-torus",
+        "auraofintelligence.github.io",
+        "australian-law-2012-lukes-relevance",
+        "australian-sire-story-forge",
+        "Australian-visa-activity-atlas",
+        "extreme-matter-atlas",
+        "Future-of-Life-2045",
+        "gajra-earth-claude-build",
+        "global-founder-atlas",
+        "global-group-marriages",
+        "grain-by-grain-documentary",
+        "grey-area-commons",
+        "i-C-infinity-music-universe",
+        "loose-goose-comedy-engine",
+        "Oceania-healthy-de-slop-co-ops",
+        "project-atlas",
+        "ready-set-co-op-cultural-intelligence-node",
+        "right-place-right-time",
+        "straddie-twins",
+        "strange-but-true-cosmic-nexus",
+        "strange-but-true",
+        "virtual-solar-swarm"
+      ]
+    },
+    {
+      "name": "straddie-twin-prototype",
+      "title": "Straddie Twin Prototype",
+      "repositoryUrl": "https://github.com/auraofintelligence/straddie-twin-prototype",
+      "publicPage": "https://auraofintelligence.github.io/straddie-twin-prototype/",
+      "firstBuilt": "2026-09-05",
+      "firstBuildCommit": "4ea70ab",
+      "dateNote": "The satellite and 360 evidence prototype was first published on 5 September 2026 at 4ea70ab.",
+      "description": "A working browser interface for inspecting island satellite and panorama evidence, testing a transparent transport exercise and keeping local observations.",
+      "priority": "freshly completed working prototype",
+      "readmeBand": "published with public site, working features and clear limits",
+      "families": [
+        {
+          "id": "minjerribah-digital-twin",
+          "title": "Minjerribah digital-twin builds and explainers",
+          "role": "member"
+        },
+        {
+          "id": "cultural-data-interfaces",
+          "title": "Cultural and community data interfaces",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "ballow-road-sand-screen-hub",
+        "dunwich-gumpi-ferry-terminal-open-data-lab",
+        "grain-by-grain",
+        "minjerribah-living-twin",
+        "quandamooka-country-events-engine",
+        "second-island",
+        "stradbroke-grants-lab"
+      ]
+    },
+    {
+      "name": "multi-site-Minjerribah-network",
+      "title": "Minjerribah Site and Service Ideas",
+      "repositoryUrl": "https://github.com/auraofintelligence/multi-site-Minjerribah-network",
+      "publicPage": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/",
+      "firstBuilt": "2026-09-07",
+      "firstBuildCommit": "2d6dda6",
+      "dateNote": "The first substantive public community website build was committed on 7 September 2026 at 2d6dda6.",
+      "description": "A public workbench for 7 Mile and other Minjerribah site and service ideas across living, culture, sand sport, screen work, recovery, safety, housing, ageing, research and community wealth.",
+      "priority": "freshly completed public workbench",
+      "readmeBand": "published with fourteen public pages, source boundaries and project links",
+      "families": [
+        {
+          "id": "regional-wealth-resilience",
+          "title": "Regional wealth and resilience architecture",
+          "role": "member"
+        },
+        {
+          "id": "island-publication-operations",
+          "title": "Island publication and community operations",
+          "role": "member"
+        },
+        {
+          "id": "sand-capability-world",
+          "title": "Minjerribah sand capability programme and story world",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "ballow-road-sand-screen-hub",
+        "community-club-builder-sandy-sports",
+        "minjerribah-screen-media-network",
+        "moreton-bay-community-wealth-and-mutuals",
+        "project-atlas",
+        "ready-set-co-op-cultural-intelligence-node",
+        "ready-set-co-op-trust-hub",
+        "straddie-capsule-surge-lab",
+        "straddie-makerspace-lab",
+        "straddie-tip-loop-lab",
+        "strange-but-true"
+      ]
+    }
+  ],
+  "meaningfulReleases": [],
+  "dateDisplayPolicy": "Use the first substantive project build date in each README and Project Atlas card. Keep later maintenance updates separate from the original build date."
+}
