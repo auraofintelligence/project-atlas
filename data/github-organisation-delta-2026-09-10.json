@@ -1,0 +1,84 @@
+{
+  "baselineAuditDate": "2026-08-29",
+  "refreshedDate": "2026-09-10",
+  "publicRepositoryCount": 155,
+  "newPublicProjects": [
+    {
+      "name": "spirit-animal-podcast",
+      "title": "The Spirit Animal Podcast",
+      "repositoryUrl": "https://github.com/auraofintelligence/spirit-animal-podcast",
+      "publicPage": "https://auraofintelligence.github.io/spirit-animal-podcast/",
+      "firstBuilt": "2026-09-09",
+      "firstBuildCommit": "d6ca11a",
+      "dateNote": "The first substantive public podcast site and production workbench was committed on 9 September 2026 at d6ca11a.",
+      "description": "A joyful public home and browser-local production workbench where guests choose an animal and follow its values into an honest, funny or beautifully strange conversation.",
+      "priority": "freshly completed public podcast workbench",
+      "readmeBand": "published with public site, premise, browser-local tools and project links",
+      "families": [
+        {
+          "id": "ready-set-media-network",
+          "title": "Ready SET and Minjerribah media network",
+          "role": "member"
+        },
+        {
+          "id": "two-dogs-comedy",
+          "title": "Two Dogs podcast and comedy tools",
+          "role": "member"
+        },
+        {
+          "id": "strange-but-true-public-doors",
+          "title": "Strange But True public doors",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "minjerribah-screen-media-network",
+        "project-atlas",
+        "ready-set-co-op-cultural-intelligence-node",
+        "stradbroke-grants-lab",
+        "strange-but-true"
+      ]
+    },
+    {
+      "name": "davinci-resolve-automations",
+      "title": "DaVinci Resolve Automations",
+      "repositoryUrl": "https://github.com/auraofintelligence/davinci-resolve-automations",
+      "publicPage": "https://auraofintelligence.github.io/davinci-resolve-automations/",
+      "firstBuilt": "2026-09-09",
+      "firstBuildCommit": "d207033",
+      "dateNote": "The first substantive public automation hub was committed on 9 September 2026 at d207033.",
+      "description": "A friendly public guide to reusable DaVinci Resolve skills, visual asset bundles and careful AI-assisted video production workflows.",
+      "priority": "freshly completed public production guide",
+      "readmeBand": "published with public site, free-tool explanation, untested boundaries and project bundles",
+      "families": [
+        {
+          "id": "ready-set-media-network",
+          "title": "Ready SET and Minjerribah media network",
+          "role": "member"
+        },
+        {
+          "id": "ic-infinity-music-content",
+          "title": "i C. infinity music and content system",
+          "role": "member"
+        },
+        {
+          "id": "cultural-data-interfaces",
+          "title": "Cultural and community data interfaces",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "amity-point",
+        "aura-horn-torus",
+        "i-C-infinity-music-universe",
+        "infinity-engine",
+        "minjerribah-screen-media-network",
+        "quandamooka-film-festival",
+        "spirit-animal-podcast",
+        "two-dogs-podcast-backend"
+      ]
+    }
+  ],
+  "meaningfulReleases": [],
+  "dateDisplayPolicy": "Use the first substantive project build date in each README and Project Atlas card. Keep later maintenance updates separate from the original build date."
+}

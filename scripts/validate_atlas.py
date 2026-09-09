@@ -49,14 +49,14 @@ def qr_stem(value: str) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate static Project Atlas files")
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    parser.add_argument("--expected-audited", type=int, default=150)
+    parser.add_argument("--expected-audited", type=int, default=152)
     args = parser.parse_args()
 
     root = args.root.resolve()
     errors: list[str] = []
     for relative in (
         "index.html", "styles.css", "app.js", "package.json", "data/projects.json", "data/project-icons.json", "data/manual-projects.json",
-        "data/github-organisation-delta-2026-09-08.json",
+        "data/github-organisation-delta-2026-09-08.json", "data/github-organisation-delta-2026-09-10.json",
         "scripts/build_atlas_data.py", "scripts/build_qr_codes.mjs",
         "assets/icons/project-atlas-icon-source.png", "assets/icons/project-atlas-favicon-16.png",
         "assets/icons/project-atlas-favicon-32.png", "assets/icons/project-atlas-favicon-192.png",

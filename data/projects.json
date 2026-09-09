@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "account": "auraofintelligence",
   "auditSnapshotDate": "2026-08-29",
-  "refreshSnapshotDate": "2026-09-08",
-  "publicRepositoryCount": 153,
-  "auditedProjectCount": 150,
-  "includedProjectCount": 150,
-  "generatedOn": "2026-09-08",
+  "refreshSnapshotDate": "2026-09-10",
+  "publicRepositoryCount": 155,
+  "auditedProjectCount": 152,
+  "includedProjectCount": 152,
+  "generatedOn": "2026-09-10",
   "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
   "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
   "projects": [
@@ -925,9 +925,20 @@
           ],
           "directionalLabels": [],
           "confidence": "medium"
+        },
+        {
+          "name": "davinci-resolve-automations",
+          "title": "DaVinci Resolve Automations",
+          "repositoryUrl": "https://github.com/auraofintelligence/davinci-resolve-automations",
+          "publicPage": "https://auraofintelligence.github.io/davinci-resolve-automations/",
+          "labels": [
+            "newly completed project linked in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 11,
+      "relationshipCount": 12,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -2871,6 +2882,17 @@
           "confidence": "confirmed"
         },
         {
+          "name": "davinci-resolve-automations",
+          "title": "DaVinci Resolve Automations",
+          "repositoryUrl": "https://github.com/auraofintelligence/davinci-resolve-automations",
+          "publicPage": "https://auraofintelligence.github.io/davinci-resolve-automations/",
+          "labels": [
+            "newly completed project linked in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -2882,7 +2904,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 11,
+      "relationshipCount": 12,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -6145,6 +6167,130 @@
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
+    },
+    {
+      "name": "davinci-resolve-automations",
+      "title": "DaVinci Resolve Automations",
+      "repositoryUrl": "https://github.com/auraofintelligence/davinci-resolve-automations",
+      "publicPage": "https://auraofintelligence.github.io/davinci-resolve-automations/",
+      "firstBuilt": "2026-09-09",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "The first substantive public automation hub was committed on 9 September 2026 at d207033.",
+      "description": "A friendly public guide to reusable DaVinci Resolve skills, visual asset bundles and careful AI-assisted video production workflows.",
+      "priority": "freshly completed public production guide",
+      "readmeBand": "published with public site, free-tool explanation, untested boundaries and project bundles",
+      "families": [
+        {
+          "id": "ready-set-media-network",
+          "title": "Ready SET and Minjerribah media network",
+          "role": "member"
+        },
+        {
+          "id": "ic-infinity-music-content",
+          "title": "i C. infinity music and content system",
+          "role": "member"
+        },
+        {
+          "id": "cultural-data-interfaces",
+          "title": "Cultural and community data interfaces",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        {
+          "name": "amity-point",
+          "title": "Amity Point",
+          "repositoryUrl": "https://github.com/auraofintelligence/amity-point",
+          "publicPage": "https://auraofintelligence.github.io/amity-point/",
+          "labels": [
+            "direct public-project link in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "aura-horn-torus",
+          "title": "Aura Horn Torus",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-horn-torus",
+          "publicPage": "https://auraofintelligence.github.io/aura-horn-torus/",
+          "labels": [
+            "direct public-project link in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "i-C-infinity-music-universe",
+          "title": "i-C Infinity Music Universe",
+          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-music-universe",
+          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-music-universe/",
+          "labels": [
+            "direct public-project link in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "infinity-engine",
+          "title": "Infinity Engine",
+          "repositoryUrl": "https://github.com/auraofintelligence/infinity-engine",
+          "publicPage": "https://auraofintelligence.github.io/infinity-engine/",
+          "labels": [
+            "direct public-project link in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "minjerribah-screen-media-network",
+          "title": "Minjerribah Screen Media Network",
+          "repositoryUrl": "https://github.com/auraofintelligence/minjerribah-screen-media-network",
+          "publicPage": "https://auraofintelligence.github.io/minjerribah-screen-media-network/",
+          "labels": [
+            "direct public-project link in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "quandamooka-film-festival",
+          "title": "Quandamooka Film Festival",
+          "repositoryUrl": "https://github.com/auraofintelligence/quandamooka-film-festival",
+          "publicPage": "https://auraofintelligence.github.io/quandamooka-film-festival/",
+          "labels": [
+            "direct public-project link in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "spirit-animal-podcast",
+          "title": "The Spirit Animal Podcast",
+          "repositoryUrl": "https://github.com/auraofintelligence/spirit-animal-podcast",
+          "publicPage": "https://auraofintelligence.github.io/spirit-animal-podcast/",
+          "labels": [
+            "direct public-project link in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "two-dogs-podcast-backend",
+          "title": "Two Dogs Podcast Backend",
+          "repositoryUrl": "https://github.com/auraofintelligence/two-dogs-podcast-backend",
+          "publicPage": "https://auraofintelligence.github.io/two-dogs-podcast-backend/",
+          "labels": [
+            "direct public-project link in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
+      "relationshipCount": 8,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh"
     },
     {
       "name": "dunwich-gumpi-ferry-terminal-open-data-lab",
@@ -10095,9 +10241,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "davinci-resolve-automations",
+          "title": "DaVinci Resolve Automations",
+          "repositoryUrl": "https://github.com/auraofintelligence/davinci-resolve-automations",
+          "publicPage": "https://auraofintelligence.github.io/davinci-resolve-automations/",
+          "labels": [
+            "newly completed project linked in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 11,
+      "relationshipCount": 12,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -10299,9 +10456,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "davinci-resolve-automations",
+          "title": "DaVinci Resolve Automations",
+          "repositoryUrl": "https://github.com/auraofintelligence/davinci-resolve-automations",
+          "publicPage": "https://auraofintelligence.github.io/davinci-resolve-automations/",
+          "labels": [
+            "newly completed project linked in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 6,
+      "relationshipCount": 7,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -11918,9 +12086,31 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "spirit-animal-podcast",
+          "title": "The Spirit Animal Podcast",
+          "repositoryUrl": "https://github.com/auraofintelligence/spirit-animal-podcast",
+          "publicPage": "https://auraofintelligence.github.io/spirit-animal-podcast/",
+          "labels": [
+            "newly completed project linked in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "davinci-resolve-automations",
+          "title": "DaVinci Resolve Automations",
+          "repositoryUrl": "https://github.com/auraofintelligence/davinci-resolve-automations",
+          "publicPage": "https://auraofintelligence.github.io/davinci-resolve-automations/",
+          "labels": [
+            "newly completed project linked in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 14,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -14502,9 +14692,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "spirit-animal-podcast",
+          "title": "The Spirit Animal Podcast",
+          "repositoryUrl": "https://github.com/auraofintelligence/spirit-animal-podcast",
+          "publicPage": "https://auraofintelligence.github.io/spirit-animal-podcast/",
+          "labels": [
+            "newly completed project linked in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 3,
+      "relationshipCount": 4,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "audit-plus-curation"
@@ -15215,9 +15416,20 @@
           ],
           "directionalLabels": [],
           "confidence": "medium"
+        },
+        {
+          "name": "davinci-resolve-automations",
+          "title": "DaVinci Resolve Automations",
+          "repositoryUrl": "https://github.com/auraofintelligence/davinci-resolve-automations",
+          "publicPage": "https://auraofintelligence.github.io/davinci-resolve-automations/",
+          "labels": [
+            "newly completed project linked in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 13,
+      "relationshipCount": 14,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -15620,9 +15832,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "spirit-animal-podcast",
+          "title": "The Spirit Animal Podcast",
+          "repositoryUrl": "https://github.com/auraofintelligence/spirit-animal-podcast",
+          "publicPage": "https://auraofintelligence.github.io/spirit-animal-podcast/",
+          "labels": [
+            "newly completed project linked in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 27,
+      "relationshipCount": 28,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
@@ -17502,6 +17725,108 @@
       "source": "audit"
     },
     {
+      "name": "spirit-animal-podcast",
+      "title": "The Spirit Animal Podcast",
+      "repositoryUrl": "https://github.com/auraofintelligence/spirit-animal-podcast",
+      "publicPage": "https://auraofintelligence.github.io/spirit-animal-podcast/",
+      "firstBuilt": "2026-09-09",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "The first substantive public podcast site and production workbench was committed on 9 September 2026 at d6ca11a.",
+      "description": "A joyful public home and browser-local production workbench where guests choose an animal and follow its values into an honest, funny or beautifully strange conversation.",
+      "priority": "freshly completed public podcast workbench",
+      "readmeBand": "published with public site, premise, browser-local tools and project links",
+      "families": [
+        {
+          "id": "ready-set-media-network",
+          "title": "Ready SET and Minjerribah media network",
+          "role": "member"
+        },
+        {
+          "id": "two-dogs-comedy",
+          "title": "Two Dogs podcast and comedy tools",
+          "role": "member"
+        },
+        {
+          "id": "strange-but-true-public-doors",
+          "title": "Strange But True public doors",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        {
+          "name": "minjerribah-screen-media-network",
+          "title": "Minjerribah Screen Media Network",
+          "repositoryUrl": "https://github.com/auraofintelligence/minjerribah-screen-media-network",
+          "publicPage": "https://auraofintelligence.github.io/minjerribah-screen-media-network/",
+          "labels": [
+            "direct public-project link in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "project-atlas",
+          "title": "Project Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/project-atlas",
+          "publicPage": "https://auraofintelligence.github.io/project-atlas/",
+          "labels": [
+            "direct public-project link in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "ready-set-co-op-cultural-intelligence-node",
+          "title": "Ready S.E.T. Co-op Cultural Intelligence Node",
+          "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node",
+          "publicPage": "https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/",
+          "labels": [
+            "direct public-project link in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "stradbroke-grants-lab",
+          "title": "Stradbroke Grants Lab",
+          "repositoryUrl": "https://github.com/auraofintelligence/stradbroke-grants-lab",
+          "publicPage": "https://auraofintelligence.github.io/stradbroke-grants-lab/",
+          "labels": [
+            "direct public-project link in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "strange-but-true",
+          "title": "Strange But True",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true/",
+          "labels": [
+            "direct public-project link in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "davinci-resolve-automations",
+          "title": "DaVinci Resolve Automations",
+          "repositoryUrl": "https://github.com/auraofintelligence/davinci-resolve-automations",
+          "publicPage": "https://auraofintelligence.github.io/davinci-resolve-automations/",
+          "labels": [
+            "newly completed project linked in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
+      "relationshipCount": 6,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh"
+    },
+    {
       "name": "SSB",
       "title": "SSB",
       "repositoryUrl": "https://github.com/auraofintelligence/SSB",
@@ -17827,9 +18152,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "spirit-animal-podcast",
+          "title": "The Spirit Animal Podcast",
+          "repositoryUrl": "https://github.com/auraofintelligence/spirit-animal-podcast",
+          "publicPage": "https://auraofintelligence.github.io/spirit-animal-podcast/",
+          "labels": [
+            "newly completed project linked in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 18,
+      "relationshipCount": 19,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -20423,9 +20759,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "spirit-animal-podcast",
+          "title": "The Spirit Animal Podcast",
+          "repositoryUrl": "https://github.com/auraofintelligence/spirit-animal-podcast",
+          "publicPage": "https://auraofintelligence.github.io/spirit-animal-podcast/",
+          "labels": [
+            "newly completed project linked in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 27,
+      "relationshipCount": 28,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -21251,9 +21598,20 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
+        },
+        {
+          "name": "davinci-resolve-automations",
+          "title": "DaVinci Resolve Automations",
+          "repositoryUrl": "https://github.com/auraofintelligence/davinci-resolve-automations",
+          "publicPage": "https://auraofintelligence.github.io/davinci-resolve-automations/",
+          "labels": [
+            "newly completed project linked in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 4,
+      "relationshipCount": 5,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
