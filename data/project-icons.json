@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-09-10",
+  "generatedOn": "2026-09-15",
   "assetSize": 128,
   "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved only for projects with no honest public favicon, logo or directly related public-brand artwork.",
   "icons": {
@@ -135,6 +135,12 @@
       "kind": "field-library-raster",
       "fallbackColour": "#3f625b",
       "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-horn-torus.png"
+    },
+    "aura-matrix-studio": {
+      "asset": "assets/project-icons/aura-matrix-studio.webp",
+      "kind": "local-source",
+      "fallbackColour": "#d8e2ec",
+      "source": "aura-matrix-studio/assets/aura.png"
     },
     "aura-of-intelligence-pathways": {
       "asset": "assets/project-icons/aura-of-intelligence-pathways.webp",
@@ -427,6 +433,12 @@
       "kind": "field-library-raster",
       "fallbackColour": "#3f625b",
       "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\legal-memory-workbench.png"
+    },
+    "knights-templar-Timothy-Hogan": {
+      "asset": "assets/project-icons/knights-templar-timothy-hogan.webp",
+      "kind": "local-source",
+      "fallbackColour": "#c58a24",
+      "source": "knights-templar-Timothy-Hogan/public/media/favicon.png"
     },
     "loose-goose-comedy-engine": {
       "asset": "assets/project-icons/loose-goose-comedy-engine.webp",

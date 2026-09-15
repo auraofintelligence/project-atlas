@@ -33,6 +33,7 @@ python scripts/build_atlas_data.py `
   --delta ..\strange-but-true-field-library\data\github-organisation-delta-2026-09-01.json `
   --delta data\github-organisation-delta-2026-09-08.json `
   --delta data\github-organisation-delta-2026-09-10.json `
+  --delta data\github-organisation-delta-2026-09-15.json `
   --manual data\manual-projects.json `
   --output data\projects.json
 ```

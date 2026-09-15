@@ -1,0 +1,100 @@
+{
+  "baselineAuditDate": "2026-08-29",
+  "refreshedDate": "2026-09-15",
+  "publicRepositoryCount": 157,
+  "newPublicProjects": [
+    {
+      "name": "aura-matrix-studio",
+      "title": "Aura Matrix Studio",
+      "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+      "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+      "firstBuilt": "2026-09-10",
+      "firstBuildCommit": "75ec93b",
+      "dateNote": "The first substantive fixed-matrix Aura interface and editable explainer was committed on 10 September 2026 at 75ec93b.",
+      "description": "The current public working implementation of Aura of Intelligence, joining everyday-life tools, travel, timing, maps and programmable 12 x 24 matrix views in one browser-local interface.",
+      "priority": "freshly completed public Aura interface",
+      "readmeBand": "published with public app, current capabilities, privacy boundaries, development notes and related projects",
+      "families": [
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        },
+        {
+          "id": "aura-interface-geometry-capture",
+          "title": "Aura interface, geometry and capture architecture",
+          "role": "member"
+        },
+        {
+          "id": "australian-travel-opportunity",
+          "title": "Australian travel, opportunity and story atlases",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "aura-affinity",
+        "aura-direct-hardware",
+        "aura-horn-torus",
+        "aura-spatial-perception",
+        "auraofintelligence.github.io",
+        "Australian-visa-activity-atlas",
+        "Australian-world-travel",
+        "luke-nathan-hayes-man-and-mind",
+        "strange-but-true-travel-oracle",
+        "virtual-solar-swarm"
+      ]
+    },
+    {
+      "name": "knights-templar-Timothy-Hogan",
+      "title": "11:11, A Meeting of Worlds",
+      "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+      "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+      "firstBuilt": "2026-09-11",
+      "firstBuildCommit": "9c01b42",
+      "dateNote": "The first substantive connected 11:11 website and preserved research archive was committed on 11 September 2026 at 9c01b42.",
+      "description": "An 11:11 invitation and source-connected reading collection bringing Timothy Hogan's interview into conversation with Aura, Queens Venture, materials, mythology, cosmic hazards and Luke's wider public work.",
+      "priority": "freshly completed public invitation and research archive",
+      "readmeBand": "published with public site, source and outreach boundaries, complete reading path and project directory",
+      "families": [
+        {
+          "id": "personal-portfolio-patronage",
+          "title": "Luke public profile, portfolio and patronage",
+          "role": "member"
+        },
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        },
+        {
+          "id": "space-weather-cosmic-research",
+          "title": "Space-weather and cosmic research tools",
+          "role": "member"
+        },
+        {
+          "id": "repo-catalogue-and-discovery",
+          "title": "Repository catalogue and public discovery system",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "aura-direct-hardware",
+        "aura-horn-torus",
+        "aura-matrix-studio",
+        "extreme-matter-atlas",
+        "global-founder-atlas",
+        "grain-by-grain-documentary",
+        "i-C-infinity-music-universe",
+        "luke-nathan-hayes-man-and-mind",
+        "micronova-and-excursions",
+        "project-atlas",
+        "Queens_Venture",
+        "strange-but-true",
+        "strange-but-true-cosmic-nexus",
+        "virtual-solar-swarm"
+      ]
+    }
+  ],
+  "meaningfulReleases": [],
+  "dateDisplayPolicy": "Use the first substantive project build date in each README and Project Atlas card. Keep later maintenance updates separate from the original build date."
+}

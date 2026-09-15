@@ -28,6 +28,20 @@
       ]
     },
     {
+      "name": "event-search-QLD",
+      "priority": "active public event tool",
+      "readmeBand": "published with project history, current limitations, refresh guidance and related public pages"
+    },
+    {
+      "name": "gajra-earth-claude-build",
+      "meaningfulRebuild": {
+        "title": "Claude-built GAJRA Earth rebuild",
+        "started": "2026-07-27",
+        "published": "2026-07-27",
+        "status": "published"
+      }
+    },
+    {
       "name": "project-atlas",
       "description": "A human-friendly magazine atlas of Aura of Intelligence projects, live pages, build history and evidence-backed connections.",
       "buildConfidence": "confirmed",
@@ -35,6 +49,15 @@
       "priority": "freshly completed public navigator",
       "readmeBand": "published after audit snapshot",
       "freshlyCompleted": true
+    },
+    {
+      "name": "stradbroke-grants-lab",
+      "readmeBand": "published with data guidance, review boundaries and related public projects"
+    },
+    {
+      "name": "straddie-headline-open-mic",
+      "priority": "active public headline board",
+      "readmeBand": "published with daily automation, source rules and public pages"
     }
   ],
   "notes": "Add only confirmed public projects here. A matching name augments an audited project; a new name adds a project. Keep dates in YYYY-MM-DD Brisbane local date format. Use freshlyCompleted: true for the editorial feature area. replaceNeighbourNames is for a confirmed current project map that deliberately supersedes an older relationship list. excludedProjectNames keeps confirmed archived duplicates out of all active Atlas navigation while preserving the source audit. lineageDescriptionOverrides can replace wording that is no longer appropriate after a deliberate public-navigation exclusion."

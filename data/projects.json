@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "account": "auraofintelligence",
   "auditSnapshotDate": "2026-08-29",
-  "refreshSnapshotDate": "2026-09-10",
-  "publicRepositoryCount": 155,
-  "auditedProjectCount": 152,
-  "includedProjectCount": 152,
-  "generatedOn": "2026-09-10",
+  "refreshSnapshotDate": "2026-09-15",
+  "publicRepositoryCount": 157,
+  "auditedProjectCount": 154,
+  "includedProjectCount": 154,
+  "generatedOn": "2026-09-15",
   "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
   "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
   "projects": [
@@ -1520,9 +1520,20 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
+        },
+        {
+          "name": "aura-matrix-studio",
+          "title": "Aura Matrix Studio",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+          "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 2,
+      "relationshipCount": 3,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -2168,9 +2179,31 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "aura-matrix-studio",
+          "title": "Aura Matrix Studio",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+          "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 8,
+      "relationshipCount": 10,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -2893,6 +2926,28 @@
           "confidence": "confirmed"
         },
         {
+          "name": "aura-matrix-studio",
+          "title": "Aura Matrix Studio",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+          "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -2904,10 +2959,167 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 14,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
+    },
+    {
+      "name": "aura-matrix-studio",
+      "title": "Aura Matrix Studio",
+      "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+      "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+      "firstBuilt": "2026-09-10",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "The first substantive fixed-matrix Aura interface and editable explainer was committed on 10 September 2026 at 75ec93b.",
+      "description": "The current public working implementation of Aura of Intelligence, joining everyday-life tools, travel, timing, maps and programmable 12 x 24 matrix views in one browser-local interface.",
+      "priority": "freshly completed public Aura interface",
+      "readmeBand": "published with public app, current capabilities, privacy boundaries, development notes and related projects",
+      "families": [
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        },
+        {
+          "id": "aura-interface-geometry-capture",
+          "title": "Aura interface, geometry and capture architecture",
+          "role": "member"
+        },
+        {
+          "id": "australian-travel-opportunity",
+          "title": "Australian travel, opportunity and story atlases",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        {
+          "name": "aura-affinity",
+          "title": "Aura Affinity",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-affinity",
+          "publicPage": "https://auraofintelligence.github.io/aura-affinity/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "aura-direct-hardware",
+          "title": "Aura Direct Hardware",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-direct-hardware",
+          "publicPage": "https://auraofintelligence.github.io/aura-direct-hardware/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "aura-horn-torus",
+          "title": "Aura Horn Torus",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-horn-torus",
+          "publicPage": "https://auraofintelligence.github.io/aura-horn-torus/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "aura-spatial-perception",
+          "title": "Aura Spatial Perception",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-spatial-perception",
+          "publicPage": "https://auraofintelligence.github.io/aura-spatial-perception/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "auraofintelligence.github.io",
+          "title": "Aura of Intelligence home",
+          "repositoryUrl": "https://github.com/auraofintelligence/auraofintelligence.github.io",
+          "publicPage": "https://auraofintelligence.github.io/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Australian-visa-activity-atlas",
+          "title": "Australian Visa Activity Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+          "publicPage": "https://auraofintelligence.github.io/Australian-visa-activity-atlas/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Australian-world-travel",
+          "title": "Australian World Travel",
+          "repositoryUrl": "https://github.com/auraofintelligence/Australian-world-travel",
+          "publicPage": "https://auraofintelligence.github.io/Australian-world-travel/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "luke-nathan-hayes-man-and-mind",
+          "title": "The Mind Behind the Man",
+          "repositoryUrl": "https://github.com/auraofintelligence/luke-nathan-hayes-man-and-mind",
+          "publicPage": "https://auraofintelligence.github.io/luke-nathan-hayes-man-and-mind/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "strange-but-true-travel-oracle",
+          "title": "Strange But True Travel Oracle",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true-travel-oracle",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true-travel-oracle/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "virtual-solar-swarm",
+          "title": "Virtual Solar Swarm",
+          "repositoryUrl": "https://github.com/auraofintelligence/virtual-solar-swarm",
+          "publicPage": "https://auraofintelligence.github.io/virtual-solar-swarm/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
+      "relationshipCount": 11,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh"
     },
     {
       "name": "aura-of-intelligence-pathways",
@@ -3492,9 +3704,20 @@
             "later build; new-tori is earlier"
           ],
           "confidence": "high"
+        },
+        {
+          "name": "aura-matrix-studio",
+          "title": "Aura Matrix Studio",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+          "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 13,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -4300,6 +4523,17 @@
           "confidence": "confirmed"
         },
         {
+          "name": "aura-matrix-studio",
+          "title": "Aura Matrix Studio",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+          "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -4311,7 +4545,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 19,
+      "relationshipCount": 20,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -4972,6 +5206,17 @@
           "confidence": "confirmed"
         },
         {
+          "name": "aura-matrix-studio",
+          "title": "Aura Matrix Studio",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+          "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -4983,7 +5228,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 10,
+      "relationshipCount": 11,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -5087,9 +5332,20 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
+        },
+        {
+          "name": "aura-matrix-studio",
+          "title": "Aura Matrix Studio",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+          "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 7,
+      "relationshipCount": 8,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -6625,8 +6881,8 @@
       "buildConfidence": "confirmed",
       "buildEvidence": "Earliest commit containing substantive project/content files: 4d3301765dd1 ('Add initial index.html for SEQ Intelligence Triage'); changed index.html.",
       "description": "Static event triage page for finding South East Queensland events about AI, robotics, governance, law and public policy.",
-      "priority": "1 - publish missing README",
-      "readmeBand": "missing",
+      "priority": "active public event tool",
+      "readmeBand": "published with project history, current limitations, refresh guidance and related public pages",
       "families": [
         {
           "id": "australian-civic-navigation",
@@ -6816,7 +7072,7 @@
       "relationshipCount": 15,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
-      "source": "audit"
+      "source": "audit-plus-curation"
     },
     {
       "name": "explorer-music-video-lab",
@@ -7195,9 +7451,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 13,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -8249,8 +8516,13 @@
       ],
       "relationshipCount": 9,
       "freshlyCompleted": false,
-      "meaningfulRebuild": null,
-      "source": "audit"
+      "meaningfulRebuild": {
+        "title": "Claude-built GAJRA Earth rebuild",
+        "started": "2026-07-27",
+        "published": "2026-07-27",
+        "status": "published"
+      },
+      "source": "audit-plus-curation"
     },
     {
       "name": "GAJRA-earth-infinity",
@@ -8850,9 +9122,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 8,
+      "relationshipCount": 9,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -9658,9 +9941,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 23,
+      "relationshipCount": 24,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -10252,9 +10546,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 13,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -10473,6 +10778,201 @@
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
+    },
+    {
+      "name": "knights-templar-Timothy-Hogan",
+      "title": "11:11, A Meeting of Worlds",
+      "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+      "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+      "firstBuilt": "2026-09-11",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "The first substantive connected 11:11 website and preserved research archive was committed on 11 September 2026 at 9c01b42.",
+      "description": "An 11:11 invitation and source-connected reading collection bringing Timothy Hogan's interview into conversation with Aura, Queens Venture, materials, mythology, cosmic hazards and Luke's wider public work.",
+      "priority": "freshly completed public invitation and research archive",
+      "readmeBand": "published with public site, source and outreach boundaries, complete reading path and project directory",
+      "families": [
+        {
+          "id": "personal-portfolio-patronage",
+          "title": "Luke public profile, portfolio and patronage",
+          "role": "member"
+        },
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        },
+        {
+          "id": "space-weather-cosmic-research",
+          "title": "Space-weather and cosmic research tools",
+          "role": "member"
+        },
+        {
+          "id": "repo-catalogue-and-discovery",
+          "title": "Repository catalogue and public discovery system",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        {
+          "name": "aura-direct-hardware",
+          "title": "Aura Direct Hardware",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-direct-hardware",
+          "publicPage": "https://auraofintelligence.github.io/aura-direct-hardware/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "aura-horn-torus",
+          "title": "Aura Horn Torus",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-horn-torus",
+          "publicPage": "https://auraofintelligence.github.io/aura-horn-torus/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "aura-matrix-studio",
+          "title": "Aura Matrix Studio",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+          "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "extreme-matter-atlas",
+          "title": "Extreme Matter Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/extreme-matter-atlas",
+          "publicPage": "https://auraofintelligence.github.io/extreme-matter-atlas/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "global-founder-atlas",
+          "title": "Global Founder Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/global-founder-atlas",
+          "publicPage": "https://auraofintelligence.github.io/global-founder-atlas/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "grain-by-grain-documentary",
+          "title": "Grain by Grain Documentary",
+          "repositoryUrl": "https://github.com/auraofintelligence/grain-by-grain-documentary",
+          "publicPage": "https://auraofintelligence.github.io/grain-by-grain-documentary/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "i-C-infinity-music-universe",
+          "title": "i-C Infinity Music Universe",
+          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-music-universe",
+          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-music-universe/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "luke-nathan-hayes-man-and-mind",
+          "title": "The Mind Behind the Man",
+          "repositoryUrl": "https://github.com/auraofintelligence/luke-nathan-hayes-man-and-mind",
+          "publicPage": "https://auraofintelligence.github.io/luke-nathan-hayes-man-and-mind/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "micronova-and-excursions",
+          "title": "Micronova and Excursions",
+          "repositoryUrl": "https://github.com/auraofintelligence/micronova-and-excursions",
+          "publicPage": "https://auraofintelligence.github.io/micronova-and-excursions/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "project-atlas",
+          "title": "Project Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/project-atlas",
+          "publicPage": "https://auraofintelligence.github.io/project-atlas/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Queens_Venture",
+          "title": "Queens Venture",
+          "repositoryUrl": "https://github.com/auraofintelligence/Queens_Venture",
+          "publicPage": "https://auraofintelligence.github.io/Queens_Venture/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "strange-but-true",
+          "title": "Strange But True",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "strange-but-true-cosmic-nexus",
+          "title": "Strange But True Cosmic Nexus",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true-cosmic-nexus",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "virtual-solar-swarm",
+          "title": "Virtual Solar Swarm",
+          "repositoryUrl": "https://github.com/auraofintelligence/virtual-solar-swarm",
+          "publicPage": "https://auraofintelligence.github.io/virtual-solar-swarm/",
+          "labels": [
+            "direct public-project link in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
+      "relationshipCount": 14,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh"
     },
     {
       "name": "legal-memory-workbench",
@@ -11103,9 +11603,31 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "aura-matrix-studio",
+          "title": "Aura Matrix Studio",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+          "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 23,
+      "relationshipCount": 25,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
@@ -11298,9 +11820,20 @@
           ],
           "directionalLabels": [],
           "confidence": "medium"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 6,
+      "relationshipCount": 7,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -14703,9 +15236,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 4,
+      "relationshipCount": 5,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "audit-plus-curation"
@@ -15499,9 +16043,20 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 4,
+      "relationshipCount": 5,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -17931,7 +18486,7 @@
       "buildEvidence": "Earliest local commit containing substantive project/content files: Initial Stradbroke grants lab; files: assets/app.js, assets/styles.css, council-grants.html, data/entities.json, data/grant-windows.json, data/grants.json.",
       "description": "Public project-to-funding research workbench for Minjerribah projects; eligibility and readiness require confirmation.",
       "priority": "0 - review",
-      "readmeBand": "needs repair",
+      "readmeBand": "published with data guidance, review boundaries and related public projects",
       "families": [
         {
           "id": "funding-procurement-readiness",
@@ -18168,7 +18723,7 @@
       "relationshipCount": 19,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
-      "source": "audit"
+      "source": "audit-plus-curation"
     },
     {
       "name": "straddie-capsule-surge-lab",
@@ -19060,8 +19615,8 @@
       "buildConfidence": "confirmed",
       "buildEvidence": "Earliest local commit containing substantive project/content files: Build Straddie headline open mic site; files: .nojekyll, archive.html, assets/css/site.css, assets/data/headlines.json, assets/img/favicon.svg, assets/img/hero-archive.png.",
       "description": "Weekly dog-related headline board and open-mic prompt for The Two Dogs Podcast, linking to sources without copying article bodies.",
-      "priority": "1 - rewrite weak README",
-      "readmeBand": "needs repair",
+      "priority": "active public headline board",
+      "readmeBand": "published with daily automation, source rules and public pages",
       "families": [
         {
           "id": "aura-image-atlas-sources",
@@ -19127,7 +19682,7 @@
       "relationshipCount": 4,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
-      "source": "audit"
+      "source": "audit-plus-curation"
     },
     {
       "name": "straddie-makerspace-lab",
@@ -20770,9 +21325,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 28,
+      "relationshipCount": 29,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -21110,9 +21676,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 14,
+      "relationshipCount": 15,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -21420,6 +21997,17 @@
           "confidence": "confirmed"
         },
         {
+          "name": "aura-matrix-studio",
+          "title": "Aura Matrix Studio",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+          "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -21431,7 +22019,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 13,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -21845,9 +22433,31 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "aura-matrix-studio",
+          "title": "Aura Matrix Studio",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+          "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 7,
+      "relationshipCount": 9,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
