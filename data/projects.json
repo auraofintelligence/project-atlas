@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "account": "auraofintelligence",
   "auditSnapshotDate": "2026-08-29",
-  "refreshSnapshotDate": "2026-09-15",
+  "refreshSnapshotDate": "2026-09-16",
   "publicRepositoryCount": 157,
   "auditedProjectCount": 154,
   "includedProjectCount": 154,
-  "generatedOn": "2026-09-15",
+  "generatedOn": "2026-09-16",
   "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
   "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
   "projects": [
@@ -19614,7 +19614,7 @@
       "buildStatus": "evidenced",
       "buildConfidence": "confirmed",
       "buildEvidence": "Earliest local commit containing substantive project/content files: Build Straddie headline open mic site; files: .nojekyll, archive.html, assets/css/site.css, assets/data/headlines.json, assets/img/favicon.svg, assets/img/hero-archive.png.",
-      "description": "Weekly dog-related headline board and open-mic prompt for The Two Dogs Podcast, linking to sources without copying article bodies.",
+      "description": "A daily board of funny English-language news headlines, with source links and a gentle community question about a possible Straddie comedy open mic.",
       "priority": "active public headline board",
       "readmeBand": "published with daily automation, source rules and public pages",
       "families": [

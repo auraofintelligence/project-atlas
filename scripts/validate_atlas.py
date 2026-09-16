@@ -57,7 +57,7 @@ def main() -> int:
     for relative in (
         "index.html", "styles.css", "app.js", "package.json", "data/projects.json", "data/project-icons.json", "data/manual-projects.json",
         "data/github-organisation-delta-2026-09-08.json", "data/github-organisation-delta-2026-09-10.json",
-        "data/github-organisation-delta-2026-09-15.json",
+        "data/github-organisation-delta-2026-09-15.json", "data/github-organisation-delta-2026-09-16.json",
         "scripts/build_atlas_data.py", "scripts/build_qr_codes.mjs",
         "assets/icons/project-atlas-icon-source.png", "assets/icons/project-atlas-favicon-16.png",
         "assets/icons/project-atlas-favicon-32.png", "assets/icons/project-atlas-favicon-192.png",
