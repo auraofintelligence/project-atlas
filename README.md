@@ -35,6 +35,7 @@ python scripts/build_atlas_data.py `
   --delta data\github-organisation-delta-2026-09-10.json `
   --delta data\github-organisation-delta-2026-09-15.json `
   --delta data\github-organisation-delta-2026-09-16.json `
+  --delta data\github-organisation-delta-2026-09-18.json `
   --manual data\manual-projects.json `
   --output data\projects.json
 ```

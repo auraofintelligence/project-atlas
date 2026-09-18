@@ -368,7 +368,7 @@ def apply_delta(delta: Any, project_by_name: dict[str, dict[str, Any]]) -> dict[
             {
                 "title": release.get("title"),
                 "rebuildStarted": release.get("rebuildStarted"),
-                "currentReleaseDate": refreshed_date,
+                "currentReleaseDate": release.get("currentReleaseDate") or refreshed_date,
                 "status": release.get("status"),
             },
             refreshed_date,

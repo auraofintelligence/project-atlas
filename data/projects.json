@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "account": "auraofintelligence",
   "auditSnapshotDate": "2026-08-29",
-  "refreshSnapshotDate": "2026-09-16",
+  "refreshSnapshotDate": "2026-09-18",
   "publicRepositoryCount": 157,
   "auditedProjectCount": 154,
   "includedProjectCount": 154,
-  "generatedOn": "2026-09-16",
+  "generatedOn": "2026-09-18",
   "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
   "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
   "projects": [
@@ -3118,7 +3118,12 @@
       ],
       "relationshipCount": 11,
       "freshlyCompleted": true,
-      "meaningfulRebuild": null,
+      "meaningfulRebuild": {
+        "title": "Aura connected life-tools expansion",
+        "started": "2026-09-16",
+        "published": "2026-09-17",
+        "status": "The original 10 September build now includes visual life collections, private-by-default connection profiles, captured mind-palace media, connected navigation and chakra workspaces. The current public release was published by the successful 17 September workflow at 4d0c37bb."
+      },
       "source": "post-audit refresh"
     },
     {
