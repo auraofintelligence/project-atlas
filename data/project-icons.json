@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-09-15",
+  "generatedOn": "2026-09-22",
   "assetSize": 128,
   "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved only for projects with no honest public favicon, logo or directly related public-brand artwork.",
   "icons": {
@@ -452,6 +452,12 @@
       "fallbackColour": "#6f43b7",
       "source": "luke-nathan-hayes-man-and-mind/assets/favicon.jpg"
     },
+    "Lukes-world-of-work-experience": {
+      "asset": "assets/project-icons/lukes-world-of-work-experience.webp",
+      "kind": "local-source",
+      "fallbackColour": "#315f79",
+      "source": "Lukes-world-of-work-experience/public/assets/connected-world-detail.png"
+    },
     "mate-ecosystem": {
       "asset": "assets/project-icons/mate-ecosystem.webp",
       "kind": "field-library-raster",
@@ -517,6 +523,12 @@
       "kind": "local-source",
       "fallbackColour": "#2d715b",
       "source": "multi-site-Minjerribah-network/assets/icon-192.png"
+    },
+    "mutual-futures": {
+      "asset": "assets/project-icons/mutual-futures.webp",
+      "kind": "local-source",
+      "fallbackColour": "#6b3f87",
+      "source": "mutual-futures/assets/images/favicon.png"
     },
     "new-tori": {
       "asset": "assets/project-icons/new-tori.webp",
@@ -900,6 +912,12 @@
       "kind": "local-source",
       "fallbackColour": "#3f625b",
       "source": "two-dogs-podcast-backend/assets/apple-touch-icon.png"
+    },
+    "UNGA81-Luke-Hayes": {
+      "asset": "assets/project-icons/unga81-luke-hayes.webp",
+      "kind": "local-source",
+      "fallbackColour": "#d95367",
+      "source": "UNGA81-Luke-Hayes/assets/icon-192.png"
     },
     "UN-world-days": {
       "asset": "assets/project-icons/un-world-days.webp",

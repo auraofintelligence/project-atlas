@@ -1,0 +1,128 @@
+{
+  "baselineAuditDate": "2026-08-29",
+  "refreshedDate": "2026-09-22",
+  "publicRepositoryCount": 161,
+  "newPublicProjects": [
+    {
+      "name": "mutual-futures",
+      "title": "Mutual Futures",
+      "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+      "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+      "firstBuilt": "2026-09-18",
+      "firstBuildCommit": "d6aee6b",
+      "dateNote": "The standalone Mutual Futures public workbench began on 18 September 2026 at d6aee6b, with the complete 21-page website committed later that day at be7d762.",
+      "description": "A public workbench connecting voluntary business succession and member ownership with practical upgrading, broader working-life choices, universal intelligence, legal reflection, civic health, resilience and long-horizon exploration.",
+      "priority": "freshly completed public mutual-futures workbench",
+      "readmeBand": "published with 21 public pages, four browser-local tools, source reading guides, scope boundaries and verified reciprocal project links",
+      "families": [
+        {
+          "id": "regional-wealth-resilience",
+          "title": "Regional wealth and resilience architecture",
+          "role": "member"
+        },
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        },
+        {
+          "id": "australian-civic-navigation",
+          "title": "Australian law and civic navigation",
+          "role": "member"
+        },
+        {
+          "id": "australian-travel-opportunity",
+          "title": "Australian travel, opportunity and story atlases",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "strange-but-true",
+        "auraofintelligence.github.io",
+        "p4a-xyz-cinema",
+        "p4a-oceania-cinema",
+        "p4a-native-nations-cinema",
+        "GAJRA-earth-infinity",
+        "gajra-earth-claude-build",
+        "australian-law-2012-lukes-relevance",
+        "australian-legal-engine",
+        "grain-by-grain-documentary",
+        "micronova-and-excursions",
+        "global-founder-atlas",
+        "Australian-visa-activity-atlas",
+        "legal-memory-workbench"
+      ]
+    },
+    {
+      "name": "UNGA81-Luke-Hayes",
+      "title": "A fair go in the age of intelligence",
+      "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+      "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+      "firstBuilt": "2026-09-21",
+      "firstBuildCommit": "e9eda37",
+      "dateNote": "The first substantive eight-page illustrated edition and searchable reference library was committed on 21 September 2026 at e9eda37.",
+      "description": "An independent personal contribution to UNGA81 presenting Joyful Responsible Abundance through source-preserved reading chapters, practical capability, mutual livelihoods, personal and civic intelligence and GAJRA Earth.",
+      "priority": "freshly completed public contribution and source library",
+      "readmeBand": "published with eight public pages, unchanged source documents, 29-reference library, provenance notes and clear independence boundaries",
+      "families": [
+        {
+          "id": "regional-wealth-resilience",
+          "title": "Regional wealth and resilience architecture",
+          "role": "member"
+        },
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        },
+        {
+          "id": "australian-civic-navigation",
+          "title": "Australian law and civic navigation",
+          "role": "member"
+        },
+        {
+          "id": "gajra-earth-builds",
+          "title": "GAJRA Earth builds",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "strange-but-true",
+        "mutual-futures",
+        "ready-set-co-op-trust-hub",
+        "aura-geode",
+        "Oceania-healthy-de-slop-co-ops",
+        "australian-law-2012-lukes-relevance",
+        "australian-legal-engine",
+        "aura-of-intelligence-pathways",
+        "aura-genesis",
+        "p4a_xyz",
+        "gajra-earth-public-hub"
+      ]
+    },
+    {
+      "name": "Lukes-world-of-work-experience",
+      "title": "Luke's world of work",
+      "repositoryUrl": "https://github.com/auraofintelligence/Lukes-world-of-work-experience",
+      "publicPage": "https://auraofintelligence.github.io/Lukes-world-of-work-experience/",
+      "firstBuilt": "2026-09-21",
+      "firstBuildCommit": "488d418",
+      "dateNote": "The first substantive source-backed interactive work and education harbour was committed on 21 September 2026 at 488d418.",
+      "description": "A source-backed interactive illustrated world of Luke Hayes' work, education and volunteering, with every identified role or educator given a place and unresolved details kept explicit.",
+      "priority": "freshly completed public work-history world",
+      "readmeBand": "published with one connected interactive map, readable no-JavaScript history, source notes, update boundaries and a Project Atlas link",
+      "families": [
+        {
+          "id": "personal-portfolio-patronage",
+          "title": "Luke public profile, portfolio and patronage",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "project-atlas"
+      ]
+    }
+  ],
+  "meaningfulReleases": [],
+  "dateDisplayPolicy": "Use the first substantive project build date in each README and Project Atlas card. Keep later maintenance updates separate from the original build date."
+}

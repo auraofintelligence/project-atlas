@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "account": "auraofintelligence",
   "auditSnapshotDate": "2026-08-29",
-  "refreshSnapshotDate": "2026-09-18",
-  "publicRepositoryCount": 157,
-  "auditedProjectCount": 154,
-  "includedProjectCount": 154,
-  "generatedOn": "2026-09-18",
+  "refreshSnapshotDate": "2026-09-22",
+  "publicRepositoryCount": 161,
+  "auditedProjectCount": 157,
+  "includedProjectCount": 157,
+  "generatedOn": "2026-09-22",
   "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
   "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
   "projects": [
@@ -2581,9 +2581,20 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "A fair go in the age of intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 13,
+      "relationshipCount": 14,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -2758,9 +2769,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "A fair go in the age of intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 13,
+      "relationshipCount": 14,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -3257,9 +3279,20 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "A fair go in the age of intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 10,
+      "relationshipCount": 11,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -4539,6 +4572,17 @@
           "confidence": "confirmed"
         },
         {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -4550,7 +4594,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 20,
+      "relationshipCount": 21,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -4802,9 +4846,31 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "A fair go in the age of intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 14,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -4933,6 +4999,28 @@
           "confidence": "confirmed"
         },
         {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "A fair go in the age of intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -4944,7 +5032,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 10,
+      "relationshipCount": 12,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -5222,6 +5310,17 @@
           "confidence": "confirmed"
         },
         {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -5233,7 +5332,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 11,
+      "relationshipCount": 12,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -8508,6 +8607,17 @@
           "confidence": "confirmed"
         },
         {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -8519,7 +8629,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 9,
+      "relationshipCount": 10,
       "freshlyCompleted": false,
       "meaningfulRebuild": {
         "title": "Claude-built GAJRA Earth rebuild",
@@ -8649,9 +8759,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 8,
+      "relationshipCount": 9,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -8772,9 +8893,20 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "A fair go in the age of intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 7,
+      "relationshipCount": 8,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -9138,9 +9270,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 9,
+      "relationshipCount": 10,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -9957,9 +10100,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 24,
+      "relationshipCount": 25,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -11236,9 +11390,20 @@
           ],
           "directionalLabels": [],
           "confidence": "medium"
+        },
+        {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 20,
+      "relationshipCount": 21,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -11638,6 +11803,43 @@
       "source": "post-audit refresh"
     },
     {
+      "name": "Lukes-world-of-work-experience",
+      "title": "Luke's world of work",
+      "repositoryUrl": "https://github.com/auraofintelligence/Lukes-world-of-work-experience",
+      "publicPage": "https://auraofintelligence.github.io/Lukes-world-of-work-experience/",
+      "firstBuilt": "2026-09-21",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "The first substantive source-backed interactive work and education harbour was committed on 21 September 2026 at 488d418.",
+      "description": "A source-backed interactive illustrated world of Luke Hayes' work, education and volunteering, with every identified role or educator given a place and unresolved details kept explicit.",
+      "priority": "freshly completed public work-history world",
+      "readmeBand": "published with one connected interactive map, readable no-JavaScript history, source notes, update boundaries and a Project Atlas link",
+      "families": [
+        {
+          "id": "personal-portfolio-patronage",
+          "title": "Luke public profile, portfolio and patronage",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        {
+          "name": "project-atlas",
+          "title": "Project Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/project-atlas",
+          "publicPage": "https://auraofintelligence.github.io/project-atlas/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
+      "relationshipCount": 1,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh"
+    },
+    {
       "name": "mate-ecosystem",
       "title": "Mate Ecosystem",
       "repositoryUrl": "https://github.com/auraofintelligence/mate-ecosystem",
@@ -11836,9 +12038,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 7,
+      "relationshipCount": 8,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -13174,6 +13387,212 @@
       "source": "post-audit refresh"
     },
     {
+      "name": "mutual-futures",
+      "title": "Mutual Futures",
+      "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+      "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+      "firstBuilt": "2026-09-18",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "The standalone Mutual Futures public workbench began on 18 September 2026 at d6aee6b, with the complete 21-page website committed later that day at be7d762.",
+      "description": "A public workbench connecting voluntary business succession and member ownership with practical upgrading, broader working-life choices, universal intelligence, legal reflection, civic health, resilience and long-horizon exploration.",
+      "priority": "freshly completed public mutual-futures workbench",
+      "readmeBand": "published with 21 public pages, four browser-local tools, source reading guides, scope boundaries and verified reciprocal project links",
+      "families": [
+        {
+          "id": "regional-wealth-resilience",
+          "title": "Regional wealth and resilience architecture",
+          "role": "member"
+        },
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        },
+        {
+          "id": "australian-civic-navigation",
+          "title": "Australian law and civic navigation",
+          "role": "member"
+        },
+        {
+          "id": "australian-travel-opportunity",
+          "title": "Australian travel, opportunity and story atlases",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        {
+          "name": "strange-but-true",
+          "title": "Strange But True",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "auraofintelligence.github.io",
+          "title": "Aura of Intelligence home",
+          "repositoryUrl": "https://github.com/auraofintelligence/auraofintelligence.github.io",
+          "publicPage": "https://auraofintelligence.github.io/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "p4a-xyz-cinema",
+          "title": "P4A Xyz Cinema",
+          "repositoryUrl": "https://github.com/auraofintelligence/p4a-xyz-cinema",
+          "publicPage": "https://p4a.xyz/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "p4a-oceania-cinema",
+          "title": "P4A Oceania Cinema",
+          "repositoryUrl": "https://github.com/auraofintelligence/p4a-oceania-cinema",
+          "publicPage": "https://auraofintelligence.github.io/p4a-oceania-cinema/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "p4a-native-nations-cinema",
+          "title": "P4A Native Nations Cinema",
+          "repositoryUrl": "https://github.com/auraofintelligence/p4a-native-nations-cinema",
+          "publicPage": "https://auraofintelligence.github.io/p4a-native-nations-cinema/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "GAJRA-earth-infinity",
+          "title": "GAJRA Earth Infinity",
+          "repositoryUrl": "https://github.com/auraofintelligence/GAJRA-earth-infinity",
+          "publicPage": "https://auraofintelligence.github.io/GAJRA-earth-infinity/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "gajra-earth-claude-build",
+          "title": "GAJRA Earth Claude Build",
+          "repositoryUrl": "https://github.com/auraofintelligence/gajra-earth-claude-build",
+          "publicPage": "https://auraofintelligence.github.io/gajra-earth-claude-build/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "australian-law-2012-lukes-relevance",
+          "title": "Australian Law 2012 Lukes Relevance",
+          "repositoryUrl": "https://github.com/auraofintelligence/australian-law-2012-lukes-relevance",
+          "publicPage": "https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "australian-legal-engine",
+          "title": "Australian Legal Engine",
+          "repositoryUrl": "https://github.com/auraofintelligence/australian-legal-engine",
+          "publicPage": null,
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "grain-by-grain-documentary",
+          "title": "Grain by Grain Documentary",
+          "repositoryUrl": "https://github.com/auraofintelligence/grain-by-grain-documentary",
+          "publicPage": "https://auraofintelligence.github.io/grain-by-grain-documentary/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "micronova-and-excursions",
+          "title": "Micronova and Excursions",
+          "repositoryUrl": "https://github.com/auraofintelligence/micronova-and-excursions",
+          "publicPage": "https://auraofintelligence.github.io/micronova-and-excursions/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "global-founder-atlas",
+          "title": "Global Founder Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/global-founder-atlas",
+          "publicPage": "https://auraofintelligence.github.io/global-founder-atlas/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Australian-visa-activity-atlas",
+          "title": "Australian Visa Activity Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+          "publicPage": "https://auraofintelligence.github.io/Australian-visa-activity-atlas/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "legal-memory-workbench",
+          "title": "Legal Memory Workbench",
+          "repositoryUrl": "https://github.com/auraofintelligence/legal-memory-workbench",
+          "publicPage": "https://auraofintelligence.github.io/legal-memory-workbench/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "A fair go in the age of intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
+      "relationshipCount": 15,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh"
+    },
+    {
       "name": "new-tori",
       "title": "New Tori",
       "repositoryUrl": "https://github.com/auraofintelligence/new-tori",
@@ -13392,9 +13811,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "A fair go in the age of intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 8,
+      "relationshipCount": 9,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
@@ -13531,9 +13961,20 @@
             "later build; Purple02 is earlier"
           ],
           "confidence": "high"
+        },
+        {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 8,
+      "relationshipCount": 9,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -13680,9 +14121,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 9,
+      "relationshipCount": 10,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -13948,9 +14400,20 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
+        },
+        {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 8,
+      "relationshipCount": 9,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -14231,9 +14694,20 @@
           ],
           "directionalLabels": [],
           "confidence": "medium"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "A fair go in the age of intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 19,
+      "relationshipCount": 20,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -15252,9 +15726,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "Lukes-world-of-work-experience",
+          "title": "Luke's world of work",
+          "repositoryUrl": "https://github.com/auraofintelligence/Lukes-world-of-work-experience",
+          "publicPage": "https://auraofintelligence.github.io/Lukes-world-of-work-experience/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 5,
+      "relationshipCount": 6,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "audit-plus-curation"
@@ -16997,9 +17482,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "A fair go in the age of intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 29,
+      "relationshipCount": 30,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -21341,9 +21837,31 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "A fair go in the age of intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 29,
+      "relationshipCount": 31,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -22339,6 +22857,168 @@
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
+    },
+    {
+      "name": "UNGA81-Luke-Hayes",
+      "title": "A fair go in the age of intelligence",
+      "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+      "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+      "firstBuilt": "2026-09-21",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "The first substantive eight-page illustrated edition and searchable reference library was committed on 21 September 2026 at e9eda37.",
+      "description": "An independent personal contribution to UNGA81 presenting Joyful Responsible Abundance through source-preserved reading chapters, practical capability, mutual livelihoods, personal and civic intelligence and GAJRA Earth.",
+      "priority": "freshly completed public contribution and source library",
+      "readmeBand": "published with eight public pages, unchanged source documents, 29-reference library, provenance notes and clear independence boundaries",
+      "families": [
+        {
+          "id": "regional-wealth-resilience",
+          "title": "Regional wealth and resilience architecture",
+          "role": "member"
+        },
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        },
+        {
+          "id": "australian-civic-navigation",
+          "title": "Australian law and civic navigation",
+          "role": "member"
+        },
+        {
+          "id": "gajra-earth-builds",
+          "title": "GAJRA Earth builds",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        {
+          "name": "strange-but-true",
+          "title": "Strange But True",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "ready-set-co-op-trust-hub",
+          "title": "Ready Set Co Op Trust Hub",
+          "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-trust-hub",
+          "publicPage": "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "aura-geode",
+          "title": "Aura Geode",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-geode",
+          "publicPage": "https://auraofintelligence.github.io/aura-geode/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Oceania-healthy-de-slop-co-ops",
+          "title": "Oceania Healthy De-Slop Co-ops",
+          "repositoryUrl": "https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops",
+          "publicPage": "https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "australian-law-2012-lukes-relevance",
+          "title": "Australian Law 2012 Lukes Relevance",
+          "repositoryUrl": "https://github.com/auraofintelligence/australian-law-2012-lukes-relevance",
+          "publicPage": "https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "australian-legal-engine",
+          "title": "Australian Legal Engine",
+          "repositoryUrl": "https://github.com/auraofintelligence/australian-legal-engine",
+          "publicPage": null,
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "aura-of-intelligence-pathways",
+          "title": "Aura of Intelligence Pathways",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-of-intelligence-pathways",
+          "publicPage": "https://auraofintelligence.github.io/aura-of-intelligence-pathways/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "aura-genesis",
+          "title": "Aura Genesis",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-genesis",
+          "publicPage": "https://auraofintelligence.github.io/aura-genesis/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "p4a_xyz",
+          "title": "P4A Xyz",
+          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
+          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "gajra-earth-public-hub",
+          "title": "GAJRA Earth Public Hub",
+          "repositoryUrl": "https://github.com/auraofintelligence/gajra-earth-public-hub",
+          "publicPage": "https://auraofintelligence.github.io/gajra-earth-public-hub/",
+          "labels": [
+            "direct public-project link in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
+      "relationshipCount": 11,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh"
     },
     {
       "name": "virtual-solar-swarm",
