@@ -1,0 +1,59 @@
+{
+  "baselineAuditDate": "2026-08-29",
+  "refreshedDate": "2026-09-23",
+  "publicRepositoryCount": 162,
+  "newPublicProjects": [
+    {
+      "name": "Anglican-Diocese-82-Claytons-Amity",
+      "title": "A gift for generations",
+      "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+      "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+      "firstBuilt": "2026-09-22",
+      "firstBuildCommit": "5888ba0",
+      "dateNote": "The first substantive eleven-page visual proposal and source library was committed on 22 September 2026 at 5888ba0. Later commits that day preserved the original document bytes, completed the linked library and added the proposal development history.",
+      "description": "An independent public land-gift and partnership invitation prepared for Anglican Church Southern Queensland for 82 Claytons Road, Amity, connecting dementia support, longevity research, Aura technology, learning, community participation and proposed community wealth.",
+      "priority": "freshly completed public partnership invitation",
+      "readmeBand": "published with eleven proposal pages, a 31-document source archive, complete development history, local checks, public-source licence and clear concept-art boundaries",
+      "families": [
+        {
+          "id": "regional-wealth-resilience",
+          "title": "Regional wealth and resilience architecture",
+          "role": "member"
+        },
+        {
+          "id": "island-publication-operations",
+          "title": "Island publication and community operations",
+          "role": "member"
+        },
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        },
+        {
+          "id": "aura-health-geode",
+          "title": "Aura health, care and Geode pathway",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "multi-site-Minjerribah-network",
+        "UNGA81-Luke-Hayes",
+        "Oceania-healthy-de-slop-co-ops",
+        "grain-by-grain-documentary",
+        "GAJRA-earth-infinity",
+        "GAJRA_Earth-Space-AI_Summit",
+        "gajra-earth-claude-build",
+        "project-atlas",
+        "Lukes-world-of-work-experience",
+        "auraofintelligence.github.io",
+        "ready-set-co-op-cultural-intelligence-node",
+        "aura-matrix-studio",
+        "ready-set-co-op-trust-hub",
+        "strange-but-true"
+      ]
+    }
+  ],
+  "meaningfulReleases": [],
+  "dateDisplayPolicy": "Use the first substantive project build date in each README and Project Atlas card. Keep later maintenance updates separate from the original build date."
+}

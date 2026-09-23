@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-09-22",
+  "generatedOn": "2026-09-23",
   "assetSize": 128,
   "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved only for projects with no honest public favicon, logo or directly related public-brand artwork.",
   "icons": {
@@ -63,6 +63,12 @@
       "kind": "field-library-raster",
       "fallbackColour": "#3f625b",
       "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\amity_stratum.png"
+    },
+    "Anglican-Diocese-82-Claytons-Amity": {
+      "asset": "assets/project-icons/anglican-diocese-82-claytons-amity.webp",
+      "kind": "local-source",
+      "fallbackColour": "#0b4d53",
+      "source": "Anglican-Diocese-82-Claytons-Amity/assets/images/favicon-original.png"
     },
     "Archipelago": {
       "asset": "assets/project-icons/archipelago.webp",

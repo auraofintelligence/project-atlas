@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "account": "auraofintelligence",
   "auditSnapshotDate": "2026-08-29",
-  "refreshSnapshotDate": "2026-09-22",
-  "publicRepositoryCount": 161,
-  "auditedProjectCount": 157,
-  "includedProjectCount": 157,
-  "generatedOn": "2026-09-22",
+  "refreshSnapshotDate": "2026-09-23",
+  "publicRepositoryCount": 162,
+  "auditedProjectCount": 158,
+  "includedProjectCount": 158,
+  "generatedOn": "2026-09-23",
   "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
   "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
   "projects": [
@@ -1261,6 +1261,201 @@
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
+    },
+    {
+      "name": "Anglican-Diocese-82-Claytons-Amity",
+      "title": "A gift for generations",
+      "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+      "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+      "firstBuilt": "2026-09-22",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "The first substantive eleven-page visual proposal and source library was committed on 22 September 2026 at 5888ba0. Later commits that day preserved the original document bytes, completed the linked library and added the proposal development history.",
+      "description": "An independent public land-gift and partnership invitation prepared for Anglican Church Southern Queensland for 82 Claytons Road, Amity, connecting dementia support, longevity research, Aura technology, learning, community participation and proposed community wealth.",
+      "priority": "freshly completed public partnership invitation",
+      "readmeBand": "published with eleven proposal pages, a 31-document source archive, complete development history, local checks, public-source licence and clear concept-art boundaries",
+      "families": [
+        {
+          "id": "regional-wealth-resilience",
+          "title": "Regional wealth and resilience architecture",
+          "role": "member"
+        },
+        {
+          "id": "island-publication-operations",
+          "title": "Island publication and community operations",
+          "role": "member"
+        },
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        },
+        {
+          "id": "aura-health-geode",
+          "title": "Aura health, care and Geode pathway",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        {
+          "name": "multi-site-Minjerribah-network",
+          "title": "Minjerribah Site and Service Ideas",
+          "repositoryUrl": "https://github.com/auraofintelligence/multi-site-Minjerribah-network",
+          "publicPage": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/",
+          "labels": [
+            "direct public-project link in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "A fair go in the age of intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "direct public-project link in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Oceania-healthy-de-slop-co-ops",
+          "title": "Oceania Healthy De-Slop Co-ops",
+          "repositoryUrl": "https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops",
+          "publicPage": "https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/",
+          "labels": [
+            "direct public-project link in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "grain-by-grain-documentary",
+          "title": "Grain by Grain Documentary",
+          "repositoryUrl": "https://github.com/auraofintelligence/grain-by-grain-documentary",
+          "publicPage": "https://auraofintelligence.github.io/grain-by-grain-documentary/",
+          "labels": [
+            "direct public-project link in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "GAJRA-earth-infinity",
+          "title": "GAJRA Earth Infinity",
+          "repositoryUrl": "https://github.com/auraofintelligence/GAJRA-earth-infinity",
+          "publicPage": "https://auraofintelligence.github.io/GAJRA-earth-infinity/",
+          "labels": [
+            "direct public-project link in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "GAJRA_Earth-Space-AI_Summit",
+          "title": "GAJRA Earth Space AI Summit",
+          "repositoryUrl": "https://github.com/auraofintelligence/GAJRA_Earth-Space-AI_Summit",
+          "publicPage": "https://auraofintelligence.github.io/GAJRA_Earth-Space-AI_Summit/",
+          "labels": [
+            "direct public-project link in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "gajra-earth-claude-build",
+          "title": "GAJRA Earth Claude Build",
+          "repositoryUrl": "https://github.com/auraofintelligence/gajra-earth-claude-build",
+          "publicPage": "https://auraofintelligence.github.io/gajra-earth-claude-build/",
+          "labels": [
+            "direct public-project link in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "project-atlas",
+          "title": "Project Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/project-atlas",
+          "publicPage": "https://auraofintelligence.github.io/project-atlas/",
+          "labels": [
+            "direct public-project link in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Lukes-world-of-work-experience",
+          "title": "Luke's world of work",
+          "repositoryUrl": "https://github.com/auraofintelligence/Lukes-world-of-work-experience",
+          "publicPage": "https://auraofintelligence.github.io/Lukes-world-of-work-experience/",
+          "labels": [
+            "direct public-project link in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "auraofintelligence.github.io",
+          "title": "Aura of Intelligence home",
+          "repositoryUrl": "https://github.com/auraofintelligence/auraofintelligence.github.io",
+          "publicPage": "https://auraofintelligence.github.io/",
+          "labels": [
+            "direct public-project link in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "ready-set-co-op-cultural-intelligence-node",
+          "title": "Ready S.E.T. Co-op Cultural Intelligence Node",
+          "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node",
+          "publicPage": "https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/",
+          "labels": [
+            "direct public-project link in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "aura-matrix-studio",
+          "title": "Aura Matrix Studio",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+          "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+          "labels": [
+            "direct public-project link in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "ready-set-co-op-trust-hub",
+          "title": "Ready Set Co Op Trust Hub",
+          "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-trust-hub",
+          "publicPage": "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/",
+          "labels": [
+            "direct public-project link in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "strange-but-true",
+          "title": "Strange But True",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true/",
+          "labels": [
+            "direct public-project link in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
+      "relationshipCount": 14,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh"
     },
     {
       "name": "Archipelago",
@@ -3136,9 +3331,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "A gift for generations",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 11,
+      "relationshipCount": 12,
       "freshlyCompleted": true,
       "meaningfulRebuild": {
         "title": "Aura connected life-tools expansion",
@@ -4583,6 +4789,17 @@
           "confidence": "confirmed"
         },
         {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "A gift for generations",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -4594,7 +4811,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 21,
+      "relationshipCount": 22,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -8618,6 +8835,17 @@
           "confidence": "confirmed"
         },
         {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "A gift for generations",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -8629,7 +8857,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 10,
+      "relationshipCount": 11,
       "freshlyCompleted": false,
       "meaningfulRebuild": {
         "title": "Claude-built GAJRA Earth rebuild",
@@ -8770,9 +8998,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "A gift for generations",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 9,
+      "relationshipCount": 10,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -9049,9 +9288,20 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
+        },
+        {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "A gift for generations",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 9,
+      "relationshipCount": 10,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -10111,9 +10361,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "A gift for generations",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 25,
+      "relationshipCount": 26,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -11832,9 +12093,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "A gift for generations",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 1,
+      "relationshipCount": 2,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
@@ -13379,9 +13651,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "A gift for generations",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 11,
+      "relationshipCount": 12,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
@@ -13822,9 +14105,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "A gift for generations",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 9,
+      "relationshipCount": 10,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
@@ -15737,9 +16031,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "A gift for generations",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 6,
+      "relationshipCount": 7,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "audit-plus-curation"
@@ -16888,9 +17193,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "A gift for generations",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 28,
+      "relationshipCount": 29,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
@@ -17493,9 +17809,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "A gift for generations",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 30,
+      "relationshipCount": 31,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -21859,9 +22186,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "A gift for generations",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 31,
+      "relationshipCount": 32,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -23013,9 +23351,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "A gift for generations",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 11,
+      "relationshipCount": 12,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
