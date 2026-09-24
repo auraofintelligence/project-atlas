@@ -1,0 +1,155 @@
+{
+  "baselineAuditDate": "2026-08-29",
+  "refreshedDate": "2026-09-24",
+  "publicRepositoryCount": 163,
+  "newPublicProjects": [
+    {
+      "name": "C-Hour-introduction",
+      "title": "C-Hour Introduction",
+      "repositoryUrl": "https://github.com/auraofintelligence/C-Hour-introduction",
+      "publicPage": "https://auraofintelligence.github.io/C-Hour-introduction/",
+      "firstBuilt": "2026-09-24",
+      "firstBuildCommit": "5e928264",
+      "dateNote": "The first substantive public C-Hour landing page and original reference library was committed on 24 September 2026 Brisbane time at 5e928264. Later commits that morning expanded it into a nineteen-page illustrated public edition.",
+      "description": "A public community invitation and reference library connecting Community Hours, joyful responsible abundance, personal intelligence, shared capability and locally shaped pilots across Minjerribah, Australia and Oceania.",
+      "priority": "freshly completed public community invitation",
+      "readmeBand": "published with nineteen illustrated pages, an original reference library, clear proposal boundaries, local checks and a public-source licence",
+      "families": [
+        {
+          "id": "regional-wealth-resilience",
+          "title": "Regional wealth and resilience architecture",
+          "role": "member"
+        },
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        },
+        {
+          "id": "island-publication-operations",
+          "title": "Island publication and community operations",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "500-Queens-VC-2026",
+        "aura-matrix-studio",
+        "auraofintelligence.github.io",
+        "davinci-resolve-automations",
+        "film-club-documentary-builders",
+        "gajra-earth-claude-build",
+        "grain-by-grain-documentary",
+        "infinity-engine",
+        "mate-ecosystem",
+        "minjerribah-screen-media-network",
+        "moreton-bay-community-wealth-and-mutuals",
+        "multi-site-Minjerribah-network",
+        "mutual-futures",
+        "Oceania-healthy-de-slop-co-ops",
+        "p4a-native-nations-cinema",
+        "p4a-oceania-cinema",
+        "p4a-xyz-cinema",
+        "project-atlas",
+        "quandamooka-country-events-engine",
+        "ready-set-co-op-cultural-intelligence-node",
+        "ready-set-co-op-trust-hub",
+        "shared-table-initiative",
+        "spirit-animal-podcast",
+        "stradbroke-grants-lab",
+        "straddie-clean-energy-superpower",
+        "straddie-digital-twin-explainer",
+        "straddie-noticeboard-network",
+        "straddie-twin-prototype",
+        "straddie-twins",
+        "strange-but-true"
+      ]
+    },
+    {
+      "name": "500-Queens-VC-2026",
+      "title": "500 Queens Venture Capital",
+      "repositoryUrl": "https://github.com/auraofintelligence/500-Queens-VC-2026",
+      "publicPage": "https://auraofintelligence.github.io/500-Queens-VC-2026/",
+      "firstBuilt": "2026-09-23",
+      "firstBuildCommit": "6cb905c3",
+      "dateNote": "The first substantive public landing page and complete reference archive was committed on 23 September 2026 Brisbane time at 6cb905c3.",
+      "description": "A public proposal for women developing as CEOs, enterprise leaders and decision makers, connecting 24 fictional AI Queen mentors, 120 startup ideas, source readers and browser-local planning tools.",
+      "priority": "freshly completed public women-led enterprise workbench",
+      "readmeBand": "published with 200 pages, 24 mentor profiles, 120 enterprise ideas, source readers, browser-local tools and clear proposal boundaries",
+      "families": [
+        {
+          "id": "regional-wealth-resilience",
+          "title": "Regional wealth and resilience architecture",
+          "role": "member"
+        },
+        {
+          "id": "personal-portfolio-patronage",
+          "title": "Luke public profile, portfolio and patronage",
+          "role": "member"
+        },
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "C-Hour-introduction",
+        "extreme-matter-atlas",
+        "Future-of-Life-2045",
+        "GAJRA_Earth-Space-AI_Summit",
+        "gajra-earth-claude-build",
+        "GAJRA-earth-infinity",
+        "grain-by-grain-documentary",
+        "luke-nathan-hayes-man-and-mind",
+        "minjerribah-living-twin",
+        "minjerribah-screen-media-network",
+        "moreton-bay-autonomous-mobility",
+        "multi-site-Minjerribah-network",
+        "mutual-futures",
+        "Oceania-healthy-de-slop-co-ops",
+        "project-atlas",
+        "Queens_Venture",
+        "ready-set-co-op-cultural-intelligence-node",
+        "straddie-clean-energy-superpower",
+        "straddie-makerspace-lab",
+        "straddie-night-market-lab",
+        "straddie-tip-loop-lab",
+        "strange-but-true",
+        "virtual-solar-swarm"
+      ]
+    }
+  ],
+  "meaningfulReleases": [
+    {
+      "name": "quandamooka-country-events-engine",
+      "title": "Straddie-first calendar filters",
+      "repositoryUrl": "https://github.com/auraofintelligence/quandamooka-country-events-engine",
+      "publicPage": "https://auraofintelligence.github.io/quandamooka-country-events-engine/",
+      "rebuildStarted": "2026-09-24",
+      "currentReleaseDate": "2026-09-24",
+      "currentReleaseCommit": "b494e711",
+      "status": "The existing event atlas now opens on Straddie by default and adds clear island and mainland filters. The exact b494e711 Pages workflow succeeded."
+    },
+    {
+      "name": "mutual-futures",
+      "title": "Whole-systems abundance and alignment release",
+      "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+      "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+      "rebuildStarted": "2026-09-24",
+      "currentReleaseDate": "2026-09-24",
+      "currentReleaseCommit": "f1034356",
+      "status": "The original 18 September build now includes a 25-page whole-systems revision, generational handover, AI, robotics and extended reality, grounded case studies, full-width natural artwork and 17 linked projects. The exact f1034356 workflows succeeded."
+    },
+    {
+      "name": "Oceania-healthy-de-slop-co-ops",
+      "title": "Wellbeing, Geode and ecosystem release",
+      "repositoryUrl": "https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops",
+      "publicPage": "https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/",
+      "rebuildStarted": "2026-09-24",
+      "currentReleaseDate": "2026-09-24",
+      "currentReleaseCommit": "b37ad93c",
+      "status": "The original 30 August regional gateway now deepens Geode and whole-person research, grounds the seated-chamber baseline in a supplier source, adds C-Hour and wider ecosystem connections, modernises the visuals and preserves explicit proposed and untested boundaries. The exact b37ad93c Pages workflow succeeded."
+    }
+  ],
+  "dateDisplayPolicy": "Use the first substantive project build date in each README and Project Atlas card. Keep later maintenance updates separate from the original build date."
+}

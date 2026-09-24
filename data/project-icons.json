@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-09-23",
+  "generatedOn": "2026-09-24",
   "assetSize": 128,
   "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved only for projects with no honest public favicon, logo or directly related public-brand artwork.",
   "icons": {
@@ -15,6 +15,12 @@
       "kind": "field-library-raster",
       "fallbackColour": "#3f625b",
       "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\20-components.png"
+    },
+    "500-Queens-VC-2026": {
+      "asset": "assets/project-icons/500-queens-vc-2026.webp",
+      "kind": "local-source",
+      "fallbackColour": "#f5ead2",
+      "source": "500-Queens-VC-2026/assets/brand/favicon.png"
     },
     "60-days-set-in-stone": {
       "asset": "assets/project-icons/60-days-set-in-stone.webp",
@@ -248,6 +254,12 @@
       "kind": "local-source",
       "fallbackColour": "#3f625b",
       "source": "bees-and-allies/assets/img/favicon.svg"
+    },
+    "C-Hour-introduction": {
+      "asset": "assets/project-icons/c-hour-introduction.webp",
+      "kind": "local-source",
+      "fallbackColour": "#092f35",
+      "source": "C-Hour-introduction/favicon.png"
     },
     "Chinese_Horoscope_2026_Luke_Hayes": {
       "asset": "assets/project-icons/chinese_horoscope_2026_luke_hayes.webp",
