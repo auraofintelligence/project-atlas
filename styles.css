@@ -1094,3 +1094,22 @@ h3 {
   .atlas-pager a:last-child{text-align:left;align-items:flex-start}
   .atlas-to-top span{display:none}
 }
+
+/* Compact Atlas home */
+.atlas-home-head{min-height:auto}
+.home-hero{padding-block:clamp(4rem,8vw,6.5rem) 3rem}
+.atlas-home-menu{padding-block:clamp(3rem,6vw,5rem)}
+.atlas-home-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.atlas-home-grid a{display:block;min-height:12rem;padding:1.2rem;border:1px solid var(--line);border-radius:var(--round);background:var(--card);text-decoration:none;box-shadow:0 8px 24px rgb(23 34 34 / 6%);transition:transform 140ms ease,border-color 140ms ease,box-shadow 140ms ease}
+.atlas-home-grid a:hover{transform:translateY(-3px);border-color:var(--clay);box-shadow:var(--shadow)}
+.atlas-home-grid span{display:block;margin-bottom:1.35rem;color:var(--clay);font-weight:900;font-size:.78rem;letter-spacing:.1em}
+.atlas-home-grid h3{margin-bottom:.45rem}
+.atlas-home-grid p{margin:0;color:var(--muted)}
+.atlas-home-about{background:var(--forest-deep);color:#f7f4ee}
+.home-about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:2rem;align-items:center;padding-block:clamp(3rem,6vw,5rem)}
+.home-about-grid .kicker{color:var(--sun)}
+.home-about-grid p:last-child{margin:0;color:#dce8e2;font-size:1.08rem}
+.site-footer a{text-decoration:none}
+.site-footer a:hover{text-decoration:underline}
+@media(max-width:900px){.atlas-home-grid{grid-template-columns:1fr 1fr}.home-about-grid{grid-template-columns:1fr}}
+@media(max-width:640px){.atlas-home-grid{grid-template-columns:1fr}.home-hero{padding-top:3.25rem}}
