@@ -1,0 +1,102 @@
+{
+  "baselineAuditDate": "2026-08-29",
+  "refreshedDate": "2026-09-30",
+  "publicRepositoryCount": 165,
+  "newPublicProjects": [
+    {
+      "name": "JRA-Product-Engine-Plan",
+      "title": "JRA Product Engine Plan",
+      "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+      "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+      "firstBuilt": "2026-09-28",
+      "firstBuildCommit": "42f1f1d9",
+      "dateNote": "The first substantive public landing page and checked GitHub Pages workflow were committed on 28 September 2026 Brisbane time at 42f1f1d9. Later commits that afternoon completed the ten-page site and browser-local product workbench.",
+      "description": "A public explainer and browser-local product workbench for planning ideas, making, costs, offers, community participation, circular use and portable release packs.",
+      "priority": "freshly completed public product planning workbench",
+      "readmeBand": "published with ten public pages, nine editable case studies, browser-local records, portable release packs, source preservation and clear limits on future integrations",
+      "families": [
+        {
+          "id": "regional-wealth-resilience",
+          "title": "Regional wealth and resilience architecture",
+          "role": "member"
+        },
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "500-Queens-VC-2026",
+        "auraofintelligence.github.io",
+        "ballow-road-sand-screen-hub",
+        "community-club-builder-sandy-sports",
+        "davinci-resolve-automations",
+        "film-club-documentary-builders",
+        "GAJRA-earth",
+        "i-C-infinity-music-universe",
+        "minjerribah-screen-media-network",
+        "mutual-futures",
+        "Oceania-healthy-de-slop-co-ops",
+        "project-atlas",
+        "ready-set-co-op-cultural-intelligence-node",
+        "spirit-animal-podcast",
+        "strange-but-true",
+        "UNGA81-Luke-Hayes"
+      ]
+    },
+    {
+      "name": "vfg-plan-access-lab",
+      "title": "VFG Plan Access Lab",
+      "repositoryUrl": "https://github.com/auraofintelligence/vfg-plan-access-lab",
+      "publicPage": "https://auraofintelligence.github.io/vfg-plan-access-lab/",
+      "firstBuilt": "2026-09-27",
+      "firstBuildCommit": "d9271e52",
+      "dateNote": "The first substantive public site and Strange But True licence were committed on 27 September 2026 Brisbane time at d9271e52. The same-day release expanded to nine static public pages and a provenance packet demo.",
+      "description": "A remote-first public demo for collecting provenance around Australian skate park plans, preparing access requests and keeping construction drawings outside the site.",
+      "priority": "freshly completed public provenance and training-access demo",
+      "readmeBand": "published with nine static pages, a browser-local provenance packet, MOU and EOI drafts, public-source boundaries and four direct public project links",
+      "families": [
+        {
+          "id": "funding-procurement-readiness",
+          "title": "Funding, procurement and project-readiness workbenches",
+          "role": "member"
+        },
+        {
+          "id": "australian-civic-navigation",
+          "title": "Australian law and civic navigation",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "australian-law-2012-lukes-relevance",
+        "australian-legal-engine",
+        "legal-memory-workbench",
+        "windemere-skate-bowl-tender-workspace"
+      ]
+    }
+  ],
+  "meaningfulReleases": [
+    {
+      "name": "aura-matrix-studio",
+      "title": "Earth-Space Observatory and vector-space release",
+      "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+      "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+      "rebuildStarted": "2026-09-25",
+      "currentReleaseDate": "2026-09-27",
+      "currentReleaseCommit": "ce2755ef",
+      "status": "The original 10 September build now includes an isolated vector-space lab, latitude and longitude Earth map, touch-responsive vector controls and a cinematic Earth-Space Observatory prototype. The exact ce2755ef workflow succeeded."
+    },
+    {
+      "name": "project-atlas",
+      "title": "Pattern ancestry and multi-page navigation release",
+      "repositoryUrl": "https://github.com/auraofintelligence/project-atlas",
+      "publicPage": "https://auraofintelligence.github.io/project-atlas/",
+      "rebuildStarted": "2026-09-28",
+      "currentReleaseDate": "2026-09-28",
+      "currentReleaseCommit": "7adfb316",
+      "status": "The original 1 September build now has a compact organised home, dedicated project catalogue, site map, volunteer gateway and a multi-page pattern ancestry and provenance trail. The exact 7adfb316 Pages workflow succeeded."
+    }
+  ],
+  "dateDisplayPolicy": "Use the first substantive project build date in each README and Project Atlas card. Keep later maintenance updates separate from the original build date."
+}

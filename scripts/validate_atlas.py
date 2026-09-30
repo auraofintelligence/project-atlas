@@ -49,17 +49,21 @@ def qr_stem(value: str) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate static Project Atlas files")
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    parser.add_argument("--expected-audited", type=int, default=160)
+    parser.add_argument("--expected-audited", type=int, default=162)
     args = parser.parse_args()
 
     root = args.root.resolve()
     errors: list[str] = []
     for relative in (
-        "index.html", "styles.css", "app.js", "package.json", "data/projects.json", "data/project-icons.json", "data/manual-projects.json",
+        "index.html", "projects.html", "site-map.html", "volunteer.html", "styles.css", "app.js", "package.json",
+        "pattern-ancestry.html", "pattern-braid.html", "pattern-eras.html", "pattern-gajra.html",
+        "pattern-provenance.html", "pattern-ancestry.css",
+        "data/projects.json", "data/project-icons.json", "data/manual-projects.json",
         "data/github-organisation-delta-2026-09-08.json", "data/github-organisation-delta-2026-09-10.json",
         "data/github-organisation-delta-2026-09-15.json", "data/github-organisation-delta-2026-09-16.json",
         "data/github-organisation-delta-2026-09-18.json", "data/github-organisation-delta-2026-09-22.json",
         "data/github-organisation-delta-2026-09-23.json", "data/github-organisation-delta-2026-09-24.json",
+        "data/github-organisation-delta-2026-09-30.json",
         "scripts/build_atlas_data.py", "scripts/build_qr_codes.mjs",
         "assets/icons/project-atlas-icon-source.png", "assets/icons/project-atlas-favicon-16.png",
         "assets/icons/project-atlas-favicon-32.png", "assets/icons/project-atlas-favicon-192.png",
@@ -277,6 +281,7 @@ def main() -> int:
         fail(errors, f"Generated QR directory has stale files: {stale_qr_files}")
 
     index = (root / "index.html").read_text(encoding="utf-8")
+    catalogue = (root / "projects.html").read_text(encoding="utf-8")
     css = (root / "styles.css").read_text(encoding="utf-8")
     app = (root / "app.js").read_text(encoding="utf-8")
     for marker in (
@@ -284,8 +289,11 @@ def main() -> int:
         "id=\"lineage-grid\"", "data-print", "project-atlas-favicon-16.png", "project-atlas-favicon-32.png",
         "project-atlas-favicon-192.png", "project-atlas-apple-touch-icon-180.png",
     ):
+        if marker not in catalogue:
+            fail(errors, f"projects.html is missing required Atlas catalogue marker {marker}")
+    for marker in ("projects.html", "pattern-ancestry.html", "site-map.html", "volunteer.html"):
         if marker not in index:
-            fail(errors, f"index.html is missing required Atlas interface marker {marker}")
+            fail(errors, f"index.html is missing required navigation marker {marker}")
     for marker in ("@media print", ".qr-slot", ".qr-slot img", ".project-grid", ".project-icon", ".card-heading"):
         if marker not in css:
             fail(errors, f"styles.css is missing required style marker {marker}")

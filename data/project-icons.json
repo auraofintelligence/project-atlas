@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-09-24",
+  "generatedOn": "2026-09-30",
   "assetSize": 128,
   "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved only for projects with no honest public favicon, logo or directly related public-brand artwork.",
   "icons": {
@@ -445,6 +445,12 @@
       "kind": "local-source",
       "fallbackColour": "#176f89",
       "source": "infinity-engine/docs/assets/favicon.svg (pinned Pages deployment dbb85ec)"
+    },
+    "JRA-Product-Engine-Plan": {
+      "asset": "assets/project-icons/jra-product-engine-plan.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3d075d",
+      "source": "JRA-Product-Engine-Plan/dist/assets/favicon.png"
     },
     "legal-memory-workbench": {
       "asset": "assets/project-icons/legal-memory-workbench.webp",
@@ -942,6 +948,12 @@
       "kind": "field-library-raster",
       "fallbackColour": "#3f625b",
       "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\UN-world-days.png"
+    },
+    "vfg-plan-access-lab": {
+      "asset": "assets/project-icons/vfg-plan-access-lab.webp",
+      "kind": "local-source",
+      "fallbackColour": "#1b1714",
+      "source": "vfg-plan-access-lab/assets/css/style.css .brand-mark"
     },
     "virtual-solar-swarm": {
       "asset": "assets/project-icons/virtual-solar-swarm.webp",

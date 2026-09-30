@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "account": "auraofintelligence",
   "auditSnapshotDate": "2026-08-29",
-  "refreshSnapshotDate": "2026-09-24",
-  "publicRepositoryCount": 163,
-  "auditedProjectCount": 160,
-  "includedProjectCount": 160,
-  "generatedOn": "2026-09-24",
+  "refreshSnapshotDate": "2026-09-30",
+  "publicRepositoryCount": 165,
+  "auditedProjectCount": 162,
+  "includedProjectCount": 162,
+  "generatedOn": "2026-09-30",
   "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
   "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
   "projects": [
@@ -556,9 +556,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 23,
+      "relationshipCount": 24,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
@@ -3647,10 +3658,10 @@
       "relationshipCount": 13,
       "freshlyCompleted": true,
       "meaningfulRebuild": {
-        "title": "Aura connected life-tools expansion",
-        "started": "2026-09-16",
-        "published": "2026-09-17",
-        "status": "The original 10 September build now includes visual life collections, private-by-default connection profiles, captured mind-palace media, connected navigation and chakra workspaces. The current public release was published by the successful 17 September workflow at 4d0c37bb."
+        "title": "Earth-Space Observatory and vector-space release",
+        "started": "2026-09-25",
+        "published": "2026-09-27",
+        "status": "The original 10 September build now includes an isolated vector-space lab, latitude and longitude Earth map, touch-responsive vector controls and a cinematic Earth-Space Observatory prototype. The exact ce2755ef workflow succeeded."
       },
       "source": "post-audit refresh"
     },
@@ -5111,6 +5122,17 @@
           "confidence": "confirmed"
         },
         {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -5122,7 +5144,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 23,
+      "relationshipCount": 24,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -5396,9 +5418,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "vfg-plan-access-lab",
+          "title": "VFG Plan Access Lab",
+          "repositoryUrl": "https://github.com/auraofintelligence/vfg-plan-access-lab",
+          "publicPage": "https://auraofintelligence.github.io/vfg-plan-access-lab/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 14,
+      "relationshipCount": 15,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -5549,6 +5582,17 @@
           "confidence": "confirmed"
         },
         {
+          "name": "vfg-plan-access-lab",
+          "title": "VFG Plan Access Lab",
+          "repositoryUrl": "https://github.com/auraofintelligence/vfg-plan-access-lab",
+          "publicPage": "https://auraofintelligence.github.io/vfg-plan-access-lab/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -5560,7 +5604,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 13,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -6291,9 +6335,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 25,
+      "relationshipCount": 26,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -7415,9 +7470,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 28,
+      "relationshipCount": 29,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -7550,9 +7616,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 9,
+      "relationshipCount": 10,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
@@ -8819,9 +8896,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 27,
+      "relationshipCount": 28,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -9416,9 +9504,20 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 5,
+      "relationshipCount": 6,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -11764,9 +11863,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 13,
+      "relationshipCount": 14,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -11996,6 +12106,213 @@
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
+    },
+    {
+      "name": "JRA-Product-Engine-Plan",
+      "title": "JRA Product Engine Plan",
+      "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+      "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+      "firstBuilt": "2026-09-28",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "The first substantive public landing page and checked GitHub Pages workflow were committed on 28 September 2026 Brisbane time at 42f1f1d9. Later commits that afternoon completed the ten-page site and browser-local product workbench.",
+      "description": "A public explainer and browser-local product workbench for planning ideas, making, costs, offers, community participation, circular use and portable release packs.",
+      "priority": "freshly completed public product planning workbench",
+      "readmeBand": "published with ten public pages, nine editable case studies, browser-local records, portable release packs, source preservation and clear limits on future integrations",
+      "families": [
+        {
+          "id": "regional-wealth-resilience",
+          "title": "Regional wealth and resilience architecture",
+          "role": "member"
+        },
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        {
+          "name": "500-Queens-VC-2026",
+          "title": "500 Queens Venture Capital",
+          "repositoryUrl": "https://github.com/auraofintelligence/500-Queens-VC-2026",
+          "publicPage": "https://auraofintelligence.github.io/500-Queens-VC-2026/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "auraofintelligence.github.io",
+          "title": "Aura of Intelligence home",
+          "repositoryUrl": "https://github.com/auraofintelligence/auraofintelligence.github.io",
+          "publicPage": "https://auraofintelligence.github.io/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "ballow-road-sand-screen-hub",
+          "title": "Ballow Road Sand Screen Hub",
+          "repositoryUrl": "https://github.com/auraofintelligence/ballow-road-sand-screen-hub",
+          "publicPage": "https://auraofintelligence.github.io/ballow-road-sand-screen-hub/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "community-club-builder-sandy-sports",
+          "title": "Community Club Builder Sandy Sports",
+          "repositoryUrl": "https://github.com/auraofintelligence/community-club-builder-sandy-sports",
+          "publicPage": "https://auraofintelligence.github.io/community-club-builder-sandy-sports/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "davinci-resolve-automations",
+          "title": "DaVinci Resolve Automations",
+          "repositoryUrl": "https://github.com/auraofintelligence/davinci-resolve-automations",
+          "publicPage": "https://auraofintelligence.github.io/davinci-resolve-automations/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "film-club-documentary-builders",
+          "title": "Film Club Documentary Builders",
+          "repositoryUrl": "https://github.com/auraofintelligence/film-club-documentary-builders",
+          "publicPage": "https://auraofintelligence.github.io/film-club-documentary-builders/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "GAJRA-earth",
+          "title": "GAJRA Earth",
+          "repositoryUrl": "https://github.com/auraofintelligence/GAJRA-earth",
+          "publicPage": "https://auraofintelligence.github.io/GAJRA-earth/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "i-C-infinity-music-universe",
+          "title": "i-C Infinity Music Universe",
+          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-music-universe",
+          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-music-universe/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "minjerribah-screen-media-network",
+          "title": "Minjerribah Screen Media Network",
+          "repositoryUrl": "https://github.com/auraofintelligence/minjerribah-screen-media-network",
+          "publicPage": "https://auraofintelligence.github.io/minjerribah-screen-media-network/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Oceania-healthy-de-slop-co-ops",
+          "title": "Oceania Healthy De-Slop Co-ops",
+          "repositoryUrl": "https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops",
+          "publicPage": "https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "project-atlas",
+          "title": "Project Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/project-atlas",
+          "publicPage": "https://auraofintelligence.github.io/project-atlas/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "ready-set-co-op-cultural-intelligence-node",
+          "title": "Ready S.E.T. Co-op Cultural Intelligence Node",
+          "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node",
+          "publicPage": "https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "spirit-animal-podcast",
+          "title": "The Spirit Animal Podcast",
+          "repositoryUrl": "https://github.com/auraofintelligence/spirit-animal-podcast",
+          "publicPage": "https://auraofintelligence.github.io/spirit-animal-podcast/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "strange-but-true",
+          "title": "Strange But True",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "A fair go in the age of intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
+      "relationshipCount": 16,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh"
     },
     {
       "name": "knights-templar-Timothy-Hogan",
@@ -12460,9 +12777,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "vfg-plan-access-lab",
+          "title": "VFG Plan Access Lab",
+          "repositoryUrl": "https://github.com/auraofintelligence/vfg-plan-access-lab",
+          "publicPage": "https://auraofintelligence.github.io/vfg-plan-access-lab/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 21,
+      "relationshipCount": 22,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -13985,9 +14313,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 16,
+      "relationshipCount": 17,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -14788,9 +15127,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 17,
+      "relationshipCount": 18,
       "freshlyCompleted": true,
       "meaningfulRebuild": {
         "title": "Whole-systems abundance and alignment release",
@@ -15063,9 +15413,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 13,
       "freshlyCompleted": true,
       "meaningfulRebuild": {
         "title": "Wellbeing, Geode and ecosystem release",
@@ -17049,11 +17410,27 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 9,
+      "relationshipCount": 10,
       "freshlyCompleted": true,
-      "meaningfulRebuild": null,
+      "meaningfulRebuild": {
+        "title": "Pattern ancestry and multi-page navigation release",
+        "started": "2026-09-28",
+        "published": "2026-09-28",
+        "status": "The original 1 September build now has a compact organised home, dedicated project catalogue, site map, volunteer gateway and a multi-page pattern ancestry and provenance trail. The exact 7adfb316 Pages workflow succeeded."
+      },
       "source": "audit-plus-curation"
     },
     {
@@ -18260,9 +18637,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 31,
+      "relationshipCount": 32,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
@@ -20291,9 +20679,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 7,
+      "relationshipCount": 8,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
@@ -23418,9 +23817,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 34,
+      "relationshipCount": 35,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -24583,9 +24993,95 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 13,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh"
+    },
+    {
+      "name": "vfg-plan-access-lab",
+      "title": "VFG Plan Access Lab",
+      "repositoryUrl": "https://github.com/auraofintelligence/vfg-plan-access-lab",
+      "publicPage": "https://auraofintelligence.github.io/vfg-plan-access-lab/",
+      "firstBuilt": "2026-09-27",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "The first substantive public site and Strange But True licence were committed on 27 September 2026 Brisbane time at d9271e52. The same-day release expanded to nine static public pages and a provenance packet demo.",
+      "description": "A remote-first public demo for collecting provenance around Australian skate park plans, preparing access requests and keeping construction drawings outside the site.",
+      "priority": "freshly completed public provenance and training-access demo",
+      "readmeBand": "published with nine static pages, a browser-local provenance packet, MOU and EOI drafts, public-source boundaries and four direct public project links",
+      "families": [
+        {
+          "id": "funding-procurement-readiness",
+          "title": "Funding, procurement and project-readiness workbenches",
+          "role": "member"
+        },
+        {
+          "id": "australian-civic-navigation",
+          "title": "Australian law and civic navigation",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        {
+          "name": "australian-law-2012-lukes-relevance",
+          "title": "Australian Law 2012 Lukes Relevance",
+          "repositoryUrl": "https://github.com/auraofintelligence/australian-law-2012-lukes-relevance",
+          "publicPage": "https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "australian-legal-engine",
+          "title": "Australian Legal Engine",
+          "repositoryUrl": "https://github.com/auraofintelligence/australian-legal-engine",
+          "publicPage": null,
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "legal-memory-workbench",
+          "title": "Legal Memory Workbench",
+          "repositoryUrl": "https://github.com/auraofintelligence/legal-memory-workbench",
+          "publicPage": "https://auraofintelligence.github.io/legal-memory-workbench/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "windemere-skate-bowl-tender-workspace",
+          "title": "Windemere Skate Bowl Tender Workspace",
+          "repositoryUrl": "https://github.com/auraofintelligence/windemere-skate-bowl-tender-workspace",
+          "publicPage": "https://auraofintelligence.github.io/windemere-skate-bowl-tender-workspace/",
+          "labels": [
+            "direct public-project link in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
+      "relationshipCount": 4,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
@@ -24911,9 +25407,20 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
+        },
+        {
+          "name": "vfg-plan-access-lab",
+          "title": "VFG Plan Access Lab",
+          "repositoryUrl": "https://github.com/auraofintelligence/vfg-plan-access-lab",
+          "publicPage": "https://auraofintelligence.github.io/vfg-plan-access-lab/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 7,
+      "relationshipCount": 8,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
