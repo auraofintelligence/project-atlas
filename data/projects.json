@@ -16524,7 +16524,12 @@
       ],
       "relationshipCount": 10,
       "freshlyCompleted": false,
-      "meaningfulRebuild": null,
+      "meaningfulRebuild": {
+        "title": "Victoria civic guide and electorate atlas release",
+        "started": "2026-10-02",
+        "published": "2026-10-03",
+        "status": "The original 1 May public build now includes a Victoria portal, 88-district electorate atlas, sourced representative and council data, a dated 2026 election directory, First Peoples reference links and separate statutory layers. The exact ea3c3d16e3 Pages workflow succeeded."
+      },
       "source": "audit"
     },
     {

@@ -118,6 +118,16 @@
       "currentReleaseDate": "2026-10-09",
       "currentReleaseCommit": "2232f1d69c",
       "status": "The original 10 September build now includes the Know Thy Self quick setup, avatar photo references, Aura dimensions preview, Aura Glow-Up, persistent drafts and portable favourite-menu shortcuts. The exact 2232f1d69c workflow succeeded."
+    },
+    {
+      "name": "p4a-xyz-cinema",
+      "title": "Victoria civic guide and electorate atlas release",
+      "repositoryUrl": "https://github.com/auraofintelligence/p4a-xyz-cinema",
+      "publicPage": "https://p4a.xyz/",
+      "rebuildStarted": "2026-10-02",
+      "currentReleaseDate": "2026-10-03",
+      "currentReleaseCommit": "ea3c3d16e3",
+      "status": "The original 1 May public build now includes a Victoria portal, 88-district electorate atlas, sourced representative and council data, a dated 2026 election directory, First Peoples reference links and separate statutory layers. The exact ea3c3d16e3 Pages workflow succeeded."
     }
   ],
   "dateDisplayPolicy": "Use the first substantive project build date in each README and Project Atlas card. Keep later maintenance updates separate from the original build date."
