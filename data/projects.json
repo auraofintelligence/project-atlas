@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "account": "auraofintelligence",
   "auditSnapshotDate": "2026-08-29",
-  "refreshSnapshotDate": "2026-09-30",
-  "publicRepositoryCount": 165,
-  "auditedProjectCount": 162,
-  "includedProjectCount": 162,
-  "generatedOn": "2026-09-30",
+  "refreshSnapshotDate": "2026-10-09",
+  "publicRepositoryCount": 168,
+  "auditedProjectCount": 165,
+  "includedProjectCount": 165,
+  "generatedOn": "2026-10-09",
   "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
   "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
   "projects": [
@@ -3653,15 +3653,26 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "lifetime-memory-map",
+          "title": "Lifetime Memory Map",
+          "repositoryUrl": "https://github.com/auraofintelligence/lifetime-memory-map",
+          "publicPage": "https://auraofintelligence.github.io/lifetime-memory-map/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 13,
+      "relationshipCount": 14,
       "freshlyCompleted": true,
       "meaningfulRebuild": {
-        "title": "Earth-Space Observatory and vector-space release",
-        "started": "2026-09-25",
-        "published": "2026-09-27",
-        "status": "The original 10 September build now includes an isolated vector-space lab, latitude and longitude Earth map, touch-responsive vector controls and a cinematic Earth-Space Observatory prototype. The exact ce2755ef workflow succeeded."
+        "title": "Know Thy Self setup and Aura Glow-Up release",
+        "started": "2026-10-08",
+        "published": "2026-10-09",
+        "status": "The original 10 September build now includes the Know Thy Self quick setup, avatar photo references, Aura dimensions preview, Aura Glow-Up, persistent drafts and portable favourite-menu shortcuts. The exact 2232f1d69c workflow succeeded."
       },
       "source": "post-audit refresh"
     },
@@ -5730,6 +5741,39 @@
           "confidence": "confirmed"
         },
         {
+          "name": "australiansire",
+          "title": "Australian Sire",
+          "repositoryUrl": "https://github.com/auraofintelligence/australiansire",
+          "publicPage": "https://auraofintelligence.github.io/australiansire/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "lifetime-memory-map",
+          "title": "Lifetime Memory Map",
+          "repositoryUrl": "https://github.com/auraofintelligence/lifetime-memory-map",
+          "publicPage": "https://auraofintelligence.github.io/lifetime-memory-map/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "tiggy-bestmann",
+          "title": "Tiggy Bestmann",
+          "repositoryUrl": "https://github.com/auraofintelligence/tiggy-bestmann",
+          "publicPage": "https://auraofintelligence.github.io/tiggy-bestmann/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -5741,7 +5785,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 10,
+      "relationshipCount": 13,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -5893,6 +5937,28 @@
           "confidence": "confirmed"
         },
         {
+          "name": "australiansire",
+          "title": "Australian Sire",
+          "repositoryUrl": "https://github.com/auraofintelligence/australiansire",
+          "publicPage": "https://auraofintelligence.github.io/australiansire/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "lifetime-memory-map",
+          "title": "Lifetime Memory Map",
+          "repositoryUrl": "https://github.com/auraofintelligence/lifetime-memory-map",
+          "publicPage": "https://auraofintelligence.github.io/lifetime-memory-map/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -5904,7 +5970,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 14,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -6025,6 +6091,158 @@
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
+    },
+    {
+      "name": "australiansire",
+      "title": "Australian Sire",
+      "repositoryUrl": "https://github.com/auraofintelligence/australiansire",
+      "publicPage": "https://auraofintelligence.github.io/australiansire/",
+      "firstBuilt": "2026-09-28",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "The first substantive ten-page character site was committed on 28 September 2026 Brisbane time at 96be9f1929. The public repository and its exact e274f1278b Pages release were confirmed on 9 October 2026.",
+      "description": "A ten-page adult science-fiction romantasy character site about travel, desire, writing, group relationships and speculative worlds, with fictional examples clearly separated from present-day sources.",
+      "priority": "freshly completed public character and story-world site",
+      "readmeBand": "published with ten connected pages, source and artwork notes, a site map, local build guidance and clear fiction boundaries",
+      "families": [
+        {
+          "id": "australian-travel-opportunity",
+          "title": "Australian travel, opportunity and story atlases",
+          "role": "member"
+        },
+        {
+          "id": "strange-but-true-public-doors",
+          "title": "Strange But True public doors",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        {
+          "name": "tiggy-bestmann",
+          "title": "Tiggy Bestmann",
+          "repositoryUrl": "https://github.com/auraofintelligence/tiggy-bestmann",
+          "publicPage": "https://auraofintelligence.github.io/tiggy-bestmann/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "australian-sire-story-forge",
+          "title": "Australian Sire Story Forge",
+          "repositoryUrl": "https://github.com/auraofintelligence/australian-sire-story-forge",
+          "publicPage": "https://auraofintelligence.github.io/australian-sire-story-forge/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "loose-goose-comedy-engine",
+          "title": "Loose Goose Comedy Engine",
+          "repositoryUrl": "https://github.com/auraofintelligence/loose-goose-comedy-engine",
+          "publicPage": "https://auraofintelligence.github.io/loose-goose-comedy-engine/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "luke-nathan-hayes-man-and-mind",
+          "title": "The Mind Behind the Man",
+          "repositoryUrl": "https://github.com/auraofintelligence/luke-nathan-hayes-man-and-mind",
+          "publicPage": "https://auraofintelligence.github.io/luke-nathan-hayes-man-and-mind/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Australian-visa-activity-atlas",
+          "title": "Australian Visa Activity Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+          "publicPage": "https://auraofintelligence.github.io/Australian-visa-activity-atlas/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "global-group-marriages",
+          "title": "Global Group Marriages",
+          "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
+          "publicPage": "https://auraofintelligence.github.io/global-group-marriages/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "grey-area-commons",
+          "title": "Grey Area Commons",
+          "repositoryUrl": "https://github.com/auraofintelligence/grey-area-commons",
+          "publicPage": "https://auraofintelligence.github.io/grey-area-commons/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "i-C-infinity-music-universe",
+          "title": "i-C Infinity Music Universe",
+          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-music-universe",
+          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-music-universe/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Lukes-world-of-work-experience",
+          "title": "Luke's world of work",
+          "repositoryUrl": "https://github.com/auraofintelligence/Lukes-world-of-work-experience",
+          "publicPage": "https://auraofintelligence.github.io/Lukes-world-of-work-experience/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "right-place-right-time",
+          "title": "Right Place Right Time",
+          "repositoryUrl": "https://github.com/auraofintelligence/right-place-right-time",
+          "publicPage": "https://auraofintelligence.github.io/right-place-right-time/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "lifetime-memory-map",
+          "title": "Lifetime Memory Map",
+          "repositoryUrl": "https://github.com/auraofintelligence/lifetime-memory-map",
+          "publicPage": "https://auraofintelligence.github.io/lifetime-memory-map/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
+      "relationshipCount": 11,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh"
     },
     {
       "name": "ballow-road-sand-screen-hub",
@@ -6346,9 +6564,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "tiggy-bestmann",
+          "title": "Tiggy Bestmann",
+          "repositoryUrl": "https://github.com/auraofintelligence/tiggy-bestmann",
+          "publicPage": "https://auraofintelligence.github.io/tiggy-bestmann/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 26,
+      "relationshipCount": 27,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -9688,6 +9917,17 @@
           "confidence": "confirmed"
         },
         {
+          "name": "tiggy-bestmann",
+          "title": "Tiggy Bestmann",
+          "repositoryUrl": "https://github.com/auraofintelligence/tiggy-bestmann",
+          "publicPage": "https://auraofintelligence.github.io/tiggy-bestmann/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -9699,7 +9939,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 13,
+      "relationshipCount": 14,
       "freshlyCompleted": false,
       "meaningfulRebuild": {
         "title": "Claude-built GAJRA Earth rebuild",
@@ -10395,9 +10635,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "tiggy-bestmann",
+          "title": "Tiggy Bestmann",
+          "repositoryUrl": "https://github.com/auraofintelligence/tiggy-bestmann",
+          "publicPage": "https://auraofintelligence.github.io/tiggy-bestmann/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 10,
+      "relationshipCount": 11,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -11427,9 +11678,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "australiansire",
+          "title": "Australian Sire",
+          "repositoryUrl": "https://github.com/auraofintelligence/australiansire",
+          "publicPage": "https://auraofintelligence.github.io/australiansire/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 13,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -11874,9 +12136,31 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "australiansire",
+          "title": "Australian Sire",
+          "repositoryUrl": "https://github.com/auraofintelligence/australiansire",
+          "publicPage": "https://auraofintelligence.github.io/australiansire/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "tiggy-bestmann",
+          "title": "Tiggy Bestmann",
+          "repositoryUrl": "https://github.com/auraofintelligence/tiggy-bestmann",
+          "publicPage": "https://auraofintelligence.github.io/tiggy-bestmann/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 14,
+      "relationshipCount": 16,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -12796,6 +13080,103 @@
       "source": "audit"
     },
     {
+      "name": "lifetime-memory-map",
+      "title": "Lifetime Memory Map",
+      "repositoryUrl": "https://github.com/auraofintelligence/lifetime-memory-map",
+      "publicPage": "https://auraofintelligence.github.io/lifetime-memory-map/",
+      "firstBuilt": "2026-10-01",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "The illustrated browser-editable public map was committed on 1 October 2026 Brisbane time at 472251c872. Its legacy Pages build 36885238800 succeeded for that exact commit.",
+      "description": "An illustrated, browser-editable map of Luke Nathan Hayes's life, residences, journeys and memory fragments, published as a work in progress with date and evidence limits made explicit.",
+      "priority": "freshly completed public life and travel map",
+      "readmeBand": "published with 359 baseline entries, browser-local editing, export and import, evidence limits and direct links to connected public projects",
+      "families": [
+        {
+          "id": "personal-portfolio-patronage",
+          "title": "Luke public profile, portfolio and patronage",
+          "role": "member"
+        },
+        {
+          "id": "australian-travel-opportunity",
+          "title": "Australian travel, opportunity and story atlases",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        {
+          "name": "Lukes-world-of-work-experience",
+          "title": "Luke's world of work",
+          "repositoryUrl": "https://github.com/auraofintelligence/Lukes-world-of-work-experience",
+          "publicPage": "https://auraofintelligence.github.io/Lukes-world-of-work-experience/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "aura-matrix-studio",
+          "title": "Aura Matrix Studio",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-matrix-studio",
+          "publicPage": "https://auraofintelligence.github.io/aura-matrix-studio/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "australiansire",
+          "title": "Australian Sire",
+          "repositoryUrl": "https://github.com/auraofintelligence/australiansire",
+          "publicPage": "https://auraofintelligence.github.io/australiansire/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "australian-sire-story-forge",
+          "title": "Australian Sire Story Forge",
+          "repositoryUrl": "https://github.com/auraofintelligence/australian-sire-story-forge",
+          "publicPage": "https://auraofintelligence.github.io/australian-sire-story-forge/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "loose-goose-comedy-engine",
+          "title": "Loose Goose Comedy Engine",
+          "repositoryUrl": "https://github.com/auraofintelligence/loose-goose-comedy-engine",
+          "publicPage": "https://auraofintelligence.github.io/loose-goose-comedy-engine/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Australian-visa-activity-atlas",
+          "title": "Australian Visa Activity Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+          "publicPage": "https://auraofintelligence.github.io/Australian-visa-activity-atlas/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
+      "relationshipCount": 6,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh"
+    },
+    {
       "name": "loose-goose-comedy-engine",
       "title": "Loose Goose Comedy Engine",
       "repositoryUrl": "https://github.com/auraofintelligence/loose-goose-comedy-engine",
@@ -12876,9 +13257,42 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "australiansire",
+          "title": "Australian Sire",
+          "repositoryUrl": "https://github.com/auraofintelligence/australiansire",
+          "publicPage": "https://auraofintelligence.github.io/australiansire/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "lifetime-memory-map",
+          "title": "Lifetime Memory Map",
+          "repositoryUrl": "https://github.com/auraofintelligence/lifetime-memory-map",
+          "publicPage": "https://auraofintelligence.github.io/lifetime-memory-map/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "tiggy-bestmann",
+          "title": "Tiggy Bestmann",
+          "repositoryUrl": "https://github.com/auraofintelligence/tiggy-bestmann",
+          "publicPage": "https://auraofintelligence.github.io/tiggy-bestmann/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 5,
+      "relationshipCount": 8,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -13193,9 +13607,31 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "australiansire",
+          "title": "Australian Sire",
+          "repositoryUrl": "https://github.com/auraofintelligence/australiansire",
+          "publicPage": "https://auraofintelligence.github.io/australiansire/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "tiggy-bestmann",
+          "title": "Tiggy Bestmann",
+          "repositoryUrl": "https://github.com/auraofintelligence/tiggy-bestmann",
+          "publicPage": "https://auraofintelligence.github.io/tiggy-bestmann/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 26,
+      "relationshipCount": 28,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
@@ -13241,9 +13677,42 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "australiansire",
+          "title": "Australian Sire",
+          "repositoryUrl": "https://github.com/auraofintelligence/australiansire",
+          "publicPage": "https://auraofintelligence.github.io/australiansire/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "lifetime-memory-map",
+          "title": "Lifetime Memory Map",
+          "repositoryUrl": "https://github.com/auraofintelligence/lifetime-memory-map",
+          "publicPage": "https://auraofintelligence.github.io/lifetime-memory-map/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "tiggy-bestmann",
+          "title": "Tiggy Bestmann",
+          "repositoryUrl": "https://github.com/auraofintelligence/tiggy-bestmann",
+          "publicPage": "https://auraofintelligence.github.io/tiggy-bestmann/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 2,
+      "relationshipCount": 5,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh"
@@ -19572,6 +20041,28 @@
           "confidence": "confirmed"
         },
         {
+          "name": "australiansire",
+          "title": "Australian Sire",
+          "repositoryUrl": "https://github.com/auraofintelligence/australiansire",
+          "publicPage": "https://auraofintelligence.github.io/australiansire/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "tiggy-bestmann",
+          "title": "Tiggy Bestmann",
+          "repositoryUrl": "https://github.com/auraofintelligence/tiggy-bestmann",
+          "publicPage": "https://auraofintelligence.github.io/tiggy-bestmann/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
           "name": "global-group-marriages",
           "title": "Global Group Marriages",
           "repositoryUrl": "https://github.com/auraofintelligence/global-group-marriages",
@@ -19583,7 +20074,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 10,
+      "relationshipCount": 12,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
@@ -24599,6 +25090,147 @@
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit"
+    },
+    {
+      "name": "tiggy-bestmann",
+      "title": "Tiggy Bestmann",
+      "repositoryUrl": "https://github.com/auraofintelligence/tiggy-bestmann",
+      "publicPage": "https://auraofintelligence.github.io/tiggy-bestmann/",
+      "firstBuilt": "2026-09-29",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "The first substantive partner character site was committed on 29 September 2026 Brisbane time at 1b12027e3c. The public repository and its exact 8ea9e80a4f Pages release were confirmed on 9 October 2026.",
+      "description": "A ten-page fictional character site about travel, relationships, bodyboarding, art, music, Aura retreats and speculative worlds, grounded in reviewed life-history sources and clearly labelled imagined scenes.",
+      "priority": "freshly completed public character and story-world site",
+      "readmeBand": "published with ten connected chapters, source and artwork notes, build checks, a site map and clear distinctions between memories, proposals and fiction",
+      "families": [
+        {
+          "id": "australian-travel-opportunity",
+          "title": "Australian travel, opportunity and story atlases",
+          "role": "member"
+        },
+        {
+          "id": "strange-but-true-public-doors",
+          "title": "Strange But True public doors",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        {
+          "name": "australiansire",
+          "title": "Australian Sire",
+          "repositoryUrl": "https://github.com/auraofintelligence/australiansire",
+          "publicPage": "https://auraofintelligence.github.io/australiansire/",
+          "labels": [
+            "newly completed project linked in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "australian-sire-story-forge",
+          "title": "Australian Sire Story Forge",
+          "repositoryUrl": "https://github.com/auraofintelligence/australian-sire-story-forge",
+          "publicPage": "https://auraofintelligence.github.io/australian-sire-story-forge/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "loose-goose-comedy-engine",
+          "title": "Loose Goose Comedy Engine",
+          "repositoryUrl": "https://github.com/auraofintelligence/loose-goose-comedy-engine",
+          "publicPage": "https://auraofintelligence.github.io/loose-goose-comedy-engine/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "luke-nathan-hayes-man-and-mind",
+          "title": "The Mind Behind the Man",
+          "repositoryUrl": "https://github.com/auraofintelligence/luke-nathan-hayes-man-and-mind",
+          "publicPage": "https://auraofintelligence.github.io/luke-nathan-hayes-man-and-mind/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Lukes-world-of-work-experience",
+          "title": "Luke's world of work",
+          "repositoryUrl": "https://github.com/auraofintelligence/Lukes-world-of-work-experience",
+          "publicPage": "https://auraofintelligence.github.io/Lukes-world-of-work-experience/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "right-place-right-time",
+          "title": "Right Place Right Time",
+          "repositoryUrl": "https://github.com/auraofintelligence/right-place-right-time",
+          "publicPage": "https://auraofintelligence.github.io/right-place-right-time/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "i-C-infinity-music-universe",
+          "title": "i-C Infinity Music Universe",
+          "repositoryUrl": "https://github.com/auraofintelligence/i-C-infinity-music-universe",
+          "publicPage": "https://auraofintelligence.github.io/i-C-infinity-music-universe/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "ballow-road-sand-screen-hub",
+          "title": "Ballow Road Sand Screen Hub",
+          "repositoryUrl": "https://github.com/auraofintelligence/ballow-road-sand-screen-hub",
+          "publicPage": "https://auraofintelligence.github.io/ballow-road-sand-screen-hub/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "global-founder-atlas",
+          "title": "Global Founder Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/global-founder-atlas",
+          "publicPage": "https://auraofintelligence.github.io/global-founder-atlas/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "gajra-earth-claude-build",
+          "title": "GAJRA Earth Claude Build",
+          "repositoryUrl": "https://github.com/auraofintelligence/gajra-earth-claude-build",
+          "publicPage": "https://auraofintelligence.github.io/gajra-earth-claude-build/",
+          "labels": [
+            "direct public-project link in the 2026-10-09 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
+      "relationshipCount": 10,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh"
     },
     {
       "name": "two-dogs-podcast-backend",

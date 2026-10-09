@@ -231,6 +231,12 @@
       "fallbackColour": "#3f625b",
       "source": "australian-sire-story-forge/assets/icons/apple-touch-icon.png"
     },
+    "australiansire": {
+      "asset": "assets/project-icons/australiansire.webp",
+      "kind": "local-source",
+      "fallbackColour": "#661d38",
+      "source": "australiansire/assets/icon-180.png"
+    },
     "Australian-visa-activity-atlas": {
       "asset": "assets/project-icons/australian-visa-activity-atlas.webp",
       "kind": "local-source",
@@ -463,6 +469,12 @@
       "kind": "local-source",
       "fallbackColour": "#c58a24",
       "source": "knights-templar-Timothy-Hogan/public/media/favicon.png"
+    },
+    "lifetime-memory-map": {
+      "asset": "assets/project-icons/lifetime-memory-map.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3d766f",
+      "source": "lifetime-memory-map/assets/lifetime-world.png"
     },
     "loose-goose-comedy-engine": {
       "asset": "assets/project-icons/loose-goose-comedy-engine.webp",
@@ -930,6 +942,12 @@
       "kind": "field-library-raster",
       "fallbackColour": "#3f625b",
       "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\the-great-unveiling.png"
+    },
+    "tiggy-bestmann": {
+      "asset": "assets/project-icons/tiggy-bestmann.webp",
+      "kind": "local-source",
+      "fallbackColour": "#f7ff67",
+      "source": "tiggy-bestmann/assets/brand-icon.webp"
     },
     "two-dogs-podcast-backend": {
       "asset": "assets/project-icons/two-dogs-podcast-backend.webp",
