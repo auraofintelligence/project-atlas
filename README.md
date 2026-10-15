@@ -73,3 +73,9 @@ npm run build:qr
 ```
 
 Run the normal check afterwards. It confirms that every included project has a matching QR SVG with the intended public target.
+
+## Licence
+
+Original Project Atlas code, editorial text and Atlas-specific artwork are available under the [Strange But True Public Source Licence](LICENCE.md). The licence applies to this Atlas, not to projects listed or linked here. Project thumbnails, logos and other material reused from those projects retain their existing rights. Third-party dependencies retain their own licences.
+
+The text comes from the [30 June 2026 Strange But True revision](https://github.com/auraofintelligence/strange-but-true/blob/b953391fc5596c2e66b3535c45ef6cf6175baa23/LICENCE.md) (`b953391fc5596c2e66b3535c45ef6cf6175baa23`, licence blob `e548f72132c17b3a7b89f6413d620384d1bcdf6c`). Only the three project identifiers in the description and attribution have been changed to `project-atlas`; the licence terms are unchanged.
