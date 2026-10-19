@@ -43,8 +43,9 @@
   }
 
   function dateStamp(project) {
-    const label = project.firstBuilt ? `First built: ${formatDate(project.firstBuilt)}` : "First build date not evidenced";
-    return element("span", { class: "date-stamp", text: label });
+    const created = project.repositoryCreatedAt;
+    const date = created ? new Intl.DateTimeFormat("en-AU", { timeZone: "Australia/Brisbane", day: "numeric", month: "short", year: "numeric" }).format(new Date(created)) : null;
+    return element("time", { class: "date-stamp", datetime: created, text: date ? `Created: ${date}` : "Creation date not verified" });
   }
 
   function truncate(value, length = 205) {
@@ -155,7 +156,7 @@
     card.append(element("p", { class: "project-description", text: truncate(project.description) }));
 
     const meta = element("ul", { class: "card-meta" });
-    meta.append(element("li", { text: project.firstBuilt ? `Original build evidence: ${project.buildConfidence || "not stated"}` : "Original build evidence is not yet confirmed" }));
+    meta.append(element("li", { text: project.firstBuilt ? `Original build: ${formatDate(project.firstBuilt)}. Evidence: ${project.buildConfidence || "not stated"}` : "Original build evidence is not yet confirmed" }));
     meta.append(element("li", { text: `${project.relationshipCount || 0} related public project${project.relationshipCount === 1 ? "" : "s"}` }));
     if (project.meaningfulRebuild?.published || project.meaningfulRebuild?.started) {
       const rebuild = project.meaningfulRebuild;
@@ -177,23 +178,6 @@
     if (project.publicPage) actions.append(externalLink("Visit public page", project.publicPage));
     actions.append(externalLink("View on GitHub", project.repositoryUrl));
     card.append(actions, relationshipDetails(project));
-    return card;
-  }
-
-  function freshCard(project) {
-    const card = element("article", { class: "fresh-card" });
-    card.append(dateStamp(project));
-    card.append(projectHeading(project, "fresh-card-heading"));
-    card.append(element("p", { text: truncate(project.description, 150) }));
-    if (project.meaningfulRebuild?.published || project.meaningfulRebuild?.started) {
-      const rebuild = project.meaningfulRebuild;
-      const releaseDate = rebuild.published || rebuild.started;
-      const timing = rebuild.published ? `published ${formatDate(releaseDate)}` : `started ${formatDate(releaseDate)}`;
-      const label = rebuild.title || "Current meaningful release";
-      const status = rebuild.status ? ` ${rebuild.status}` : "";
-      card.append(element("p", { class: "fresh-rebuild", text: `${label} ${timing}. The original build date above has been retained.${status}` }));
-    }
-    card.append(externalLink(project.publicPage ? "Visit public page" : "View on GitHub", project.publicPage || project.repositoryUrl, "button button-secondary"));
     return card;
   }
 
@@ -295,7 +279,6 @@
 
   function filteredProjects() {
     const filters = activeFilters();
-    const majorOrder = new Map((state.data.featuredProjectNames || []).map((name, index) => [name, index]));
     const results = state.projects.filter((project) => {
       if (filters.query && !project._searchText.includes(filters.query)) return false;
       if (filters.year && project.firstBuilt?.slice(0, 4) !== filters.year) return false;
@@ -308,31 +291,27 @@
     });
 
     const titleComparison = (left, right) => left.title.localeCompare(right.title, "en-AU");
-    const compareOriginalBuild = (left, right, ascending = false) => {
-      const leftHasDate = Boolean(left.firstBuilt);
-      const rightHasDate = Boolean(right.firstBuilt);
+    const compareCreation = (left, right, ascending = false) => {
+      const leftHasDate = Boolean(left.repositoryCreatedAt);
+      const rightHasDate = Boolean(right.repositoryCreatedAt);
       if (leftHasDate !== rightHasDate) return leftHasDate ? -1 : 1;
       if (!leftHasDate) return titleComparison(left, right);
-      const comparison = left.firstBuilt.localeCompare(right.firstBuilt);
+      const comparison = left.repositoryCreatedAt.localeCompare(right.repositoryCreatedAt);
       return (ascending ? comparison : -comparison) || titleComparison(left, right);
     };
     const isFreshOrRebuilt = (project) => Boolean(project.freshlyCompleted || project.meaningfulRebuild?.published || project.meaningfulRebuild?.started);
     const currentMoment = (project) => project.meaningfulRebuild?.published || project.meaningfulRebuild?.started || project.firstBuilt || "";
     results.sort((left, right) => {
-      if (filters.sort === "major") {
-        const priority = (majorOrder.get(left.name) ?? Infinity) - (majorOrder.get(right.name) ?? Infinity);
-        return (Number.isNaN(priority) ? 0 : priority) || compareOriginalBuild(left, right);
-      }
-      if (filters.sort === "oldest") return compareOriginalBuild(left, right, true);
+      if (filters.sort === "oldest") return compareCreation(left, right, true);
       if (filters.sort === "fresh") {
         const freshness = Number(isFreshOrRebuilt(right)) - Number(isFreshOrRebuilt(left));
-        return freshness || currentMoment(right).localeCompare(currentMoment(left)) || compareOriginalBuild(left, right);
+        return freshness || currentMoment(right).localeCompare(currentMoment(left)) || compareCreation(left, right);
       }
-      if (filters.sort === "pages") return Number(Boolean(right.publicPage)) - Number(Boolean(left.publicPage)) || compareOriginalBuild(left, right);
-      if (filters.sort === "connected") return (right.relationshipCount - left.relationshipCount) || compareOriginalBuild(left, right);
-      if (filters.sort === "least-connected") return (left.relationshipCount - right.relationshipCount) || compareOriginalBuild(left, right);
+      if (filters.sort === "pages") return Number(Boolean(right.publicPage)) - Number(Boolean(left.publicPage)) || compareCreation(left, right);
+      if (filters.sort === "connected") return (right.relationshipCount - left.relationshipCount) || compareCreation(left, right);
+      if (filters.sort === "least-connected") return (left.relationshipCount - right.relationshipCount) || compareCreation(left, right);
       if (filters.sort === "az") return titleComparison(left, right);
-      return compareOriginalBuild(left, right);
+      return compareCreation(left, right);
     });
     return results;
   }
@@ -344,9 +323,8 @@
     grid.replaceChildren();
     const total = state.projects.length;
     const sortLabels = {
-      major: "Major projects first",
-      newest: "Newest original build first",
-      oldest: "Oldest original build first",
+      newest: "Newest creation date first",
+      oldest: "Oldest creation date first",
       fresh: "Newly completed and rebuilt first",
       pages: "Public pages first",
       connected: "Most connected first",
@@ -369,35 +347,6 @@
     const fragment = document.createDocumentFragment();
     for (const project of projects) fragment.append(projectCard(project));
     grid.append(fragment);
-  }
-
-  function renderFresh(data) {
-    const byName = new Map(data.projects.map((project) => [project.name, project]));
-    const majorProjects = (data.featuredProjectNames || []).map((name) => byName.get(name)).filter(Boolean);
-    if (majorProjects.length) {
-      byId("fresh-explainer").textContent = "The main projects, starting with the Open Record and Aura Genesis. Explore the full collection below by name, family or original build date.";
-      const cards = majorProjects.map(freshCard);
-      cards[0].classList.add("is-lead");
-      byId("fresh-grid").replaceChildren(...cards);
-      return;
-    }
-    const curated = data.projects.filter((project) => project.freshlyCompleted);
-    const meaningfulRebuilds = data.projects.filter((project) => project.meaningfulRebuild?.published || project.meaningfulRebuild?.started);
-    const fallback = [...data.projects]
-      .filter((project) => project.firstBuilt)
-      .sort((left, right) => right.firstBuilt.localeCompare(left.firstBuilt))
-      .slice(0, 6);
-    const featured = [...curated, ...meaningfulRebuilds.filter((project) => !curated.some((item) => item.name === project.name))];
-    const projects = featured.length ? featured.sort((left, right) => {
-      const leftDate = left.meaningfulRebuild?.published || left.meaningfulRebuild?.started || left.firstBuilt || "0000-00-00";
-      const rightDate = right.meaningfulRebuild?.published || right.meaningfulRebuild?.started || right.firstBuilt || "0000-00-00";
-      return rightDate.localeCompare(leftDate);
-    }).slice(0, 6) : fallback;
-    byId("fresh-explainer").textContent = featured.length
-      ? "These are explicitly marked new public projects and meaningful rebuilds from the latest refresh. Their original build dates remain visible, even where a new release has been published."
-      : "This first edition is showing the six latest dated builds in the audit. New projects can be explicitly marked here once their public page and original build evidence are confirmed.";
-    const grid = byId("fresh-grid");
-    grid.replaceChildren(...projects.map(freshCard));
   }
 
   function renderLineages(data) {
@@ -453,7 +402,6 @@
       displayCounts(data);
       buildYearOptions(state.projects);
       buildFamilyOptions(state.projects);
-      renderFresh(data);
       renderProjects();
       renderLineages(data);
       renderPrintDirectory(data.projects);

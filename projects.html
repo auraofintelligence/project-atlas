@@ -30,11 +30,9 @@
       <div class="hero" id="top">
         <p class="kicker">Project collection</p>
         <h1>Browse the public work.</h1>
-        <p class="hero-intro">Start with the major projects, search the full collection, follow connected work, or print a directory. Pattern ancestry has its own set of pages.</p>
+        <p class="hero-intro">Browse the collection by creation date, search for a project, follow connected work, or print a directory.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="https://github.com/auraofintelligence/open-record-luke-nathan-hayes">Read the Open Record</a>
-          <a class="button button-secondary" href="#major-projects">Major projects</a>
-          <a class="button button-secondary" href="#explore">Search projects</a>
+          <a class="button button-primary" href="#explore">Search projects</a>
           <a class="button button-secondary" href="pattern-ancestry.html">Pattern ancestry</a>
         </div>
         <dl class="hero-stats" aria-label="Atlas summary">
@@ -55,18 +53,6 @@
     </header>
 
     <main id="main-content">
-      <section class="fresh-section" id="major-projects" aria-labelledby="fresh-heading">
-        <div class="section-wrap" id="fresh">
-          <div class="section-heading section-heading-on-dark">
-            <p class="kicker">Start here</p>
-            <h2 id="fresh-heading">Major projects</h2>
-            <p id="fresh-explainer">The Open Record, Aura Genesis and the main routes through the work.</p>
-          </div>
-          <div class="fresh-grid" id="fresh-grid" aria-live="polite"></div>
-          <p class="major-collection-link"><a class="button button-secondary" href="#explore">Explore all projects</a></p>
-        </div>
-      </section>
-
       <section class="orientation section-wrap" aria-labelledby="start-heading">
         <div class="section-heading">
           <p class="kicker">Start here</p>
@@ -135,9 +121,8 @@
           <label for="sort-filter">
             <span>Order</span>
             <select id="sort-filter" name="sort">
-              <option value="major">Major projects first</option>
-              <option value="newest">Newest original build first</option>
-              <option value="oldest">Oldest original build first</option>
+              <option value="newest" selected>Newest creation date first</option>
+              <option value="oldest">Oldest creation date first</option>
               <option value="fresh">Newly completed and rebuilt first</option>
               <option value="pages">Public pages first</option>
               <option value="connected">Most connected first</option>
@@ -208,6 +193,6 @@
     <noscript>
       <p class="noscript">This directory needs JavaScript enabled to load the public project data.</p>
     </noscript>
-    <script src="app.js?v=20261019" defer></script>
+    <script src="app.js?v=20261019-2" defer></script>
   </body>
 </html>

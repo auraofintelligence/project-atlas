@@ -17,8 +17,9 @@ The Atlas records the first substantive build date for every included public pro
 - Direct links to live public pages where the audit verified one, plus GitHub links for every project
 - All evidence-backed public neighbouring projects, not a small hand-picked sample. Three archived duplicate i-C Infinity album-package copies are deliberately excluded from active public navigation.
 - Search, original-build year, project-family, public-page and relationship filters
-- Truthful visitor-facing orders for original build date, newly completed or meaningfully rebuilt work, public pages, connection count and A to Z
-- Fourteen curated major projects at the top, led by Open Record, Aura Genesis Protocol and 82 Claytons, with the same priority order available in the complete directory
+- Visitor-facing orders for repository creation date, newly completed or meaningfully rebuilt work, public pages, connection count and A to Z
+- Fourteen curated major projects on the home page, led by Open Record, Aura Genesis Protocol and 82 Claytons
+- One complete directory on the Projects page, ordered by GitHub repository creation date, newest first by default
 - A generated raster PNG Atlas favicon, with browser and Apple-touch sizes checked as PNG files
 - A print-friendly directory with a scannable QR code for every public project. The page does not depend on a third-party QR service.
 
@@ -48,7 +49,7 @@ python scripts/build_atlas_data.py `
 
 `data/manual-projects.json` holds editorial additions and overrides once their public destination, original build date and relationship evidence are confirmed. `freshlyCompleted` remains available for the recent-work sort. Its `excludedProjectNames` list prevents confirmed archived duplicates from returning to cards, search, QR or related-project links, while leaving the source audit intact. A dated public refresh file is useful when several new pages launch together.
 
-`featuredProjectNames` sets the major-project order on the home page, the opening project section and the default directory view. Older and specialist projects remain available in the complete collection and family filters. The build also regenerates the home page's marked major-project links from this list. Build-date sorts remain independent of editorial priority. Open Record links directly to its public GitHub record; it does not have a separate GitHub Pages site. 7-Mile uses its published planning-workbench address.
+`featuredProjectNames` sets the major-project order on the home page. The build regenerates those home links from this list. The Projects page has a single directory, ordered by repository creation date, newest first by default. `data/repository-creation-dates.json` records GitHub's `created_at` timestamps, independently of substantive build history and later updates; refresh this file when adding repositories. Card creation dates use Brisbane local time. Open Record links directly to its public GitHub record; it does not have a separate GitHub Pages site. 7-Mile uses its published planning-workbench address.
 
 The generator rejects non-public repository links and invalid build dates. It does not copy local paths, unpublished source material or private notes into the public dataset.
 

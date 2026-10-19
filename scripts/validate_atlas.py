@@ -58,7 +58,7 @@ def main() -> int:
         "index.html", "projects.html", "site-map.html", "volunteer.html", "styles.css", "app.js", "package.json",
         "pattern-ancestry.html", "pattern-braid.html", "pattern-eras.html", "pattern-gajra.html",
         "pattern-provenance.html", "pattern-ancestry.css",
-        "data/projects.json", "data/project-icons.json", "data/manual-projects.json",
+        "data/projects.json", "data/project-icons.json", "data/manual-projects.json", "data/repository-creation-dates.json",
         "data/github-organisation-delta-2026-09-08.json", "data/github-organisation-delta-2026-09-10.json",
         "data/github-organisation-delta-2026-09-15.json", "data/github-organisation-delta-2026-09-16.json",
         "data/github-organisation-delta-2026-09-18.json", "data/github-organisation-delta-2026-09-22.json",
@@ -87,6 +87,7 @@ def main() -> int:
             fail(errors, f"Atlas icon is not a PNG: {relative}")
 
     data = json.loads((root / "data/projects.json").read_text(encoding="utf-8"))
+    creation_dates = json.loads((root / "data/repository-creation-dates.json").read_text(encoding="utf-8"))["repositories"]
     manual = json.loads((root / "data/manual-projects.json").read_text(encoding="utf-8"))
     raw_excluded_names = manual.get("excludedProjectNames", []) if isinstance(manual, dict) else []
     if not isinstance(raw_excluded_names, list) or any(not isinstance(name, str) or not name for name in raw_excluded_names):
@@ -113,7 +114,7 @@ def main() -> int:
     qr_dir = root / "assets" / "qr"
     allowed_keys = {
         "name", "title", "repositoryUrl", "publicPage", "firstBuilt", "buildStatus", "buildConfidence", "buildEvidence",
-        "description", "priority", "readmeBand", "families", "neighbours", "relationshipCount", "freshlyCompleted", "meaningfulRebuild", "source",
+        "description", "priority", "readmeBand", "families", "neighbours", "relationshipCount", "freshlyCompleted", "meaningfulRebuild", "source", "repositoryCreatedAt",
     }
     for project in projects:
         if not isinstance(project, dict):
@@ -129,6 +130,13 @@ def main() -> int:
         if name.casefold() in names:
             fail(errors, f"Duplicate project name: {name}")
         names.add(name.casefold())
+        created = project.get("repositoryCreatedAt")
+        try:
+            if not created or created != creation_dates.get(name):
+                raise ValueError("Creation timestamp does not match the verified metadata")
+            dt.datetime.fromisoformat(created.replace("Z", "+00:00"))
+        except (ValueError, TypeError):
+            fail(errors, f"Project {name} has no verified repository creation timestamp")
         if name.casefold() in excluded_names:
             fail(errors, f"Excluded project is still included in public data: {name}")
         if not isinstance(project.get("title"), str) or not project["title"]:
@@ -292,7 +300,7 @@ def main() -> int:
     css = (root / "styles.css").read_text(encoding="utf-8")
     app = (root / "app.js").read_text(encoding="utf-8")
     for marker in (
-        "id=\"project-search\"", "id=\"family-filter\"", "id=\"fresh-grid\"", "id=\"print-directory-list\"",
+        "id=\"project-search\"", "id=\"family-filter\"", "id=\"print-directory-list\"",
         "id=\"lineage-grid\"", "data-print", "project-atlas-favicon-16.png", "project-atlas-favicon-32.png",
         "project-atlas-favicon-192.png", "project-atlas-apple-touch-icon-180.png",
     ):

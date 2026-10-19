@@ -477,6 +477,7 @@ def main() -> int:
     )
     parser.add_argument("--manual", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--creation-dates", type=Path, default=Path(__file__).resolve().parents[1] / "data" / "repository-creation-dates.json")
     args = parser.parse_args()
 
     with args.audit_csv.open(encoding="utf-8-sig", newline="") as handle:
@@ -568,7 +569,12 @@ def main() -> int:
             project["relationshipCount"] = len(project["neighbours"])
             project_by_name[name] = project
 
+    creation_dates = read_json(args.creation_dates)["repositories"]
     for project in project_by_name.values():
+        created = creation_dates.get(project["name"])
+        if created:
+            dt.datetime.fromisoformat(created.replace("Z", "+00:00"))
+        project["repositoryCreatedAt"] = created
         project["relationshipCount"] = len(project.get("neighbours", []))
         for neighbour in project.get("neighbours", []):
             target = project_by_name[neighbour["name"]]
