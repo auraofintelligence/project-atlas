@@ -1,0 +1,203 @@
+{
+  "baselineAuditDate": "2026-08-29",
+  "refreshedDate": "2026-10-19",
+  "publicRepositoryCount": 172,
+  "newPublicProjects": [
+    {
+      "name": "7-mile-admin-prep",
+      "repositoryUrl": "https://github.com/auraofintelligence/7-mile-admin-prep",
+      "title": "7-Mile Planning and Administration",
+      "publicPage": "https://seven-mile-planning-admin.auraofintelligence.chatgpt.site",
+      "firstBuilt": "2026-10-10",
+      "firstBuildCommit": "098e54bdff92d4e2eb80815d49933911a27ed42f",
+      "description": "A planning and administration hub for an Indigenous-majority not-for-profit and commercial 7-Mile project on Minjerribah, with permanent living, cultural activities, food growing, making and short stays.",
+      "priority": "public 7-Mile planning and administration workbench",
+      "readmeBand": "published with 52 responsive pages, 43 document briefs, task registers, checklists and the original-plan mapping",
+      "families": [
+        {
+          "id": "sand-capability-world",
+          "title": "Minjerribah sand capability programme and story world",
+          "role": "member"
+        },
+        {
+          "id": "regional-wealth-resilience",
+          "title": "Regional wealth and resilience architecture",
+          "role": "member"
+        }
+      ],
+      "dateNote": "First substantive public build confirmed from commit 098e54bdff on 2026-10-10 in Brisbane local date. Repository content and publication route checked on 19 October 2026.",
+      "neighbours": [
+        "multi-site-Minjerribah-network"
+      ]
+    },
+    {
+      "name": "aura-genesis-geode-atlas",
+      "repositoryUrl": "https://github.com/auraofintelligence/aura-genesis-geode-atlas",
+      "title": "Aura Genesis Protocol",
+      "publicPage": "https://auraofintelligence.github.io/aura-genesis-geode-atlas/",
+      "firstBuilt": "2026-10-15",
+      "firstBuildCommit": "fd452acb4f08b4c91ad1000b290ef79f4f70ad54",
+      "description": "A guide to developing and socialising an Aura of Intelligence through the 60-day HBOT Genesis process, the Truth Engine, four Geode hardware pathways and sixty daily teacher-development readings.",
+      "priority": "major public Aura Genesis Protocol guide",
+      "readmeBand": "published with 30 chapters, 60 daily readings, hardware pathways, source references and site navigation",
+      "families": [
+        {
+          "id": "aura-core-ecosystem",
+          "title": "Aura core ecosystem and pathway",
+          "role": "member"
+        },
+        {
+          "id": "aura-health-geode",
+          "title": "Aura health, care and Geode pathway",
+          "role": "member"
+        }
+      ],
+      "dateNote": "First substantive public build confirmed from commit fd452acb4f on 2026-10-15 in Brisbane local date. Repository content and publication route checked on 19 October 2026.",
+      "neighbours": [
+        "Oceania-healthy-de-slop-co-ops",
+        "Anglican-Diocese-82-Claytons-Amity",
+        "multi-site-Minjerribah-network",
+        "ready-set-co-op-cultural-intelligence-node",
+        "aura-matrix-studio"
+      ]
+    },
+    {
+      "name": "Redlands_discovers_Luke_Hayes",
+      "repositoryUrl": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+      "title": "When Redlands Discovers Luke Hayes",
+      "publicPage": "https://auraofintelligence.github.io/Redlands_discovers_Luke_Hayes/",
+      "firstBuilt": "2026-10-16",
+      "firstBuildCommit": "c7fdc2cdd470043dcd7b5208633799e74b883a78",
+      "description": "A Redlands thought experiment connecting i C. infinity music, P4A, HBOT, Aura Genesis, local government and the wider body of work, with fourteen illustrated pages and the original source documents.",
+      "priority": "major public Redlands thought experiment",
+      "readmeBand": "published with fourteen illustrated pages, a source register, original documents, sitemap and previous/next navigation",
+      "families": [
+        {
+          "id": "personal-portfolio-patronage",
+          "title": "Luke public profile, portfolio and patronage",
+          "role": "member"
+        },
+        {
+          "id": "australian-civic-navigation",
+          "title": "Australian law and civic navigation",
+          "role": "member"
+        }
+      ],
+      "dateNote": "First substantive public build confirmed from commit c7fdc2cdd4 on 2026-10-16 in Brisbane local date. Repository content and publication route checked on 19 October 2026.",
+      "neighbours": [
+        "luke-nathan-hayes-man-and-mind",
+        "australian-law-2012-lukes-relevance",
+        "aura-genesis-geode-atlas",
+        "Anglican-Diocese-82-Claytons-Amity",
+        "UNGA81-Luke-Hayes"
+      ]
+    },
+    {
+      "name": "open-record-luke-nathan-hayes",
+      "repositoryUrl": "https://github.com/auraofintelligence/open-record-luke-nathan-hayes",
+      "title": "Open Record: Luke Nathan Hayes",
+      "publicPage": null,
+      "firstBuilt": "2026-10-17",
+      "firstBuildCommit": "514ce7182e162131fe7c32b25add2535d0e02a6b",
+      "description": "An open record of Luke Nathan Hayes's life and connected body of work, bringing together personal history, music, travel, projects and original documents for readers, journalists and documentary makers.",
+      "priority": "lead public introduction to the person and connected body of work",
+      "readmeBand": "published as a long-form GitHub record with a life and source record, website directory, document archive and reporting guide",
+      "families": [
+        {
+          "id": "personal-portfolio-patronage",
+          "title": "Luke public profile, portfolio and patronage",
+          "role": "member"
+        },
+        {
+          "id": "repo-catalogue-and-discovery",
+          "title": "Repository catalogue and public discovery system",
+          "role": "member"
+        }
+      ],
+      "dateNote": "First substantive public build confirmed from commit 514ce7182e on 2026-10-17 in Brisbane local date. Repository content and publication route checked on 19 October 2026.",
+      "neighbours": [
+        "luke-nathan-hayes-man-and-mind",
+        "lifetime-memory-map",
+        "Lukes-world-of-work-experience",
+        "i-C-infinity-music-universe",
+        "strange-but-true",
+        "mutual-futures",
+        "PLFC_2026_Data",
+        "meet-luke",
+        "australian-law-2012-lukes-relevance",
+        "virtual-solar-swarm",
+        "C-Hour-introduction",
+        "500-Queens-VC-2026",
+        "Anglican-Diocese-82-Claytons-Amity",
+        "aura-genesis-geode-atlas",
+        "aura-matrix-studio",
+        "global-group-marriages",
+        "ready-set-co-op-cultural-intelligence-node",
+        "australian-legal-engine",
+        "UNGA81-Luke-Hayes",
+        "p4a_xyz",
+        "grain-by-grain",
+        "aura-horn-torus",
+        "aura-sentience-codex",
+        "aura-direct-hardware",
+        "aura-of-intelligence-pathways",
+        "aura-geode",
+        "ready-set-co-op-hyperlocal-media",
+        "ready-set-co-op-trust-hub",
+        "Queens_Venture",
+        "shared-table-initiative",
+        "quandamooka-country-events-engine",
+        "minjerribah-living-twin",
+        "second-island",
+        "straddie-twins",
+        "straddie-digital-twin-builders",
+        "community-club-builder-sandy-sports",
+        "ballow-road-sand-screen-hub",
+        "dunwich-gumpi-ferry-terminal-open-data-lab",
+        "minjerribah-screen-media-network",
+        "multi-site-Minjerribah-network",
+        "stradbroke-grants-lab",
+        "straddie-clean-energy-superpower",
+        "aura-dementia",
+        "GAJRA-earth",
+        "gajra-earth-claude-build",
+        "GAJRA-earth-infinity",
+        "gajra-earth-public-hub",
+        "GAJRA_Earth-Space-AI_Summit",
+        "legal-memory-workbench",
+        "p4a-oceania-cinema",
+        "p4a-native-nations-cinema",
+        "wildlife-rescue-minjerribah",
+        "loose-goose-comedy-engine",
+        "davinci-resolve-automations",
+        "infinity-engine",
+        "infinity-content-engine",
+        "sovereign-music-australia",
+        "spirit-animal-podcast",
+        "two-dogs-podcast-backend",
+        "tiggy-bestmann",
+        "australian-sire-story-forge",
+        "australiansire",
+        "grey-area-commons",
+        "strange-but-true-desire-atlas",
+        "SSB",
+        "space-weather-news",
+        "mineral-moonshots",
+        "micronova-and-excursions",
+        "extreme-matter-atlas",
+        "strange-but-true-cosmic-nexus",
+        "knights-templar-Timothy-Hogan",
+        "sandworm-subterranean-systems",
+        "civilisation-of-sand",
+        "Future-of-Life-2045",
+        "JRA-Product-Engine-Plan",
+        "global-founder-atlas",
+        "Australian-visa-activity-atlas",
+        "right-place-right-time",
+        "strange-but-true-travel-oracle"
+      ]
+    }
+  ],
+  "meaningfulReleases": [],
+  "dateDisplayPolicy": "Keep the first substantive build date. Major-project placement is editorial and does not change original build dates."
+}

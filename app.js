@@ -295,6 +295,7 @@
 
   function filteredProjects() {
     const filters = activeFilters();
+    const majorOrder = new Map((state.data.featuredProjectNames || []).map((name, index) => [name, index]));
     const results = state.projects.filter((project) => {
       if (filters.query && !project._searchText.includes(filters.query)) return false;
       if (filters.year && project.firstBuilt?.slice(0, 4) !== filters.year) return false;
@@ -318,6 +319,10 @@
     const isFreshOrRebuilt = (project) => Boolean(project.freshlyCompleted || project.meaningfulRebuild?.published || project.meaningfulRebuild?.started);
     const currentMoment = (project) => project.meaningfulRebuild?.published || project.meaningfulRebuild?.started || project.firstBuilt || "";
     results.sort((left, right) => {
+      if (filters.sort === "major") {
+        const priority = (majorOrder.get(left.name) ?? Infinity) - (majorOrder.get(right.name) ?? Infinity);
+        return (Number.isNaN(priority) ? 0 : priority) || compareOriginalBuild(left, right);
+      }
       if (filters.sort === "oldest") return compareOriginalBuild(left, right, true);
       if (filters.sort === "fresh") {
         const freshness = Number(isFreshOrRebuilt(right)) - Number(isFreshOrRebuilt(left));
@@ -339,6 +344,7 @@
     grid.replaceChildren();
     const total = state.projects.length;
     const sortLabels = {
+      major: "Major projects first",
       newest: "Newest original build first",
       oldest: "Oldest original build first",
       fresh: "Newly completed and rebuilt first",
@@ -366,6 +372,15 @@
   }
 
   function renderFresh(data) {
+    const byName = new Map(data.projects.map((project) => [project.name, project]));
+    const majorProjects = (data.featuredProjectNames || []).map((name) => byName.get(name)).filter(Boolean);
+    if (majorProjects.length) {
+      byId("fresh-explainer").textContent = "The main projects, starting with the Open Record and Aura Genesis. Explore the full collection below by name, family or original build date.";
+      const cards = majorProjects.map(freshCard);
+      cards[0].classList.add("is-lead");
+      byId("fresh-grid").replaceChildren(...cards);
+      return;
+    }
     const curated = data.projects.filter((project) => project.freshlyCompleted);
     const meaningfulRebuilds = data.projects.filter((project) => project.meaningfulRebuild?.published || project.meaningfulRebuild?.started);
     const fallback = [...data.projects]
@@ -377,7 +392,7 @@
       const leftDate = left.meaningfulRebuild?.published || left.meaningfulRebuild?.started || left.firstBuilt || "0000-00-00";
       const rightDate = right.meaningfulRebuild?.published || right.meaningfulRebuild?.started || right.firstBuilt || "0000-00-00";
       return rightDate.localeCompare(leftDate);
-    }) : fallback;
+    }).slice(0, 6) : fallback;
     byId("fresh-explainer").textContent = featured.length
       ? "These are explicitly marked new public projects and meaningful rebuilds from the latest refresh. Their original build dates remain visible, even where a new release has been published."
       : "This first edition is showing the six latest dated builds in the audit. New projects can be explicitly marked here once their public page and original build evidence are confirmed.";

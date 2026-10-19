@@ -30,11 +30,12 @@
       <div class="hero" id="top">
         <p class="kicker">Project collection</p>
         <h1>Browse the public work.</h1>
-        <p class="hero-intro">Search the public project collection, see recent work, follow public implementation storylines, or print a directory. Pattern ancestry lives in its own shorter set of pages.</p>
+        <p class="hero-intro">Start with the major projects, search the full collection, follow connected work, or print a directory. Pattern ancestry has its own set of pages.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#explore">Search projects</a>
+          <a class="button button-primary" href="https://github.com/auraofintelligence/open-record-luke-nathan-hayes">Read the Open Record</a>
+          <a class="button button-secondary" href="#major-projects">Major projects</a>
+          <a class="button button-secondary" href="#explore">Search projects</a>
           <a class="button button-secondary" href="pattern-ancestry.html">Pattern ancestry</a>
-          <a class="button button-secondary" href="#fresh">Fresh work</a>
         </div>
         <dl class="hero-stats" aria-label="Atlas summary">
           <div>
@@ -54,6 +55,18 @@
     </header>
 
     <main id="main-content">
+      <section class="fresh-section" id="major-projects" aria-labelledby="fresh-heading">
+        <div class="section-wrap" id="fresh">
+          <div class="section-heading section-heading-on-dark">
+            <p class="kicker">Start here</p>
+            <h2 id="fresh-heading">Major projects</h2>
+            <p id="fresh-explainer">The Open Record, Aura Genesis and the main routes through the work.</p>
+          </div>
+          <div class="fresh-grid" id="fresh-grid" aria-live="polite"></div>
+          <p class="major-collection-link"><a class="button button-secondary" href="#explore">Explore all projects</a></p>
+        </div>
+      </section>
+
       <section class="orientation section-wrap" aria-labelledby="start-heading">
         <div class="section-heading">
           <p class="kicker">Start here</p>
@@ -76,17 +89,6 @@
             <h3>Read the history properly</h3>
             <p>The date on each card is the first substantive build evidence. It is not GitHub’s easily distorted latest-update label.</p>
           </article>
-        </div>
-      </section>
-
-      <section class="fresh-section" id="fresh" aria-labelledby="fresh-heading">
-        <div class="section-wrap">
-          <div class="section-heading section-heading-on-dark">
-            <p class="kicker">Freshly completed</p>
-            <h2 id="fresh-heading">New work, without losing the older roots</h2>
-            <p id="fresh-explainer">Loading the latest original builds...</p>
-          </div>
-          <div class="fresh-grid" id="fresh-grid" aria-live="polite"></div>
         </div>
       </section>
 
@@ -133,6 +135,7 @@
           <label for="sort-filter">
             <span>Order</span>
             <select id="sort-filter" name="sort">
+              <option value="major">Major projects first</option>
               <option value="newest">Newest original build first</option>
               <option value="oldest">Oldest original build first</option>
               <option value="fresh">Newly completed and rebuilt first</option>

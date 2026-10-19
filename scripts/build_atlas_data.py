@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import csv
 import datetime as dt
+import html
 import json
 import re
 from pathlib import Path
@@ -434,6 +435,36 @@ def apply_lineage_description_overrides(
     return lineages
 
 
+def write_home_feature_links(root: Path, projects: list[dict[str, Any]], featured_names: list[str]) -> None:
+    page_path = root / "index.html"
+    if not page_path.is_file():
+        return
+    page = page_path.read_text(encoding="utf-8")
+    start = "<!-- major-project-links:start -->"
+    end = "<!-- major-project-links:end -->"
+    if start not in page or end not in page:
+        return
+    by_name = {project["name"]: project for project in projects}
+    icons = read_json(root / "data" / "project-icons.json")["icons"]
+    links = []
+    for index, name in enumerate(featured_names):
+        project = by_name[name]
+        description = project["description"]
+        if len(description) > 110:
+            description = description[:110].rsplit(" ", 1)[0] + "..."
+        lead = " is-lead" if index == 0 else ""
+        url = html.escape(project.get("publicPage") or project["repositoryUrl"], quote=True)
+        asset = html.escape(icons[name]["asset"], quote=True)
+        links.append(
+            f'        <a class="home-major-link{lead}" data-major-project="{html.escape(name, quote=True)}" href="{url}">'
+            f'<img src="{asset}" alt="" width="48" height="48" loading="lazy">'
+            f'<span><strong>{html.escape(project["title"])}</strong><small>{html.escape(description)}</small></span></a>'
+        )
+    before, after = page.split(start, 1)
+    _, after = after.split(end, 1)
+    page_path.write_text(before + start + "\n" + "\n".join(links) + "\n        " + end + after, encoding="utf-8")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build public-safe Project Atlas data")
     parser.add_argument("--audit-csv", type=Path, required=True)
@@ -539,7 +570,17 @@ def main() -> int:
 
     for project in project_by_name.values():
         project["relationshipCount"] = len(project.get("neighbours", []))
+        for neighbour in project.get("neighbours", []):
+            target = project_by_name[neighbour["name"]]
+            neighbour["title"] = target["title"]
+            neighbour["publicPage"] = target.get("publicPage")
     projects = sorted(project_by_name.values(), key=lambda item: item["name"].lower())
+    raw_featured = manual.get("featuredProjectNames", [])
+    if not isinstance(raw_featured, list):
+        raise ValueError("manual-projects.json featuredProjectNames must be a list")
+    featured_names = [canonical_name(name, {key.casefold(): key for key in project_by_name}) for name in raw_featured]
+    if len(set(featured_names)) != len(featured_names):
+        raise ValueError("featuredProjectNames must not repeat a project")
     lineages = apply_lineage_description_overrides(
         clean_lineages(
             relationships.get("lineages"),
@@ -559,10 +600,12 @@ def main() -> int:
         "generatedOn": dt.date.today().isoformat(),
         "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
         "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
+        "featuredProjectNames": featured_names,
         "projects": projects,
         "lineages": lineages,
     }
     write_json(args.output, output)
+    write_home_feature_links(args.output.resolve().parents[1], projects, featured_names)
     audit_derived_count = len(audit_rows) - len(excluded_names)
     public_addition_count = len(projects) - audit_derived_count
     print(

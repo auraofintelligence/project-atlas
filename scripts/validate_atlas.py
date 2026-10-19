@@ -49,7 +49,7 @@ def qr_stem(value: str) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate static Project Atlas files")
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    parser.add_argument("--expected-audited", type=int, default=165)
+    parser.add_argument("--expected-audited", type=int, default=169)
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -64,6 +64,7 @@ def main() -> int:
         "data/github-organisation-delta-2026-09-18.json", "data/github-organisation-delta-2026-09-22.json",
         "data/github-organisation-delta-2026-09-23.json", "data/github-organisation-delta-2026-09-24.json",
         "data/github-organisation-delta-2026-09-30.json", "data/github-organisation-delta-2026-10-09.json",
+        "data/github-organisation-delta-2026-10-19.json",
         "scripts/build_atlas_data.py", "scripts/build_qr_codes.mjs",
         "assets/icons/project-atlas-icon-source.png", "assets/icons/project-atlas-favicon-16.png",
         "assets/icons/project-atlas-favicon-32.png", "assets/icons/project-atlas-favicon-192.png",
@@ -185,6 +186,12 @@ def main() -> int:
 
     if relationship_total < 1:
         fail(errors, "No evidence-backed relationships were generated")
+
+    featured = data.get("featuredProjectNames", [])
+    if not featured or featured != manual.get("featuredProjectNames"):
+        fail(errors, "The featured major projects must match the editorial list")
+    if len(featured) != len(set(featured)) or any(name.casefold() not in names for name in featured):
+        fail(errors, "Featured projects must be unique included public projects")
 
     icon_manifest = json.loads((root / "data/project-icons.json").read_text(encoding="utf-8"))
     icon_entries = icon_manifest.get("icons") if isinstance(icon_manifest, dict) else None

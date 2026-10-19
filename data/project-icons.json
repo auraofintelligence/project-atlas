@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-09-30",
+  "generatedOn": "2026-10-19",
   "assetSize": 128,
   "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved only for projects with no honest public favicon, logo or directly related public-brand artwork.",
   "icons": {
@@ -990,6 +990,30 @@
       "kind": "field-library-raster",
       "fallbackColour": "#3f625b",
       "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\windemere-skate-bowl-tender-workspace.png"
+    },
+    "7-mile-admin-prep": {
+      "asset": "assets/project-icons/7-mile-admin-prep.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "7-mile-admin-prep/dist/assets/favicon.png"
+    },
+    "aura-genesis-geode-atlas": {
+      "asset": "assets/project-icons/aura-genesis-geode-atlas.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "aura-genesis-geode-atlas/assets/favicon.png"
+    },
+    "open-record-luke-nathan-hayes": {
+      "asset": "assets/project-icons/open-record-luke-nathan-hayes.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "luke-nathan-hayes-man-and-mind/assets/favicon.jpg (existing personal-profile artwork reused for the Open Record)"
+    },
+    "Redlands_discovers_Luke_Hayes": {
+      "asset": "assets/project-icons/redlands-discovers-luke-hayes.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "Redlands_discovers_Luke_Hayes/assets/favicon.svg"
     }
   }
 }

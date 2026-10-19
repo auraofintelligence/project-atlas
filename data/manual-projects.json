@@ -59,7 +59,58 @@
       "description": "A daily board of funny English-language news headlines, with source links and a gentle community question about a possible Straddie comedy open mic.",
       "priority": "active public headline board",
       "readmeBand": "published with daily automation, source rules and public pages"
+    },
+    {
+      "name": "UNGA81-Luke-Hayes",
+      "title": "UNGA81: A Fair Go in the Age of Intelligence"
+    },
+    {
+      "name": "Anglican-Diocese-82-Claytons-Amity",
+      "title": "82 Claytons, Amity"
+    },
+    {
+      "name": "p4a-xyz-cinema",
+      "title": "P4A.xyz Civic Workbench",
+      "description": "A civic workbench connecting Australian places, everyday questions, evidence and public decisions, with Redlands and Victorian electorate guides and routes for public participation."
+    },
+    {
+      "name": "p4a-oceania-cinema",
+      "title": "P4A Oceania",
+      "description": "The Oceania branch of P4A, linking regional civic work with the Australian workbench and Native Nations."
+    },
+    {
+      "name": "p4a-native-nations-cinema",
+      "title": "P4A Native Nations",
+      "description": "A P4A lab exploring Indigenous data sovereignty, decentralised compute, reciprocal contribution and proposed agreements."
+    },
+    {
+      "name": "i-C-infinity-music-universe",
+      "title": "i C. infinity Music Universe"
+    },
+    {
+      "name": "right-place-right-time",
+      "title": "Right Place, Right Time"
+    },
+    {
+      "name": "C-Hour-introduction",
+      "description": "Community-led pilots recording verified hours of voluntary human contribution, with no monetary equivalent, alongside shared capability, personal intelligence and joyful responsible abundance."
     }
   ],
-  "notes": "Add only confirmed public projects here. A matching name augments an audited project; a new name adds a project. Keep dates in YYYY-MM-DD Brisbane local date format. Use freshlyCompleted: true for the editorial feature area. replaceNeighbourNames is for a confirmed current project map that deliberately supersedes an older relationship list. excludedProjectNames keeps confirmed archived duplicates out of all active Atlas navigation while preserving the source audit. lineageDescriptionOverrides can replace wording that is no longer appropriate after a deliberate public-navigation exclusion."
+  "notes": "Add only confirmed public projects here. A matching name augments an audited project; a new name adds a project. Keep dates in YYYY-MM-DD Brisbane local date format. Use freshlyCompleted: true for the editorial feature area. replaceNeighbourNames is for a confirmed current project map that deliberately supersedes an older relationship list. excludedProjectNames keeps confirmed archived duplicates out of all active Atlas navigation while preserving the source audit. lineageDescriptionOverrides can replace wording that is no longer appropriate after a deliberate public-navigation exclusion. featuredProjectNames sets the curated major-project order independently of build dates; projects outside that list remain in the complete collection and family filters.",
+  "featuredProjectNames": [
+    "open-record-luke-nathan-hayes",
+    "aura-genesis-geode-atlas",
+    "Anglican-Diocese-82-Claytons-Amity",
+    "UNGA81-Luke-Hayes",
+    "C-Hour-introduction",
+    "mutual-futures",
+    "extreme-matter-atlas",
+    "Redlands_discovers_Luke_Hayes",
+    "p4a-xyz-cinema",
+    "p4a-oceania-cinema",
+    "p4a-native-nations-cinema",
+    "i-C-infinity-music-universe",
+    "Australian-visa-activity-atlas",
+    "right-place-right-time"
+  ]
 }
