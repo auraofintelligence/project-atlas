@@ -1,0 +1,166 @@
+{
+  "baselineAuditDate": "2026-08-29",
+  "refreshedDate": "2026-10-29",
+  "publicRepositoryCount": 183,
+  "newPublicProjects": [
+    {
+      "name": "aura-verse-box",
+      "repositoryUrl": "https://github.com/auraofintelligence/aura-verse-box",
+      "title": "Verse Box",
+      "publicPage": "https://auraofintelligence.github.io/aura-verse-box/",
+      "firstBuilt": "2026-10-20",
+      "firstBuildCommit": "bf5a52ae87c6590593c5d42937f960fd4d302a5e",
+      "description": "A lower-cost public Aura of Intelligence demonstration proposal for personal Aura building, Community Hours, learning and community participation, with a source-linked trial guide.",
+      "readmeBand": "published with the public experience, proposed trial, source library and connected pathways",
+      "families": [
+        { "id": "aura-core-ecosystem", "title": "Aura core ecosystem and pathway", "role": "member" },
+        { "id": "regional-wealth-resilience", "title": "Regional wealth and resilience architecture", "role": "member" }
+      ],
+      "dateNote": "First substantive public guide published in commit bf5a52ae87 on 20 October 2026 in Brisbane local time. Public repository visibility and live website checked on 29 October 2026.",
+      "neighbours": []
+    },
+    {
+      "name": "aura-disaster-resilience",
+      "repositoryUrl": "https://github.com/auraofintelligence/aura-disaster-resilience",
+      "title": "Aura Disaster Resilience",
+      "publicPage": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki",
+      "firstBuilt": "2026-10-20",
+      "firstBuildCommit": "dc0d7a057858b14594be362cf2999b8f31127acb",
+      "description": "A shared planning workshop for Minjerribah community kiosks and disaster resilience, connecting everyday information, power, communications, practical learning and local support.",
+      "readmeBand": "published with a shared design wiki, source documents, research questions and review guidance",
+      "families": [
+        { "id": "regional-wealth-resilience", "title": "Regional wealth and resilience architecture", "role": "member" },
+        { "id": "wildlife-and-resilience-data", "title": "Minjerribah wildlife and resilience data pathway", "role": "member" }
+      ],
+      "dateNote": "First substantive shared resilience wiki built in commit dc0d7a0578 on 20 October 2026 in Brisbane local time. Public repository visibility and wiki checked on 29 October 2026.",
+      "neighbours": []
+    },
+    {
+      "name": "rough-as-guts",
+      "repositoryUrl": "https://github.com/auraofintelligence/rough-as-guts",
+      "title": "Rough as Guts",
+      "publicPage": "https://auraofintelligence.github.io/rough-as-guts/",
+      "firstBuilt": "2026-10-21",
+      "firstBuildCommit": "98bc849f9d040ec2d2f8d84bbb2d57c618374fb3",
+      "description": "An illustrated-guide prototype blending practical life skills, light satire and joyful responsible abundance, with men's, women's, youth and workplace editions, a source-art library and editorial tools.",
+      "readmeBand": "published with illustrated editions, the original slide library, readable transcripts and editorial tools",
+      "families": [
+        { "id": "strange-but-true-public-doors", "title": "Strange But True public doors", "role": "member" }
+      ],
+      "dateNote": "First substantive guide website built in commit 98bc849f9d on 21 October 2026 in Brisbane local time. Public repository visibility and live website checked on 29 October 2026.",
+      "neighbours": []
+    },
+    {
+      "name": "RCC-RJC-Job-Ad-Formula",
+      "repositoryUrl": "https://github.com/auraofintelligence/RCC-RJC-Job-Ad-Formula",
+      "title": "RCC / RJC Job Ad Formula",
+      "publicPage": "https://auraofintelligence.github.io/RCC-RJC-Job-Ad-Formula/",
+      "firstBuilt": "2026-10-22",
+      "firstBuildCommit": "e3586683049ccbd0bbe1356c7b865dba298d45e3",
+      "description": "A browser-local vacancy form that creates a portable Markdown brief for an employer's chosen AI, with separate SEEK, LinkedIn and Facebook copy fields and manual employer review.",
+      "readmeBand": "published with the vacancy brief builder, platform-specific guidance and employer review workflow",
+      "families": [
+        { "id": "markdown-ai-workbench-suite", "title": "Markdown and AI workbench suite", "role": "member" }
+      ],
+      "dateNote": "First public tool source recorded in commit e358668304 on 22 October 2026 in Brisbane local time. Public repository visibility and live website checked on 29 October 2026.",
+      "neighbours": []
+    },
+    {
+      "name": "aura-whole-of-life",
+      "repositoryUrl": "https://github.com/auraofintelligence/aura-whole-of-life",
+      "title": "Aura Whole of Life Support",
+      "publicPage": "https://auraofintelligence.github.io/aura-whole-of-life/",
+      "firstBuilt": "2026-10-28",
+      "firstBuildCommit": "80070a05ea3c70c44c232cb0b00044496b5b7c57",
+      "description": "A source-linked Aura of Intelligence proposal for adaptive support through dementia, disability and aged care, connecting personal records, memory palaces, choice, human support and community participation.",
+      "readmeBand": "published with twelve grouped chapters, the original document, reference library and connected projects",
+      "families": [
+        { "id": "aura-health-geode", "title": "Aura health, care and Geode pathway", "role": "member" },
+        { "id": "aura-core-ecosystem", "title": "Aura core ecosystem and pathway", "role": "member" }
+      ],
+      "dateNote": "First substantive source-linked website built in commit 80070a05ea on 28 October 2026 in Brisbane local time. Public repository visibility and live website checked on 29 October 2026.",
+      "neighbours": []
+    },
+    {
+      "name": "aura-child-services",
+      "repositoryUrl": "https://github.com/auraofintelligence/aura-child-services",
+      "title": "Aura Children and Young People",
+      "publicPage": "https://auraofintelligence.github.io/aura-child-services/",
+      "firstBuilt": "2026-10-28",
+      "firstBuildCommit": "5631180b93fcb49823f6971b0bfa86b46f6d6e8d",
+      "description": "A public guide to a proposal for children and young people in Australian care to build a personal Aura through chosen interests, creative learning, rights, family and culture, human mentors and pathways into adulthood.",
+      "readmeBand": "published with ten grouped chapters, the unchanged original document, source register and related projects",
+      "families": [
+        { "id": "aura-core-ecosystem", "title": "Aura core ecosystem and pathway", "role": "member" }
+      ],
+      "dateNote": "First substantive source-linked website built in commit 5631180b93 on 28 October 2026 in Brisbane local time. Public repository visibility and live website checked on 29 October 2026.",
+      "neighbours": []
+    },
+    {
+      "name": "aura-tourism",
+      "repositoryUrl": "https://github.com/auraofintelligence/aura-tourism",
+      "title": "Aura Tourism",
+      "publicPage": "https://auraofintelligence.github.io/aura-tourism/",
+      "firstBuilt": "2026-10-28",
+      "firstBuildCommit": "3c6b66b55d37d694d610858390f9192ba01c9ccd",
+      "description": "An Aura of Intelligence tourism proposal connecting personal reflection, music, sport, culture, nature and community learning, from Minjerribah through Australia towards Brisbane 2032.",
+      "readmeBand": "published with eleven grouped chapters, the complete original reading and tables, references and project connections",
+      "families": [
+        { "id": "australian-travel-opportunity", "title": "Australian travel, opportunity and story atlases", "role": "member" },
+        { "id": "aura-core-ecosystem", "title": "Aura core ecosystem and pathway", "role": "member" }
+      ],
+      "dateNote": "First substantive source-linked website built in commit 3c6b66b55d on 28 October 2026 in Brisbane local time. Public repository visibility and live website checked on 29 October 2026.",
+      "neighbours": []
+    },
+    {
+      "name": "aura-teacher-training",
+      "repositoryUrl": "https://github.com/auraofintelligence/aura-teacher-training",
+      "title": "Aura Teacher Training",
+      "publicPage": "https://auraofintelligence.github.io/aura-teacher-training/",
+      "firstBuilt": "2026-10-28",
+      "firstBuildCommit": "4f1b657c2033f85a4ed8d55afaa7b6d5183e9745",
+      "description": "A sixty-day adult learning progression with original daily readings and expanded studio guides for personal Aura development, critical and ethical AI engagement, teaching and shared civic capability.",
+      "readmeBand": "published with sixty daily readings and expanded guides, six movements, teaching resources and downloadable templates",
+      "families": [
+        { "id": "aura-core-ecosystem", "title": "Aura core ecosystem and pathway", "role": "member" }
+      ],
+      "dateNote": "First substantive expanded sixty-day course built in commit 4f1b657c20 on 28 October 2026 in Brisbane local time. Public repository visibility and live website checked on 29 October 2026.",
+      "neighbours": []
+    },
+    {
+      "name": "installing-the-missing-middle",
+      "repositoryUrl": "https://github.com/auraofintelligence/installing-the-missing-middle",
+      "title": "Installing the Missing Middle",
+      "publicPage": "https://auraofintelligence.github.io/installing-the-missing-middle/",
+      "firstBuilt": "2026-10-29",
+      "firstBuildCommit": "a4ae6e7d65a324943d2bf8af9a82697b8ab3d873",
+      "description": "A business plan for an Australian installation network combining community compute, useful heat, local ownership, co-operative participation, finite investor returns and hardware renewal, with presentation and downloadable editions.",
+      "readmeBand": "published with twelve plan chapters, presentation, source readers and matching PDF and Word editions",
+      "families": [
+        { "id": "regional-wealth-resilience", "title": "Regional wealth and resilience architecture", "role": "member" },
+        { "id": "circular-making-infrastructure", "title": "Circular making and local infrastructure", "role": "member" }
+      ],
+      "dateNote": "First substantive checked plan website built in commit a4ae6e7d65 on 29 October 2026 in Brisbane local time. Public repository visibility and live website checked on 29 October 2026.",
+      "neighbours": []
+    },
+    {
+      "name": "escape-room-team-building",
+      "repositoryUrl": "https://github.com/auraofintelligence/escape-room-team-building",
+      "title": "Escape Room Team Building",
+      "publicPage": "https://auraofintelligence.github.io/escape-room-team-building/",
+      "firstBuilt": "2026-10-29",
+      "firstBuildCommit": "ba81e49a3cb8bf02911bdbcef33fbb1b495cf667",
+      "description": "A business plan for an Australian escape-room network connecting immersive experiences, tourism, paid local work and whole-of-life skill development, with PDF and editable Word editions.",
+      "readmeBand": "published with the complete business plan, financial inputs, source register and downloadable editions",
+      "families": [
+        { "id": "australian-travel-opportunity", "title": "Australian travel, opportunity and story atlases", "role": "member" },
+        { "id": "regional-wealth-resilience", "title": "Regional wealth and resilience architecture", "role": "member" }
+      ],
+      "dateNote": "First substantive Australian escape-room network plan published in commit ba81e49a3c on 29 October 2026 in Brisbane local time. Public repository visibility and live website checked on 29 October 2026.",
+      "neighbours": []
+    }
+  ],
+  "meaningfulReleases": [],
+  "inclusionPolicy": "Add only public repositories created since the 19 October 2026 refresh and missing from the existing directory. Do not backfill older unlisted repositories or revise existing project records.",
+  "dateDisplayPolicy": "Keep first substantive build dates distinct from repository creation timestamps. Display repository creation in Brisbane local time."
+}

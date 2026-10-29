@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-10-19",
+  "generatedOn": "2026-10-29",
   "assetSize": 128,
   "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved only for projects with no honest public favicon, logo or directly related public-brand artwork.",
   "icons": {
@@ -1014,6 +1014,66 @@
       "kind": "local-source",
       "fallbackColour": "#3f625b",
       "source": "Redlands_discovers_Luke_Hayes/assets/favicon.svg"
+    },
+    "aura-child-services": {
+      "asset": "assets/project-icons/aura-child-services.webp",
+      "kind": "local-source",
+      "fallbackColour": "#f5ead2",
+      "source": "aura-child-services/assets/favicon.png"
+    },
+    "aura-disaster-resilience": {
+      "asset": "assets/project-icons/aura-disaster-resilience.webp",
+      "kind": "colour-tile",
+      "fallbackColour": "#3f625b",
+      "source": null
+    },
+    "aura-teacher-training": {
+      "asset": "assets/project-icons/aura-teacher-training.webp",
+      "kind": "local-source",
+      "fallbackColour": "#f5ead2",
+      "source": "aura-teacher-training/assets/favicon.png"
+    },
+    "aura-tourism": {
+      "asset": "assets/project-icons/aura-tourism.webp",
+      "kind": "local-source",
+      "fallbackColour": "#f5ead2",
+      "source": "aura-tourism/favicon.png"
+    },
+    "aura-verse-box": {
+      "asset": "assets/project-icons/aura-verse-box.webp",
+      "kind": "local-source",
+      "fallbackColour": "#f5ead2",
+      "source": "aura-verse-box/apple-touch-icon.png"
+    },
+    "aura-whole-of-life": {
+      "asset": "assets/project-icons/aura-whole-of-life.webp",
+      "kind": "local-source",
+      "fallbackColour": "#f5ead2",
+      "source": "aura-whole-of-life/assets/favicon.png"
+    },
+    "escape-room-team-building": {
+      "asset": "assets/project-icons/escape-room-team-building.webp",
+      "kind": "local-source",
+      "fallbackColour": "#f5ead2",
+      "source": "escape-room-team-building/assets/favicon.svg"
+    },
+    "installing-the-missing-middle": {
+      "asset": "assets/project-icons/installing-the-missing-middle.webp",
+      "kind": "local-source",
+      "fallbackColour": "#f5ead2",
+      "source": "installing-the-missing-middle/assets/favicon.png"
+    },
+    "RCC-RJC-Job-Ad-Formula": {
+      "asset": "assets/project-icons/rcc-rjc-job-ad-formula.webp",
+      "kind": "local-source",
+      "fallbackColour": "#f5ead2",
+      "source": "RCC-RJC-Job-Ad-Formula/dist/assets/favicon-192.png"
+    },
+    "rough-as-guts": {
+      "asset": "assets/project-icons/rough-as-guts.webp",
+      "kind": "local-source",
+      "fallbackColour": "#f5ead2",
+      "source": "rough-as-guts/assets/favicon.svg"
     }
   }
 }

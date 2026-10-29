@@ -532,10 +532,10 @@ def main() -> int:
     for raw in manual_projects:
         names_after_delta = {project_name.casefold(): project_name for project_name in project_by_name}
         name, changes = clean_manual_project(raw, names_after_delta)
-        canonical_name = names_after_delta.get(name.casefold())
-        if canonical_name:
+        existing_name = names_after_delta.get(name.casefold())
+        if existing_name:
             replacement_neighbours = changes.pop("replaceNeighbourNames", None)
-            project = project_by_name[canonical_name]
+            project = project_by_name[existing_name]
             project.update(changes)
             if replacement_neighbours is not None:
                 project["neighbours"] = []
@@ -544,7 +544,7 @@ def main() -> int:
                     add_neighbour(project, target, "current verified public-project link")
                     add_neighbour(target, project, "current verified public-project link")
                 project["relationshipCount"] = len(project["neighbours"])
-            project_by_name[canonical_name]["source"] = "audit-plus-curation"
+            project_by_name[existing_name]["source"] = "audit-plus-curation"
         else:
             project = {
                 "name": name,
