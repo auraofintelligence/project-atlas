@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-10-29",
+  "generatedOn": "2026-10-30",
   "assetSize": 128,
   "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved only for projects with no honest public favicon, logo or directly related public-brand artwork.",
   "icons": {
@@ -1074,6 +1074,12 @@
       "kind": "local-source",
       "fallbackColour": "#f5ead2",
       "source": "rough-as-guts/assets/favicon.svg"
+    },
+    "infinity-creative-workshop": {
+      "asset": "assets/project-icons/infinity-creative-workshop.webp",
+      "kind": "local-source",
+      "fallbackColour": "#f5ead2",
+      "source": "infinity-creative-workshop/assets/img/favicon-512.png"
     }
   }
 }

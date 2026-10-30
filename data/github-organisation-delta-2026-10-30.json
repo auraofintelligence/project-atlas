@@ -1,0 +1,29 @@
+{
+  "baselineAuditDate": "2026-08-29",
+  "refreshedDate": "2026-10-30",
+  "publicRepositoryCount": 184,
+  "newPublicProjects": [
+    {
+      "name": "infinity-creative-workshop",
+      "repositoryUrl": "https://github.com/auraofintelligence/infinity-creative-workshop",
+      "title": "Infinity Creative Workshop",
+      "publicPage": "https://auraofintelligence.github.io/infinity-creative-workshop/",
+      "firstBuilt": "2026-10-30",
+      "firstBuildCommit": "b3338b1687af96c9f894785f4bdfd02f5ed45429",
+      "description": "A practical training workshop for the Queens Council, Infinity Engine, music videos, educational films, shorts, Blender and DaVinci Resolve, with exercises, provider comparisons, a dated cost calculator and a completion test lab.",
+      "readmeBand": "published with training routes, practical exercises, provider comparisons, a cost calculator and a completion test lab",
+      "families": [
+        {
+          "id": "ic-infinity-music-content",
+          "title": "i C. infinity music and content system",
+          "role": "member"
+        }
+      ],
+      "dateNote": "First substantive training website built in commit b3338b1687 on 30 October 2026 in Brisbane local time. Public repository visibility, creation timestamp and live website checked on 30 October 2026.",
+      "neighbours": []
+    }
+  ],
+  "meaningfulReleases": [],
+  "inclusionPolicy": "Add only newly created public repositories missing from the 29 October 2026 directory. Do not backfill older unlisted repositories or revise existing project records.",
+  "dateDisplayPolicy": "Keep first substantive build dates distinct from repository creation timestamps. Display repository creation in Brisbane local time."
+}

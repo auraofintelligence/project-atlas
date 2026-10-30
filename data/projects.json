@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "account": "auraofintelligence",
   "auditSnapshotDate": "2026-08-29",
-  "refreshSnapshotDate": "2026-10-29",
-  "publicRepositoryCount": 183,
-  "auditedProjectCount": 179,
-  "includedProjectCount": 179,
-  "generatedOn": "2026-10-29",
+  "refreshSnapshotDate": "2026-10-30",
+  "publicRepositoryCount": 184,
+  "auditedProjectCount": 180,
+  "includedProjectCount": 180,
+  "generatedOn": "2026-10-30",
   "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
   "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
   "projects": [
@@ -13101,6 +13101,32 @@
       "meaningfulRebuild": null,
       "source": "audit",
       "repositoryCreatedAt": "2025-10-02T03:56:34Z"
+    },
+    {
+      "name": "infinity-creative-workshop",
+      "title": "Infinity Creative Workshop",
+      "repositoryUrl": "https://github.com/auraofintelligence/infinity-creative-workshop",
+      "publicPage": "https://auraofintelligence.github.io/infinity-creative-workshop/",
+      "firstBuilt": "2026-10-30",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "First substantive training website built in commit b3338b1687 on 30 October 2026 in Brisbane local time. Public repository visibility, creation timestamp and live website checked on 30 October 2026.",
+      "description": "A practical training workshop for the Queens Council, Infinity Engine, music videos, educational films, shorts, Blender and DaVinci Resolve, with exercises, provider comparisons, a dated cost calculator and a completion test lab.",
+      "priority": "freshly completed",
+      "readmeBand": "published with training routes, practical exercises, provider comparisons, a cost calculator and a completion test lab",
+      "families": [
+        {
+          "id": "ic-infinity-music-content",
+          "title": "i C. infinity music and content system",
+          "role": "member"
+        }
+      ],
+      "neighbours": [],
+      "relationshipCount": 0,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh",
+      "repositoryCreatedAt": "2026-10-29T23:42:20Z"
     },
     {
       "name": "infinity-engine",
