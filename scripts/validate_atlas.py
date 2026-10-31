@@ -206,7 +206,7 @@ def main() -> int:
     icon_entries = icon_manifest.get("icons") if isinstance(icon_manifest, dict) else None
     expected_colour_tiles = {
         "australian-legal-engine", "fishing-calendar", "skills_values_competancies",
-        "aura-disaster-resilience", "worldwide-contact-system", "outreach-cms",
+        "aura-disaster-resilience",
     }
     icon_directory = root / "assets" / "project-icons"
     if icon_manifest.get("schemaVersion") != 1:
@@ -267,7 +267,7 @@ def main() -> int:
                 fail(errors, f"Project {name} icon asset is not WebP: {asset}")
 
     if actual_colour_tiles != expected_colour_tiles:
-        fail(errors, "Project Atlas must retain exactly the six honest colour-only fallback tiles")
+        fail(errors, "Project Atlas must retain exactly the four honest colour-only fallback tiles")
     actual_icon_assets = {path.name for path in icon_directory.glob("*") if path.is_file()}
     if actual_icon_assets != expected_icon_assets:
         missing_assets = sorted(expected_icon_assets - actual_icon_assets)
