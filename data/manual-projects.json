@@ -96,23 +96,6 @@
       "description": "Community-led pilots recording verified hours of voluntary human contribution, with no monetary equivalent, alongside shared capability, personal intelligence and joyful responsible abundance."
     },
     {
-      "name": "worldwide-contact-system",
-      "title": "Worldwide Contact System (starter pointer)",
-      "description": "The unused starter repository for Worldwide Contact System, retained as a pointer to the active Outreach CMS workbench. Its public page link opens the same live workbench.",
-      "buildEvidence": "The public README identifies this repository as an unused starter and links to outreach-cms as the active implementation. Pointer and live destination verified on 1 November 2026; no separate substantive build date is claimed.",
-      "repositoryUrl": "https://github.com/auraofintelligence/worldwide-contact-system",
-      "publicPage": "https://auraofintelligence.github.io/outreach-cms/",
-      "firstBuilt": null,
-      "buildStatus": "unused starter pointer",
-      "buildConfidence": "starter only; active implementation is outreach-cms",
-      "priority": "pointer to the active Outreach CMS implementation",
-      "readmeBand": "published pointer to the active implementation, live website and CMS guide",
-      "families": [],
-      "neighbours": [],
-      "freshlyCompleted": false,
-      "meaningfulRebuild": null
-    },
-    {
       "name": "outreach-cms",
       "title": "Outreach CMS",
       "description": "Worldwide Contact System: a public contact workbench for GAJRA Earth, P4A and the Web3 Sensorium, with discovery routes, place and project references, a browser-local invitation tool, a Google Sheets CMS and publishing checks.",

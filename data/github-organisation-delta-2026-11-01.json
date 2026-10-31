@@ -1,0 +1,13 @@
+{
+  "baselineAuditDate": "2026-08-29",
+  "refreshedDate": "2026-11-01",
+  "publicRepositoryCount": 186,
+  "newPublicProjects": [],
+  "removedPublicRepositories": [
+    "worldwide-contact-system"
+  ],
+  "removalEvidence": "The user reported a repository deletion. worldwide-contact-system was absent from the complete current public repository inventory and its GitHub repository API returned 404 on 1 November 2026. Its manual Atlas entry and generated assets were removed. The active outreach-cms implementation and live website remain included.",
+  "meaningfulReleases": [],
+  "inclusionPolicy": "No new eligible public repositories were found. Preserve the Paul handover and archived-duplicate exclusions, and do not backfill older unlisted repositories.",
+  "dateDisplayPolicy": "Keep existing substantive build dates and repository creation timestamps unchanged."
+}

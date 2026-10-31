@@ -1081,12 +1081,6 @@
       "fallbackColour": "#f5ead2",
       "source": "infinity-creative-workshop/assets/img/favicon-512.png"
     },
-    "worldwide-contact-system": {
-      "asset": "assets/project-icons/worldwide-contact-system.webp",
-      "kind": "local-source",
-      "fallbackColour": "#34254b",
-      "source": "outreach-cms/assets/favicon.svg"
-    },
     "outreach-cms": {
       "asset": "assets/project-icons/outreach-cms.webp",
       "kind": "local-source",

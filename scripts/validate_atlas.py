@@ -49,7 +49,7 @@ def qr_stem(value: str) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate static Project Atlas files")
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    parser.add_argument("--expected-audited", type=int, default=183)
+    parser.add_argument("--expected-audited", type=int, default=182)
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -66,6 +66,7 @@ def main() -> int:
         "data/github-organisation-delta-2026-09-30.json", "data/github-organisation-delta-2026-10-09.json",
         "data/github-organisation-delta-2026-10-19.json", "data/github-organisation-delta-2026-10-29.json",
         "data/github-organisation-delta-2026-10-30.json", "data/github-organisation-delta-2026-10-31.json",
+        "data/github-organisation-delta-2026-11-01.json",
         "scripts/build_atlas_data.py", "scripts/build_qr_codes.mjs",
         "assets/icons/project-atlas-icon-source.png", "assets/icons/project-atlas-favicon-16.png",
         "assets/icons/project-atlas-favicon-32.png", "assets/icons/project-atlas-favicon-192.png",
