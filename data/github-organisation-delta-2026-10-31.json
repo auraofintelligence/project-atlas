@@ -1,0 +1,34 @@
+{
+  "baselineAuditDate": "2026-08-29",
+  "refreshedDate": "2026-10-31",
+  "publicRepositoryCount": 187,
+  "newPublicProjects": [
+    {
+      "name": "world-travel-patterns",
+      "repositoryUrl": "https://github.com/auraofintelligence/world-travel-patterns",
+      "title": "World Travel Patterns",
+      "publicPage": "https://auraofintelligence.github.io/world-travel-patterns/",
+      "firstBuilt": "2026-10-30",
+      "firstBuildCommit": "adf86d65073cffac4f633ec336405dfe4c9022eb",
+      "description": "A Luke and Claude travel guide applying thirteen repeatable checks to places an Australian passport holder might visit, covering entry, local law, culture, permit zones, seasons, advisories and consular reach.",
+      "readmeBand": "published with place pages, thirteen checking patterns, advisories, source dates, a review queue and a site map",
+      "families": [
+        {
+          "id": "australian-travel-opportunity",
+          "title": "Australian travel, opportunity and story atlases",
+          "role": "member"
+        }
+      ],
+      "dateNote": "First substantive project build recorded in commit adf86d6507 at 00:12 on 30 October 2026 in Brisbane local time. The public GitHub repository was created on 31 October 2026. Public visibility and live website checked on 31 October 2026.",
+      "neighbours": []
+    }
+  ],
+  "initialisingPublicRepositories": [
+    "worldwide-contact-system",
+    "outreach-cms"
+  ],
+  "initialisationNote": "The two introductory README-only repositories are added through manual-projects.json with no substantive build date or unverified website link.",
+  "meaningfulReleases": [],
+  "inclusionPolicy": "Add only newly created public repositories missing from the 30 October 2026 directory. Preserve the Paul handover exclusion, do not backfill older unlisted repositories, and do not revise existing project records.",
+  "dateDisplayPolicy": "Keep first substantive build dates distinct from repository creation timestamps. Do not invent build dates for repository scaffolds. Display repository creation in Brisbane local time."
+}

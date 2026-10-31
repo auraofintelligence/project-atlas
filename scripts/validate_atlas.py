@@ -49,7 +49,7 @@ def qr_stem(value: str) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate static Project Atlas files")
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    parser.add_argument("--expected-audited", type=int, default=180)
+    parser.add_argument("--expected-audited", type=int, default=183)
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -65,7 +65,7 @@ def main() -> int:
         "data/github-organisation-delta-2026-09-23.json", "data/github-organisation-delta-2026-09-24.json",
         "data/github-organisation-delta-2026-09-30.json", "data/github-organisation-delta-2026-10-09.json",
         "data/github-organisation-delta-2026-10-19.json", "data/github-organisation-delta-2026-10-29.json",
-        "data/github-organisation-delta-2026-10-30.json",
+        "data/github-organisation-delta-2026-10-30.json", "data/github-organisation-delta-2026-10-31.json",
         "scripts/build_atlas_data.py", "scripts/build_qr_codes.mjs",
         "assets/icons/project-atlas-icon-source.png", "assets/icons/project-atlas-favicon-16.png",
         "assets/icons/project-atlas-favicon-32.png", "assets/icons/project-atlas-favicon-192.png",
@@ -206,7 +206,7 @@ def main() -> int:
     icon_entries = icon_manifest.get("icons") if isinstance(icon_manifest, dict) else None
     expected_colour_tiles = {
         "australian-legal-engine", "fishing-calendar", "skills_values_competancies",
-        "aura-disaster-resilience",
+        "aura-disaster-resilience", "worldwide-contact-system", "outreach-cms",
     }
     icon_directory = root / "assets" / "project-icons"
     if icon_manifest.get("schemaVersion") != 1:
@@ -267,7 +267,7 @@ def main() -> int:
                 fail(errors, f"Project {name} icon asset is not WebP: {asset}")
 
     if actual_colour_tiles != expected_colour_tiles:
-        fail(errors, "Project Atlas must retain exactly the four honest colour-only fallback tiles")
+        fail(errors, "Project Atlas must retain exactly the six honest colour-only fallback tiles")
     actual_icon_assets = {path.name for path in icon_directory.glob("*") if path.is_file()}
     if actual_icon_assets != expected_icon_assets:
         missing_assets = sorted(expected_icon_assets - actual_icon_assets)

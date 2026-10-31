@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "account": "auraofintelligence",
   "auditSnapshotDate": "2026-08-29",
-  "refreshSnapshotDate": "2026-10-30",
-  "publicRepositoryCount": 184,
-  "auditedProjectCount": 180,
-  "includedProjectCount": 180,
-  "generatedOn": "2026-10-30",
+  "refreshSnapshotDate": "2026-10-31",
+  "publicRepositoryCount": 187,
+  "auditedProjectCount": 183,
+  "includedProjectCount": 183,
+  "generatedOn": "2026-10-31",
   "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
   "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
   "projects": [
@@ -17935,6 +17935,26 @@
       "repositoryCreatedAt": "2026-10-17T03:32:58Z"
     },
     {
+      "name": "outreach-cms",
+      "title": "Outreach CMS",
+      "description": "A new public repository for the Worldwide Contact System website, with a planned Google Sheets content management system and GitHub Actions publishing checks. Implementation is being assembled; currently an introductory README only.",
+      "buildEvidence": "Only an introductory README is present in initial commit ca4d563691 on 31 October 2026. The proposed public website returned 404 when checked; no live website link or substantive build date is claimed.",
+      "repositoryUrl": "https://github.com/auraofintelligence/outreach-cms",
+      "publicPage": null,
+      "firstBuilt": null,
+      "buildStatus": "repository setup",
+      "buildConfidence": "substantive build not yet evidenced",
+      "priority": "new public repository in setup",
+      "readmeBand": "introductory README only; substantive implementation not yet published",
+      "families": [],
+      "neighbours": [],
+      "freshlyCompleted": false,
+      "meaningfulRebuild": null,
+      "relationshipCount": 0,
+      "source": "curation",
+      "repositoryCreatedAt": "2026-10-31T13:24:34Z"
+    },
+    {
       "name": "p4a-native-nations-cinema",
       "title": "P4A Native Nations",
       "repositoryUrl": "https://github.com/auraofintelligence/p4a-native-nations-cinema",
@@ -28650,6 +28670,52 @@
       "meaningfulRebuild": null,
       "source": "audit",
       "repositoryCreatedAt": "2026-07-08T04:03:00Z"
+    },
+    {
+      "name": "world-travel-patterns",
+      "title": "World Travel Patterns",
+      "repositoryUrl": "https://github.com/auraofintelligence/world-travel-patterns",
+      "publicPage": "https://auraofintelligence.github.io/world-travel-patterns/",
+      "firstBuilt": "2026-10-30",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "First substantive project build recorded in commit adf86d6507 at 00:12 on 30 October 2026 in Brisbane local time. The public GitHub repository was created on 31 October 2026. Public visibility and live website checked on 31 October 2026.",
+      "description": "A Luke and Claude travel guide applying thirteen repeatable checks to places an Australian passport holder might visit, covering entry, local law, culture, permit zones, seasons, advisories and consular reach.",
+      "priority": "freshly completed",
+      "readmeBand": "published with place pages, thirteen checking patterns, advisories, source dates, a review queue and a site map",
+      "families": [
+        {
+          "id": "australian-travel-opportunity",
+          "title": "Australian travel, opportunity and story atlases",
+          "role": "member"
+        }
+      ],
+      "neighbours": [],
+      "relationshipCount": 0,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh",
+      "repositoryCreatedAt": "2026-10-31T12:56:30Z"
+    },
+    {
+      "name": "worldwide-contact-system",
+      "title": "Worldwide Contact System",
+      "description": "A new public repository introducing a proposed worldwide contact hub for GAJRA Earth, P4A and the Web3 Sensorium, with a planned Google Sheets CMS and GitHub Actions. Currently an introductory README only.",
+      "buildEvidence": "Only an introductory README is present in initial commit e6067684d8 on 31 October 2026. A substantive implementation build is not yet evidenced.",
+      "repositoryUrl": "https://github.com/auraofintelligence/worldwide-contact-system",
+      "publicPage": null,
+      "firstBuilt": null,
+      "buildStatus": "repository setup",
+      "buildConfidence": "substantive build not yet evidenced",
+      "priority": "new public repository in setup",
+      "readmeBand": "introductory README only; substantive implementation not yet published",
+      "families": [],
+      "neighbours": [],
+      "freshlyCompleted": false,
+      "meaningfulRebuild": null,
+      "relationshipCount": 0,
+      "source": "curation",
+      "repositoryCreatedAt": "2026-10-31T13:24:19Z"
     }
   ],
   "lineages": [

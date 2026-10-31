@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-10-30",
+  "generatedOn": "2026-10-31",
   "assetSize": 128,
   "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved only for projects with no honest public favicon, logo or directly related public-brand artwork.",
   "icons": {
@@ -1080,6 +1080,24 @@
       "kind": "local-source",
       "fallbackColour": "#f5ead2",
       "source": "infinity-creative-workshop/assets/img/favicon-512.png"
+    },
+    "worldwide-contact-system": {
+      "asset": "assets/project-icons/worldwide-contact-system.webp",
+      "kind": "colour-tile",
+      "fallbackColour": "#3f625b",
+      "source": null
+    },
+    "outreach-cms": {
+      "asset": "assets/project-icons/outreach-cms.webp",
+      "kind": "colour-tile",
+      "fallbackColour": "#3f625b",
+      "source": null
+    },
+    "world-travel-patterns": {
+      "asset": "assets/project-icons/world-travel-patterns.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "world-travel-patterns/site/favicon.png"
     }
   }
 }

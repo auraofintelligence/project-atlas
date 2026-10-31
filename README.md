@@ -13,7 +13,7 @@ The Atlas records the first substantive build date for every included public pro
 
 ## What the Atlas includes
 
-- 180 active public projects in the Atlas: 140 audit-derived projects from the 29 August 2026 organisation audit, plus forty confirmed public additions from later refresh files. Three archived duplicate i-C Infinity album-package copies remain excluded from active navigation.
+- 183 active public projects in the Atlas: 140 audit-derived projects from the 29 August 2026 organisation audit, plus forty-three confirmed public additions from later refresh files. Three archived duplicate i-C Infinity album-package copies remain excluded from active navigation.
 - Direct links to live public pages where the audit verified one, plus GitHub links for every project
 - All evidence-backed public neighbouring projects, not a small hand-picked sample. Three archived duplicate i-C Infinity album-package copies are deliberately excluded from active public navigation.
 - Search, original-build year, project-family, public-page and relationship filters
@@ -45,6 +45,7 @@ python scripts/build_atlas_data.py `
   --delta data\github-organisation-delta-2026-10-19.json `
   --delta data\github-organisation-delta-2026-10-29.json `
   --delta data\github-organisation-delta-2026-10-30.json `
+  --delta data\github-organisation-delta-2026-10-31.json `
   --manual data\manual-projects.json `
   --output data\projects.json
 ```
