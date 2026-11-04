@@ -49,7 +49,7 @@ def qr_stem(value: str) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate static Project Atlas files")
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    parser.add_argument("--expected-audited", type=int, default=174)
+    parser.add_argument("--expected-audited", type=int, default=175)
     args = parser.parse_args()
 
     root = args.root.resolve()

@@ -13,7 +13,7 @@ The Atlas records the first substantive build date for every included public pro
 
 ## What the Atlas includes
 
-- 174 active public projects in the Atlas, including 132 from the 29 August 2026 organisation audit and 42 from later refreshes.
+- 175 active public projects in the Atlas, including 132 from the 29 August 2026 organisation audit and 43 from later refreshes.
 - Direct links to live public pages where the audit verified one, plus GitHub links for every project
 - Evidence-backed connections between active public projects.
 - Search, original-build year, project-family, public-page and relationship filters
@@ -48,6 +48,7 @@ python scripts/build_atlas_data.py `
   --delta data\github-organisation-delta-2026-10-31.json `
   --delta data\github-organisation-delta-2026-11-01.json `
   --delta data\github-organisation-delta-2026-11-04.json `
+  --delta data\github-organisation-delta-2026-11-05.json `
   --manual data\manual-projects.json `
   --output data\projects.json
 ```

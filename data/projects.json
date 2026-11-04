@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "account": "auraofintelligence",
   "auditSnapshotDate": "2026-08-29",
-  "refreshSnapshotDate": "2026-11-04",
-  "publicRepositoryCount": 179,
-  "auditedProjectCount": 174,
-  "includedProjectCount": 174,
-  "generatedOn": "2026-11-04",
+  "refreshSnapshotDate": "2026-11-05",
+  "publicRepositoryCount": 180,
+  "auditedProjectCount": 175,
+  "includedProjectCount": 175,
+  "generatedOn": "2026-11-05",
   "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
   "relationshipMethod": "The directory includes evidence-backed links between active public projects.",
   "projects": [
@@ -5844,9 +5844,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "household-bill-check",
+          "title": "Australian Household Bill Check",
+          "repositoryUrl": "https://github.com/auraofintelligence/household-bill-check",
+          "publicPage": "https://auraofintelligence.github.io/household-bill-check/",
+          "labels": [
+            "newly completed project linked in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 15,
+      "relationshipCount": 16,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -6006,9 +6017,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "household-bill-check",
+          "title": "Australian Household Bill Check",
+          "repositoryUrl": "https://github.com/auraofintelligence/household-bill-check",
+          "publicPage": "https://auraofintelligence.github.io/household-bill-check/",
+          "labels": [
+            "newly completed project linked in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 13,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -12307,6 +12329,126 @@
       "repositoryCreatedAt": "2026-05-15T11:18:24Z"
     },
     {
+      "name": "household-bill-check",
+      "title": "Australian Household Bill Check",
+      "repositoryUrl": "https://github.com/auraofintelligence/household-bill-check",
+      "publicPage": "https://auraofintelligence.github.io/household-bill-check/",
+      "firstBuilt": "2026-11-04",
+      "buildStatus": "evidenced",
+      "buildConfidence": "confirmed in post-audit refresh",
+      "buildEvidence": "First substantive public commit f7dc794 on 4 November 2026 Brisbane time. The GitHub repository creation timestamp is recorded separately.",
+      "description": "Australian browser workbench for tracing contract fine print to the law, challenging unexplained household fees and exploring collective bargaining through the Straddie Mutuals thought experiment.",
+      "priority": "freshly completed",
+      "readmeBand": "published after audit snapshot",
+      "families": [
+        {
+          "id": "australian-civic-navigation",
+          "title": "Australian law and civic navigation",
+          "role": "member"
+        },
+        {
+          "id": "markdown-ai-workbench-suite",
+          "title": "Markdown and AI workbench suite",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        {
+          "name": "australian-law-2012-lukes-relevance",
+          "title": "Australian Law 2012 Lukes Relevance",
+          "repositoryUrl": "https://github.com/auraofintelligence/australian-law-2012-lukes-relevance",
+          "publicPage": "https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/",
+          "labels": [
+            "direct public-project link in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "australian-legal-engine",
+          "title": "Australian Legal Engine",
+          "repositoryUrl": "https://github.com/auraofintelligence/australian-legal-engine",
+          "publicPage": null,
+          "labels": [
+            "direct public-project link in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "legal-memory-workbench",
+          "title": "Legal Memory Workbench",
+          "repositoryUrl": "https://github.com/auraofintelligence/legal-memory-workbench",
+          "publicPage": "https://auraofintelligence.github.io/legal-memory-workbench/",
+          "labels": [
+            "direct public-project link in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "p4a-xyz-cinema",
+          "title": "P4A.xyz Civic Workbench",
+          "repositoryUrl": "https://github.com/auraofintelligence/p4a-xyz-cinema",
+          "publicPage": "https://p4a.xyz/",
+          "labels": [
+            "direct public-project link in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "open-record-luke-nathan-hayes",
+          "title": "Open Record: Luke Nathan Hayes",
+          "repositoryUrl": "https://github.com/auraofintelligence/open-record-luke-nathan-hayes",
+          "publicPage": null,
+          "labels": [
+            "direct public-project link in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "strange-but-true",
+          "title": "Strange But True",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true/",
+          "labels": [
+            "direct public-project link in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Redlands_discovers_Luke_Hayes",
+          "title": "When Redlands Discovers Luke Hayes",
+          "repositoryUrl": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+          "publicPage": "https://auraofintelligence.github.io/Redlands_discovers_Luke_Hayes/",
+          "labels": [
+            "direct public-project link in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "moreton-bay-community-wealth-and-mutuals",
+          "title": "Moreton Bay Community Wealth and Mutuals",
+          "repositoryUrl": "https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals",
+          "publicPage": "https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/",
+          "labels": [
+            "direct public-project link in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
+      "relationshipCount": 8,
+      "freshlyCompleted": true,
+      "meaningfulRebuild": null,
+      "source": "post-audit refresh",
+      "repositoryCreatedAt": "2026-11-04T13:47:26Z"
+    },
+    {
       "name": "how-to-use-md-with-ai",
       "title": "How to Use Md With AI",
       "repositoryUrl": "https://github.com/auraofintelligence/how-to-use-md-with-ai",
@@ -13790,9 +13932,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "household-bill-check",
+          "title": "Australian Household Bill Check",
+          "repositoryUrl": "https://github.com/auraofintelligence/household-bill-check",
+          "publicPage": "https://auraofintelligence.github.io/household-bill-check/",
+          "labels": [
+            "newly completed project linked in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 21,
+      "relationshipCount": 22,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -15865,9 +16018,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "household-bill-check",
+          "title": "Australian Household Bill Check",
+          "repositoryUrl": "https://github.com/auraofintelligence/household-bill-check",
+          "publicPage": "https://auraofintelligence.github.io/household-bill-check/",
+          "labels": [
+            "newly completed project linked in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 9,
+      "relationshipCount": 10,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -17523,9 +17687,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "household-bill-check",
+          "title": "Australian Household Bill Check",
+          "repositoryUrl": "https://github.com/auraofintelligence/household-bill-check",
+          "publicPage": "https://auraofintelligence.github.io/household-bill-check/",
+          "labels": [
+            "newly completed project linked in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 78,
+      "relationshipCount": 79,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh",
@@ -17974,9 +18149,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "household-bill-check",
+          "title": "Australian Household Bill Check",
+          "repositoryUrl": "https://github.com/auraofintelligence/household-bill-check",
+          "publicPage": "https://auraofintelligence.github.io/household-bill-check/",
+          "labels": [
+            "newly completed project linked in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 8,
+      "relationshipCount": 9,
       "freshlyCompleted": false,
       "meaningfulRebuild": {
         "title": "Victoria civic guide and electorate atlas release",
@@ -21080,9 +21266,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "household-bill-check",
+          "title": "Australian Household Bill Check",
+          "repositoryUrl": "https://github.com/auraofintelligence/household-bill-check",
+          "publicPage": "https://auraofintelligence.github.io/household-bill-check/",
+          "labels": [
+            "newly completed project linked in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 5,
+      "relationshipCount": 6,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh",
@@ -25412,9 +25609,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "household-bill-check",
+          "title": "Australian Household Bill Check",
+          "repositoryUrl": "https://github.com/auraofintelligence/household-bill-check",
+          "publicPage": "https://auraofintelligence.github.io/household-bill-check/",
+          "labels": [
+            "newly completed project linked in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 36,
+      "relationshipCount": 37,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",

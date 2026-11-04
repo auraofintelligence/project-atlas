@@ -1,0 +1,40 @@
+{
+  "baselineAuditDate": "2026-08-29",
+  "refreshedDate": "2026-11-05",
+  "publicRepositoryCount": 180,
+  "newPublicProjects": [
+    {
+      "name": "household-bill-check",
+      "title": "Australian Household Bill Check",
+      "repositoryUrl": "https://github.com/auraofintelligence/household-bill-check",
+      "publicPage": "https://auraofintelligence.github.io/household-bill-check/",
+      "firstBuilt": "2026-11-04",
+      "dateNote": "First substantive public commit f7dc794 on 4 November 2026 Brisbane time. The GitHub repository creation timestamp is recorded separately.",
+      "description": "Australian browser workbench for tracing contract fine print to the law, challenging unexplained household fees and exploring collective bargaining through the Straddie Mutuals thought experiment.",
+      "families": [
+        {
+          "id": "australian-civic-navigation",
+          "title": "Australian law and civic navigation",
+          "role": "member"
+        },
+        {
+          "id": "markdown-ai-workbench-suite",
+          "title": "Markdown and AI workbench suite",
+          "role": "member"
+        }
+      ],
+      "neighbours": [
+        "australian-law-2012-lukes-relevance",
+        "australian-legal-engine",
+        "legal-memory-workbench",
+        "p4a-xyz-cinema",
+        "open-record-luke-nathan-hayes",
+        "strange-but-true",
+        "Redlands_discovers_Luke_Hayes",
+        "moreton-bay-community-wealth-and-mutuals"
+      ]
+    }
+  ],
+  "meaningfulReleases": [],
+  "notes": "Add the verified Bill Check public site and the related legal, civic and mutual projects it links to. Keep existing build dates and exclusions."
+}
