@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "account": "auraofintelligence",
   "auditSnapshotDate": "2026-08-29",
-  "refreshSnapshotDate": "2026-11-01",
-  "publicRepositoryCount": 186,
-  "auditedProjectCount": 182,
-  "includedProjectCount": 182,
-  "generatedOn": "2026-11-01",
+  "refreshSnapshotDate": "2026-11-04",
+  "publicRepositoryCount": 179,
+  "auditedProjectCount": 174,
+  "includedProjectCount": 174,
+  "generatedOn": "2026-11-04",
   "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
-  "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
+  "relationshipMethod": "The directory includes evidence-backed links between active public projects.",
   "projects": [
     {
       "name": "10_entities",
@@ -2051,18 +2051,6 @@
           "confidence": "high"
         },
         {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "explicit cross-reference",
-            "shared research architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
           "name": "strange-but-true-cosmic-nexus",
           "title": "Strange But True Cosmic Nexus",
           "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true-cosmic-nexus",
@@ -2075,7 +2063,7 @@
           "confidence": "high"
         }
       ],
-      "relationshipCount": 4,
+      "relationshipCount": 3,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -4660,49 +4648,6 @@
       "repositoryCreatedAt": "2026-08-14T07:19:44Z"
     },
     {
-      "name": "aura-studios",
-      "title": "Aura Studios",
-      "repositoryUrl": "https://github.com/auraofintelligence/aura-studios",
-      "publicPage": "https://auraofintelligence.github.io/aura-studios/",
-      "firstBuilt": "2025-09-19",
-      "buildStatus": "evidenced",
-      "buildConfidence": "strong",
-      "buildEvidence": "Earliest commit containing substantive project/content files: 797c789dc3c7 ('Create index.html'); changed index.html.",
-      "description": "Browser story engine for assembling characters, places, beats and plot hooks into deterministic script snippets and structured prompts.",
-      "priority": "1 - publish missing README",
-      "readmeBand": "missing",
-      "families": [],
-      "neighbours": [
-        {
-          "name": "australian-sire-story-forge",
-          "title": "Australian Sire Story Forge",
-          "repositoryUrl": "https://github.com/auraofintelligence/australian-sire-story-forge",
-          "publicPage": "https://auraofintelligence.github.io/australian-sire-story-forge/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "strange-but-true-desire-atlas",
-          "title": "Strange But True Desire Atlas",
-          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true-desire-atlas",
-          "publicPage": "https://auraofintelligence.github.io/strange-but-true-desire-atlas/",
-          "labels": [
-            "story-building companion"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        }
-      ],
-      "relationshipCount": 2,
-      "freshlyCompleted": false,
-      "meaningfulRebuild": null,
-      "source": "audit",
-      "repositoryCreatedAt": "2025-09-19T08:40:34Z"
-    },
-    {
       "name": "aura-systems-image-atlas",
       "title": "Aura Systems Image Atlas",
       "repositoryUrl": "https://github.com/auraofintelligence/aura-systems-image-atlas",
@@ -4885,19 +4830,6 @@
           "title": "Moreton Bay Community Wealth and Mutuals",
           "repositoryUrl": "https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals",
           "publicPage": "https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/",
-          "labels": [
-            "source project represented in visual atlas"
-          ],
-          "directionalLabels": [
-            "visual atlas of this source project"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
           "labels": [
             "source project represented in visual atlas"
           ],
@@ -5103,7 +5035,7 @@
           "confidence": "high"
         }
       ],
-      "relationshipCount": 29,
+      "relationshipCount": 28,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -5717,31 +5649,9 @@
           ],
           "directionalLabels": [],
           "confidence": "medium"
-        },
-        {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "UN-world-days",
-          "title": "UN World Days",
-          "repositoryUrl": "https://github.com/auraofintelligence/UN-world-days",
-          "publicPage": "https://auraofintelligence.github.io/UN-world-days/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
         }
       ],
-      "relationshipCount": 6,
+      "relationshipCount": 4,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -5848,18 +5758,6 @@
           "confidence": "high"
         },
         {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "explicit cross-reference",
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
           "name": "strange-but-true",
           "title": "Strange But True",
           "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
@@ -5869,17 +5767,6 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
-        },
-        {
-          "name": "UN-world-days",
-          "title": "UN World Days",
-          "repositoryUrl": "https://github.com/auraofintelligence/UN-world-days",
-          "publicPage": "https://auraofintelligence.github.io/UN-world-days/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
         },
         {
           "name": "ready-set-co-op-cultural-intelligence-node",
@@ -5959,7 +5846,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 17,
+      "relationshipCount": 15,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -6044,18 +5931,6 @@
           "confidence": "high"
         },
         {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "explicit cross-reference",
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
           "name": "strange-but-true",
           "title": "Strange But True",
           "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
@@ -6065,17 +5940,6 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
-        },
-        {
-          "name": "UN-world-days",
-          "title": "UN World Days",
-          "repositoryUrl": "https://github.com/auraofintelligence/UN-world-days",
-          "publicPage": "https://auraofintelligence.github.io/UN-world-days/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
         },
         {
           "name": "Future-of-Life-2045",
@@ -6144,7 +6008,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 14,
+      "relationshipCount": 12,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -6170,17 +6034,6 @@
         }
       ],
       "neighbours": [
-        {
-          "name": "aura-studios",
-          "title": "Aura Studios",
-          "repositoryUrl": "https://github.com/auraofintelligence/aura-studios",
-          "publicPage": "https://auraofintelligence.github.io/aura-studios/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
         {
           "name": "Australian-visa-activity-atlas",
           "title": "Australian Visa Activity Atlas",
@@ -6326,7 +6179,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 14,
+      "relationshipCount": 13,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -7227,17 +7080,6 @@
           "confidence": "medium"
         },
         {
-          "name": "minjerribah-wildlife-rescue",
-          "title": "Minjerribah Wildlife Rescue",
-          "repositoryUrl": "https://github.com/auraofintelligence/minjerribah-wildlife-rescue",
-          "publicPage": "https://auraofintelligence.github.io/minjerribah-wildlife-rescue/",
-          "labels": [
-            "shared community programme"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
           "name": "quandamooka-country-events-engine",
           "title": "Quandamooka Country Events Engine",
           "repositoryUrl": "https://github.com/auraofintelligence/quandamooka-country-events-engine",
@@ -7272,7 +7114,7 @@
           "confidence": "medium"
         }
       ],
-      "relationshipCount": 7,
+      "relationshipCount": 6,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -9001,17 +8843,6 @@
           "confidence": "medium"
         },
         {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
           "name": "quandamooka-country-events-engine",
           "title": "Quandamooka Country Events Engine",
           "repositoryUrl": "https://github.com/auraofintelligence/quandamooka-country-events-engine",
@@ -9044,21 +8875,9 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
-        },
-        {
-          "name": "UN-world-days",
-          "title": "UN World Days",
-          "repositoryUrl": "https://github.com/auraofintelligence/UN-world-days",
-          "publicPage": "https://auraofintelligence.github.io/UN-world-days/",
-          "labels": [
-            "explicit cross-reference",
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
         }
       ],
-      "relationshipCount": 15,
+      "relationshipCount": 13,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit-plus-curation",
@@ -9890,20 +9709,9 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
-        },
-        {
-          "name": "UN-world-days",
-          "title": "UN World Days",
-          "repositoryUrl": "https://github.com/auraofintelligence/UN-world-days",
-          "publicPage": "https://auraofintelligence.github.io/UN-world-days/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
         }
       ],
-      "relationshipCount": 4,
+      "relationshipCount": 3,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -11110,18 +10918,6 @@
           "confidence": "high"
         },
         {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "explicit cross-reference",
-            "shared research architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
           "name": "strange-but-true-cosmic-nexus",
           "title": "Strange But True Cosmic Nexus",
           "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true-cosmic-nexus",
@@ -11167,7 +10963,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 11,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -13883,17 +13679,6 @@
           "confidence": "high"
         },
         {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
           "name": "ready-set-co-op-trust-hub",
           "title": "Ready Set Co Op Trust Hub",
           "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-trust-hub",
@@ -13963,17 +13748,6 @@
           "confidence": "high"
         },
         {
-          "name": "UN-world-days",
-          "title": "UN World Days",
-          "repositoryUrl": "https://github.com/auraofintelligence/UN-world-days",
-          "publicPage": "https://auraofintelligence.github.io/UN-world-days/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
           "name": "windemere-skate-bowl-tender-workspace",
           "title": "Windemere Skate Bowl Tender Workspace",
           "repositoryUrl": "https://github.com/auraofintelligence/windemere-skate-bowl-tender-workspace",
@@ -14018,7 +13792,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 23,
+      "relationshipCount": 21,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -15116,17 +14890,6 @@
           "confidence": "high"
         },
         {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "shared research architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
           "name": "ready-set-co-op-trust-hub",
           "title": "Ready Set Co Op Trust Hub",
           "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-trust-hub",
@@ -15194,7 +14957,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 16,
+      "relationshipCount": 15,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -15246,18 +15009,6 @@
           "title": "Minjerribah Resilience",
           "repositoryUrl": "https://github.com/auraofintelligence/Minjerribah-Resilience",
           "publicPage": "https://auraofintelligence.github.io/Minjerribah-Resilience/",
-          "labels": [
-            "explicit cross-reference",
-            "shared community programme"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "minjerribah-wildlife-rescue",
-          "title": "Minjerribah Wildlife Rescue",
-          "repositoryUrl": "https://github.com/auraofintelligence/minjerribah-wildlife-rescue",
-          "publicPage": "https://auraofintelligence.github.io/minjerribah-wildlife-rescue/",
           "labels": [
             "explicit cross-reference",
             "shared community programme"
@@ -15405,7 +15156,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 15,
+      "relationshipCount": 14,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -15474,17 +15225,6 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
-        },
-        {
-          "name": "minjerribah-wildlife-rescue",
-          "title": "Minjerribah Wildlife Rescue",
-          "repositoryUrl": "https://github.com/auraofintelligence/minjerribah-wildlife-rescue",
-          "publicPage": "https://auraofintelligence.github.io/minjerribah-wildlife-rescue/",
-          "labels": [
-            "shared community programme"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
         },
         {
           "name": "moreton-bay-community-wealth-and-mutuals",
@@ -15598,28 +15338,6 @@
           "confidence": "medium"
         },
         {
-          "name": "straddie-space-station-simulator",
-          "title": "Straddie Space Station Simulator",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-space-station-simulator",
-          "publicPage": "https://auraofintelligence.github.io/straddie-space-station-simulator/",
-          "labels": [
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "straddie-vitality-network-builders",
-          "title": "Straddie Vitality Network Builders",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-vitality-network-builders",
-          "publicPage": "https://auraofintelligence.github.io/straddie-vitality-network-builders/",
-          "labels": [
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
           "name": "wildlife-rescue-minjerribah",
           "title": "Wildlife Rescue Minjerribah",
           "repositoryUrl": "https://github.com/auraofintelligence/wildlife-rescue-minjerribah",
@@ -15631,7 +15349,7 @@
           "confidence": "medium"
         }
       ],
-      "relationshipCount": 17,
+      "relationshipCount": 14,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -15865,105 +15583,6 @@
       "meaningfulRebuild": null,
       "source": "audit",
       "repositoryCreatedAt": "2026-07-24T02:18:57Z"
-    },
-    {
-      "name": "minjerribah-wildlife-rescue",
-      "title": "Minjerribah Wildlife Rescue",
-      "repositoryUrl": "https://github.com/auraofintelligence/minjerribah-wildlife-rescue",
-      "publicPage": "https://auraofintelligence.github.io/minjerribah-wildlife-rescue/",
-      "firstBuilt": "2026-07-20",
-      "buildStatus": "evidenced",
-      "buildConfidence": "confirmed",
-      "buildEvidence": "Earliest local commit containing substantive project/content files: Minjerribah Wildlife Map: triage door, offline island map, sync by text; files: BRIEF.md, LICENCE.md, ROADMAP.md, TRIAGE-TREE.md, about.html, assets/about.js.",
-      "description": "Community-oriented wildlife rescue map for Minjerribah, built as a Luke and Claude prototype rather than an official service.",
-      "priority": "0 - review",
-      "readmeBand": "needs repair",
-      "families": [
-        {
-          "id": "wildlife-and-resilience-data",
-          "title": "Minjerribah wildlife and resilience data pathway",
-          "role": "member"
-        }
-      ],
-      "neighbours": [
-        {
-          "name": "bees-and-allies",
-          "title": "Bees and Allies",
-          "repositoryUrl": "https://github.com/auraofintelligence/bees-and-allies",
-          "publicPage": "https://auraofintelligence.github.io/bees-and-allies/",
-          "labels": [
-            "shared community programme"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "minjerribah-living-twin",
-          "title": "Minjerribah Living Twin",
-          "repositoryUrl": "https://github.com/auraofintelligence/minjerribah-living-twin",
-          "publicPage": "https://auraofintelligence.github.io/minjerribah-living-twin/",
-          "labels": [
-            "explicit cross-reference",
-            "shared community programme"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "Minjerribah-Resilience",
-          "title": "Minjerribah Resilience",
-          "repositoryUrl": "https://github.com/auraofintelligence/Minjerribah-Resilience",
-          "publicPage": "https://auraofintelligence.github.io/Minjerribah-Resilience/",
-          "labels": [
-            "shared community programme"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "quandamooka-country-events-engine",
-          "title": "Quandamooka Country Events Engine",
-          "repositoryUrl": "https://github.com/auraofintelligence/quandamooka-country-events-engine",
-          "publicPage": "https://auraofintelligence.github.io/quandamooka-country-events-engine/",
-          "labels": [
-            "explicit cross-reference",
-            "shared community programme"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "wildlife-rescue-minjerribah",
-          "title": "Wildlife Rescue Minjerribah",
-          "repositoryUrl": "https://github.com/auraofintelligence/wildlife-rescue-minjerribah",
-          "publicPage": null,
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared community programme"
-          ],
-          "directionalLabels": [
-            "later build; wildlife-rescue-minjerribah is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "ready-set-co-op-cultural-intelligence-node",
-          "title": "Ready S.E.T. Co-op Cultural Intelligence Node",
-          "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node",
-          "publicPage": "https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/",
-          "labels": [
-            "newly completed project linked in the 2026-09-08 refresh"
-          ],
-          "directionalLabels": [],
-          "confidence": "confirmed"
-        }
-      ],
-      "relationshipCount": 6,
-      "freshlyCompleted": false,
-      "meaningfulRebuild": null,
-      "source": "audit",
-      "repositoryCreatedAt": "2026-07-20T03:52:43Z"
     },
     {
       "name": "moreton-bay-autonomous-mobility",
@@ -16879,17 +16498,6 @@
           "confidence": "confirmed"
         },
         {
-          "name": "straddie-vitality-network-builders",
-          "title": "Straddie Vitality Network Builders",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-vitality-network-builders",
-          "publicPage": "https://auraofintelligence.github.io/straddie-vitality-network-builders/",
-          "labels": [
-            "direct public-project link in the 2026-09-01 refresh"
-          ],
-          "directionalLabels": [],
-          "confidence": "confirmed"
-        },
-        {
           "name": "aura-direct-hardware",
           "title": "Aura Direct Hardware",
           "repositoryUrl": "https://github.com/auraofintelligence/aura-direct-hardware",
@@ -17022,7 +16630,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 14,
+      "relationshipCount": 13,
       "freshlyCompleted": true,
       "meaningfulRebuild": {
         "title": "Wellbeing, Geode and ecosystem release",
@@ -17261,17 +16869,6 @@
           "title": "UNGA81: A Fair Go in the Age of Intelligence",
           "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
           "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
-          "labels": [
-            "direct public-project link in the 2026-10-19 refresh"
-          ],
-          "directionalLabels": [],
-          "confidence": "confirmed"
-        },
-        {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
           "labels": [
             "direct public-project link in the 2026-10-19 refresh"
           ],
@@ -17928,7 +17525,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 79,
+      "relationshipCount": 78,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh",
@@ -18001,21 +17598,6 @@
           "confidence": "high"
         },
         {
-          "name": "p4a-oceania-expansion-lab",
-          "title": "P4A Oceania Expansion Lab",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a-oceania-expansion-lab",
-          "publicPage": "https://auraofintelligence.github.io/p4a-oceania-expansion-lab/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; p4a-oceania-expansion-lab is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
           "name": "p4a-xyz-cinema",
           "title": "P4A.xyz Civic Workbench",
           "repositoryUrl": "https://github.com/auraofintelligence/p4a-xyz-cinema",
@@ -18027,21 +17609,6 @@
           ],
           "directionalLabels": [
             "later build; p4a-xyz-cinema is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; p4a_xyz is earlier"
           ],
           "confidence": "high"
         },
@@ -18121,7 +17688,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 11,
+      "relationshipCount": 9,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -18174,21 +17741,6 @@
           "confidence": "high"
         },
         {
-          "name": "p4a-oceania-expansion-lab",
-          "title": "P4A Oceania Expansion Lab",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a-oceania-expansion-lab",
-          "publicPage": "https://auraofintelligence.github.io/p4a-oceania-expansion-lab/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; p4a-oceania-expansion-lab is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
           "name": "p4a-xyz-cinema",
           "title": "P4A.xyz Civic Workbench",
           "repositoryUrl": "https://github.com/auraofintelligence/p4a-xyz-cinema",
@@ -18200,20 +17752,6 @@
           ],
           "directionalLabels": [
             "later build; p4a-xyz-cinema is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; p4a_xyz is earlier"
           ],
           "confidence": "high"
         },
@@ -18304,140 +17842,11 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 10,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
       "repositoryCreatedAt": "2026-07-07T04:15:48Z"
-    },
-    {
-      "name": "p4a-oceania-expansion-lab",
-      "title": "P4A Oceania Expansion Lab",
-      "repositoryUrl": "https://github.com/auraofintelligence/p4a-oceania-expansion-lab",
-      "publicPage": "https://auraofintelligence.github.io/p4a-oceania-expansion-lab/",
-      "firstBuilt": "2026-07-01",
-      "buildStatus": "evidenced",
-      "buildConfidence": "confirmed",
-      "buildEvidence": "Earliest local commit containing substantive project/content files: Create P4A Oceania expansion lab site; files: LICENCE.md, assets/favicon.svg, assets/p4a-hero-wide.jpg, assets/p4a-map-card.webp, assets/p4a-patch-synthesis.webp, assets/sbt-ledger-mode-wall.webp.",
-      "description": "Open civic prototype exploring how the proposed Purple Party for Australia workbench might translate across Oceania.",
-      "priority": "2 - repair discovery",
-      "readmeBand": "needs repair",
-      "families": [
-        {
-          "id": "p4a-builds",
-          "title": "P4A and Purple builds",
-          "role": "member"
-        }
-      ],
-      "neighbours": [
-        {
-          "name": "p4a-native-nations-cinema",
-          "title": "P4A Native Nations",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a-native-nations-cinema",
-          "publicPage": "https://auraofintelligence.github.io/p4a-native-nations-cinema/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; p4a-native-nations-cinema is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "p4a-oceania-cinema",
-          "title": "P4A Oceania",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a-oceania-cinema",
-          "publicPage": "https://auraofintelligence.github.io/p4a-oceania-cinema/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; p4a-oceania-cinema is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "p4a-xyz-cinema",
-          "title": "P4A.xyz Civic Workbench",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a-xyz-cinema",
-          "publicPage": "https://p4a.xyz/",
-          "labels": [
-            "parallel builds in an ordered lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "parallel build"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; p4a_xyz is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "P4Australia",
-          "title": "P4Australia",
-          "repositoryUrl": "https://github.com/auraofintelligence/P4Australia",
-          "publicPage": "https://auraofintelligence.github.io/P4Australia/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; P4Australia is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "purple01",
-          "title": "Purple01",
-          "repositoryUrl": "https://github.com/auraofintelligence/purple01",
-          "publicPage": "https://auraofintelligence.github.io/purple01/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; purple01 is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "Purple02",
-          "title": "Purple02",
-          "repositoryUrl": "https://github.com/auraofintelligence/Purple02",
-          "publicPage": "https://auraofintelligence.github.io/Purple02/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; Purple02 is earlier"
-          ],
-          "confidence": "high"
-        }
-      ],
-      "relationshipCount": 7,
-      "freshlyCompleted": false,
-      "meaningfulRebuild": null,
-      "source": "audit",
-      "repositoryCreatedAt": "2026-07-01T11:43:35Z"
     },
     {
       "name": "p4a-xyz-cinema",
@@ -18486,35 +17895,6 @@
           ],
           "directionalLabels": [
             "earlier build; p4a-oceania-cinema is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "p4a-oceania-expansion-lab",
-          "title": "P4A Oceania Expansion Lab",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a-oceania-expansion-lab",
-          "publicPage": "https://auraofintelligence.github.io/p4a-oceania-expansion-lab/",
-          "labels": [
-            "parallel builds in an ordered lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "parallel build"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; p4a_xyz is earlier"
           ],
           "confidence": "high"
         },
@@ -18596,7 +17976,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 10,
+      "relationshipCount": 8,
       "freshlyCompleted": false,
       "meaningfulRebuild": {
         "title": "Victoria civic guide and electorate atlas release",
@@ -18606,312 +17986,6 @@
       },
       "source": "audit",
       "repositoryCreatedAt": "2026-07-07T04:15:11Z"
-    },
-    {
-      "name": "p4a_xyz",
-      "title": "P4A Xyz",
-      "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-      "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-      "firstBuilt": "2026-05-01",
-      "buildStatus": "evidenced",
-      "buildConfidence": "strong",
-      "buildEvidence": "Earliest local commit containing substantive project/content files: Build initial P4A website; files: assets/fair-go-evolution.jpg, assets/p4a-gear.jpg, assets/p4a-hero-wide.jpg, assets/p4a-map-card.png, assets/p4a-patch-synthesis.png, assets/purple-festival.jpg. Excluded 1 earlier metadata-only commit(s).",
-      "description": "Public civic workbench for the proposed Purple Party for Australia; it is not a registered political party.",
-      "priority": "0 - review",
-      "readmeBand": "needs repair",
-      "families": [
-        {
-          "id": "aura-image-atlas-sources",
-          "title": "Aura Systems Image Atlas source projects",
-          "role": "source project"
-        },
-        {
-          "id": "australian-civic-navigation",
-          "title": "Australian law and civic navigation",
-          "role": "member"
-        },
-        {
-          "id": "p4a-builds",
-          "title": "P4A and Purple builds",
-          "role": "member"
-        },
-        {
-          "id": "space-civic-frontier",
-          "title": "Peaceful space and civic frontier programme",
-          "role": "member"
-        }
-      ],
-      "neighbours": [
-        {
-          "name": "aukus-space-gambit",
-          "title": "Aukus Space Gambit",
-          "repositoryUrl": "https://github.com/auraofintelligence/aukus-space-gambit",
-          "publicPage": "https://auraofintelligence.github.io/aukus-space-gambit/",
-          "labels": [
-            "explicit cross-reference",
-            "shared research architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "aura-systems-image-atlas",
-          "title": "Aura Systems Image Atlas",
-          "repositoryUrl": "https://github.com/auraofintelligence/aura-systems-image-atlas",
-          "publicPage": "https://auraofintelligence.github.io/aura-systems-image-atlas/",
-          "labels": [
-            "source project represented in visual atlas"
-          ],
-          "directionalLabels": [
-            "source project represented in this visual atlas"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "aus-gov-2025",
-          "title": "Aus Gov 2025",
-          "repositoryUrl": "https://github.com/auraofintelligence/aus-gov-2025",
-          "publicPage": "https://auraofintelligence.github.io/aus-gov-2025/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "australian-law-2012-lukes-relevance",
-          "title": "Australian Law 2012 Lukes Relevance",
-          "repositoryUrl": "https://github.com/auraofintelligence/australian-law-2012-lukes-relevance",
-          "publicPage": "https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/",
-          "labels": [
-            "explicit cross-reference",
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "australian-legal-engine",
-          "title": "Australian Legal Engine",
-          "repositoryUrl": "https://github.com/auraofintelligence/australian-legal-engine",
-          "publicPage": null,
-          "labels": [
-            "explicit cross-reference",
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "event-search-QLD",
-          "title": "Event Search QLD",
-          "repositoryUrl": "https://github.com/auraofintelligence/event-search-QLD",
-          "publicPage": "https://auraofintelligence.github.io/event-search-QLD/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "GAJRA_Earth-Space-AI_Summit",
-          "title": "GAJRA Earth Space AI Summit",
-          "repositoryUrl": "https://github.com/auraofintelligence/GAJRA_Earth-Space-AI_Summit",
-          "publicPage": "https://auraofintelligence.github.io/GAJRA_Earth-Space-AI_Summit/",
-          "labels": [
-            "explicit cross-reference",
-            "shared research architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "legal-memory-workbench",
-          "title": "Legal Memory Workbench",
-          "repositoryUrl": "https://github.com/auraofintelligence/legal-memory-workbench",
-          "publicPage": "https://auraofintelligence.github.io/legal-memory-workbench/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "mineral-moonshots",
-          "title": "Mineral Moonshots",
-          "repositoryUrl": "https://github.com/auraofintelligence/mineral-moonshots",
-          "publicPage": "https://auraofintelligence.github.io/mineral-moonshots/",
-          "labels": [
-            "shared research architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "p4a-native-nations-cinema",
-          "title": "P4A Native Nations",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a-native-nations-cinema",
-          "publicPage": "https://auraofintelligence.github.io/p4a-native-nations-cinema/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; p4a-native-nations-cinema is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "p4a-oceania-cinema",
-          "title": "P4A Oceania",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a-oceania-cinema",
-          "publicPage": "https://auraofintelligence.github.io/p4a-oceania-cinema/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; p4a-oceania-cinema is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "p4a-oceania-expansion-lab",
-          "title": "P4A Oceania Expansion Lab",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a-oceania-expansion-lab",
-          "publicPage": "https://auraofintelligence.github.io/p4a-oceania-expansion-lab/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; p4a-oceania-expansion-lab is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "p4a-xyz-cinema",
-          "title": "P4A.xyz Civic Workbench",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a-xyz-cinema",
-          "publicPage": "https://p4a.xyz/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; p4a-xyz-cinema is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "P4Australia",
-          "title": "P4Australia",
-          "repositoryUrl": "https://github.com/auraofintelligence/P4Australia",
-          "publicPage": "https://auraofintelligence.github.io/P4Australia/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; P4Australia is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "purple01",
-          "title": "Purple01",
-          "repositoryUrl": "https://github.com/auraofintelligence/purple01",
-          "publicPage": "https://auraofintelligence.github.io/purple01/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; purple01 is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "Purple02",
-          "title": "Purple02",
-          "repositoryUrl": "https://github.com/auraofintelligence/Purple02",
-          "publicPage": "https://auraofintelligence.github.io/Purple02/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "later build; Purple02 is earlier"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "straddie-vitality-network-builders",
-          "title": "Straddie Vitality Network Builders",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-vitality-network-builders",
-          "publicPage": "https://auraofintelligence.github.io/straddie-vitality-network-builders/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "strange-but-true-cosmic-nexus",
-          "title": "Strange But True Cosmic Nexus",
-          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true-cosmic-nexus",
-          "publicPage": "https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/",
-          "labels": [
-            "shared research architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "UN-world-days",
-          "title": "UN World Days",
-          "repositoryUrl": "https://github.com/auraofintelligence/UN-world-days",
-          "publicPage": "https://auraofintelligence.github.io/UN-world-days/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "UNGA81-Luke-Hayes",
-          "title": "UNGA81: A Fair Go in the Age of Intelligence",
-          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
-          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
-          "labels": [
-            "newly completed project linked in the 2026-09-22 refresh"
-          ],
-          "directionalLabels": [],
-          "confidence": "confirmed"
-        },
-        {
-          "name": "open-record-luke-nathan-hayes",
-          "title": "Open Record: Luke Nathan Hayes",
-          "repositoryUrl": "https://github.com/auraofintelligence/open-record-luke-nathan-hayes",
-          "publicPage": null,
-          "labels": [
-            "newly completed project linked in the 2026-10-19 refresh"
-          ],
-          "directionalLabels": [],
-          "confidence": "confirmed"
-        }
-      ],
-      "relationshipCount": 21,
-      "freshlyCompleted": false,
-      "meaningfulRebuild": null,
-      "source": "audit",
-      "repositoryCreatedAt": "2026-05-01T07:37:43Z"
     },
     {
       "name": "P4Australia",
@@ -18962,21 +18036,6 @@
           "confidence": "high"
         },
         {
-          "name": "p4a-oceania-expansion-lab",
-          "title": "P4A Oceania Expansion Lab",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a-oceania-expansion-lab",
-          "publicPage": "https://auraofintelligence.github.io/p4a-oceania-expansion-lab/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; p4a-oceania-expansion-lab is later"
-          ],
-          "confidence": "high"
-        },
-        {
           "name": "p4a-xyz-cinema",
           "title": "P4A.xyz Civic Workbench",
           "repositoryUrl": "https://github.com/auraofintelligence/p4a-xyz-cinema",
@@ -18988,21 +18047,6 @@
           ],
           "directionalLabels": [
             "earlier build; p4a-xyz-cinema is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; p4a_xyz is later"
           ],
           "confidence": "high"
         },
@@ -19036,7 +18080,7 @@
           "confidence": "high"
         }
       ],
-      "relationshipCount": 7,
+      "relationshipCount": 5,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -20063,20 +19107,6 @@
           "confidence": "high"
         },
         {
-          "name": "p4a-oceania-expansion-lab",
-          "title": "P4A Oceania Expansion Lab",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a-oceania-expansion-lab",
-          "publicPage": "https://auraofintelligence.github.io/p4a-oceania-expansion-lab/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; p4a-oceania-expansion-lab is later"
-          ],
-          "confidence": "high"
-        },
-        {
           "name": "p4a-xyz-cinema",
           "title": "P4A.xyz Civic Workbench",
           "repositoryUrl": "https://github.com/auraofintelligence/p4a-xyz-cinema",
@@ -20087,21 +19117,6 @@
           ],
           "directionalLabels": [
             "earlier build; p4a-xyz-cinema is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; p4a_xyz is later"
           ],
           "confidence": "high"
         },
@@ -20136,7 +19151,7 @@
           "confidence": "high"
         }
       ],
-      "relationshipCount": 7,
+      "relationshipCount": 5,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -20191,20 +19206,6 @@
           "confidence": "high"
         },
         {
-          "name": "p4a-oceania-expansion-lab",
-          "title": "P4A Oceania Expansion Lab",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a-oceania-expansion-lab",
-          "publicPage": "https://auraofintelligence.github.io/p4a-oceania-expansion-lab/",
-          "labels": [
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; p4a-oceania-expansion-lab is later"
-          ],
-          "confidence": "high"
-        },
-        {
           "name": "p4a-xyz-cinema",
           "title": "P4A.xyz Civic Workbench",
           "repositoryUrl": "https://github.com/auraofintelligence/p4a-xyz-cinema",
@@ -20216,21 +19217,6 @@
           ],
           "directionalLabels": [
             "earlier build; p4a-xyz-cinema is later"
-          ],
-          "confidence": "high"
-        },
-        {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared named build family"
-          ],
-          "directionalLabels": [
-            "earlier build; p4a_xyz is later"
           ],
           "confidence": "high"
         },
@@ -20264,7 +19250,7 @@
           "confidence": "high"
         }
       ],
-      "relationshipCount": 7,
+      "relationshipCount": 5,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -20425,18 +19411,6 @@
           "confidence": "medium"
         },
         {
-          "name": "minjerribah-wildlife-rescue",
-          "title": "Minjerribah Wildlife Rescue",
-          "repositoryUrl": "https://github.com/auraofintelligence/minjerribah-wildlife-rescue",
-          "publicPage": "https://auraofintelligence.github.io/minjerribah-wildlife-rescue/",
-          "labels": [
-            "explicit cross-reference",
-            "shared community programme"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
           "name": "quandamooka-film-festival",
           "title": "Quandamooka Film Festival",
           "repositoryUrl": "https://github.com/auraofintelligence/quandamooka-film-festival",
@@ -20489,17 +19463,6 @@
           "publicPage": "https://auraofintelligence.github.io/straddie-news/",
           "labels": [
             "shared community programme"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "UN-world-days",
-          "title": "UN World Days",
-          "repositoryUrl": "https://github.com/auraofintelligence/UN-world-days",
-          "publicPage": "https://auraofintelligence.github.io/UN-world-days/",
-          "labels": [
-            "shared tooling suite"
           ],
           "directionalLabels": [],
           "confidence": "medium"
@@ -20560,7 +19523,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 22,
+      "relationshipCount": 20,
       "freshlyCompleted": false,
       "meaningfulRebuild": {
         "title": "Straddie-first calendar filters",
@@ -21064,17 +20027,6 @@
           "confidence": "confirmed"
         },
         {
-          "name": "minjerribah-wildlife-rescue",
-          "title": "Minjerribah Wildlife Rescue",
-          "repositoryUrl": "https://github.com/auraofintelligence/minjerribah-wildlife-rescue",
-          "publicPage": "https://auraofintelligence.github.io/minjerribah-wildlife-rescue/",
-          "labels": [
-            "direct public-project link in the 2026-09-08 refresh"
-          ],
-          "directionalLabels": [],
-          "confidence": "confirmed"
-        },
-        {
           "name": "moreton-bay-community-wealth-and-mutuals",
           "title": "Moreton Bay Community Wealth and Mutuals",
           "repositoryUrl": "https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals",
@@ -21306,7 +20258,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 34,
+      "relationshipCount": 33,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh",
@@ -22309,17 +21261,6 @@
           "confidence": "high"
         },
         {
-          "name": "UN-world-days",
-          "title": "UN World Days",
-          "repositoryUrl": "https://github.com/auraofintelligence/UN-world-days",
-          "publicPage": "https://auraofintelligence.github.io/UN-world-days/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
           "name": "Future-of-Life-2045",
           "title": "Future of Life 2045",
           "repositoryUrl": "https://github.com/auraofintelligence/Future-of-Life-2045",
@@ -22386,7 +21327,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 13,
+      "relationshipCount": 12,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -23669,29 +22610,6 @@
           "confidence": "medium"
         },
         {
-          "name": "straddie-space-station-simulator",
-          "title": "Straddie Space Station Simulator",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-space-station-simulator",
-          "publicPage": "https://auraofintelligence.github.io/straddie-space-station-simulator/",
-          "labels": [
-            "explicit cross-reference",
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "straddie-vitality-network-builders",
-          "title": "Straddie Vitality Network Builders",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-vitality-network-builders",
-          "publicPage": "https://auraofintelligence.github.io/straddie-vitality-network-builders/",
-          "labels": [
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
           "name": "open-record-luke-nathan-hayes",
           "title": "Open Record: Luke Nathan Hayes",
           "repositoryUrl": "https://github.com/auraofintelligence/open-record-luke-nathan-hayes",
@@ -23703,7 +22621,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 7,
+      "relationshipCount": 5,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -23898,17 +22816,6 @@
           "confidence": "high"
         },
         {
-          "name": "straddie-vitality-network-builders",
-          "title": "Straddie Vitality Network Builders",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-vitality-network-builders",
-          "publicPage": "https://auraofintelligence.github.io/straddie-vitality-network-builders/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
           "name": "strange-but-true",
           "title": "Strange But True",
           "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
@@ -23976,7 +22883,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 21,
+      "relationshipCount": 20,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit-plus-curation",
@@ -24049,30 +22956,6 @@
           "confidence": "high"
         },
         {
-          "name": "straddie-space-station-simulator",
-          "title": "Straddie Space Station Simulator",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-space-station-simulator",
-          "publicPage": "https://auraofintelligence.github.io/straddie-space-station-simulator/",
-          "labels": [
-            "explicit cross-reference",
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "straddie-vitality-network-builders",
-          "title": "Straddie Vitality Network Builders",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-vitality-network-builders",
-          "publicPage": "https://auraofintelligence.github.io/straddie-vitality-network-builders/",
-          "labels": [
-            "explicit cross-reference",
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
           "name": "multi-site-Minjerribah-network",
           "title": "Minjerribah Site and Service Ideas",
           "repositoryUrl": "https://github.com/auraofintelligence/multi-site-Minjerribah-network",
@@ -24084,7 +22967,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 7,
+      "relationshipCount": 5,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -24586,29 +23469,6 @@
           "confidence": "medium"
         },
         {
-          "name": "straddie-space-station-simulator",
-          "title": "Straddie Space Station Simulator",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-space-station-simulator",
-          "publicPage": "https://auraofintelligence.github.io/straddie-space-station-simulator/",
-          "labels": [
-            "explicit cross-reference",
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "straddie-vitality-network-builders",
-          "title": "Straddie Vitality Network Builders",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-vitality-network-builders",
-          "publicPage": "https://auraofintelligence.github.io/straddie-vitality-network-builders/",
-          "labels": [
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
           "name": "ready-set-co-op-cultural-intelligence-node",
           "title": "Ready S.E.T. Co-op Cultural Intelligence Node",
           "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node",
@@ -24631,7 +23491,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 10,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -24893,31 +23753,9 @@
           ],
           "directionalLabels": [],
           "confidence": "high"
-        },
-        {
-          "name": "straddie-space-station-simulator",
-          "title": "Straddie Space Station Simulator",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-space-station-simulator",
-          "publicPage": "https://auraofintelligence.github.io/straddie-space-station-simulator/",
-          "labels": [
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "straddie-vitality-network-builders",
-          "title": "Straddie Vitality Network Builders",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-vitality-network-builders",
-          "publicPage": "https://auraofintelligence.github.io/straddie-vitality-network-builders/",
-          "labels": [
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
         }
       ],
-      "relationshipCount": 16,
+      "relationshipCount": 14,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -25674,17 +24512,6 @@
           "confidence": "high"
         },
         {
-          "name": "straddie-vitality-network-builders",
-          "title": "Straddie Vitality Network Builders",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-vitality-network-builders",
-          "publicPage": "https://auraofintelligence.github.io/straddie-vitality-network-builders/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
           "name": "C-Hour-introduction",
           "title": "C-Hour Introduction",
           "repositoryUrl": "https://github.com/auraofintelligence/C-Hour-introduction",
@@ -25696,107 +24523,11 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 13,
+      "relationshipCount": 12,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
       "repositoryCreatedAt": "2026-05-05T05:45:04Z"
-    },
-    {
-      "name": "straddie-space-station-simulator",
-      "title": "Straddie Space Station Simulator",
-      "repositoryUrl": "https://github.com/auraofintelligence/straddie-space-station-simulator",
-      "publicPage": "https://auraofintelligence.github.io/straddie-space-station-simulator/",
-      "firstBuilt": "2026-05-31",
-      "buildStatus": "evidenced",
-      "buildConfidence": "confirmed",
-      "buildEvidence": "Earliest local commit containing substantive project/content files: Build Straddie space station simulator; files: agent-scenarios.html, assets/css/styles.css, assets/js/app.js, assets/js/simulator-core.js, index.html, package.json.",
-      "description": "Static browser simulator for a Dunwich small-lot terrestrial space-station capsule habitat.",
-      "priority": "2 - repair discovery",
-      "readmeBand": "sound",
-      "families": [
-        {
-          "id": "capsule-habitat-resilience",
-          "title": "Capsule, habitat and resilience simulation",
-          "role": "member"
-        }
-      ],
-      "neighbours": [
-        {
-          "name": "Minjerribah-Resilience",
-          "title": "Minjerribah Resilience",
-          "repositoryUrl": "https://github.com/auraofintelligence/Minjerribah-Resilience",
-          "publicPage": "https://auraofintelligence.github.io/Minjerribah-Resilience/",
-          "labels": [
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "SSB",
-          "title": "SSB",
-          "repositoryUrl": "https://github.com/auraofintelligence/SSB",
-          "publicPage": "https://auraofintelligence.github.io/SSB/",
-          "labels": [
-            "explicit cross-reference",
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "straddie-capsule-surge-lab",
-          "title": "Straddie Capsule Surge Lab",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-capsule-surge-lab",
-          "publicPage": "https://auraofintelligence.github.io/straddie-capsule-surge-lab/",
-          "labels": [
-            "explicit cross-reference",
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "straddie-digital-twin-builders",
-          "title": "Straddie Digital Twin Builders",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-digital-twin-builders",
-          "publicPage": "https://auraofintelligence.github.io/straddie-digital-twin-builders/",
-          "labels": [
-            "explicit cross-reference",
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "straddie-disaster-kiosks",
-          "title": "Straddie Disaster Kiosks",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-disaster-kiosks",
-          "publicPage": "https://auraofintelligence.github.io/straddie-disaster-kiosks/",
-          "labels": [
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "straddie-vitality-network-builders",
-          "title": "Straddie Vitality Network Builders",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-vitality-network-builders",
-          "publicPage": "https://auraofintelligence.github.io/straddie-vitality-network-builders/",
-          "labels": [
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        }
-      ],
-      "relationshipCount": 6,
-      "freshlyCompleted": false,
-      "meaningfulRebuild": null,
-      "source": "audit",
-      "repositoryCreatedAt": "2026-05-31T07:51:10Z"
     },
     {
       "name": "straddie-tenders-lab",
@@ -26235,144 +24966,6 @@
       "meaningfulRebuild": null,
       "source": "post-audit refresh",
       "repositoryCreatedAt": "2026-09-02T17:07:54Z"
-    },
-    {
-      "name": "straddie-vitality-network-builders",
-      "title": "Straddie Vitality Network Builders",
-      "repositoryUrl": "https://github.com/auraofintelligence/straddie-vitality-network-builders",
-      "publicPage": "https://auraofintelligence.github.io/straddie-vitality-network-builders/",
-      "firstBuilt": "2026-05-20",
-      "buildStatus": "evidenced",
-      "buildConfidence": "confirmed",
-      "buildEvidence": "Earliest local commit containing substantive project/content files: Scaffold Straddie vitality builder toolkit; files: assets/css/site.css, assets/img/amity-island-context.webp, assets/js/app.js, assets/js/builders.js, builders/agent-handoff.html, builders/detox-repair-routine.html.",
-      "description": "Public Straddie vitality network builders for HBOT/PADS, sauna, co-op planning and evidence notes.",
-      "priority": "0 - review",
-      "readmeBand": "needs repair",
-      "families": [
-        {
-          "id": "capsule-habitat-resilience",
-          "title": "Capsule, habitat and resilience simulation",
-          "role": "member"
-        }
-      ],
-      "neighbours": [
-        {
-          "name": "Minjerribah-Resilience",
-          "title": "Minjerribah Resilience",
-          "repositoryUrl": "https://github.com/auraofintelligence/Minjerribah-Resilience",
-          "publicPage": "https://auraofintelligence.github.io/Minjerribah-Resilience/",
-          "labels": [
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "SSB",
-          "title": "SSB",
-          "repositoryUrl": "https://github.com/auraofintelligence/SSB",
-          "publicPage": "https://auraofintelligence.github.io/SSB/",
-          "labels": [
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "stradbroke-grants-lab",
-          "title": "Stradbroke Grants Lab",
-          "repositoryUrl": "https://github.com/auraofintelligence/stradbroke-grants-lab",
-          "publicPage": "https://auraofintelligence.github.io/stradbroke-grants-lab/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "straddie-capsule-surge-lab",
-          "title": "Straddie Capsule Surge Lab",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-capsule-surge-lab",
-          "publicPage": "https://auraofintelligence.github.io/straddie-capsule-surge-lab/",
-          "labels": [
-            "explicit cross-reference",
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "straddie-digital-twin-builders",
-          "title": "Straddie Digital Twin Builders",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-digital-twin-builders",
-          "publicPage": "https://auraofintelligence.github.io/straddie-digital-twin-builders/",
-          "labels": [
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "straddie-disaster-kiosks",
-          "title": "Straddie Disaster Kiosks",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-disaster-kiosks",
-          "publicPage": "https://auraofintelligence.github.io/straddie-disaster-kiosks/",
-          "labels": [
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "straddie-noticeboard-network",
-          "title": "Straddie Noticeboard Network",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
-          "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "straddie-space-station-simulator",
-          "title": "Straddie Space Station Simulator",
-          "repositoryUrl": "https://github.com/auraofintelligence/straddie-space-station-simulator",
-          "publicPage": "https://auraofintelligence.github.io/straddie-space-station-simulator/",
-          "labels": [
-            "shared technical architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "Oceania-healthy-de-slop-co-ops",
-          "title": "Oceania Healthy De-Slop Co-ops",
-          "repositoryUrl": "https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops",
-          "publicPage": "https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/",
-          "labels": [
-            "newly completed project linked in the 2026-09-01 refresh"
-          ],
-          "directionalLabels": [],
-          "confidence": "confirmed"
-        }
-      ],
-      "relationshipCount": 10,
-      "freshlyCompleted": false,
-      "meaningfulRebuild": null,
-      "source": "audit",
-      "repositoryCreatedAt": "2026-05-20T23:54:57Z"
     },
     {
       "name": "strange-but-true",
@@ -27084,17 +25677,6 @@
           "confidence": "medium"
         },
         {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "shared research architecture"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
           "name": "space-weather-news",
           "title": "Space Weather News",
           "repositoryUrl": "https://github.com/auraofintelligence/space-weather-news",
@@ -27122,17 +25704,6 @@
           "title": "Strange But True Travel Oracle",
           "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true-travel-oracle",
           "publicPage": "https://auraofintelligence.github.io/strange-but-true-travel-oracle/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "test",
-          "title": "Test",
-          "repositoryUrl": "https://github.com/auraofintelligence/test",
-          "publicPage": "https://auraofintelligence.github.io/test/",
           "labels": [
             "explicit cross-reference"
           ],
@@ -27185,7 +25756,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 16,
+      "relationshipCount": 14,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -27216,17 +25787,6 @@
         }
       ],
       "neighbours": [
-        {
-          "name": "aura-studios",
-          "title": "Aura Studios",
-          "repositoryUrl": "https://github.com/auraofintelligence/aura-studios",
-          "publicPage": "https://auraofintelligence.github.io/aura-studios/",
-          "labels": [
-            "story-building companion"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
         {
           "name": "australian-sire-story-forge",
           "title": "Australian Sire Story Forge",
@@ -27341,7 +25901,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 11,
+      "relationshipCount": 10,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -27544,38 +26104,6 @@
       "meaningfulRebuild": null,
       "source": "audit",
       "repositoryCreatedAt": "2026-05-10T13:28:12Z"
-    },
-    {
-      "name": "test",
-      "title": "Test",
-      "repositoryUrl": "https://github.com/auraofintelligence/test",
-      "publicPage": "https://auraofintelligence.github.io/test/",
-      "firstBuilt": "2025-08-10",
-      "buildStatus": "evidenced",
-      "buildConfidence": "confirmed",
-      "buildEvidence": "Earliest local commit containing substantive project/content files: Create index.html; files: index.html.",
-      "description": "Small visual-effects laboratory for testing an interactive cosmic background before use in other projects.",
-      "priority": "0 - review",
-      "readmeBand": "missing",
-      "families": [],
-      "neighbours": [
-        {
-          "name": "strange-but-true-cosmic-nexus",
-          "title": "Strange But True Cosmic Nexus",
-          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true-cosmic-nexus",
-          "publicPage": "https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        }
-      ],
-      "relationshipCount": 1,
-      "freshlyCompleted": false,
-      "meaningfulRebuild": null,
-      "source": "audit",
-      "repositoryCreatedAt": "2025-08-10T01:01:53Z"
     },
     {
       "name": "the-great-unveiling",
@@ -27893,138 +26421,6 @@
       "repositoryCreatedAt": "2026-05-17T07:11:17Z"
     },
     {
-      "name": "UN-world-days",
-      "title": "UN World Days",
-      "repositoryUrl": "https://github.com/auraofintelligence/UN-world-days",
-      "publicPage": "https://auraofintelligence.github.io/UN-world-days/",
-      "firstBuilt": "2025-08-19",
-      "buildStatus": "evidenced",
-      "buildConfidence": "strong",
-      "buildEvidence": "Earliest local commit containing substantive project/content files: Create index.html; files: index.html. Excluded 1 earlier metadata-only commit(s).",
-      "description": "Browser calendar for exploring UN international days, moon phases and ICS exports; not an official United Nations publication.",
-      "priority": "1 - publish missing README",
-      "readmeBand": "missing",
-      "families": [
-        {
-          "id": "australian-civic-navigation",
-          "title": "Australian law and civic navigation",
-          "role": "member"
-        },
-        {
-          "id": "event-calendar-tools",
-          "title": "Event and calendar tools",
-          "role": "member"
-        }
-      ],
-      "neighbours": [
-        {
-          "name": "aus-gov-2025",
-          "title": "Aus Gov 2025",
-          "repositoryUrl": "https://github.com/auraofintelligence/aus-gov-2025",
-          "publicPage": "https://auraofintelligence.github.io/aus-gov-2025/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "australian-law-2012-lukes-relevance",
-          "title": "Australian Law 2012 Lukes Relevance",
-          "repositoryUrl": "https://github.com/auraofintelligence/australian-law-2012-lukes-relevance",
-          "publicPage": "https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "australian-legal-engine",
-          "title": "Australian Legal Engine",
-          "repositoryUrl": "https://github.com/auraofintelligence/australian-legal-engine",
-          "publicPage": null,
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "event-search-QLD",
-          "title": "Event Search QLD",
-          "repositoryUrl": "https://github.com/auraofintelligence/event-search-QLD",
-          "publicPage": "https://auraofintelligence.github.io/event-search-QLD/",
-          "labels": [
-            "explicit cross-reference",
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        },
-        {
-          "name": "fishing-calendar",
-          "title": "Fishing Calendar",
-          "repositoryUrl": "https://github.com/auraofintelligence/fishing-calendar",
-          "publicPage": null,
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "legal-memory-workbench",
-          "title": "Legal Memory Workbench",
-          "repositoryUrl": "https://github.com/auraofintelligence/legal-memory-workbench",
-          "publicPage": "https://auraofintelligence.github.io/legal-memory-workbench/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "quandamooka-country-events-engine",
-          "title": "Quandamooka Country Events Engine",
-          "repositoryUrl": "https://github.com/auraofintelligence/quandamooka-country-events-engine",
-          "publicPage": "https://auraofintelligence.github.io/quandamooka-country-events-engine/",
-          "labels": [
-            "shared tooling suite"
-          ],
-          "directionalLabels": [],
-          "confidence": "medium"
-        },
-        {
-          "name": "right-place-right-time",
-          "title": "Right Place, Right Time",
-          "repositoryUrl": "https://github.com/auraofintelligence/right-place-right-time",
-          "publicPage": "https://auraofintelligence.github.io/right-place-right-time/",
-          "labels": [
-            "explicit cross-reference"
-          ],
-          "directionalLabels": [],
-          "confidence": "high"
-        }
-      ],
-      "relationshipCount": 9,
-      "freshlyCompleted": false,
-      "meaningfulRebuild": null,
-      "source": "audit",
-      "repositoryCreatedAt": "2025-08-19T02:02:38Z"
-    },
-    {
       "name": "UNGA81-Luke-Hayes",
       "title": "UNGA81: A Fair Go in the Age of Intelligence",
       "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
@@ -28159,17 +26555,6 @@
           "confidence": "confirmed"
         },
         {
-          "name": "p4a_xyz",
-          "title": "P4A Xyz",
-          "repositoryUrl": "https://github.com/auraofintelligence/p4a_xyz",
-          "publicPage": "https://auraofintelligence.github.io/p4a_xyz/",
-          "labels": [
-            "direct public-project link in the 2026-09-22 refresh"
-          ],
-          "directionalLabels": [],
-          "confidence": "confirmed"
-        },
-        {
           "name": "gajra-earth-public-hub",
           "title": "GAJRA Earth Public Hub",
           "repositoryUrl": "https://github.com/auraofintelligence/gajra-earth-public-hub",
@@ -28225,7 +26610,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 15,
+      "relationshipCount": 14,
       "freshlyCompleted": true,
       "meaningfulRebuild": null,
       "source": "post-audit refresh",
@@ -28511,21 +26896,6 @@
           "confidence": "medium"
         },
         {
-          "name": "minjerribah-wildlife-rescue",
-          "title": "Minjerribah Wildlife Rescue",
-          "repositoryUrl": "https://github.com/auraofintelligence/minjerribah-wildlife-rescue",
-          "publicPage": "https://auraofintelligence.github.io/minjerribah-wildlife-rescue/",
-          "labels": [
-            "explicit cross-reference",
-            "ordered build lineage",
-            "shared community programme"
-          ],
-          "directionalLabels": [
-            "earlier build; minjerribah-wildlife-rescue is later"
-          ],
-          "confidence": "high"
-        },
-        {
           "name": "quandamooka-country-events-engine",
           "title": "Quandamooka Country Events Engine",
           "repositoryUrl": "https://github.com/auraofintelligence/quandamooka-country-events-engine",
@@ -28548,7 +26918,7 @@
           "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 6,
+      "relationshipCount": 5,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -28878,25 +27248,11 @@
           "firstBuilt": "2026-03-19"
         },
         {
-          "repository": "p4a_xyz",
-          "title": "P4A Xyz",
-          "order": 3,
-          "role": "public P4A civic hub",
-          "firstBuilt": "2026-05-01"
-        },
-        {
           "repository": "p4a-xyz-cinema",
           "title": "P4A Xyz Cinema",
           "order": 4,
           "role": "cinematic P4A rebuild",
           "firstBuilt": "2026-05-01"
-        },
-        {
-          "repository": "p4a-oceania-expansion-lab",
-          "title": "P4A Oceania Expansion Lab",
-          "order": 4,
-          "role": "Oceania expansion lab",
-          "firstBuilt": "2026-07-01"
         },
         {
           "repository": "p4a-oceania-cinema",
@@ -28990,28 +27346,6 @@
           "order": 2,
           "role": "second clean build",
           "firstBuilt": "2026-08-18"
-        }
-      ]
-    },
-    {
-      "id": "minjerribah-wildlife-lineage",
-      "title": "Minjerribah wildlife-rescue releases",
-      "description": "The offline-first app is the first implementation lane; the next-day public map is a distinct release that the first repo links to. Safety review boundaries remain separate.",
-      "confidence": "high",
-      "stages": [
-        {
-          "repository": "wildlife-rescue-minjerribah",
-          "title": "Wildlife Rescue Minjerribah",
-          "order": 1,
-          "role": "first offline-first implementation",
-          "firstBuilt": "2026-07-19"
-        },
-        {
-          "repository": "minjerribah-wildlife-rescue",
-          "title": "Minjerribah Wildlife Rescue",
-          "order": 2,
-          "role": "public map release",
-          "firstBuilt": "2026-07-20"
         }
       ]
     }

@@ -3,7 +3,15 @@
   "excludedProjectNames": [
     "i-C-infinity-one-album-pack",
     "i-C-infinity-two-album-pack",
-    "i-C-infinity-three-album-pack"
+    "i-C-infinity-three-album-pack",
+    "aura-studios",
+    "minjerribah-wildlife-rescue",
+    "p4a-oceania-expansion-lab",
+    "p4a_xyz",
+    "straddie-space-station-simulator",
+    "straddie-vitality-network-builders",
+    "test",
+    "UN-world-days"
   ],
   "lineageDescriptionOverrides": {
     "ic-infinity-lineage": "The core music workflow grows into the public music universe, then content design, music-video and the later operational-engine branches."
@@ -113,7 +121,7 @@
       "meaningfulRebuild": null
     }
   ],
-  "notes": "Add only confirmed public projects here. A matching name augments an audited project; a new name adds a project. Keep dates in YYYY-MM-DD Brisbane local date format. Use freshlyCompleted: true for the recent-work sort. replaceNeighbourNames is for a confirmed current project map that deliberately supersedes an older relationship list. excludedProjectNames keeps confirmed archived duplicates out of all active Atlas navigation while preserving the source audit. lineageDescriptionOverrides can replace wording that is no longer appropriate after a deliberate public-navigation exclusion. featuredProjectNames sets the major-project order on the home page only. The Projects page defaults to repository creation date, newest first.",
+  "notes": "Add only confirmed public projects here. A matching name augments an audited project; a new name adds a project. Keep dates in YYYY-MM-DD Brisbane local date format. Use freshlyCompleted: true for the recent-work sort. replaceNeighbourNames is for a confirmed current project map that deliberately supersedes an older relationship list. excludedProjectNames keeps deleted and archived repositories out of active Atlas navigation while preserving the source audit. lineageDescriptionOverrides can replace wording that is no longer appropriate after a deliberate public-navigation exclusion. featuredProjectNames sets the major-project order on the home page only. The Projects page defaults to repository creation date, newest first.",
   "featuredProjectNames": [
     "open-record-luke-nathan-hayes",
     "aura-genesis-geode-atlas",

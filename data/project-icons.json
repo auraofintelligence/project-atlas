@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-11-01",
+  "generatedOn": "2026-11-04",
   "assetSize": 128,
   "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved only for projects with no honest public favicon, logo or directly related public-brand artwork.",
   "icons": {
@@ -183,12 +183,6 @@
       "kind": "field-library-raster",
       "fallbackColour": "#3f625b",
       "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-spatial-perception.png"
-    },
-    "aura-studios": {
-      "asset": "assets/project-icons/aura-studios.webp",
-      "kind": "field-library-raster",
-      "fallbackColour": "#3f625b",
-      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\aura-studios.png"
     },
     "aura-systems-image-atlas": {
       "asset": "assets/project-icons/aura-systems-image-atlas.webp",
@@ -536,12 +530,6 @@
       "fallbackColour": "#3f625b",
       "source": "minjerribah-screen-media-network/public/favicon.svg"
     },
-    "minjerribah-wildlife-rescue": {
-      "asset": "assets/project-icons/minjerribah-wildlife-rescue.webp",
-      "kind": "local-source",
-      "fallbackColour": "#3f625b",
-      "source": "minjerribah-wildlife-rescue/assets/icons/icon-192.png"
-    },
     "moreton-bay-autonomous-mobility": {
       "asset": "assets/project-icons/moreton-bay-autonomous-mobility.webp",
       "kind": "local-source",
@@ -590,23 +578,11 @@
       "fallbackColour": "#3f625b",
       "source": "p4a-oceania-cinema/assets/favicon.svg"
     },
-    "p4a-oceania-expansion-lab": {
-      "asset": "assets/project-icons/p4a-oceania-expansion-lab.webp",
-      "kind": "local-source",
-      "fallbackColour": "#3f625b",
-      "source": "p4a-oceania-expansion-lab/assets/favicon.svg"
-    },
     "p4a-xyz-cinema": {
       "asset": "assets/project-icons/p4a-xyz-cinema.webp",
       "kind": "local-source",
       "fallbackColour": "#3f625b",
       "source": "p4a-xyz-cinema/assets/favicon.svg"
-    },
-    "p4a_xyz": {
-      "asset": "assets/project-icons/p4a_xyz.webp",
-      "kind": "local-source",
-      "fallbackColour": "#3f625b",
-      "source": "p4a_xyz/assets/favicon.svg"
     },
     "P4Australia": {
       "asset": "assets/project-icons/p4australia.webp",
@@ -865,12 +841,6 @@
       "fallbackColour": "#3f625b",
       "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\straddie-noticeboard-network.png"
     },
-    "straddie-space-station-simulator": {
-      "asset": "assets/project-icons/straddie-space-station-simulator.webp",
-      "kind": "field-library-raster",
-      "fallbackColour": "#3f625b",
-      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\straddie-space-station-simulator.png"
-    },
     "straddie-tenders-lab": {
       "asset": "assets/project-icons/straddie-tenders-lab.webp",
       "kind": "local-source",
@@ -894,12 +864,6 @@
       "kind": "local-source",
       "fallbackColour": "#3f625b",
       "source": "straddie-tip-loop-lab/assets/favicon.svg"
-    },
-    "straddie-vitality-network-builders": {
-      "asset": "assets/project-icons/straddie-vitality-network-builders.webp",
-      "kind": "field-library-raster",
-      "fallbackColour": "#3f625b",
-      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\straddie-vitality-network-builders.png"
     },
     "strange-but-true": {
       "asset": "assets/project-icons/strange-but-true.webp",
@@ -931,12 +895,6 @@
       "fallbackColour": "#3f625b",
       "source": "strange-but-true-travel-oracle/assets/favicon.svg"
     },
-    "test": {
-      "asset": "assets/project-icons/test.webp",
-      "kind": "field-library-raster",
-      "fallbackColour": "#3f625b",
-      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\test.png"
-    },
     "the-great-unveiling": {
       "asset": "assets/project-icons/the-great-unveiling.webp",
       "kind": "field-library-raster",
@@ -960,12 +918,6 @@
       "kind": "local-source",
       "fallbackColour": "#d95367",
       "source": "UNGA81-Luke-Hayes/assets/icon-192.png"
-    },
-    "UN-world-days": {
-      "asset": "assets/project-icons/un-world-days.webp",
-      "kind": "field-library-raster",
-      "fallbackColour": "#3f625b",
-      "source": "strange-but-true-field-library\\output\\favicon-rollout\\source\\UN-world-days.png"
     },
     "vfg-plan-access-lab": {
       "asset": "assets/project-icons/vfg-plan-access-lab.webp",

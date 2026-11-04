@@ -13,9 +13,9 @@ The Atlas records the first substantive build date for every included public pro
 
 ## What the Atlas includes
 
-- 182 active public projects in the Atlas: 140 audit-derived projects from the 29 August 2026 organisation audit, plus forty-two confirmed public additions from later refresh files. Three archived duplicate i-C Infinity album-package copies remain excluded from active navigation.
+- 174 active public projects in the Atlas, including 132 from the 29 August 2026 organisation audit and 42 from later refreshes.
 - Direct links to live public pages where the audit verified one, plus GitHub links for every project
-- All evidence-backed public neighbouring projects, not a small hand-picked sample. Three archived duplicate i-C Infinity album-package copies are deliberately excluded from active public navigation.
+- Evidence-backed connections between active public projects.
 - Search, original-build year, project-family, public-page and relationship filters
 - Visitor-facing orders for repository creation date, newly completed or meaningfully rebuilt work, public pages, connection count and A to Z
 - Fourteen curated major projects on the home page, led by Open Record, Aura Genesis Protocol and 82 Claytons
@@ -47,11 +47,12 @@ python scripts/build_atlas_data.py `
   --delta data\github-organisation-delta-2026-10-30.json `
   --delta data\github-organisation-delta-2026-10-31.json `
   --delta data\github-organisation-delta-2026-11-01.json `
+  --delta data\github-organisation-delta-2026-11-04.json `
   --manual data\manual-projects.json `
   --output data\projects.json
 ```
 
-`data/manual-projects.json` holds editorial additions and overrides once their public destination, original build date and relationship evidence are confirmed. `freshlyCompleted` remains available for the recent-work sort. Its `excludedProjectNames` list prevents confirmed archived duplicates from returning to cards, search, QR or related-project links, while leaving the source audit intact. A dated public refresh file is useful when several new pages launch together.
+`data/manual-projects.json` holds editorial additions and overrides once their public destination, original build date and relationship evidence are confirmed. `freshlyCompleted` remains available for the recent-work sort. Its `excludedProjectNames` list keeps deleted and archived repositories out of cards, search, QR codes and related-project links, while leaving the source audit intact. A dated public refresh file is useful when several new pages launch together.
 
 `featuredProjectNames` sets the major-project order on the home page. The build regenerates those home links from this list. The Projects page has a single directory, ordered by repository creation date, newest first by default. `data/repository-creation-dates.json` records GitHub's `created_at` timestamps, independently of substantive build history and later updates; refresh this file when adding repositories. Card creation dates use Brisbane local time. Open Record links directly to its public GitHub record; it does not have a separate GitHub Pages site. 7-Mile uses its published planning-workbench address.
 

@@ -1,0 +1,20 @@
+{
+  "baselineAuditDate": "2026-08-29",
+  "refreshedDate": "2026-11-04",
+  "publicRepositoryCount": 179,
+  "newPublicProjects": [],
+  "removedPublicRepositories": [
+    "aura-studios",
+    "test",
+    "UN-world-days"
+  ],
+  "archivedPublicRepositories": [
+    "minjerribah-wildlife-rescue",
+    "p4a-oceania-expansion-lab",
+    "p4a_xyz",
+    "straddie-space-station-simulator",
+    "straddie-vitality-network-builders"
+  ],
+  "meaningfulReleases": [],
+  "evidence": "The public GitHub inventory was checked on 4 November 2026. Individual repository requests returned 404 for the three deleted repositories and confirmed archived status for the other five. The Atlas excludes these repositories from active navigation through manual-projects.json."
+}

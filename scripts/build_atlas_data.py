@@ -605,7 +605,7 @@ def main() -> int:
         "includedProjectCount": len(projects),
         "generatedOn": dt.date.today().isoformat(),
         "dateMethod": "Original build date is the earliest audited substantive project evidence in Brisbane local date. It is not GitHub's latest update date. A meaningful rebuild is shown separately so it never replaces the original date.",
-        "relationshipMethod": "Every listed public neighbour is evidence-backed in the organisation audit. Deliberately excluded archived duplicates are not active public-navigation entries. No arbitrary maximum has been applied.",
+        "relationshipMethod": "The directory includes evidence-backed links between active public projects.",
         "featuredProjectNames": featured_names,
         "projects": projects,
         "lineages": lineages,
@@ -617,7 +617,7 @@ def main() -> int:
     print(
         f"Built {args.output} with {len(projects)} projects "
         f"({audit_derived_count} audit-derived, {public_addition_count} public additions, "
-        f"{len(excluded_names)} archived duplicates excluded)."
+        f"{len(excluded_names)} excluded from active navigation)."
     )
     return 0
 
