@@ -1,0 +1,42 @@
+name: Standalone websites and deployment links
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/external-projects.json'
+      - 'scripts/build_qr_codes.mjs'
+      - 'scripts/repair_deployed_links.py'
+      - 'scripts/validate_external_projects.mjs'
+      - '.github/workflows/external-projects.yml'
+permissions:
+  contents: write
+concurrency:
+  group: public-atlas-reconciliation
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci
+      - run: python scripts/repair_deployed_links.py
+      - run: npm run build:qr
+      - run: node scripts/validate_external_projects.mjs
+      - run: node --check app.js
+      - run: python scripts/validate_atlas.py
+      - run: python scripts/no_em_dashes.py
+      - name: Commit validated deployment links and QR files
+        run: |
+          git add data/projects.json data/manual-projects.json data/reviewed-public-additions-2026-11-24.json assets/qr assets/external-qr
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'project-atlas-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Repair deployed project links and generate website QR codes'
+          git push origin HEAD:main
