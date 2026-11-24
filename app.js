@@ -44,6 +44,7 @@
   }
 
   function dateStamp(project) {
+    if (project.externalWebsite) return element("span", {class:"date-stamp",text:"Standalone website"});
     const created = project.repositoryCreatedAt;
     const date = created ? new Intl.DateTimeFormat("en-AU", { timeZone: "Australia/Brisbane", day: "numeric", month: "short", year: "numeric" }).format(new Date(created)) : null;
     return element("time", { class: "date-stamp", datetime: created, text: date ? `Created: ${date}` : "Creation date not verified" });
@@ -65,7 +66,7 @@
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-+|-+$/g, "");
-    return `assets/qr/${stem}.svg`;
+    return `${project.externalWebsite ? "assets/external-qr" : "assets/qr"}/${stem}.svg`;
   }
 
   function projectIcon(project) {
@@ -79,6 +80,12 @@
     const showFallback = () => {
       icon.replaceChildren();
       icon.classList.add("is-fallback");
+      if (project.externalWebsite && project.iconText) {
+        icon.style.backgroundColor = project.iconColour || "#3f625b";
+        const initials = element("span", {text:project.iconText});
+        initials.style.cssText = "color:white;font-size:1.25rem;font-weight:800;letter-spacing:-0.04em";
+        icon.append(initials);
+      }
     };
 
     if (!entry?.asset) {
@@ -112,6 +119,7 @@
       project.name,
       project.title,
       project.description,
+      project.publicPage,
       ...(project.families || []).map((family) => family.title),
       ...(project.neighbours || []).flatMap((neighbour) => [neighbour.name, neighbour.title, ...(neighbour.labels || [])]),
     ];
@@ -142,7 +150,7 @@
       item.append(element("span", { class: "relationship-reason", text: reason || "Evidence-backed public relationship" }));
       const actions = element("div", { class: "neighbour-actions" });
       if (neighbour.publicPage) actions.append(externalLink("Public page", neighbour.publicPage));
-      actions.append(externalLink("GitHub", neighbour.repositoryUrl));
+      if (neighbour.repositoryUrl) actions.append(externalLink("GitHub", neighbour.repositoryUrl));
       item.append(actions);
       list.append(item);
     }
@@ -182,8 +190,15 @@
 
     const actions = element("div", { class: "card-actions" });
     if (project.publicPage) actions.append(externalLink("Visit public page", project.publicPage));
-    actions.append(externalLink("View on GitHub", project.repositoryUrl));
+    if (project.repositoryUrl) actions.append(externalLink("View on GitHub", project.repositoryUrl));
     card.append(actions, relationshipDetails(project));
+    if (project.externalWebsite && project.sourceLinks?.length) {
+      const sources = element("details", {class:"relationships"});
+      sources.append(element("summary",{text:"Project source links"}));
+      const list = element("ul",{class:"relationship-list"});
+      for (const source of project.sourceLinks) list.append(element("li",{},externalLink(source.title,source.url,"")));
+      sources.append(list); card.append(sources);
+    }
     return card;
   }
 
@@ -240,7 +255,7 @@
   function displayCounts(data) {
     const publicPageCount = data.projects.filter((project) => project.publicPage).length;
     const relationshipCount = data.projects.reduce((total, project) => total + (project.relationshipCount || 0), 0);
-    byId("audited-count").textContent = String(data.includedProjectCount);
+    byId("audited-count").textContent = String(data.projects.length);
     byId("public-page-count").textContent = String(publicPageCount);
     byId("relationship-count").textContent = String(relationshipCount);
     byId("date-method").textContent = data.dateMethod;
@@ -294,7 +309,8 @@
       if (filters.year && project.firstBuilt?.slice(0, 4) !== filters.year) return false;
       if (filters.family && !(project.families || []).some((family) => family.id === filters.family)) return false;
       if (filters.page === "has-page" && !project.publicPage) return false;
-      if (filters.page === "github-only" && project.publicPage) return false;
+      if (filters.page === "github-only" && (project.publicPage || !project.repositoryUrl)) return false;
+      if (filters.page === "website-only" && !project.externalWebsite) return false;
       if (filters.connections === "connected" && !(project.relationshipCount > 0)) return false;
       if (filters.connections === "standalone" && project.relationshipCount > 0) return false;
       return true;
@@ -302,6 +318,7 @@
 
     const titleComparison = (left, right) => left.title.localeCompare(right.title, "en-AU");
     const compareCreation = (left, right, ascending = false) => {
+      if (!ascending && Boolean(left.externalWebsite) !== Boolean(right.externalWebsite)) return left.externalWebsite ? -1 : 1;
       const leftHasDate = Boolean(left.repositoryCreatedAt);
       const rightHasDate = Boolean(right.repositoryCreatedAt);
       if (leftHasDate !== rightHasDate) return leftHasDate ? -1 : 1;
@@ -347,6 +364,7 @@
     if (filters.family) active.push(`Family: ${byId("family-filter").selectedOptions[0]?.textContent}`);
     if (filters.page === "has-page") active.push("Public page available");
     if (filters.page === "github-only") active.push("GitHub only");
+    if (filters.page === "website-only") active.push("Standalone websites");
     if (filters.connections === "connected") active.push("Has related public work");
     if (filters.connections === "standalone") active.push("No listed neighbours");
     const filterText = active.length ? ` Filters: ${active.join("; ")}.` : "";
@@ -396,10 +414,11 @@
 
   async function initialise() {
     try {
-      const [projectResponse, iconResponse, lifecycleResponse] = await Promise.all([
+      const [projectResponse, iconResponse, lifecycleResponse, externalResponse] = await Promise.all([
         fetch("data/projects.json", { cache: "no-store" }),
         fetch("data/project-icons.json", { cache: "no-store" }),
         fetch("data/lifecycle.json", { cache: "no-store" }).catch(() => null),
+        fetch("data/external-projects.json", {cache:"no-store"}),
       ]);
       if (!projectResponse.ok) throw new Error(`Project data request failed: ${projectResponse.status}`);
       if (!iconResponse.ok) throw new Error(`Project icon manifest request failed: ${iconResponse.status}`);
@@ -411,12 +430,33 @@
       const lifecycle = lifecycleResponse?.ok ? await lifecycleResponse.json() : null;
       state.lifecycle = new Map(Object.entries(lifecycle?.projects || {}));
       if (!lifecycle && byId("lifecycle-filter")) byId("lifecycle-filter").value = "all";
+      if (!externalResponse.ok) throw new Error("External project registry unavailable");
+      const external = await externalResponse.json();
+      if (external.schemaVersion !== 1 || !Array.isArray(external.projects)) throw new Error("Invalid external project registry");
+      const byName = new Map(data.projects.map(p=>[p.name,p]));
+      for (const entry of external.projects) {
+        if (byName.has(entry.name) || !entry.publicPage?.startsWith("https://") || entry.repositoryUrl) throw new Error("Invalid standalone project identity");
+        const project = {...entry, externalWebsite:true, neighbours:[]};
+        for (const relation of entry.relatedRepositories || []) {
+          const target = byName.get(relation.name);
+          if (!target) continue;
+          project.neighbours.push({name:target.name,title:target.title,publicPage:target.publicPage,repositoryUrl:target.repositoryUrl,labels:[relation.reason],directionalLabels:[],confidence:"editorial"});
+          target.neighbours = [...(target.neighbours || []),{name:entry.name,title:entry.title,publicPage:entry.publicPage,repositoryUrl:null,labels:[relation.reason],directionalLabels:[],confidence:"editorial"}];
+          target.relationshipCount = target.neighbours.length;
+        }
+        project.relationshipCount = project.neighbours.length;
+        state.lifecycle.set(entry.name,entry.lifecycle || {status:"review-needed",note:"Lifecycle review pending."});
+        if (entry.iconAsset) iconManifest.icons[entry.name] = {asset:entry.iconAsset,fallbackColour:entry.iconColour};
+        data.projects.push(project); byName.set(entry.name,project);
+      }
       state.data = data;
       state.icons = new Map(Object.entries(iconManifest.icons));
       state.projects = data.projects.map((project) => ({ ...project, _searchText: projectSearchText(project) }));
       displayCounts(data);
       buildYearOptions(state.projects);
       buildFamilyOptions(state.projects);
+      const query = new URLSearchParams(location.search).get("query");
+      if (query) byId("project-search").value = query;
       renderProjects();
       renderLineages(data);
       renderPrintDirectory(data.projects);
