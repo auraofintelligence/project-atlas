@@ -76,4 +76,15 @@ for (const project of data.projects) {
   await writeFile(path.join(outputDir, `${stem}.svg`), accessibleSvg, "utf8");
 }
 
-console.log(`Generated ${seen.size} local scannable QR-code SVG files in ${path.relative(root, outputDir)}.`);
+const external = JSON.parse(await readFile(path.join(root,"data","external-projects.json"),"utf8"));
+const externalDir=path.join(root,"assets","external-qr");
+await mkdir(externalDir,{recursive:true});
+for(const project of external.projects){
+  const stem=fileStem(project.name);
+  if(!stem||seen.has(stem))throw Error("Duplicate external project identity: "+project.name);
+  seen.add(stem);
+  const target=publicTarget(project);
+  const svg=await QRCode.toString(target,{type:"svg",errorCorrectionLevel:"M",margin:1,color:{dark:"#000000",light:"#ffffff"}});
+  await writeFile(path.join(externalDir,stem+".svg"),addAccessibleMetadata(svg,project,target),"utf8");
+}
+console.log("Generated local QR codes for "+seen.size+" repository-backed and standalone projects.");
