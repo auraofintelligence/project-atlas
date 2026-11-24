@@ -94,7 +94,7 @@
     }
 
     const image = element("img", {
-      src: `${entry.asset}?v=20261124-brand`,
+      src: entry.asset.startsWith("https://") ? entry.asset : `${entry.asset}?v=20261124-brand`,
       alt: "",
       width: "96",
       height: "96",

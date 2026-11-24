@@ -46,9 +46,9 @@
         }
       ],
       "iconColour": "#66509b",
-      "iconAsset": "assets/external-icons/gamify-democracy.svg",
-      "iconSource": "https://github.com/auraofintelligence/p4a-membership/blob/main/public/artwork/gamify-democracy.svg",
-      "iconNote": "Existing dedicated Gamify Democracy project artwork from P4A Membership; the standalone website logo has not been independently verified."
+      "iconAsset": "https://gamifydemocracy.com/assets/mark.svg",
+      "iconSource": "https://gamifydemocracy.com/assets/mark.svg",
+      "iconNote": "Official website mark supplied by the project creator. Use the exact source asset without substituting P4A artwork."
     },
     {
       "name": "ready-set-co-op",
