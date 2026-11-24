@@ -1095,9 +1095,9 @@
     },
     "carnival-of-opportunities": {
       "asset": "assets/project-icons/carnival-of-opportunities.webp",
-      "kind": "colour-tile",
+      "kind": "local-source",
       "fallbackColour": "#3f625b",
-      "source": null
+      "source": "carnival-of-opportunities/assets/images/icons/lucky-ticket.webp"
     },
     "straddie-noticeboard-cloudflare": {
       "asset": "assets/project-icons/straddie-noticeboard-cloudflare.webp",
@@ -1107,9 +1107,9 @@
     },
     "PLFC-members-club": {
       "asset": "assets/project-icons/plfc-members-club.webp",
-      "kind": "colour-tile",
+      "kind": "local-source",
       "fallbackColour": "#3f625b",
-      "source": null
+      "source": "PLFC-members-club/public/assets/plfc-logo.png"
     },
     "Sandy-Sports-Club": {
       "asset": "assets/project-icons/sandy-sports-club.webp",
@@ -1118,8 +1118,5 @@
       "source": "Sandy-Sports-Club/favicon.png"
     }
   },
-  "approvedAdditionalFallbacks": [
-    "PLFC-members-club",
-    "carnival-of-opportunities"
-  ]
+  "approvedAdditionalFallbacks": []
 }
