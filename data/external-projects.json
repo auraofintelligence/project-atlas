@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-24",
+  "projects": [
+    {
+      "name": "gamify-democracy",
+      "title": "Gamify Democracy",
+      "publicPage": "https://gamifydemocracy.com/",
+      "repositoryUrl": null,
+      "firstBuilt": null,
+      "repositoryCreatedAt": null,
+      "description": "A distinct civic engagement initiative combining gaming, generative AI and participatory co-design through sovereign digital twins and the Sovereign Space Builder player loop. C-Hours record verified voluntary contribution without monetary value.",
+      "lifecycle": {
+        "status": "current",
+        "note": "Distinct public initiative named by its creator. Proposal documented in Parliament; current website content and original build date not independently verified."
+      },
+      "sourceLinks": [
+        {
+          "title": "Australian Parliament: Local Government Funding inquiry, submission 2, section 2.3",
+          "url": "https://www.aph.gov.au/DocumentStore.ashx?id=b0bb44ad-3515-4c22-bdb7-d5db605f6e0a&subId=780115"
+        },
+        {
+          "title": "Gamify Democracy website (creator-supplied address)",
+          "url": "https://gamifydemocracy.com/"
+        }
+      ],
+      "families": [
+        {
+          "id": "civic-participation",
+          "title": "Civic participation and democratic technology",
+          "role": "initiative"
+        }
+      ],
+      "relatedRepositories": [
+        {
+          "name": "SSB",
+          "reason": "Sovereign Space Builder supplies the proposed civic co-design player loop."
+        },
+        {
+          "name": "p4a-xyz-cinema",
+          "reason": "Related Australian civic workbench, distinct from the wider initiative."
+        },
+        {
+          "name": "C-Hour-introduction",
+          "reason": "Current nonmonetary voluntary contribution framework."
+        }
+      ],
+      "iconText": "GD",
+      "iconColour": "#66509b"
+    }
+  ]
+}
