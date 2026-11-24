@@ -13,8 +13,8 @@ The Atlas records the first substantive build date where it can be evidenced; un
 
 ## What the Atlas includes
 
-- 186 active public projects in the Atlas as of 24 November 2026, including the 175 previously catalogued and eleven reviewed public additions.
-- Direct links to live public pages where the audit verified one, plus GitHub links for every project
+- 186 repository-backed records plus two standalone public websites as of 24 November 2026. Lifecycle filters distinguish current work, supporting systems, history and records awaiting review.
+- Direct links to live public pages where the audit verified one, plus GitHub links where a corresponding repository is known
 - Evidence-backed connections between active public projects.
 - Search, original-build year, project-family, public-page and relationship filters
 - Visitor-facing orders for repository creation date, newly completed or meaningfully rebuilt work, public pages, connection count and A to Z
@@ -25,7 +25,7 @@ The Atlas records the first substantive build date where it can be evidenced; un
 
 ## Update the data
 
-The browser reads `data/projects.json`. The daily [public Atlas reconciliation workflow](.github/workflows/public-atlas-reconciliation.yml) checks the public inventory without publishing unreviewed projects. Review new candidates in `data/reviewed-public-additions-2026-11-24.json`; the apply step verifies visibility, creation metadata, public links, icons and QR codes, then validates before committing. Original substantive build dates are left unknown where evidence is absent. Private or sensitive work is excluded.
+The browser reads `data/projects.json` for repository-backed work and `data/external-projects.json` for standalone websites, including Gamify Democracy and ready SET Co-op. External records have their own editorial identity, verified source links where available and no invented repository or creation date. Their local QR files are generated independently in `assets/external-qr/`. The daily [public Atlas reconciliation workflow](.github/workflows/public-atlas-reconciliation.yml) checks the public inventory without publishing unreviewed projects. Review new candidates in `data/reviewed-public-additions-2026-11-24.json`; the apply step verifies visibility, creation metadata, public links, icons and QR codes, then validates before committing. Original substantive build dates are left unknown where evidence is absent. Private or sensitive work is excluded.
 
 For a full rebuild from the original audited sources and the maintained editorial data:
 
