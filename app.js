@@ -6,6 +6,7 @@
     data: null,
     projects: [],
     icons: new Map(),
+    lifecycle: new Map(),
   };
 
   const byId = (id) => document.getElementById(id);
@@ -86,7 +87,7 @@
     }
 
     const image = element("img", {
-      src: entry.asset,
+      src: `${entry.asset}?v=20261124-iconrepair`,
       alt: "",
       width: "96",
       height: "96",
@@ -149,6 +150,9 @@
     return details;
   }
 
+  const lifecycleLabels = {"current":"Current work","supporting":"Supporting system","earlier-version":"Earlier version","reference":"Reference or historical record","reserved":"Reserved / not built","review-needed":"Lifecycle review pending"};
+  function projectLifecycle(project) { return state.lifecycle.get(project.name) || {status:"review-needed",note:"Lifecycle review pending."}; }
+
   function projectCard(project) {
     const card = element("article", { class: "project-card", id: `project-${project.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}` });
     card.append(dateStamp(project));
@@ -166,6 +170,8 @@
       const status = rebuild.status ? ` ${rebuild.status}` : "";
       meta.append(element("li", { text: `${label} ${timing}. Original date remains ${formatDate(project.firstBuilt)}.${status}` }));
     }
+    const lifecycle = projectLifecycle(project);
+    meta.append(element("li", {text: `${lifecycleLabels[lifecycle.status] || lifecycle.status}: ${lifecycle.note}`}));
     card.append(meta);
 
     if (project.families?.length) {
@@ -269,6 +275,7 @@
   function activeFilters() {
     return {
       query: byId("project-search").value.trim().toLocaleLowerCase("en-AU"),
+      lifecycle: byId("lifecycle-filter")?.value || "all",
       year: byId("year-filter").value,
       family: byId("family-filter").value,
       page: byId("page-filter").value,
@@ -280,6 +287,9 @@
   function filteredProjects() {
     const filters = activeFilters();
     const results = state.projects.filter((project) => {
+      const status = projectLifecycle(project).status;
+      if (filters.lifecycle === "current-and-supporting" && !["current","supporting"].includes(status)) return false;
+      if (!["all","current-and-supporting"].includes(filters.lifecycle) && status !== filters.lifecycle) return false;
       if (filters.query && !project._searchText.includes(filters.query)) return false;
       if (filters.year && project.firstBuilt?.slice(0, 4) !== filters.year) return false;
       if (filters.family && !(project.families || []).some((family) => family.id === filters.family)) return false;
@@ -332,6 +342,7 @@
       az: "A to Z",
     };
     const active = [];
+    if (filters.lifecycle !== "all") active.push(`Lifecycle: ${byId("lifecycle-filter").selectedOptions[0]?.textContent}`);
     if (filters.year) active.push(`Original build year: ${filters.year}`);
     if (filters.family) active.push(`Family: ${byId("family-filter").selectedOptions[0]?.textContent}`);
     if (filters.page === "has-page") active.push("Public page available");
@@ -385,9 +396,10 @@
 
   async function initialise() {
     try {
-      const [projectResponse, iconResponse] = await Promise.all([
+      const [projectResponse, iconResponse, lifecycleResponse] = await Promise.all([
         fetch("data/projects.json", { cache: "no-store" }),
         fetch("data/project-icons.json", { cache: "no-store" }),
+        fetch("data/lifecycle.json", { cache: "no-store" }).catch(() => null),
       ]);
       if (!projectResponse.ok) throw new Error(`Project data request failed: ${projectResponse.status}`);
       if (!iconResponse.ok) throw new Error(`Project icon manifest request failed: ${iconResponse.status}`);
@@ -396,6 +408,9 @@
       if (!iconManifest || typeof iconManifest.icons !== "object" || Array.isArray(iconManifest.icons)) {
         throw new Error("Project icon manifest has no icon entries");
       }
+      const lifecycle = lifecycleResponse?.ok ? await lifecycleResponse.json() : null;
+      state.lifecycle = new Map(Object.entries(lifecycle?.projects || {}));
+      if (!lifecycle && byId("lifecycle-filter")) byId("lifecycle-filter").value = "all";
       state.data = data;
       state.icons = new Map(Object.entries(iconManifest.icons));
       state.projects = data.projects.map((project) => ({ ...project, _searchText: projectSearchText(project) }));
