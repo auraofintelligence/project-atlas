@@ -81,14 +81,27 @@
       <section class="explore-section section-wrap" id="explore" aria-labelledby="explore-heading">
         <div class="section-heading section-heading-wide">
           <p class="kicker">Project shelf</p>
-          <h2 id="explore-heading">Explore the complete public collection</h2>
-          <p>Search by a project name, an idea, a family or a connected project. The filters use the project’s own history, not an accidental platform sort order.</p>
+          <h2 id="explore-heading">Explore current work and its history</h2>
+          <p>Current work and supporting systems are shown first. Earlier versions, reference projects, reserved repositories and records awaiting lifecycle review remain accessible. Classification is an initial editorial pass, not an assertion that all historical work is obsolete.</p>
         </div>
 
         <form class="filters" id="filters" novalidate>
           <label class="search-field" for="project-search">
             <span>Search the collection</span>
             <input id="project-search" name="query" type="search" placeholder="Try ‘Minjerribah’, ‘Aura’, ‘law’ or a project name" autocomplete="off">
+          </label>
+          <label for="lifecycle-filter">
+            <span>Project lifecycle</span>
+            <select id="lifecycle-filter" name="lifecycle">
+              <option value="current-and-supporting" selected>Current and supporting</option>
+              <option value="current">Current work</option>
+              <option value="supporting">Supporting systems</option>
+              <option value="earlier-version">Earlier versions</option>
+              <option value="reference">Reference and historical</option>
+              <option value="reserved">Reserved / not built</option>
+              <option value="review-needed">Review pending</option>
+              <option value="all">Entire public collection</option>
+            </select>
           </label>
           <label for="year-filter">
             <span>Original build year</span>
@@ -193,6 +206,6 @@
     <noscript>
       <p class="noscript">This directory needs JavaScript enabled to load the public project data.</p>
     </noscript>
-    <script src="app.js?v=20261019-2" defer></script>
+    <script src="app.js?v=20261124-lifecycle" defer></script>
   </body>
 </html>
