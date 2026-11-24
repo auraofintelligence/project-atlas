@@ -1,0 +1,46 @@
+name: Zero em dash punctuation
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.html'
+      - '**/*.md'
+      - '**/*.json'
+      - '**/*.js'
+      - '**/*.mjs'
+      - '**/*.css'
+      - '**/*.py'
+      - '**/*.yml'
+      - '**/*.yaml'
+      - '**/*.svg'
+      - '**/*.xml'
+      - '**/*.txt'
+  schedule:
+    - cron: '35 19 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: public-atlas-reconciliation
+  cancel-in-progress: false
+jobs:
+  punctuation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Repair and check tracked project text
+        run: |
+          python scripts/no_em_dashes.py --fix
+          python scripts/no_em_dashes.py
+          python scripts/validate_atlas.py
+      - name: Commit validated punctuation changes only
+        run: |
+          git add -u
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'project-atlas-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Remove em dashes from public Atlas text'
+          git push origin HEAD:main
