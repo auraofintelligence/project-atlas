@@ -1,0 +1,68 @@
+name: Public Atlas reconciliation
+on:
+  schedule:
+    - cron: '20 19 * * *'
+  workflow_dispatch:
+    inputs:
+      apply_reviewed:
+        description: Apply reviewed public additions after validation
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/public-atlas-reconciliation.yml'
+      - 'data/reviewed-public-additions-2026-11-24.json'
+permissions:
+  contents: read
+concurrency:
+  group: public-atlas-reconciliation
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Read-only public inventory
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/reconcile_public_catalogue.py > audit-report.json
+          cat audit-report.json
+          {
+            echo '### Public Atlas inventory'
+            echo '~~~json'
+            cat audit-report.json
+            echo '~~~'
+          } >> "$GITHUB_STEP_SUMMARY"
+  apply:
+    if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.apply_reviewed)
+    needs: audit
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m pip install Pillow cairosvg
+      - run: npm ci
+      - name: Reconcile and validate reviewed additions
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/reconcile_public_catalogue.py --apply
+      - name: Commit only validated Atlas data
+        run: |
+          git add data/projects.json data/repository-creation-dates.json data/manual-projects.json data/project-icons.json assets/project-icons assets/qr
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'project-atlas-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh Atlas with reviewed public projects'
+          git push origin HEAD:main
