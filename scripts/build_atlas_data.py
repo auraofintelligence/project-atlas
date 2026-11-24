@@ -34,12 +34,12 @@ def read_json(path: Path) -> Any:
 def write_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="\n") as handle:
-        json.dump(data, handle, ensure_ascii=False, indent=2)
+        handle.write(json.dumps(data, ensure_ascii=False, indent=2).replace(chr(8212), "-"))
         handle.write("\n")
 
 
 def clean_text(value: Any) -> str:
-    return " ".join(str(value or "").replace("\r", " ").replace("\n", " ").split())
+    return " ".join(str(value or "").replace(chr(8212), "-").replace("\r", " ").replace("\n", " ").split())
 
 
 def clean_url(value: Any, *, allow_blank: bool = True) -> str | None:
