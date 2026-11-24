@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-24",
+  "source": "Public README review; original build dates are included only where explicitly evidenced. Public URLs are candidates until checked.",
+  "projects": [
+    {
+      "name": "joyful-responsible-abundance",
+      "title": "Joyful Responsible Abundance",
+      "description": "Educational whole-system website with source papers, sovereignty research, project connections and interactive capacity tools.",
+      "publicPage": "https://auraofintelligence.github.io/joyful-responsible-abundance/",
+      "firstBuilt": null,
+      "source": "https://github.com/auraofintelligence/joyful-responsible-abundance/blob/main/README.md"
+    },
+    {
+      "name": "p4a-xyz-committees-inquiries",
+      "title": "P4A Committees and Inquiries",
+      "description": "Public participation directory for parliamentary committees, inquiries, calendars and Australian council consultation.",
+      "publicPage": "https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/",
+      "firstBuilt": null,
+      "source": "https://github.com/auraofintelligence/p4a-xyz-committees-inquiries/blob/main/README.md"
+    },
+    {
+      "name": "sovereign-capacity-lab",
+      "title": "Sovereign Capacity Lab",
+      "description": "Browser research laboratory for mining, materials, power, repairable robots and locally governed infrastructure.",
+      "publicPage": "https://auraofintelligence.github.io/sovereign-capacity-lab/",
+      "firstBuilt": "2026-11-07",
+      "source": "https://github.com/auraofintelligence/sovereign-capacity-lab/blob/main/README.md"
+    },
+    {
+      "name": "p4a-membership",
+      "title": "P4A People and Possibility",
+      "description": "Membership and civic CRM foundation with a fictional public demo, contribution review and financial planning tools.",
+      "publicPage": "https://auraofintelligence.github.io/p4a-membership/",
+      "firstBuilt": "2026-11-07",
+      "source": "https://github.com/auraofintelligence/p4a-membership/blob/main/README.md"
+    },
+    {
+      "name": "aura-civic-establishment",
+      "title": "Aura Civic Establishment",
+      "description": "Planning workbench for a possible shared civic hub, exploring programme overlaps, space, workforce and capacity.",
+      "publicPage": "https://auraofintelligence.github.io/aura-civic-establishment/",
+      "firstBuilt": null,
+      "source": "https://github.com/auraofintelligence/aura-civic-establishment/blob/main/README.md"
+    },
+    {
+      "name": "redlands-mayoral-campaign",
+      "title": "Redlands Civic Lab",
+      "description": "Civic simulation and public project catalogue for Redlands, collaboration and licensing; not an active election campaign.",
+      "publicPage": "https://auraofintelligence.github.io/redlands-mayoral-campaign/",
+      "firstBuilt": null,
+      "source": "https://github.com/auraofintelligence/redlands-mayoral-campaign/blob/main/README.md"
+    },
+    {
+      "name": "aura-genesis-observer-studio",
+      "title": "Aura Genesis Observer Studio",
+      "description": "Companion studio for nested horn tori, pattern cycles, reflective observers, Genesis and teacher development.",
+      "publicPage": "https://auraofintelligence.github.io/aura-genesis-observer-studio/",
+      "firstBuilt": null,
+      "source": "https://github.com/auraofintelligence/aura-genesis-observer-studio/blob/main/README.md"
+    },
+    {
+      "name": "carnival-of-opportunities",
+      "title": "Carnival of Opportunities",
+      "description": "Embeddable catalogue of sixteen chance games for discovering projects, prompts and opportunities.",
+      "publicPage": "https://auraofintelligence.github.io/carnival-of-opportunities/",
+      "firstBuilt": null,
+      "source": "https://github.com/auraofintelligence/carnival-of-opportunities/blob/main/README.md"
+    },
+    {
+      "name": "straddie-noticeboard-cloudflare",
+      "title": "Straddie Noticeboard Network (Cloudflare)",
+      "description": "Community noticeboard infrastructure proposal and reviewed public-feed prototype for Minjerribah.",
+      "publicPage": null,
+      "firstBuilt": null,
+      "source": "https://github.com/auraofintelligence/straddie-noticeboard-cloudflare/blob/main/README.md"
+    },
+    {
+      "name": "PLFC-members-club",
+      "title": "Point Lookout Fishing Club Demo",
+      "description": "Separate demonstration of a fishing club website, member and committee workflows, fishing guides and social calendar; not live club operations.",
+      "publicPage": null,
+      "firstBuilt": null,
+      "source": "https://github.com/auraofintelligence/PLFC-members-club/blob/main/README.md"
+    },
+    {
+      "name": "Sandy-Sports-Club",
+      "title": "Sandy Sports Club",
+      "description": "Proposed three-town sports and cultural club with a public planning site and staged, not-yet-live authenticated club backend.",
+      "publicPage": "https://sandy-sports-club.auraofintelligence.workers.dev/",
+      "firstBuilt": null,
+      "source": "https://github.com/auraofintelligence/Sandy-Sports-Club/blob/main/README.md"
+    }
+  ]
+}
