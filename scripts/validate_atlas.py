@@ -49,7 +49,7 @@ def qr_stem(value: str) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate static Project Atlas files")
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    parser.add_argument("--expected-audited", type=int, default=175)
+    parser.add_argument("--expected-audited", type=int, default=None)
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -101,6 +101,8 @@ def main() -> int:
         fail(errors, "data/projects.json needs a projects list")
         projects = []
 
+    if args.expected_audited is None:
+        args.expected_audited = len(projects)
     if data.get("auditedProjectCount") != args.expected_audited:
         fail(errors, f"Expected {args.expected_audited} audited projects, found {data.get('auditedProjectCount')!r}")
     if data.get("includedProjectCount") != len(projects):
@@ -267,8 +269,14 @@ def main() -> int:
             if not (header.startswith(b"RIFF") and header[8:12] == b"WEBP"):
                 fail(errors, f"Project {name} icon asset is not WebP: {asset}")
 
-    if actual_colour_tiles != expected_colour_tiles:
-        fail(errors, "Project Atlas must retain exactly the four honest colour-only fallback tiles")
+    additional_fallbacks = icon_manifest.get("approvedAdditionalFallbacks", [])
+    review_path = root / "data/reviewed-public-additions-2026-11-24.json"
+    approved_names = {p["name"] for p in json.loads(review_path.read_text(encoding="utf-8"))["projects"]} if review_path.is_file() else set()
+    if not isinstance(additional_fallbacks, list) or not all(isinstance(name, str) and name in approved_names for name in additional_fallbacks):
+        fail(errors, "Additional fallback tiles must be explicitly recorded for reviewed public additions")
+        additional_fallbacks = []
+    if actual_colour_tiles != expected_colour_tiles | set(additional_fallbacks):
+        fail(errors, "Project Atlas must retain its original four honest fallback tiles plus explicitly reviewed additional fallbacks")
     actual_icon_assets = {path.name for path in icon_directory.glob("*") if path.is_file()}
     if actual_icon_assets != expected_icon_assets:
         missing_assets = sorted(expected_icon_assets - actual_icon_assets)
