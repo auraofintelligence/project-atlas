@@ -9,11 +9,11 @@ It deliberately puts the **original substantive build date** beside every projec
 - First substantive public build: 1 September 2026 (`8a65cb1`)
 - Public site: <https://auraofintelligence.github.io/project-atlas/>
 
-The Atlas records the first substantive build date for every included public project. It uses a separate current-release note where a meaningful rebuild has superseded an older public version, such as Global Group Marriages v2.
+The Atlas records the first substantive build date where it can be evidenced; unresolved original dates are marked for review, separately from verified repository creation timestamps. It uses a separate current-release note where a meaningful rebuild has superseded an older public version, such as Global Group Marriages v2.
 
 ## What the Atlas includes
 
-- 175 active public projects in the Atlas, including 132 from the 29 August 2026 organisation audit and 43 from later refreshes.
+- 186 active public projects in the Atlas as of 24 November 2026, including the 175 previously catalogued and eleven reviewed public additions.
 - Direct links to live public pages where the audit verified one, plus GitHub links for every project
 - Evidence-backed connections between active public projects.
 - Search, original-build year, project-family, public-page and relationship filters
@@ -25,7 +25,9 @@ The Atlas records the first substantive build date for every included public pro
 
 ## Update the data
 
-The browser reads `data/projects.json`. Rebuild it after a fresh audit or after adding a new public project:
+The browser reads `data/projects.json`. The daily [public Atlas reconciliation workflow](.github/workflows/public-atlas-reconciliation.yml) checks the public inventory without publishing unreviewed projects. Review new candidates in `data/reviewed-public-additions-2026-11-24.json`; the apply step verifies visibility, creation metadata, public links, icons and QR codes, then validates before committing. Original substantive build dates are left unknown where evidence is absent. Private or sensitive work is excluded.
+
+For a full rebuild from the original audited sources and the maintained editorial data:
 
 ```powershell
 python scripts/build_atlas_data.py `
