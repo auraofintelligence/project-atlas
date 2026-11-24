@@ -21,7 +21,7 @@ def load(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 def save(path, data):
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2).replace(chr(8212), "-") + "\n", encoding="utf-8")
 
 def api(path):
     headers = {"Accept": "application/vnd.github+json", "User-Agent": "Project-Atlas-public-audit", "X-GitHub-Api-Version": "2022-11-28"}
