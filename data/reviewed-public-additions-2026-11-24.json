@@ -69,9 +69,9 @@
     },
     {
       "name": "straddie-noticeboard-cloudflare",
-      "title": "Straddie Noticeboard Network (Cloudflare)",
+      "title": "Straddie Noticeboard Network",
       "description": "Community noticeboard infrastructure proposal and reviewed public-feed prototype for Minjerribah.",
-      "publicPage": null,
+      "publicPage": "https://straddie-noticeboard-cloudflare.auraofintelligence.workers.dev/",
       "firstBuilt": null,
       "source": "https://github.com/auraofintelligence/straddie-noticeboard-cloudflare/blob/main/README.md"
     },
@@ -79,7 +79,7 @@
       "name": "PLFC-members-club",
       "title": "Point Lookout Fishing Club Demo",
       "description": "Separate demonstration of a fishing club website, member and committee workflows, fishing guides and social calendar; not live club operations.",
-      "publicPage": null,
+      "publicPage": "https://plfc-clubhouse.auraofintelligence.workers.dev/",
       "firstBuilt": null,
       "source": "https://github.com/auraofintelligence/PLFC-members-club/blob/main/README.md"
     },

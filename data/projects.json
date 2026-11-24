@@ -6983,7 +6983,7 @@
         },
         {
           "name": "straddie-noticeboard-network",
-          "title": "Straddie Noticeboard Network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
           "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
           "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
           "labels": [
@@ -7500,7 +7500,7 @@
         },
         {
           "name": "straddie-noticeboard-network",
-          "title": "Straddie Noticeboard Network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
           "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
           "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
           "labels": [
@@ -8174,7 +8174,7 @@
         },
         {
           "name": "straddie-noticeboard-network",
-          "title": "Straddie Noticeboard Network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
           "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
           "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
           "labels": [
@@ -18646,7 +18646,7 @@
       "name": "PLFC-members-club",
       "title": "Point Lookout Fishing Club Demo",
       "repositoryUrl": "https://github.com/auraofintelligence/PLFC-members-club",
-      "publicPage": null,
+      "publicPage": "https://plfc-clubhouse.auraofintelligence.workers.dev/",
       "firstBuilt": null,
       "buildStatus": "date review pending",
       "buildConfidence": "not established",
@@ -20791,7 +20791,7 @@
         },
         {
           "name": "straddie-noticeboard-network",
-          "title": "Straddie Noticeboard Network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
           "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
           "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
           "labels": [
@@ -21137,7 +21137,7 @@
         },
         {
           "name": "straddie-noticeboard-network",
-          "title": "Straddie Noticeboard Network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
           "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
           "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
           "labels": [
@@ -21233,9 +21233,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "straddie-noticeboard-cloudflare",
+          "title": "Straddie Noticeboard Network",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-cloudflare",
+          "publicPage": "https://straddie-noticeboard-cloudflare.auraofintelligence.workers.dev/",
+          "labels": [
+            "Related cooperative planning; noticeboard proposed as its first project"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 33,
+      "relationshipCount": 34,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -22460,7 +22471,7 @@
         },
         {
           "name": "straddie-noticeboard-network",
-          "title": "Straddie Noticeboard Network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
           "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
           "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
           "labels": [
@@ -23190,7 +23201,7 @@
         },
         {
           "name": "straddie-noticeboard-network",
-          "title": "Straddie Noticeboard Network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
           "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
           "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
           "labels": [
@@ -23723,7 +23734,7 @@
         },
         {
           "name": "straddie-noticeboard-network",
-          "title": "Straddie Noticeboard Network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
           "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
           "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
           "labels": [
@@ -24141,7 +24152,7 @@
         },
         {
           "name": "straddie-noticeboard-network",
-          "title": "Straddie Noticeboard Network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
           "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
           "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
           "labels": [
@@ -24591,7 +24602,7 @@
         },
         {
           "name": "straddie-noticeboard-network",
-          "title": "Straddie Noticeboard Network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
           "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
           "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
           "labels": [
@@ -24731,7 +24742,7 @@
         },
         {
           "name": "straddie-noticeboard-network",
-          "title": "Straddie Noticeboard Network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
           "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
           "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
           "labels": [
@@ -24761,9 +24772,9 @@
     },
     {
       "name": "straddie-noticeboard-cloudflare",
-      "title": "Straddie Noticeboard Network (Cloudflare)",
+      "title": "Straddie Noticeboard Network",
       "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-cloudflare",
-      "publicPage": null,
+      "publicPage": "https://straddie-noticeboard-cloudflare.auraofintelligence.workers.dev/",
       "firstBuilt": null,
       "buildStatus": "date review pending",
       "buildConfidence": "not established",
@@ -24772,16 +24783,50 @@
       "priority": "reviewed public addition",
       "readmeBand": "public README reviewed",
       "families": [],
-      "neighbours": [],
+      "neighbours": [
+        {
+          "name": "straddie-noticeboard-network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
+          "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
+          "labels": [
+            "Current Cloudflare build based on the earlier public prototype"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "ready-set-co-op-trust-hub",
+          "title": "Ready Set Co Op Trust Hub",
+          "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-trust-hub",
+          "publicPage": "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/",
+          "labels": [
+            "Related cooperative planning; noticeboard proposed as its first project"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "strange-but-true",
+          "title": "Strange But True",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true/",
+          "labels": [
+            "Preparatory work and prototype held through Strange But True"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
-      "relationshipCount": 0,
+      "relationshipCount": 3,
       "source": "curation",
       "repositoryCreatedAt": "2026-11-21T12:34:29Z"
     },
     {
       "name": "straddie-noticeboard-network",
-      "title": "Straddie Noticeboard Network",
+      "title": "Straddie Noticeboard Network (earlier prototype)",
       "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
       "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
       "firstBuilt": "2026-05-05",
@@ -24938,9 +24983,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "straddie-noticeboard-cloudflare",
+          "title": "Straddie Noticeboard Network",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-cloudflare",
+          "publicPage": "https://straddie-noticeboard-cloudflare.auraofintelligence.workers.dev/",
+          "labels": [
+            "Current Cloudflare build based on the earlier public prototype"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 12,
+      "relationshipCount": 13,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",
@@ -25133,7 +25189,7 @@
         },
         {
           "name": "straddie-noticeboard-network",
-          "title": "Straddie Noticeboard Network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
           "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
           "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
           "labels": [
@@ -25840,9 +25896,20 @@
           ],
           "directionalLabels": [],
           "confidence": "confirmed"
+        },
+        {
+          "name": "straddie-noticeboard-cloudflare",
+          "title": "Straddie Noticeboard Network",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-cloudflare",
+          "publicPage": "https://straddie-noticeboard-cloudflare.auraofintelligence.workers.dev/",
+          "labels": [
+            "Preparatory work and prototype held through Strange But True"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
         }
       ],
-      "relationshipCount": 37,
+      "relationshipCount": 38,
       "freshlyCompleted": false,
       "meaningfulRebuild": null,
       "source": "audit",

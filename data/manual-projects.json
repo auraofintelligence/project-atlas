@@ -258,9 +258,9 @@
     },
     {
       "name": "straddie-noticeboard-cloudflare",
-      "title": "Straddie Noticeboard Network (Cloudflare)",
+      "title": "Straddie Noticeboard Network",
       "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-cloudflare",
-      "publicPage": null,
+      "publicPage": "https://straddie-noticeboard-cloudflare.auraofintelligence.workers.dev/",
       "firstBuilt": null,
       "buildStatus": "date review pending",
       "buildConfidence": "not established",
@@ -269,7 +269,41 @@
       "priority": "reviewed public addition",
       "readmeBand": "public README reviewed",
       "families": [],
-      "neighbours": [],
+      "neighbours": [
+        {
+          "name": "straddie-noticeboard-network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
+          "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
+          "labels": [
+            "Current Cloudflare build based on the earlier public prototype"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "ready-set-co-op-trust-hub",
+          "title": "Ready Set Co Op Trust Hub",
+          "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-trust-hub",
+          "publicPage": "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/",
+          "labels": [
+            "Related cooperative planning; noticeboard proposed as its first project"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "strange-but-true",
+          "title": "Strange But True",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true/",
+          "labels": [
+            "Preparatory work and prototype held through Strange But True"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ],
       "freshlyCompleted": false,
       "meaningfulRebuild": null
     },
@@ -277,7 +311,7 @@
       "name": "PLFC-members-club",
       "title": "Point Lookout Fishing Club Demo",
       "repositoryUrl": "https://github.com/auraofintelligence/PLFC-members-club",
-      "publicPage": null,
+      "publicPage": "https://plfc-clubhouse.auraofintelligence.workers.dev/",
       "firstBuilt": null,
       "buildStatus": "date review pending",
       "buildConfidence": "not established",
@@ -306,6 +340,992 @@
       "neighbours": [],
       "freshlyCompleted": false,
       "meaningfulRebuild": null
+    },
+    {
+      "name": "straddie-noticeboard-network",
+      "title": "Straddie Noticeboard Network (earlier prototype)",
+      "neighbours": [
+        {
+          "name": "ballow-road-sand-screen-hub",
+          "title": "Ballow Road Sand Screen Hub",
+          "repositoryUrl": "https://github.com/auraofintelligence/ballow-road-sand-screen-hub",
+          "publicPage": "https://auraofintelligence.github.io/ballow-road-sand-screen-hub/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "community-club-builder-sandy-sports",
+          "title": "Community Club Builder Sandy Sports",
+          "repositoryUrl": "https://github.com/auraofintelligence/community-club-builder-sandy-sports",
+          "publicPage": "https://auraofintelligence.github.io/community-club-builder-sandy-sports/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "ready-set-co-op-hyperlocal-media",
+          "title": "Ready Set Co Op Hyperlocal Media",
+          "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-hyperlocal-media",
+          "publicPage": "https://auraofintelligence.github.io/ready-set-co-op-hyperlocal-media/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "ready-set-co-op-trust-hub",
+          "title": "Ready Set Co Op Trust Hub",
+          "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-trust-hub",
+          "publicPage": "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "shared-table-initiative",
+          "title": "Shared Table Initiative",
+          "repositoryUrl": "https://github.com/auraofintelligence/shared-table-initiative",
+          "publicPage": "https://auraofintelligence.github.io/shared-table-initiative/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "stradbroke-grants-lab",
+          "title": "Stradbroke Grants Lab",
+          "repositoryUrl": "https://github.com/auraofintelligence/stradbroke-grants-lab",
+          "publicPage": "https://auraofintelligence.github.io/stradbroke-grants-lab/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "straddie-content-assets-kit",
+          "title": "Straddie Content Assets Kit",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-content-assets-kit",
+          "publicPage": "https://auraofintelligence.github.io/straddie-content-assets-kit/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "straddie-disaster-kiosks",
+          "title": "Straddie Disaster Kiosks",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-disaster-kiosks",
+          "publicPage": "https://auraofintelligence.github.io/straddie-disaster-kiosks/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "straddie-news",
+          "title": "Straddie News",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-news",
+          "publicPage": "https://auraofintelligence.github.io/straddie-news/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "straddie-night-market-lab",
+          "title": "Straddie Night Market Lab",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-night-market-lab",
+          "publicPage": "https://auraofintelligence.github.io/straddie-night-market-lab/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "straddie-tip-loop-lab",
+          "title": "Straddie Tip Loop Lab",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-tip-loop-lab",
+          "publicPage": "https://auraofintelligence.github.io/straddie-tip-loop-lab/",
+          "labels": [
+            "explicit cross-reference"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "C-Hour-introduction",
+          "title": "C-Hour Introduction",
+          "repositoryUrl": "https://github.com/auraofintelligence/C-Hour-introduction",
+          "publicPage": "https://auraofintelligence.github.io/C-Hour-introduction/",
+          "labels": [
+            "newly completed project linked in the 2026-09-24 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "straddie-noticeboard-cloudflare",
+          "title": "Straddie Noticeboard Network",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-cloudflare",
+          "publicPage": "https://straddie-noticeboard-cloudflare.auraofintelligence.workers.dev/",
+          "labels": [
+            "Current Cloudflare build based on the earlier public prototype"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ]
+    },
+    {
+      "name": "strange-but-true",
+      "neighbours": [
+        {
+          "name": "aura-ecosystem",
+          "title": "Aura Ecosystem",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-ecosystem",
+          "publicPage": "https://auraofintelligence.github.io/aura-ecosystem/",
+          "labels": [
+            "shared catalogue and discovery system"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "aura-systems-image-atlas",
+          "title": "Aura Systems Image Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-systems-image-atlas",
+          "publicPage": "https://auraofintelligence.github.io/aura-systems-image-atlas/",
+          "labels": [
+            "shared catalogue and discovery system",
+            "source project represented in visual atlas"
+          ],
+          "directionalLabels": [
+            "source project represented in this visual atlas"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "auraofintelligence.github.io",
+          "title": "Aura of Intelligence home",
+          "repositoryUrl": "https://github.com/auraofintelligence/auraofintelligence.github.io",
+          "publicPage": "https://auraofintelligence.github.io/",
+          "labels": [
+            "shared catalogue and discovery system"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "australian-law-2012-lukes-relevance",
+          "title": "Australian Law 2012 Lukes Relevance",
+          "repositoryUrl": "https://github.com/auraofintelligence/australian-law-2012-lukes-relevance",
+          "publicPage": "https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/",
+          "labels": [
+            "explicit cross-reference"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "australian-legal-engine",
+          "title": "Australian Legal Engine",
+          "repositoryUrl": "https://github.com/auraofintelligence/australian-legal-engine",
+          "publicPage": null,
+          "labels": [
+            "explicit cross-reference"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "bees-and-allies",
+          "title": "Bees and Allies",
+          "repositoryUrl": "https://github.com/auraofintelligence/bees-and-allies",
+          "publicPage": "https://auraofintelligence.github.io/bees-and-allies/",
+          "labels": [
+            "explicit cross-reference",
+            "shared catalogue and discovery system"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "Chinese_Horoscope_2026_Luke_Hayes",
+          "title": "Chinese Horoscope 2026 Luke Hayes",
+          "repositoryUrl": "https://github.com/auraofintelligence/Chinese_Horoscope_2026_Luke_Hayes",
+          "publicPage": "https://auraofintelligence.github.io/Chinese_Horoscope_2026_Luke_Hayes/",
+          "labels": [
+            "explicit cross-reference",
+            "shared catalogue and discovery system"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "civilisation-of-sand",
+          "title": "Civilisation of Sand",
+          "repositoryUrl": "https://github.com/auraofintelligence/civilisation-of-sand",
+          "publicPage": "https://auraofintelligence.github.io/civilisation-of-sand/",
+          "labels": [
+            "explicit cross-reference"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "fishing-calendar",
+          "title": "Fishing Calendar",
+          "repositoryUrl": "https://github.com/auraofintelligence/fishing-calendar",
+          "publicPage": null,
+          "labels": [
+            "explicit cross-reference",
+            "shared catalogue and discovery system"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "gajra-earth-public-hub",
+          "title": "GAJRA Earth Public Hub",
+          "repositoryUrl": "https://github.com/auraofintelligence/gajra-earth-public-hub",
+          "publicPage": "https://auraofintelligence.github.io/gajra-earth-public-hub/",
+          "labels": [
+            "explicit cross-reference"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "how-to-use-md-with-ai",
+          "title": "How to Use Md With AI",
+          "repositoryUrl": "https://github.com/auraofintelligence/how-to-use-md-with-ai",
+          "publicPage": "https://auraofintelligence.github.io/how-to-use-md-with-ai/",
+          "labels": [
+            "explicit cross-reference"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "loose-goose-comedy-engine",
+          "title": "Loose Goose Comedy Engine",
+          "repositoryUrl": "https://github.com/auraofintelligence/loose-goose-comedy-engine",
+          "publicPage": "https://auraofintelligence.github.io/loose-goose-comedy-engine/",
+          "labels": [
+            "explicit cross-reference",
+            "shared catalogue and discovery system",
+            "shared creative world"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "moreton-bay-autonomous-mobility",
+          "title": "Moreton Bay Autonomous Mobility",
+          "repositoryUrl": "https://github.com/auraofintelligence/moreton-bay-autonomous-mobility",
+          "publicPage": "https://auraofintelligence.github.io/moreton-bay-autonomous-mobility/",
+          "labels": [
+            "explicit cross-reference"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "sbt_aura_builder",
+          "title": "SBT Aura Builder",
+          "repositoryUrl": "https://github.com/auraofintelligence/sbt_aura_builder",
+          "publicPage": "https://auraofintelligence.github.io/sbt_aura_builder/",
+          "labels": [
+            "explicit cross-reference"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "sbt_profile_starter",
+          "title": "SBT Profile Starter",
+          "repositoryUrl": "https://github.com/auraofintelligence/sbt_profile_starter",
+          "publicPage": "https://auraofintelligence.github.io/sbt_profile_starter/",
+          "labels": [
+            "explicit cross-reference"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "shared-table-initiative",
+          "title": "Shared Table Initiative",
+          "repositoryUrl": "https://github.com/auraofintelligence/shared-table-initiative",
+          "publicPage": "https://auraofintelligence.github.io/shared-table-initiative/",
+          "labels": [
+            "explicit cross-reference",
+            "shared catalogue and discovery system"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "stradbroke-grants-lab",
+          "title": "Stradbroke Grants Lab",
+          "repositoryUrl": "https://github.com/auraofintelligence/stradbroke-grants-lab",
+          "publicPage": "https://auraofintelligence.github.io/stradbroke-grants-lab/",
+          "labels": [
+            "explicit cross-reference"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "straddie-headline-open-mic",
+          "title": "Straddie Headline Open Mic",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-headline-open-mic",
+          "publicPage": "https://auraofintelligence.github.io/straddie-headline-open-mic/",
+          "labels": [
+            "explicit cross-reference",
+            "shared creative world"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "strange-but-true-ai-trust-index",
+          "title": "Strange But True AI Trust Index",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true-ai-trust-index",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true-ai-trust-index/",
+          "labels": [
+            "explicit cross-reference",
+            "shared catalogue and discovery system"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "strange-but-true-cosmic-nexus",
+          "title": "Strange But True Cosmic Nexus",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true-cosmic-nexus",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true-cosmic-nexus/",
+          "labels": [
+            "shared catalogue and discovery system"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "strange-but-true-desire-atlas",
+          "title": "Strange But True Desire Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true-desire-atlas",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true-desire-atlas/",
+          "labels": [
+            "explicit cross-reference",
+            "shared catalogue and discovery system"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "strange-but-true-travel-oracle",
+          "title": "Strange But True Travel Oracle",
+          "repositoryUrl": "https://github.com/auraofintelligence/strange-but-true-travel-oracle",
+          "publicPage": "https://auraofintelligence.github.io/strange-but-true-travel-oracle/",
+          "labels": [
+            "explicit cross-reference",
+            "shared catalogue and discovery system"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "two-dogs-podcast-backend",
+          "title": "Two Dogs Podcast Backend",
+          "repositoryUrl": "https://github.com/auraofintelligence/two-dogs-podcast-backend",
+          "publicPage": "https://auraofintelligence.github.io/two-dogs-podcast-backend/",
+          "labels": [
+            "explicit cross-reference",
+            "shared catalogue and discovery system",
+            "shared creative world"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "Oceania-healthy-de-slop-co-ops",
+          "title": "Oceania Healthy De-Slop Co-ops",
+          "repositoryUrl": "https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops",
+          "publicPage": "https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/",
+          "labels": [
+            "newly completed project linked in the 2026-09-01 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "ready-set-co-op-cultural-intelligence-node",
+          "title": "Ready S.E.T. Co-op Cultural Intelligence Node",
+          "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node",
+          "publicPage": "https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/",
+          "labels": [
+            "newly completed project linked in the 2026-09-08 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "luke-nathan-hayes-man-and-mind",
+          "title": "The Mind Behind the Man",
+          "repositoryUrl": "https://github.com/auraofintelligence/luke-nathan-hayes-man-and-mind",
+          "publicPage": "https://auraofintelligence.github.io/luke-nathan-hayes-man-and-mind/",
+          "labels": [
+            "newly completed project linked in the 2026-09-08 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "multi-site-Minjerribah-network",
+          "title": "Minjerribah Site and Service Ideas",
+          "repositoryUrl": "https://github.com/auraofintelligence/multi-site-Minjerribah-network",
+          "publicPage": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/",
+          "labels": [
+            "newly completed project linked in the 2026-09-08 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "spirit-animal-podcast",
+          "title": "The Spirit Animal Podcast",
+          "repositoryUrl": "https://github.com/auraofintelligence/spirit-animal-podcast",
+          "publicPage": "https://auraofintelligence.github.io/spirit-animal-podcast/",
+          "labels": [
+            "newly completed project linked in the 2026-09-10 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "knights-templar-Timothy-Hogan",
+          "title": "11:11, A Meeting of Worlds",
+          "repositoryUrl": "https://github.com/auraofintelligence/knights-templar-Timothy-Hogan",
+          "publicPage": "https://auraofintelligence.github.io/knights-templar-Timothy-Hogan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-15 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "mutual-futures",
+          "title": "Mutual Futures",
+          "repositoryUrl": "https://github.com/auraofintelligence/mutual-futures",
+          "publicPage": "https://auraofintelligence.github.io/mutual-futures/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "UNGA81: A Fair Go in the Age of Intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "82 Claytons, Amity",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "C-Hour-introduction",
+          "title": "C-Hour Introduction",
+          "repositoryUrl": "https://github.com/auraofintelligence/C-Hour-introduction",
+          "publicPage": "https://auraofintelligence.github.io/C-Hour-introduction/",
+          "labels": [
+            "newly completed project linked in the 2026-09-24 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "500-Queens-VC-2026",
+          "title": "500 Queens Venture Capital",
+          "repositoryUrl": "https://github.com/auraofintelligence/500-Queens-VC-2026",
+          "publicPage": "https://auraofintelligence.github.io/500-Queens-VC-2026/",
+          "labels": [
+            "newly completed project linked in the 2026-09-24 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "JRA-Product-Engine-Plan",
+          "title": "JRA Product Engine Plan",
+          "repositoryUrl": "https://github.com/auraofintelligence/JRA-Product-Engine-Plan",
+          "publicPage": "https://auraofintelligence.github.io/JRA-Product-Engine-Plan/",
+          "labels": [
+            "newly completed project linked in the 2026-09-30 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "open-record-luke-nathan-hayes",
+          "title": "Open Record: Luke Nathan Hayes",
+          "repositoryUrl": "https://github.com/auraofintelligence/open-record-luke-nathan-hayes",
+          "publicPage": null,
+          "labels": [
+            "newly completed project linked in the 2026-10-19 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "household-bill-check",
+          "title": "Australian Household Bill Check",
+          "repositoryUrl": "https://github.com/auraofintelligence/household-bill-check",
+          "publicPage": "https://auraofintelligence.github.io/household-bill-check/",
+          "labels": [
+            "newly completed project linked in the 2026-11-05 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "straddie-noticeboard-cloudflare",
+          "title": "Straddie Noticeboard Network",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-cloudflare",
+          "publicPage": "https://straddie-noticeboard-cloudflare.auraofintelligence.workers.dev/",
+          "labels": [
+            "Preparatory work and prototype held through Strange But True"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ]
+    },
+    {
+      "name": "ready-set-co-op-trust-hub",
+      "neighbours": [
+        {
+          "name": "aura-systems-image-atlas",
+          "title": "Aura Systems Image Atlas",
+          "repositoryUrl": "https://github.com/auraofintelligence/aura-systems-image-atlas",
+          "publicPage": "https://auraofintelligence.github.io/aura-systems-image-atlas/",
+          "labels": [
+            "source project represented in visual atlas"
+          ],
+          "directionalLabels": [
+            "source project represented in this visual atlas"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "ballow-road-sand-screen-hub",
+          "title": "Ballow Road Sand Screen Hub",
+          "repositoryUrl": "https://github.com/auraofintelligence/ballow-road-sand-screen-hub",
+          "publicPage": "https://auraofintelligence.github.io/ballow-road-sand-screen-hub/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "community-club-builder-sandy-sports",
+          "title": "Community Club Builder Sandy Sports",
+          "repositoryUrl": "https://github.com/auraofintelligence/community-club-builder-sandy-sports",
+          "publicPage": "https://auraofintelligence.github.io/community-club-builder-sandy-sports/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme",
+            "shared tooling suite"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "explorer-music-video-lab",
+          "title": "Explorer Music Video Lab",
+          "repositoryUrl": "https://github.com/auraofintelligence/explorer-music-video-lab",
+          "publicPage": "https://auraofintelligence.github.io/explorer-music-video-lab/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "film-club-documentary-builders",
+          "title": "Film Club Documentary Builders",
+          "repositoryUrl": "https://github.com/auraofintelligence/film-club-documentary-builders",
+          "publicPage": "https://auraofintelligence.github.io/film-club-documentary-builders/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "grain-by-grain",
+          "title": "Grain by Grain",
+          "repositoryUrl": "https://github.com/auraofintelligence/grain-by-grain",
+          "publicPage": "https://auraofintelligence.github.io/grain-by-grain/",
+          "labels": [
+            "explicit cross-reference"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "grain-by-grain-documentary",
+          "title": "Grain by Grain Documentary",
+          "repositoryUrl": "https://github.com/auraofintelligence/grain-by-grain-documentary",
+          "publicPage": "https://auraofintelligence.github.io/grain-by-grain-documentary/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "legal-memory-workbench",
+          "title": "Legal Memory Workbench",
+          "repositoryUrl": "https://github.com/auraofintelligence/legal-memory-workbench",
+          "publicPage": "https://auraofintelligence.github.io/legal-memory-workbench/",
+          "labels": [
+            "shared tooling suite"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "mineral-moonshots",
+          "title": "Mineral Moonshots",
+          "repositoryUrl": "https://github.com/auraofintelligence/mineral-moonshots",
+          "publicPage": "https://auraofintelligence.github.io/mineral-moonshots/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "Minjerribah-Resilience",
+          "title": "Minjerribah Resilience",
+          "repositoryUrl": "https://github.com/auraofintelligence/Minjerribah-Resilience",
+          "publicPage": "https://auraofintelligence.github.io/Minjerribah-Resilience/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "minjerribah-screen-media-network",
+          "title": "Minjerribah Screen Media Network",
+          "repositoryUrl": "https://github.com/auraofintelligence/minjerribah-screen-media-network",
+          "publicPage": "https://auraofintelligence.github.io/minjerribah-screen-media-network/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "moreton-bay-autonomous-mobility",
+          "title": "Moreton Bay Autonomous Mobility",
+          "repositoryUrl": "https://github.com/auraofintelligence/moreton-bay-autonomous-mobility",
+          "publicPage": "https://auraofintelligence.github.io/moreton-bay-autonomous-mobility/",
+          "labels": [
+            "explicit cross-reference",
+            "shared tooling suite"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "moreton-bay-community-wealth-and-mutuals",
+          "title": "Moreton Bay Community Wealth and Mutuals",
+          "repositoryUrl": "https://github.com/auraofintelligence/moreton-bay-community-wealth-and-mutuals",
+          "publicPage": "https://auraofintelligence.github.io/moreton-bay-community-wealth-and-mutuals/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "quandamooka-country-events-engine",
+          "title": "Quandamooka Country Events Engine",
+          "repositoryUrl": "https://github.com/auraofintelligence/quandamooka-country-events-engine",
+          "publicPage": "https://auraofintelligence.github.io/quandamooka-country-events-engine/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "quandamooka-film-festival",
+          "title": "Quandamooka Film Festival",
+          "repositoryUrl": "https://github.com/auraofintelligence/quandamooka-film-festival",
+          "publicPage": "https://auraofintelligence.github.io/quandamooka-film-festival/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "ready-set-co-op-hyperlocal-media",
+          "title": "Ready Set Co Op Hyperlocal Media",
+          "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-hyperlocal-media",
+          "publicPage": "https://auraofintelligence.github.io/ready-set-co-op-hyperlocal-media/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "Redland_Flow",
+          "title": "Redland Flow",
+          "repositoryUrl": "https://github.com/auraofintelligence/Redland_Flow",
+          "publicPage": "https://auraofintelligence.github.io/Redland_Flow/",
+          "labels": [
+            "explicit cross-reference",
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "high"
+        },
+        {
+          "name": "Redlands_draft_ES2026-2031",
+          "title": "Redlands Draft ES2026 2031",
+          "repositoryUrl": "https://github.com/auraofintelligence/Redlands_draft_ES2026-2031",
+          "publicPage": "https://auraofintelligence.github.io/Redlands_draft_ES2026-2031/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "shared-table-initiative",
+          "title": "Shared Table Initiative",
+          "repositoryUrl": "https://github.com/auraofintelligence/shared-table-initiative",
+          "publicPage": "https://auraofintelligence.github.io/shared-table-initiative/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "stradbroke-grants-lab",
+          "title": "Stradbroke Grants Lab",
+          "repositoryUrl": "https://github.com/auraofintelligence/stradbroke-grants-lab",
+          "publicPage": "https://auraofintelligence.github.io/stradbroke-grants-lab/",
+          "labels": [
+            "shared community programme",
+            "shared tooling suite"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "straddie-content-assets-kit",
+          "title": "Straddie Content Assets Kit",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-content-assets-kit",
+          "publicPage": "https://auraofintelligence.github.io/straddie-content-assets-kit/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "straddie-disaster-kiosks",
+          "title": "Straddie Disaster Kiosks",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-disaster-kiosks",
+          "publicPage": "https://auraofintelligence.github.io/straddie-disaster-kiosks/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "straddie-news",
+          "title": "Straddie News",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-news",
+          "publicPage": "https://auraofintelligence.github.io/straddie-news/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "straddie-night-market-lab",
+          "title": "Straddie Night Market Lab",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-night-market-lab",
+          "publicPage": "https://auraofintelligence.github.io/straddie-night-market-lab/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "straddie-noticeboard-network",
+          "title": "Straddie Noticeboard Network (earlier prototype)",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-network",
+          "publicPage": "https://auraofintelligence.github.io/straddie-noticeboard-network/",
+          "labels": [
+            "shared community programme"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "straddie-tenders-lab",
+          "title": "Straddie Tenders Lab",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-tenders-lab",
+          "publicPage": "https://auraofintelligence.github.io/straddie-tenders-lab/",
+          "labels": [
+            "shared tooling suite"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "windemere-skate-bowl-tender-workspace",
+          "title": "Windemere Skate Bowl Tender Workspace",
+          "repositoryUrl": "https://github.com/auraofintelligence/windemere-skate-bowl-tender-workspace",
+          "publicPage": "https://auraofintelligence.github.io/windemere-skate-bowl-tender-workspace/",
+          "labels": [
+            "shared tooling suite"
+          ],
+          "directionalLabels": [],
+          "confidence": "medium"
+        },
+        {
+          "name": "ready-set-co-op-cultural-intelligence-node",
+          "title": "Ready S.E.T. Co-op Cultural Intelligence Node",
+          "repositoryUrl": "https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node",
+          "publicPage": "https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/",
+          "labels": [
+            "newly completed project linked in the 2026-09-08 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "multi-site-Minjerribah-network",
+          "title": "Minjerribah Site and Service Ideas",
+          "repositoryUrl": "https://github.com/auraofintelligence/multi-site-Minjerribah-network",
+          "publicPage": "https://auraofintelligence.github.io/multi-site-Minjerribah-network/",
+          "labels": [
+            "newly completed project linked in the 2026-09-08 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "UNGA81-Luke-Hayes",
+          "title": "UNGA81: A Fair Go in the Age of Intelligence",
+          "repositoryUrl": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+          "publicPage": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/",
+          "labels": [
+            "newly completed project linked in the 2026-09-22 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Anglican-Diocese-82-Claytons-Amity",
+          "title": "82 Claytons, Amity",
+          "repositoryUrl": "https://github.com/auraofintelligence/Anglican-Diocese-82-Claytons-Amity",
+          "publicPage": "https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/",
+          "labels": [
+            "newly completed project linked in the 2026-09-23 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "C-Hour-introduction",
+          "title": "C-Hour Introduction",
+          "repositoryUrl": "https://github.com/auraofintelligence/C-Hour-introduction",
+          "publicPage": "https://auraofintelligence.github.io/C-Hour-introduction/",
+          "labels": [
+            "newly completed project linked in the 2026-09-24 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "open-record-luke-nathan-hayes",
+          "title": "Open Record: Luke Nathan Hayes",
+          "repositoryUrl": "https://github.com/auraofintelligence/open-record-luke-nathan-hayes",
+          "publicPage": null,
+          "labels": [
+            "newly completed project linked in the 2026-10-19 refresh"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        },
+        {
+          "name": "straddie-noticeboard-cloudflare",
+          "title": "Straddie Noticeboard Network",
+          "repositoryUrl": "https://github.com/auraofintelligence/straddie-noticeboard-cloudflare",
+          "publicPage": "https://straddie-noticeboard-cloudflare.auraofintelligence.workers.dev/",
+          "labels": [
+            "Related cooperative planning; noticeboard proposed as its first project"
+          ],
+          "directionalLabels": [],
+          "confidence": "confirmed"
+        }
+      ]
     }
   ],
   "notes": "Add only confirmed public projects here. A matching name augments an audited project; a new name adds a project. Keep dates in YYYY-MM-DD Brisbane local date format. Use freshlyCompleted: true for the recent-work sort. replaceNeighbourNames is for a confirmed current project map that deliberately supersedes an older relationship list. excludedProjectNames keeps deleted and archived repositories out of active Atlas navigation while preserving the source audit. lineageDescriptionOverrides can replace wording that is no longer appropriate after a deliberate public-navigation exclusion. featuredProjectNames sets the major-project order on the home page only. The Projects page defaults to repository creation date, newest first.",
