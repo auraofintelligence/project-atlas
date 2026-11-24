@@ -45,12 +45,14 @@
           "reason": "Current nonmonetary voluntary contribution framework."
         }
       ],
-      "iconText": "GD",
-      "iconColour": "#66509b"
+      "iconColour": "#66509b",
+      "iconAsset": "assets/external-icons/gamify-democracy.svg",
+      "iconSource": "https://github.com/auraofintelligence/p4a-membership/blob/main/public/artwork/gamify-democracy.svg",
+      "iconNote": "Existing dedicated Gamify Democracy project artwork from P4A Membership; the standalone website logo has not been independently verified."
     },
     {
       "name": "ready-set-co-op",
-      "title": "ready SET Co-op",
+      "title": "Ready SET Co-op",
       "publicPage": "https://ready-setco.auraofintelligence.workers.dev/index.html",
       "repositoryUrl": null,
       "firstBuilt": null,
@@ -107,8 +109,10 @@
           "reason": "Nonmonetary voluntary contribution framework."
         }
       ],
-      "iconText": "SET",
-      "iconColour": "#385b50"
+      "iconColour": "#385b50",
+      "iconAsset": "assets/external-icons/ready-set-co-op.svg",
+      "iconSource": "https://github.com/auraofintelligence/ready-set-co-op-trust-hub/blob/main/assets/ready-setco-tide-192.png",
+      "iconNote": "Original tide emblem used by the Ready SETCO homepage."
     }
   ]
 }
