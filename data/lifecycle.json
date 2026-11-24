@@ -1,0 +1,945 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-24",
+  "status": "Initial editorial classification based on public catalogue descriptions, documented lineages and selected README checks; not a complete substantive audit or owner-confirmed deprecation list.",
+  "counts": {
+    "earlier-version": 16,
+    "reference": 17,
+    "reserved": 2,
+    "current": 54,
+    "supporting": 28,
+    "review-needed": 69
+  },
+  "projects": {
+    "aura-components": {
+      "status": "earlier-version",
+      "note": "Early component collection in documented Aura spatial lineage.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-toy": {
+      "status": "earlier-version",
+      "note": "Minimal selectable-grid experiment preceding fuller spatial architecture.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "new-tori": {
+      "status": "earlier-version",
+      "note": "Earlier torus-ring sandbox; retained for technical provenance.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "P4Australia": {
+      "status": "earlier-version",
+      "note": "Early P4A concept; current public civic implementation is p4a-xyz-cinema.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "purple01": {
+      "status": "earlier-version",
+      "note": "Early Purple deployment concept; later P4A builds are documented.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "Purple02": {
+      "status": "earlier-version",
+      "note": "Early Purple architecture; later P4A builds are documented.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "GAJRA-earth": {
+      "status": "earlier-version",
+      "note": "Earlier GAJRA concept page, preserved in documented lineage.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "PLFC_01": {
+      "status": "earlier-version",
+      "note": "First club prototype, prior to the separate 2026 member-club demo.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "PLFC_02": {
+      "status": "earlier-version",
+      "note": "Parallel early club prototype, prior to the separate 2026 member-club demo.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "PLFC_web_2026": {
+      "status": "earlier-version",
+      "note": "Earlier web prototype; latest separate club demo is PLFC-members-club.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "plfc-community-platform": {
+      "status": "earlier-version",
+      "note": "Earlier exploratory platform; latest separate demo is PLFC-members-club. Do not infer every feature was replaced.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "minjerribah-living-twin": {
+      "status": "earlier-version",
+      "note": "Second-island README explicitly calls this the first/reference living-twin build.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "Queens_Venture": {
+      "status": "earlier-version",
+      "note": "Earlier venture architecture; current proposal is 500-Queens-VC-2026.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "Australian-world-travel": {
+      "status": "earlier-version",
+      "note": "Earlier travel guide and planning system; current jurisdiction research spine is World Travel Patterns.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "straddie-noticeboard-network": {
+      "status": "earlier-version",
+      "note": "Earlier static noticeboard prototype; Cloudflare proposal is a newer deployment branch.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "community-club-builder-sandy-sports": {
+      "status": "earlier-version",
+      "note": "Earlier club builder; current separate Sandy Sports Club project preserves its own history.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "10_entities": {
+      "status": "reference",
+      "note": "Proposed entity architecture document; not evidence of incorporation.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "20-components": {
+      "status": "reference",
+      "note": "Architecture/reference material; not an independent operating venture.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "Chinese_Horoscope_2026_Luke_Hayes": {
+      "status": "reference",
+      "note": "Personal reference material.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "lifetime-memory-map": {
+      "status": "reference",
+      "note": "Personal history and memory record.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "luke-nathan-hayes-man-and-mind": {
+      "status": "reference",
+      "note": "Public self-portrait and context.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "Lukes-world-of-work-experience": {
+      "status": "reference",
+      "note": "Personal work and volunteering history.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "meet-luke": {
+      "status": "reference",
+      "note": "Public personal introduction.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "open-record-luke-nathan-hayes": {
+      "status": "reference",
+      "note": "Open personal and project provenance record.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "knights-templar-Timothy-Hogan": {
+      "status": "reference",
+      "note": "Reading and invitation collection.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "Redlands_discovers_Luke_Hayes": {
+      "status": "reference",
+      "note": "Thought experiment and personal introduction to connected work.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "Redlands_draft_ES2026-2031": {
+      "status": "reference",
+      "note": "Exploratory dated policy dashboard, not an official strategy.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "PLFC_2026_Data": {
+      "status": "reference",
+      "note": "Dated AGM snapshot, retained for history.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "PLFC_Live": {
+      "status": "reference",
+      "note": "Meeting/live-streaming concept branch; retain for review rather than treat as a venture.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "gods-eye-view": {
+      "status": "reference",
+      "note": "Upstream fork; not an independent proprietary Aura enterprise.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "tiggy-bestmann": {
+      "status": "reference",
+      "note": "Fictional character/story work.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "UNGA81-Luke-Hayes": {
+      "status": "reference",
+      "note": "Public policy contribution and source record.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "the-great-unveiling": {
+      "status": "reference",
+      "note": "Earlier narrative vision; retain as context.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "fishing-calendar": {
+      "status": "reserved",
+      "note": "Atlas description explicitly says no generator or public page built.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "skills_values_competancies": {
+      "status": "reserved",
+      "note": "Atlas description explicitly identifies reserved space without a working build.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "joyful-responsible-abundance": {
+      "status": "current",
+      "note": "Current whole-system synthesis and education site.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-genesis-observer-studio": {
+      "status": "current",
+      "note": "Current pattern-cycle companion studio; encrypted execution engine not yet implemented.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-genesis-geode-atlas": {
+      "status": "current",
+      "note": "Current comprehensive Genesis and four-hardware-pathways reference.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-whole-of-life": {
+      "status": "current",
+      "note": "Current public adult care proposal.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-child-services": {
+      "status": "current",
+      "note": "Current separate child-care proposal; safeguarding scope distinct.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-teacher-training": {
+      "status": "current",
+      "note": "Current teacher-development programme.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-tourism": {
+      "status": "current",
+      "note": "Current travel and tourism application proposal.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-disaster-resilience": {
+      "status": "current",
+      "note": "Current resilience application proposal.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-verse-box": {
+      "status": "current",
+      "note": "Current portable device and application proposal.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-direct-hardware": {
+      "status": "current",
+      "note": "Current public hardware research branch.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-horn-torus": {
+      "status": "current",
+      "note": "Current address architecture, complementary to observer studio.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-matrix-studio": {
+      "status": "current",
+      "note": "Current spatial matrix workbench, complementary to observer studio.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-civic-establishment": {
+      "status": "current",
+      "note": "Current civic hub planning workbench.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "auraofintelligence.github.io": {
+      "status": "current",
+      "note": "Public umbrella home.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "p4a-xyz-cinema": {
+      "status": "current",
+      "note": "Current Australian civic workbench.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "p4a-oceania-cinema": {
+      "status": "current",
+      "note": "Regional branch, not a replacement for Australian civic work.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "p4a-native-nations-cinema": {
+      "status": "current",
+      "note": "Distinct Indigenous-led partnership research branch.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "p4a-membership": {
+      "status": "current",
+      "note": "Current membership and civic CRM demo.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "p4a-xyz-committees-inquiries": {
+      "status": "current",
+      "note": "Current committee and consultation directory.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "redlands-mayoral-campaign": {
+      "status": "current",
+      "note": "Current Redlands Civic Lab, not an active election campaign.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "GAJRA-earth-infinity": {
+      "status": "current",
+      "note": "Expanded public GAJRA spine in documented lineage.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "gajra-earth-claude-build": {
+      "status": "current",
+      "note": "Documented canonical/inherited build with separate function; retain as complementary.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "gajra-earth-public-hub": {
+      "status": "current",
+      "note": "Documented public action and evidence hub; retain as complementary.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "500-Queens-VC-2026": {
+      "status": "current",
+      "note": "Current enterprise leadership proposal.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "mutual-futures": {
+      "status": "current",
+      "note": "Current mutual ownership and transition proposal.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "C-Hour-introduction": {
+      "status": "current",
+      "note": "Current non-monetary voluntary contribution concept.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "installing-the-missing-middle": {
+      "status": "current",
+      "note": "Current distributed compute and heat-reuse proposal.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "sovereign-capacity-lab": {
+      "status": "current",
+      "note": "Current capacity scenario and material research laboratory.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "extreme-matter-atlas": {
+      "status": "current",
+      "note": "Distinct current materials research reference.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "virtual-solar-swarm": {
+      "status": "current",
+      "note": "Distinct current space mission-design research.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "micronova-and-excursions": {
+      "status": "current",
+      "note": "Distinct evidence ledger for hazards and contested claims.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "civilisation-of-sand": {
+      "status": "current",
+      "note": "Long-horizon city simulation and development research.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "sandworm-subterranean-systems": {
+      "status": "current",
+      "note": "Distinct engineering and infrastructure concept.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "straddie-clean-energy-superpower": {
+      "status": "current",
+      "note": "Distinct island clean-energy options atlas.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "grain-by-grain": {
+      "status": "current",
+      "note": "Current long-horizon pathway connecting practical island work to resilience.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "straddie-noticeboard-cloudflare": {
+      "status": "current",
+      "note": "Current noticeboard proposal and deployment branch.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "PLFC-members-club": {
+      "status": "current",
+      "note": "Current separate fishing club demo, not an operating club application.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "Sandy-Sports-Club": {
+      "status": "current",
+      "note": "Current proposed club public site and staged backend.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "carnival-of-opportunities": {
+      "status": "current",
+      "note": "Current opportunity-discovery game collection.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "world-travel-patterns": {
+      "status": "current",
+      "note": "Current factual jurisdiction research spine.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "global-founder-atlas": {
+      "status": "current",
+      "note": "Complementary international founder opportunity research.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "strange-but-true-travel-oracle": {
+      "status": "current",
+      "note": "Travel planning system; separate from factual country research.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "ready-set-co-op-trust-hub": {
+      "status": "current",
+      "note": "Current proposed cooperative pathway.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "Oceania-healthy-de-slop-co-ops": {
+      "status": "current",
+      "note": "Distinct regional co-operative research proposal.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "moreton-bay-community-wealth-and-mutuals": {
+      "status": "current",
+      "note": "Current place-based community ownership proposal.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "7-mile-admin-prep": {
+      "status": "current",
+      "note": "Distinct place-based planning workbench.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "Anglican-Diocese-82-Claytons-Amity": {
+      "status": "current",
+      "note": "Distinct local care site proposal.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "straddie-makerspace-lab": {
+      "status": "current",
+      "note": "Distinct local makerspace concept.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "second-island": {
+      "status": "current",
+      "note": "Documented second clean living-twin build.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "straddie-twins": {
+      "status": "current",
+      "note": "Companion explaining the two twins.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "i-C-infinity-music-universe": {
+      "status": "current",
+      "note": "Public music catalogue; distinct from production engine.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "infinity-engine": {
+      "status": "current",
+      "note": "Current operational production engine.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "infinity-creative-workshop": {
+      "status": "current",
+      "note": "Current training workshop; complements production engine.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "project-atlas": {
+      "status": "current",
+      "note": "Current public repository directory, not a venture.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-data-mapping": {
+      "status": "supporting",
+      "note": "Documented data-backed facet builder; distinct technical contribution, not separate enterprise.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-spatial-perception": {
+      "status": "supporting",
+      "note": "Complementary spatial instrument.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-scan-pipeline": {
+      "status": "supporting",
+      "note": "Complementary capture pipeline.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-systems-image-atlas": {
+      "status": "supporting",
+      "note": "Shared visual source atlas.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-of-intelligence-pathways": {
+      "status": "supporting",
+      "note": "Related application/navigation material.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "aura-of-intelligence-web-app": {
+      "status": "supporting",
+      "note": "Related app prototype; privacy and release status require review before deployment.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "Australian-visa-activity-atlas": {
+      "status": "supporting",
+      "note": "Complementary visa and activity source material.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "outreach-cms": {
+      "status": "supporting",
+      "note": "Shared international outreach tooling, not standalone jurisdiction venture.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "legal-memory-workbench": {
+      "status": "supporting",
+      "note": "Shared legal-information preparation tool.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "australian-legal-engine": {
+      "status": "supporting",
+      "note": "Australian legal research workbench, not a foreign law service.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "stradbroke-grants-lab": {
+      "status": "supporting",
+      "note": "Shared local funding research.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "straddie-tenders-lab": {
+      "status": "supporting",
+      "note": "Shared local procurement research.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "straddie-content-assets-kit": {
+      "status": "supporting",
+      "note": "Shared local media asset tooling.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "plfc-ai-agent-md-forms": {
+      "status": "supporting",
+      "note": "Specialised forms companion; not replaced automatically.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "straddie-digital-twin-builders": {
+      "status": "supporting",
+      "note": "Supporting scene builders.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "straddie-digital-twin-explainer": {
+      "status": "supporting",
+      "note": "Supporting public explainer.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "straddie-twin-prototype": {
+      "status": "supporting",
+      "note": "Complementary local evidence interface.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "i-C-infinity": {
+      "status": "supporting",
+      "note": "Core music workflow lineage.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "infinity-content-engine": {
+      "status": "supporting",
+      "note": "Content design branch; operational engine is infinity-engine.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "explorer-music-video-lab": {
+      "status": "supporting",
+      "note": "Complementary music-video branch.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "davinci-resolve-automations": {
+      "status": "supporting",
+      "note": "Supporting production tooling.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "film-club-documentary-builders": {
+      "status": "supporting",
+      "note": "Supporting documentary toolkit.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "agent-md-form-navigator": {
+      "status": "supporting",
+      "note": "Shared Markdown preparation tool.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "how-to-use-md-with-ai": {
+      "status": "supporting",
+      "note": "Shared Markdown education tool.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "RCC-RJC-Job-Ad-Formula": {
+      "status": "supporting",
+      "note": "Local employer form tool.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "ready-set-co-op-cultural-intelligence-node": {
+      "status": "supporting",
+      "note": "Place-based cultural compute proposal; not independent foreign venture.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "ready-set-co-op-hyperlocal-media": {
+      "status": "supporting",
+      "note": "Place-based media programme of cooperative ecosystem.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "JRA-Product-Engine-Plan": {
+      "status": "supporting",
+      "note": "Cross-project product planning workbench.",
+      "source": "https://github.com/auraofintelligence/project-atlas/blob/main/data/projects.json"
+    },
+    "60-days-set-in-stone": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/60-days-set-in-stone"
+    },
+    "alpha-infinity": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/alpha-infinity"
+    },
+    "Amity-Cinema-Circle": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/Amity-Cinema-Circle"
+    },
+    "amity-outdoor-fitness-grant": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/amity-outdoor-fitness-grant"
+    },
+    "amity-point": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/amity-point"
+    },
+    "amity-sauna-circle": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/amity-sauna-circle"
+    },
+    "amity_stratum": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/amity_stratum"
+    },
+    "Archipelago": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/Archipelago"
+    },
+    "aukus-space-gambit": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/aukus-space-gambit"
+    },
+    "aura-affinity": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/aura-affinity"
+    },
+    "aura-and-luke": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/aura-and-luke"
+    },
+    "aura-dementia": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/aura-dementia"
+    },
+    "aura-ecosystem": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/aura-ecosystem"
+    },
+    "aura-genesis": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/aura-genesis"
+    },
+    "aura-geode": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/aura-geode"
+    },
+    "aura-sentience-codex": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/aura-sentience-codex"
+    },
+    "aus-gov-2025": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/aus-gov-2025"
+    },
+    "australian-law-2012-lukes-relevance": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/australian-law-2012-lukes-relevance"
+    },
+    "australian-sire-story-forge": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/australian-sire-story-forge"
+    },
+    "australiansire": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/australiansire"
+    },
+    "ballow-road-sand-screen-hub": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/ballow-road-sand-screen-hub"
+    },
+    "bees-and-allies": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/bees-and-allies"
+    },
+    "dunwich-gumpi-ferry-terminal-open-data-lab": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/dunwich-gumpi-ferry-terminal-open-data-lab"
+    },
+    "eros-pc": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/eros-pc"
+    },
+    "eros-story": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/eros-story"
+    },
+    "escape-room-team-building": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/escape-room-team-building"
+    },
+    "event-search-QLD": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/event-search-QLD"
+    },
+    "fractal-aura": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/fractal-aura"
+    },
+    "Future-of-Life-2045": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/Future-of-Life-2045"
+    },
+    "GAJRA_Earth-Space-AI_Summit": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/GAJRA_Earth-Space-AI_Summit"
+    },
+    "geode-vibe": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/geode-vibe"
+    },
+    "global-group-marriages": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/global-group-marriages"
+    },
+    "grain-by-grain-documentary": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/grain-by-grain-documentary"
+    },
+    "grey-area-commons": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/grey-area-commons"
+    },
+    "household-bill-check": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/household-bill-check"
+    },
+    "loose-goose-comedy-engine": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/loose-goose-comedy-engine"
+    },
+    "mate-ecosystem": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/mate-ecosystem"
+    },
+    "mineral-moonshots": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/mineral-moonshots"
+    },
+    "Minjerribah-Resilience": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/Minjerribah-Resilience"
+    },
+    "minjerribah-screen-media-network": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/minjerribah-screen-media-network"
+    },
+    "moreton-bay-autonomous-mobility": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/moreton-bay-autonomous-mobility"
+    },
+    "multi-site-Minjerribah-network": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/multi-site-Minjerribah-network"
+    },
+    "quandamooka-country-events-engine": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/quandamooka-country-events-engine"
+    },
+    "quandamooka-film-festival": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/quandamooka-film-festival"
+    },
+    "Redland_Flow": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/Redland_Flow"
+    },
+    "right-place-right-time": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/right-place-right-time"
+    },
+    "rough-as-guts": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/rough-as-guts"
+    },
+    "sbt_aura_builder": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/sbt_aura_builder"
+    },
+    "sbt_profile_starter": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/sbt_profile_starter"
+    },
+    "shared-table-initiative": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/shared-table-initiative"
+    },
+    "songline_interface": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/songline_interface"
+    },
+    "sovereign-music-australia": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/sovereign-music-australia"
+    },
+    "space-weather-news": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/space-weather-news"
+    },
+    "spirit-animal-podcast": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/spirit-animal-podcast"
+    },
+    "SSB": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/SSB"
+    },
+    "straddie-capsule-surge-lab": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/straddie-capsule-surge-lab"
+    },
+    "straddie-disaster-kiosks": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/straddie-disaster-kiosks"
+    },
+    "straddie-headline-open-mic": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/straddie-headline-open-mic"
+    },
+    "straddie-news": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/straddie-news"
+    },
+    "straddie-night-market-lab": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/straddie-night-market-lab"
+    },
+    "straddie-tip-loop-lab": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/straddie-tip-loop-lab"
+    },
+    "strange-but-true": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/strange-but-true"
+    },
+    "strange-but-true-ai-trust-index": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/strange-but-true-ai-trust-index"
+    },
+    "strange-but-true-cosmic-nexus": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/strange-but-true-cosmic-nexus"
+    },
+    "strange-but-true-desire-atlas": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/strange-but-true-desire-atlas"
+    },
+    "two-dogs-podcast-backend": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/two-dogs-podcast-backend"
+    },
+    "vfg-plan-access-lab": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/vfg-plan-access-lab"
+    },
+    "wildlife-rescue-minjerribah": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/wildlife-rescue-minjerribah"
+    },
+    "windemere-skate-bowl-tender-workspace": {
+      "status": "review-needed",
+      "note": "Catalogue record retained; no lifecycle decision yet.",
+      "source": "https://github.com/auraofintelligence/windemere-skate-bowl-tender-workspace"
+    }
+  }
+}
