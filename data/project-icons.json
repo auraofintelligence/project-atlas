@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-11-05",
+  "generatedOn": "2026-11-24",
   "assetSize": 128,
   "note": "Each Atlas card uses a project-local visual. Colour-only tiles are reserved only for projects with no honest public favicon, logo or directly related public-brand artwork.",
   "icons": {
@@ -1050,6 +1050,76 @@
       "kind": "local-source",
       "fallbackColour": "#4d2863",
       "source": "household-bill-check/assets/icons/apple-touch-icon.png"
+    },
+    "joyful-responsible-abundance": {
+      "asset": "assets/project-icons/joyful-responsible-abundance.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "joyful-responsible-abundance/favicon.ico"
+    },
+    "p4a-xyz-committees-inquiries": {
+      "asset": "assets/project-icons/p4a-xyz-committees-inquiries.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "p4a-xyz-committees-inquiries/assets/favicon.svg"
+    },
+    "sovereign-capacity-lab": {
+      "asset": "assets/project-icons/sovereign-capacity-lab.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "sovereign-capacity-lab/favicon.ico"
+    },
+    "p4a-membership": {
+      "asset": "assets/project-icons/p4a-membership.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "p4a-membership/public/favicon.svg"
+    },
+    "aura-civic-establishment": {
+      "asset": "assets/project-icons/aura-civic-establishment.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "aura-civic-establishment/favicon.ico"
+    },
+    "redlands-mayoral-campaign": {
+      "asset": "assets/project-icons/redlands-mayoral-campaign.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "redlands-mayoral-campaign/public/favicon.ico"
+    },
+    "aura-genesis-observer-studio": {
+      "asset": "assets/project-icons/aura-genesis-observer-studio.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "aura-genesis-observer-studio/docs/assets/favicon.png"
+    },
+    "carnival-of-opportunities": {
+      "asset": "assets/project-icons/carnival-of-opportunities.webp",
+      "kind": "colour-tile",
+      "fallbackColour": "#3f625b",
+      "source": null
+    },
+    "straddie-noticeboard-cloudflare": {
+      "asset": "assets/project-icons/straddie-noticeboard-cloudflare.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "straddie-noticeboard-cloudflare/public/favicon.ico"
+    },
+    "PLFC-members-club": {
+      "asset": "assets/project-icons/plfc-members-club.webp",
+      "kind": "colour-tile",
+      "fallbackColour": "#3f625b",
+      "source": null
+    },
+    "Sandy-Sports-Club": {
+      "asset": "assets/project-icons/sandy-sports-club.webp",
+      "kind": "local-source",
+      "fallbackColour": "#3f625b",
+      "source": "Sandy-Sports-Club/favicon.png"
     }
-  }
+  },
+  "approvedAdditionalFallbacks": [
+    "PLFC-members-club",
+    "carnival-of-opportunities"
+  ]
 }
