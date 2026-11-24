@@ -13,6 +13,12 @@ for(const p of external.projects){
   assert.equal(new URL(p.publicPage).protocol,"https:");
   assert.ok(!urls.has(p.publicPage));urls.add(p.publicPage);
   assert.ok(p.title&&p.description&&p.lifecycle?.status);
+  assert.equal(p.title,p.name==="ready-set-co-op"?"Ready SET Co-op":p.title);
+  assert.match(p.iconAsset,/^assets\/external-icons\/[a-z0-9-]+\.svg$/);
+  assert.equal(new URL(p.iconSource).protocol,"https:");
+  const icon=await readFile(new URL(p.iconAsset,root),"utf8");
+  assert.ok(icon.includes("<svg")&&!/<script|<foreignObject/i.test(icon));
+  assert.ok(p.name!=="ready-set-co-op"||icon.includes("data:image/png;base64,iVBORw0KGgo"));
   for(const r of p.relatedRepositories||[])assert.ok(atlas.projects.some(a=>a.name===r.name));
   const svg=await readFile(new URL("assets/external-qr/"+p.name+".svg",root),"utf8");
   assert.ok(svg.includes('data-project-atlas-target="'+p.publicPage+'"'));
