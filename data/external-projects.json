@@ -12,16 +12,16 @@
       "description": "A distinct civic engagement initiative combining gaming, generative AI and participatory co-design through sovereign digital twins and the Sovereign Space Builder player loop. C-Hours record verified voluntary contribution without monetary value.",
       "lifecycle": {
         "status": "current",
-        "note": "Distinct public initiative named by its creator. Proposal documented in Parliament; current website content and original build date not independently verified."
+        "note": "Distinct public initiative identified by its creator. The local government funding inquiry submission describes the proposed model. Website content and original build date not independently verified."
       },
       "sourceLinks": [
         {
-          "title": "Australian Parliament: Local Government Funding inquiry, submission 2, section 2.3",
-          "url": "https://www.aph.gov.au/DocumentStore.ashx?id=b0bb44ad-3515-4c22-bdb7-d5db605f6e0a&subId=780115"
-        },
-        {
           "title": "Gamify Democracy website (creator-supplied address)",
           "url": "https://gamifydemocracy.com/"
+        },
+        {
+          "title": "Sovereign Space Builder, related design evidence",
+          "url": "https://github.com/auraofintelligence/SSB"
         }
       ],
       "families": [
@@ -47,6 +47,68 @@
       ],
       "iconText": "GD",
       "iconColour": "#66509b"
+    },
+    {
+      "name": "ready-set-co-op",
+      "title": "ready SET Co-op",
+      "publicPage": "https://ready-setco.auraofintelligence.workers.dev/index.html",
+      "repositoryUrl": null,
+      "firstBuilt": null,
+      "repositoryCreatedAt": null,
+      "description": "Proposed sustainable employment and training cooperative connecting local skills, shared equipment, media, community services and locally governed digital capability on Minjerribah. The Cloudflare site is its public participation doorway; cooperative formation and project handovers remain subject to member decisions.",
+      "lifecycle": {
+        "status": "current",
+        "note": "Umbrella initiative. The Trust Hub, hyperlocal media, cultural intelligence node and noticeboard are related projects, not separate versions of the entire cooperative. Original build date not independently verified."
+      },
+      "sourceLinks": [
+        {
+          "title": "Ready SET Co-op website (creator-supplied address)",
+          "url": "https://ready-setco.auraofintelligence.workers.dev/index.html"
+        },
+        {
+          "title": "Cultural intelligence node: shared participation and sign-on",
+          "url": "https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node"
+        },
+        {
+          "title": "Straddie Noticeboard: proposed cooperative handover",
+          "url": "https://github.com/auraofintelligence/straddie-noticeboard-cloudflare"
+        }
+      ],
+      "families": [
+        {
+          "id": "community-cooperative",
+          "title": "Community cooperative, employment and training",
+          "role": "initiative"
+        }
+      ],
+      "relatedRepositories": [
+        {
+          "name": "ready-set-co-op-trust-hub",
+          "reason": "Related trust, asset-sharing and cooperative planning work."
+        },
+        {
+          "name": "ready-set-co-op-hyperlocal-media",
+          "reason": "Media and skills programme."
+        },
+        {
+          "name": "ready-set-co-op-cultural-intelligence-node",
+          "reason": "Local compute, training and cultural collaboration proposal."
+        },
+        {
+          "name": "straddie-noticeboard-cloudflare",
+          "reason": "Proposed first project, subject to member-approved handover."
+        },
+        {
+          "name": "mutual-futures",
+          "reason": "Related cooperative and member-owned enterprise research."
+        },
+        {
+          "name": "C-Hour-introduction",
+          "reason": "Nonmonetary voluntary contribution framework."
+        }
+      ],
+      "iconText": "SET",
+      "iconColour": "#385b50"
     }
   ]
 }
