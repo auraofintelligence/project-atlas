@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs><linearGradient id="a" x1="14" y1="30" x2="49" y2="59" gradientUnits="userSpaceOnUse"><stop stop-color="#be84ef"/><stop offset="1" stop-color="#7753bb"/></linearGradient><linearGradient id="b" x1="23" y1="4" x2="41" y2="29" gradientUnits="userSpaceOnUse"><stop stop-color="#fff0a1"/><stop offset="1" stop-color="#ecab35"/></linearGradient></defs>
+  <path d="M9 54h46" stroke="#30234d" stroke-width="5" stroke-linecap="round" opacity=".16"/>
+  <rect x="6" y="37" width="17" height="18" rx="4" fill="#58b7ac" stroke="#c5fff0" stroke-width="1.5"/>
+  <rect x="41" y="42" width="17" height="13" rx="4" fill="#e18baa" stroke="#ffd2e4" stroke-width="1.5"/>
+  <rect x="22" y="30" width="20" height="25" rx="4" fill="url(#a)" stroke="#e7c6ff" stroke-width="1.5"/>
+  <path d="m32 5 4.1 8.3 9.2 1.4-6.7 6.4 1.6 9.1-8.2-4.3-8.2 4.3 1.6-9.1-6.7-6.4 9.2-1.4L32 5Z" fill="url(#b)" stroke="#fff4bc" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M30 39h3v9m-4 0h8" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="13" cy="21" r="3" fill="#8de0d0"/><circle cx="51" cy="26" r="3" fill="#f2bad6"/>
+  <path d="m8 10 3 2m42 0 3-3M49 5v4" stroke="#dbb6ff" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
