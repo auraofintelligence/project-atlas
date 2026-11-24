@@ -59,41 +59,102 @@ def public_page(url):
         pass
     return None
 
-def icon_for(row, stem):
+# Explicitly reviewed artwork referenced by the projects' own public homepages.
+ICON_OVERRIDES = {
+    "plfc-members-club": "public/assets/plfc-logo.png",
+    "carnival-of-opportunities": "assets/images/icons/lucky-ticket.webp",
+}
+
+def normalise_icon(raw, path):
+    from PIL import Image, ImageChops
+    if path.lower().endswith(".svg"):
+        import cairosvg
+        raw = cairosvg.svg2png(bytestring=raw, output_width=256, output_height=256, unsafe=False)
+    with Image.open(io.BytesIO(raw)) as original:
+        if original.format == "ICO" and hasattr(original, "ico"):
+            original = original.ico.getimage(max(original.ico.sizes(), key=lambda size: size[0]*size[1]))
+        im = original.convert("RGBA")
+    # Trim transparent padding, including low-alpha fringes. Never crop an
+    # opaque brand background merely because its colours happen to be uniform.
+    alpha = im.getchannel("A")
+    bbox = alpha.point(lambda x: 255 if x > 12 else 0).getbbox()
+    if not bbox:
+        raise ValueError("Empty artwork")
+    im = im.crop(bbox)
+    # Preserve aspect ratio and upscale small favicons as well as downsizing.
+    scale = min(128 / im.width, 128 / im.height)
+    size = (max(1, round(im.width*scale)), max(1, round(im.height*scale)))
+    im = im.resize(size, Image.Resampling.LANCZOS)
+    canvas = Image.new("RGBA", (128,128), (0,0,0,0))
+    canvas.alpha_composite(im, ((128-im.width)//2,(128-im.height)//2))
+    return canvas
+
+def icon_for(row, stem, *, fallback_allowed=True):
     from PIL import Image
     asset = ROOT / "assets/project-icons" / (stem + ".webp")
     colour = "#3f625b"
     name = row["name"]
     prefix = f"/repos/{ACCOUNT}/{quote(name, safe='')}"
+    override = ICON_OVERRIDES.get(name.casefold())
     try:
         tree = api(prefix + "/git/trees/" + quote(row["default_branch"], safe="") + "?recursive=1")
-        files = [x for x in tree.get("tree", []) if x.get("type") == "blob" and x.get("size", 0) <= 2_000_000 and re.search(r"(?:^|/)(?:favicon(?:[-_.][^/]*)?|apple-touch-icon(?:[-_.][^/]*)?|logo(?:[-_.][^/]*)?)\.(?:png|svg|ico|webp|jpe?g)$", x["path"], re.I)]
-        files.sort(key=lambda x: ("favicon" not in x["path"].lower(), x["path"].count("/"), len(x["path"]), x["path"]))
-        for item in files[:8]:
+        files = [x for x in tree.get("tree", []) if x.get("type") == "blob" and x.get("size", 0) <= 2_000_000 and (x["path"] == override or re.search(r"(?:^|/)(?:favicon(?:[-_.][^/]*)?|apple-touch-icon(?:[-_.][^/]*)?|(?:[^/]+[-_])?logo(?:[-_.][^/]*)?)\.(?:png|svg|ico|webp|jpe?g)$", x["path"], re.I))]
+        files.sort(key=lambda x: (x["path"] != override, "favicon" not in x["path"].lower(), x["path"].count("/"), len(x["path"]), x["path"]))
+        for item in files[:12]:
+            if override and item["path"] != override:
+                continue
             try:
                 blob = api(prefix + "/git/blobs/" + item["sha"])
                 raw = base64.b64decode(blob["content"])
-                if item["path"].lower().endswith(".svg"):
-                    import cairosvg
-                    raw = cairosvg.svg2png(bytestring=raw, output_width=128, output_height=128, unsafe=False)
-                with Image.open(io.BytesIO(raw)) as im:
-                    im = im.convert("RGBA")
-                    im.thumbnail((128,128), Image.Resampling.LANCZOS)
-                    canvas = Image.new("RGBA",(128,128),(255,255,255,0))
-                    canvas.alpha_composite(im, ((128-im.width)//2,(128-im.height)//2))
-                    canvas.save(asset, "WEBP", lossless=True)
+                canvas = normalise_icon(raw, item["path"])
+                canvas.save(asset, "WEBP", lossless=True)
                 return {"asset":str(asset.relative_to(ROOT)).replace("\\","/"),"kind":"local-source","fallbackColour":colour,"source":name+"/"+item["path"]}
-            except Exception:
-                continue
-    except Exception:
-        pass
+            except Exception as exc:
+                print(f"Artwork candidate failed for {name}: {type(exc).__name__}", file=sys.stderr)
+    except Exception as exc:
+        print(f"Artwork lookup failed for {name}: {type(exc).__name__}", file=sys.stderr)
+    if not fallback_allowed or override:
+        raise RuntimeError("Could not retrieve reviewed artwork: "+name)
     Image.new("RGB",(128,128),colour).save(asset,"WEBP",lossless=True)
     return {"asset":str(asset.relative_to(ROOT)).replace("\\","/"),"kind":"colour-tile","fallbackColour":colour,"source":None}
+
+def repair_reviewed_icons():
+    from PIL import Image
+    icons_path = ROOT / "data/project-icons.json"
+    icons = load(icons_path)
+    reviewed = load(REVIEW)["projects"]
+    active = live_repos()
+    fallback = set(icons.get("approvedAdditionalFallbacks", []))
+    for project in reviewed:
+        name = project["name"]
+        row = active.get(name.casefold())
+        if not row or row.get("archived") or row.get("disabled"):
+            raise RuntimeError("Reviewed artwork source no longer public and active: "+name)
+        previous = icons["icons"][name]
+        stem = Path(previous["asset"]).stem
+        entry = icon_for(row, stem, fallback_allowed=False)
+        with Image.open(ROOT / entry["asset"]) as im:
+            if im.size != (128,128):
+                raise RuntimeError("Unexpected repaired icon size: "+name)
+            bbox = im.convert("RGBA").getchannel("A").point(lambda x:255 if x>12 else 0).getbbox()
+            if not bbox or max(bbox[2]-bbox[0],bbox[3]-bbox[1]) < 120:
+                raise RuntimeError("Icon does not fill its tile: "+name)
+        icons["icons"][name] = entry
+        fallback.discard(name)
+        print("Repaired",name,entry["source"])
+    icons["approvedAdditionalFallbacks"] = sorted(fallback)
+    icons["generatedOn"] = (dt.datetime.now(dt.timezone.utc)+dt.timedelta(hours=10)).date().isoformat()
+    save(icons_path,icons)
+    subprocess.run([sys.executable,"scripts/validate_atlas.py"],cwd=ROOT,check=True)
 
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument("--apply",action="store_true")
+    parser.add_argument("--repair-icons",action="store_true")
     args=parser.parse_args()
+    if args.repair_icons:
+        repair_reviewed_icons()
+        return
     today=(dt.datetime.now(dt.timezone.utc)+dt.timedelta(hours=10)).date().isoformat()
     atlas_path=ROOT/"data/projects.json"
     dates_path=ROOT/"data/repository-creation-dates.json"
